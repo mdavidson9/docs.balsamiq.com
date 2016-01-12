@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main">
+  <div class="container-fluid">
+{{/* ======================================== */}}
+
+<div class="row">
+
+  <div class="col-xs-12">
+    <div id="support-main">
+      <div class="support-body tag-listing">
+
+<h1>Tags</h1>
+
+<ul class="tags listing">
+{{ $data := .Data }}
+{{ range $key, $value := .Data.Terms.Alphabetical }}
+  <li><a href="/tags/{{ $value.Name | urlize }}">
+    <span class="tag-name">{{ $value.Name }}</span> 
+    <span class="tag-count">{{ $value.Count }}</span></a></li>
+{{ end }}
+</ul>
+
+      </div><!-- /.support-body -->
+    </div><!-- /#support-main -->
+  </div>{{/* /.col */}}
+
+</div>{{/* /.row */}}
+
+{{/* ======================================== */}}
+  </div>
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

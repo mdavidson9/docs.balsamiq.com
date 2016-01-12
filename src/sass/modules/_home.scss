@@ -1,0 +1,149 @@
+// ========================================
+// DBC - HOME CSS
+// ========================================
+@import "colors";
+
+// ========================================
+// DBC BODY
+// ========================================
+.company-support-portal {
+// ========================================
+
+// ========================================
+// HOME SEARCH
+#home-search {
+  background: $graypale;
+  h2 {
+    margin-top: 52px;
+  }
+  p {
+    margin-bottom: 48px;
+  }
+  input#search_home {
+    border: 1px solid $graymed;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-image: none;
+  }
+  #search_home {
+    border: 2px solid $graylight;
+    &:focus {
+      border-color: $bluelight;
+    }
+  }
+}
+
+
+// ========================================
+// HOME
+#body-main.home {
+
+  // HEADINGS
+  h2 {
+    margin-bottom: 1em;
+    color: $red;
+  }
+
+  // BUTTONS
+  a.btn, a.btn-lg {
+    border-color: $gray;
+    margin-bottom: .6em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+  }
+
+  // ========================================
+  // DOCUMENTATION
+  .documentation {
+    margin-top: 24px;
+    // BUTTONS
+    a.btn-lg {
+      &.featured {
+        background: $red;
+        border: 2px solid $redmed;
+        color: $white;
+        &:hover {
+          background: $redmed;
+          border-color: $reddark;
+          color: $white !important;
+        }
+      }
+    }
+
+    // CORE
+    .prod-core {
+      a.btn {
+        @include fontsize(21,32);
+        @include breakpoint(mdmin) {
+          padding-top: 28px;
+          min-height: 95px;
+        }
+        margin-bottom: .6em;
+      }
+    }
+    // PLUGINS
+    .prod-plugins {
+      margin-top: .6em;
+      a.btn {
+        @include fontsize(18,21);
+        @include breakpoint(mdmin) {
+          // min-height: 95px;
+        }
+        small {
+          display: block;
+          @include fontsize(14,14);
+          letter-spacing: -.25px;
+        }
+      }
+    }
+  }
+
+  // ========================================
+  // RESOURCES
+  #resources {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    .ss-icon {
+      display: none;
+      // color: $grayverydark2;
+    }
+  }
+}
+
+// ========================================
+// ICONS
+#page-index {
+  &.container {
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 28px;
+    .ss-icon {
+      color: rgba(118,2,9,.8);
+      font-size: 21px;
+      padding-top: 4px;
+      margin-right: 12px;
+    }
+  }
+  hr {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+  .section:before {
+     content:"";
+     display:block;
+     height: 74px;
+     margin: -74px 0 0;
+  }
+  a.button {
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+// ========================================
+}
+// END DBC BODY
+// ========================================

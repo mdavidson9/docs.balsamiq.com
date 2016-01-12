@@ -1,0 +1,59 @@
+{{/* MAIN PAGE TEMPLATE */}}
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main" class="home">
+{{/* ======================================== */}}
+
+{{/* ======================================== */}}
+{{/* SEARCH FORM */}}
+<div class="container-fluid mb1-5" >
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12">
+
+    <h1>Sorry :(</h1>
+    <p>We couldn't find the page you were looking for. Try searching our site below. For further assistance, please <a href="http://staging.balsamiq.com/company/#contact">contact us</a>.</p>
+    <div class="relative">
+      <div class="form-group" id="searchHomeDiv">
+        <input class="form-control" type="text" placeholder="Search all Balsamiq Websites" autocomplete="off">
+      </div>
+      <div id='searchingInBody' style='visibility:hidden'>Searching...</div>
+      <div id='resultsHeading'><h3>Results</h3></div>
+      <div id='resultsInBody' style='visibility:hidden'></div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /.container-fluid -->
+{{/* ======================================== */}}
+
+<script type="text/javascript">
+  BalsamiqSearchAutoComplete.initAutoCompleteInputDiv("searchHomeDiv");
+
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+            function(m,key,value) {
+              vars[key] = decodeURIComponent(value);
+            });
+    return vars;
+  }
+
+  var query = getUrlVars()["q"];
+  if (query != null) {
+    $("#searchHomeDiv input").val(query);
+    $("#resultsHeading").show();
+    BalsamiqSearchAutoComplete.initWithSearch(query, $("#searchingInBody"), $("#resultsInBody"));
+  } else {
+    $("#resultsHeading").hide();
+  }
+</script>
+
+{{/* ======================================== */}}
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,505 @@
+// Import Mixins And Modules
+@import "config";
+@import "colors";
+
+// FOR SCROLLSPY
+body {
+  position: relative;
+  border-top: 3px solid $red;
+}
+
+// ========================================
+// DBC BODY
+// ========================================
+.company-support-portal {
+// ========================================
+
+  // ========================================
+  // GIVE A MAX WIDTH TO FLUID CONTAINERS
+  .container-fluid.fluid-max {
+    max-width: 1300px;
+  }
+
+  &.dbc {
+    &.desktop #gnav li#gnav-desktop a,
+    &.mybalsamiq #gnav li#gnav-mybalsamiq a,
+    &.confluence #gnav li#gnav-plugins > a,
+    &.jira #gnav li#gnav-plugins > a,
+    &.google-drive #gnav li#gnav-plugins > a,
+    &.confluence #gnav li#gnav-confluence > a,
+    &.jira #gnav li#gnav-jira > a,
+    &.google-drive #gnav li#gnav-gdrive > a {
+      background: rgba(0,0,0,.1);
+      border-radius: 3px;
+    }
+  }
+
+  // ========================================
+  // HEADER WRAPPER
+  #header-wrapper {
+    background: $white;
+    border-bottom: 1px solid $gray;
+    #site-nav {
+      padding-top: 30px;
+      color: $gray;
+      font-family: "myriad-pro-1","myriad-pro-2", "Hevetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      #balsamiq-logo {
+        @include fontsize(21,21);
+        .trademark {
+          @include fontsize(10,10);
+        }
+      }
+      #site-id {
+        @include fontsize(21,21);
+      }
+      .separator {
+        padding: 0 3px;
+      }
+      a {
+        color: $red;
+      }
+    }
+    #header #gnav a.gnava {
+      color: $red;
+      text-shadow: none;
+      &:hover {
+        background: rgba(0,0,0,.05);
+      }
+    }
+    #gnav #gnav-support {
+      @include breakpoint(smmin) {
+        border-left: 1px solid $gray;
+        margin-left: 3px;
+        padding-left: 3px;
+      }
+    }
+    #search #s {
+      width: 125px;
+    }
+    // RESPONSIVE MENU
+    #header #rmenu {
+      position: absolute;
+      top: 30px;
+      right: 15px;
+      margin: 0;
+      padding: 0;
+      .icon-bar {
+        background: $red;
+      }
+    }
+    // SEARCH
+    #search {
+      .search {
+        #s, #ss  {
+          border: 1px solid $gray;
+        }
+        #ss {
+          border-left: none;
+        }
+      }
+    }
+
+  } // END header-wrapper
+
+  // ========================================
+  // BODY WRAPPER
+  #body-wrapper {
+    margin-bottom: 0 !important;
+  }
+
+  // ========================================
+  // BODY NAV
+  #body-header {
+    width: 100%;
+    border-top: 1px solid #e5e5e5 !important;
+    z-index: 1000;
+    font-size: 12px;
+    #title-wrapper {
+      background-color: #fff;
+      margin: 0 auto;
+    }
+    ul.lnav  {
+      padding: 12px 0;
+      > li > a {
+       &:link, &:visited {
+          color: $graydark;
+       }
+      }
+      > li > ul li a {
+        text-shadow: none !important;
+      }
+    }
+    .navsect {
+      opacity: 0;
+      width: 0;
+      // @include transition(all, .04s, ease);
+      a {
+        display: none;
+        color: $red !important;
+        font-weight: bold;
+        padding-right: 1em;
+        border-right: 1px solid $gray;
+      }
+    }
+  }
+
+  // ========================================
+  // BREADCRUMBS
+  #breadcrumbs {
+    margin: -1em 0 18px 0;
+    padding: 5px 0;
+    color: $graydark;
+    font-size: 12px !important;
+    text-transform: capitalize;
+    border-bottom: 1px solid $gray;
+    list-style-type: none;
+    a {
+      color: $graydark;
+      font-size: 12px !important;
+    }
+    li {
+      list-style-type: none;
+      display: inline;
+    }
+  }
+
+  // ========================================
+  // DBC SIDE COLUMN
+  .local-nav {
+    background: #fff;
+    border: none;
+    #sidebar-box {
+      padding-top: 31px;
+      padding-bottom: 36px;
+      &.affix-top {
+        position: relative;
+      }
+      &.affix {
+        padding-top: 0;
+        position: fixed;
+        top: 0;
+        // width: auto !important;
+        // @include transition(all, .6s, ease);
+      }
+    }
+    h3, h4, h5 {
+      margin: 10px 0 10px 0;
+      padding: 0;
+      @include fontsize(18,18);
+      font-family: "myriad-pro-1","myriad-pro-2", "Hevetica Neue", Arial, sans-serif;
+      font-weight: normal;
+      color: $grayblack;
+      a {
+        color: $grayblack !important;
+      }
+    }
+    h5 {
+      // Combined with negative margin of menu-toggle for indenting
+      // long labels short labels
+      margin-left: 16px;
+    }
+    button, a.button {
+      max-width: 180px;
+    }
+    a.menu-toggle {
+      text-decoration: none;
+      margin-left: -15px;
+    }
+    i {
+      margin-top: 2px;
+      cursor:pointer;
+      color: $graydark !important;
+      &.ss-icon {
+        @include fontsize(10,10);
+      }
+    }
+    // Nav TOC
+    &.local-nav-1 {
+      // background: $graylight;
+      @include fontsize(14,16);
+    }
+    &.local-nav-2 {
+      @include fontsize(13,15);
+    }
+    ul {
+      margin-top: 0;
+      margin-left: 16px;
+      padding-left: 0;
+      list-style-type: none;
+      li {
+        margin: 0;
+        padding: 0;
+        line-height: 16px;
+        // border-top: 1px solid $white;
+        a {
+          display: block;
+          padding: 6px 0;
+        }
+        &.active {
+          a {
+            color: $grayblack !important;
+            font-weight: bold;
+          }
+        }
+        &:hover,
+        &.active,
+        &.active:hover,
+        a,
+        a:hover,
+        a:focus {
+          background: none !important;
+        }
+      }
+    }
+    // Bootstrap Collapse Speed
+    .collapsing {
+      @include transition(all, .04s, ease);
+    }
+  // ========================================
+  }
+  // END DBC SIDE COLUMN
+  // ========================================
+
+
+  // ========================================
+  // DOC OVERVIEW PAGES
+  .doc-overview {
+    // ========================================
+    ul, ol {
+      margin: 0;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      &#list {
+       column-width: 400px;
+       padding-left: 0;
+       li .ss-icon {
+         color: $grayverydark;
+       }
+      }
+      &.faq-list {
+       column-width: 590px;
+      }
+      &.faq-list li, &#list li {
+        // don't use bottom margin/padding - it will wrap to next column
+        margin-left: 2em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        @include fontsize(18,32);
+      }
+    }
+  }
+
+  // ========================================
+  // DBC Main Column
+  #body-main {
+    // ========================================
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: none;
+    // HEADINGS
+    h1 {
+      margin-top: 36px;
+      margin-bottom: .5em;
+      padding-bottom: .5em;
+      border-bottom: 1px solid $gray;
+      @include fontsize (36, 36);
+      font-weight: normal;
+      color: $grayblack;
+    }
+    h2, h3, h4, h5, h6 {
+      color: $grayblack;
+    }
+    h2 {
+      @include fontsize (28, 28);
+      font-weight: normal;
+    }
+    h3 {
+      @include fontsize (21, 21);
+    }
+    h4 {
+      @include fontsize (18, 18);
+    }
+    h5 {
+      @include fontsize (16, 16);
+    }
+    // IMAGES IN ARTICLES
+    img {
+      max-width: 100%;
+    }
+    a, .local-nav a {
+      color: #0064AE;
+    }
+    a.fb img,
+    img {
+      margin-bottom: 12px;
+    }
+    object,
+    iframe {
+      margin-bottom: 12px;
+    }
+    // TOPIC?
+    #page-topic ul li {
+      margin-bottom: 1em;
+    }
+    // ARTICLES
+    // IMAGE ALIGNMENT IN ARTICLES
+    #page-article {
+      .content.article {
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          max-width: 100%;
+        }
+        .imgleft img,
+        img.imgleft {
+          margin-left: 0;
+          margin-right: 0;
+          text-align: left;
+          max-width: 100%;
+        }
+      }
+    }
+    // PREV NEXT page-article
+    .section-pager {
+      margin-top: 2em;
+      .section-next {
+        text-align: right;
+      }
+      @include fontsize(14,14);
+      .pager li > a {
+        margin-bottom: 12px;
+      }
+    }
+  // ========================================
+  }
+  // END Support Main Column
+  // ========================================
+
+  // TAGS LISTING
+  ul.tags.listing {
+    column-width: 400px;
+    > li {
+      margin: 0 9px 9px 0;
+      display: inline-block;
+      width: 100%;
+      float: none;
+      background: $graylight;
+      a {
+        display: block;
+      }
+      .tag-count {
+        display: inline-block;
+        float: right;
+        color: $graymed;
+      }
+    }
+    > li:first-child {
+     display: none;
+   }
+  }
+  // TAGS IN SINGLE
+  .tag-box {
+    text-align: center;
+  }
+  ul.tags {
+    display: inline-block;
+    @include navigation-list();
+    > li {
+      color: $graydark !important;
+      @include fontsize(14,14);
+      margin-left: 0;
+      margin-right: 3px;
+      border: 1px solid $graymed;
+      border-radius: 15px;
+      a {
+        display: inline-block;
+        padding: 5px 10px;
+        color: $graydark !important;
+        text-decoration: none;
+      }
+      &:hover {
+        background: $graymed;
+        a {
+          text-decoration: none;
+          color: $white !important;
+          span {
+            color: $white !important;
+          }
+        }
+      }
+    }
+  }
+
+  // ========================================
+  // FOOTER
+  #footer-wrapper {
+    background: $white;
+    .main {
+      padding: 2px 0;
+    }
+    ul li:first-child {
+      margin-left: 0;
+    }
+  }
+
+  // ========================================
+  // BOOTSTRAP OVERRIDE
+  // BS FIX INPUTS
+  .form-group .form-control {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  // BS DROP DOWN MENUS
+  .dropdown-menu::before {
+    position: absolute;
+    top: -7px;
+    left: 9px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #CCC;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+  }
+  .dropdown-menu::after {
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid white;
+    border-left: 6px solid transparent;
+    content: '';
+  }
+
+} // END .company-support-portal
+// ========================================
+
+
+// ========================================
+// BASE STYLES
+ul {
+  padding-left: 0;
+  list-style-type: circle;
+  // margin-left: -1em;
+  li {
+    margin-left: 1.25em;
+  }
+}
+
+// TO MOVE TO BALSMIQ BASE
+.uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+}
+.red {
+  color: $red !important;
+}

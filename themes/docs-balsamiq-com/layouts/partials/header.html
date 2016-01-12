@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{{ $isHomePage := eq .Title .Site.Title }}
+<html lang="en">
+<head>
+  <!-- B.COM metadata -->
+  <link rel="icon" type="image/x-icon" href="{{ .Site.Params.balsamiqcomurl }}/assets/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ .Site.Params.balsamiqcomurl }}/assets/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ .Site.Params.balsamiqcomurl }}/assets/favicon/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ .Site.Params.balsamiqcomurl }}/assets/favicon/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="{{ .Site.Params.balsamiqcomurl }}/assets/favicon/touch-icon-iphone-precomposed.png">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+  <meta name="google-site-verification" content="6X9l9L4v9PC9rvtxS_wwUkvIWz-bDDo94IW_EQLhCCc">
+
+  <!-- B.COM CSS -->
+  <link rel="stylesheet" href="{{ .Site.Params.balsamiqcomurl }}/assets/css/balsamiq-complete.min.css?v={{ .Now.Format "2006-01-02-1504" }}" type="text/css" media="all">
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="/assets/css/ie.css" type="text/css" media="all"/>
+  <![endif]-->
+
+  <!-- B.COM JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <script>
+    !window.jQuery && document.write(unescape('%3Cscript src="{{ .Site.Params.balsamiqcomurl }}/assets/js/jquery.min.js"%3E%3C/script%3E'))
+  </script>
+  <script type="text/javascript" src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq-complete.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <!-- TK -->
+  <script type="text/javascript" src="https://use.typekit.com/gri5zun.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- DBC -->
+  <link rel="stylesheet" href="/css/dbc.min.css?v={{ .Now.Format "2006-01-02-1504" }}" type="text/css" media="all">
+  <script src="/js/dbc.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <script src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq_search_autocomplete.js"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <title>{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body class="company-support-portal dbc">
+  <!-- GA - Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TMQ8XW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TMQ8XW');</script>
+  <!-- END Google Tag Manager - balsamiq.com -->
+{{ partial "header_nav.html" . }}

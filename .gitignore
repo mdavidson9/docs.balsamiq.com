@@ -1,3 +1,10 @@
 .idea/workspace.xml
 .idea/misc.xml
 public/
+node_modules/
+themes/docs-balsamiq-com/static/css/dbc.min.css
+themes/docs-balsamiq-com/static/js/dbc.min.js
+src/build-js/
+src/build-css/
+src/build-includes
+

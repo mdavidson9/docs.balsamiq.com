@@ -1,0 +1,372 @@
+// #CONFIG, VARIABLES AND MIXINS
+// TOC
+// - Clearfix
+// - Font Sizes
+// - Breakpoints
+// - Boxes
+//   - Border Radius
+//   - Box Sizing
+//   - Black/White Text Opacity
+//   - Box Emboss
+//   - Gradient Background Image
+//   - Gradient Bottom Shadow
+//   - Box Shadow
+// - Text
+//   - Text Emboss
+//   - Text Deboss
+//   - Text Shadow
+//   - Horizontal Nav Lists
+// - Graphics
+//   - Retina Graphics
+// - Effects
+//   - Rotation
+//   - Grayscale
+//   - Opacity
+//   - Transitions
+
+// ========================================
+// CLEARFIX - USE @EXTEND WHEN POSSIBLE INSTEAD
+// ========================================
+@mixin clearfix {
+  zoom:1;
+  &:before, &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// ========================================
+// FONT SIZES
+// ========================================
+// Usage:
+// REM is 16px
+// arg1 = font size px, arg2 = line-height px
+// Ex. for font-size: 36px, line-height: 36px;
+//   .myclass {
+//     @include fontsize(36,36);
+//   }
+@mixin fontsize($sizeValue: 10, $line: $sizeValue * 1.5){
+  font-size: ($sizeValue * 1) + px;
+  font-size: ($sizeValue / 10) + rem;
+  line-height: ($line * 1) + px;
+  line-height: ($line / 10) + rem;
+}
+
+// ========================================
+// #BREAKPOINTS FOR BOOTSTRAP
+// ========================================
+/* Usage
+    div {
+      width: 95%;
+      margin: 2em auto;
+
+      @include breakpoint(sm) {
+        width: 80%;
+      }
+    }
+*/
+$screen-sm-min:768px;
+$screen-md-min:992px;
+$screen-lg-min:1200px;
+
+@mixin breakpoint($point, $value: 0) {
+  // USE DEFAULTS INSTEAD OF XS, OVERRIDE WITH SM, MD, LG
+  @if $point == smmin {
+    @media only screen and (min-width: $screen-sm-min) { @content; }
+  }
+  @if $point == sm {
+    @media only screen and (min-width: $screen-sm-min) and (max-width: $screen-md-min) { @content; }
+  }
+  @if $point == mdmin {
+    @media only screen and (min-width: $screen-md-min) { @content; }
+  }
+  @if $point == md {
+    @media only screen and (min-width: 40.063em) and (max-width: $screen-lg-min) { @content; }
+  }
+  @if $point == lg {
+    @media only screen and (min-width: $screen-lg-min) { @content; }
+  }
+  @else {
+    @media ($point: $value) { @content; }
+  }
+}
+
+@mixin between-breakpoints($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin between-breakpoints($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+// ========================================
+// #BOXES
+// ========================================
+
+// ========================================
+// ##BORDER RADIUS
+// Provides border radius.
+//   Usage:
+//   .myclass { @include border-radius(3px); }
+@mixin border-radius($radius: 3px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// ========================================
+// ##BOX SIZING
+// Changes box sizing model to:
+// - border-box: borders on the inside
+// - content-box: borders on the outside
+//   Usage:
+//   .myclass { @include box-sizing(border-box;); }
+//   .myclass { @include box-sizing(content-box); }
+@mixin box-sizing($bs) {
+  -webkit-box-sizing: $bs;
+  -moz-box-sizing: $bs;
+  box-sizing: $bs;
+}
+
+// ========================================
+// ##BOX-EMBOSS
+// Provides a letterpress-style emboss effect to text or boxes
+//   Usage:
+//   .box{
+//     @include box-emboss(0.8, 0.05);
+//   }
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+
+// ========================================
+// ##GRADIENT BACKGROUND IMAGE
+// Provides a simple 2-stop background image gradient effect
+//   Usage:
+//   .box {
+//     @include gradient(#f1f1f1, rgb(237,237,237), rgb(255,255,255));
+//   }
+@mixin gradient($bg:#eee, $from:rgba(255,255,255,.1), $to:rgba(0,0,0,.1)) {
+    background-color: $bg;
+    background-image: linear-gradient(top, $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(
+      top,
+      $from 0%,
+      $to 100%
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0%, $from),
+      color-stop(100%, $to)
+    );
+    background-image: -moz-linear-gradient(top, $from 0%, $to 100%);
+    background-image: -o-linear-gradient(top, $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(top, $from 0%, $to 100%);
+}
+
+// ========================================
+// ##RADIAL GRADIENT BOT SHADOW
+// Provides a shadow effect below the box
+//   Usage:
+//   .box {
+//     @include box-shadow-bot-fade();
+//   }
+@mixin box-shadow-bot-fade() {
+  width: 90%;
+  height: 5px;
+  margin: 0 auto;
+  background: none; /* fallback for non-supporting browsers */
+  background-image: radial-gradient(50% 0%, 50% 5px, #eee 0%, #fff 100%);
+  background-image: -webkit-radial-gradient(50% 0%, 50% 5px, #eee 0%, #fff 100%);
+  background-image: -moz-radial-gradient(50% 0%, ellipse contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%);
+  background-image: -ms-radial-gradient(50% 0%, ellipse contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%); /* IE10+ */
+  background-image: -o-radial-gradient(50% 0%, ellipse contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%); /* Opera (13?) */
+}
+
+// ========================================
+// ##BOX SHADOW
+// Provides a regular box shadow effect
+//   Usage:
+//   .box {
+//     @include box-shadow(1px, 1px, 0px, #ddd);
+//     @include box-shadow(1px, 1px, 0px, #ddd, true);
+//   }
+@mixin box-shadow($left, $top, $blur, $color, $inset: false) {
+  @if $inset {
+    box-shadow:inset $left $top $blur $color;
+  } @else {
+    box-shadow: $left $top $blur $color;
+  }
+}
+@mixin box-shadow-multi($shadow1, $shadow2:false, $shadow3:false, $shadow4:false, $shadow5:false) {
+ $params: $shadow1;
+  @if $shadow2
+    { $params: $shadow1, $shadow2; }
+    @if $shadow3 != false
+      { $params: $shadow1, $shadow2, $shadow3; }
+      @if $shadow4 != false
+        { $params: $shadow1, $shadow2, $shadow3, $shadow4; }
+        @if $shadow5 != false
+          { $params: $shadow1, $shadow2, $shadow3, $shadow4, $shadow5; }
+
+  -webkit-box-shadow: $params;
+  -moz-box-shadow: $params;
+  box-shadow: $params;
+}
+
+// ========================================
+// ## INSET BOX SHADOW ONE SIDED
+// Allows you to set an inset shadow or well effect
+//   Usage:
+//   .box {
+//     @include box-shadow-inset(top);
+//   }
+@mixin box-shadow-inset($direction: 'left') {
+  @if $direction == left {
+    box-shadow: inset 10px 0px 10px -10px rgba(0,0,0,.5);
+  }
+  @if $direction == right {
+    box-shadow: inset -10px 0 10px -10px rgba(0,0,0,.5);
+  }
+  @if $direction == top {
+    box-shadow: inset 0 10px 10px -10px rgba(0,0,0,.5);
+  }
+  @if $direction == bottom {
+    box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.5);
+  }
+}
+
+// ========================================
+// #TEXT
+// ========================================
+
+// ========================================
+// ##TEXT-EMBOSS
+// Provides White bottom shadow
+//   Usage:
+//   .text {
+//     @include text-emboss(0.8);
+//   }
+@mixin text-emboss($opacity:.75){
+    text-shadow:white($opacity) 0 1px 0;
+}
+
+// ========================================
+// ##TEXT-DEBOSS
+// Provides Black top shadow
+//   Usage:
+//   .text {
+//     @include text-deboss(0.8);
+//   }
+@mixin text-deboss($opacity:.75){
+  text-shadow:black($opacity) 0 -1px 0;
+}
+
+// ========================================
+// ##TEXT SHADOW
+// Provides greater control over text shadow
+//   Usage:
+//   .text {
+//     @include text-shadow();
+//   }
+@mixin text-shadow($color, $opacity:.75, $direction: 1px ) {
+  @if $color == dark {
+    text-shadow: rgba(255,255,255,$opacity) 0 1px 0;
+  }
+  @else if $color == light {
+    text-shadow: rgba(0,0,0,$opacity) 0 -1px 0;
+  }
+  @else {
+    text-shadow: rgba(0,0,0,$opacity) 0 $direction 0;
+  }
+}
+
+// ========================================
+// ##HORIZONTAL NAV LISTS
+// Generic style for inline nav lists.
+//   Usage:
+//   @include navigation-list();
+@mixin navigation-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    > li{
+        display:block;
+        float:left;
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}
+
+// ========================================
+// #EFFECTS
+// ========================================
+
+// ========================================
+// ##ROTATION
+// Allows you to rotate a block in degrees.
+//   Usage:
+//   @include box-rotate(1deg);
+@mixin rotate($rotate:'1deg'){
+     -moz-transform: rotate($rotate);  /* FF3.5+ */
+       -o-transform: rotate($rotate);  /* Opera 10.5 */
+  -webkit-transform: rotate($rotate);  /* Saf3.1+, Chrome */
+      -ms-transform: rotate($rotate);  /* IE9 */
+          transform: rotate($rotate);
+               zoom: 1;
+}
+
+// ========================================
+// ## GRAYSCALE
+// Provides a grayscale effect
+//   Usage:
+//   @include grayscale(0%);
+@mixin grayscale($percentage: '100%') {
+  -webkit-filter: grayscale($percentage);
+  -moz-filter: grayscale($percentage);
+  filter: grayscale($percentage);
+}
+
+// ========================================
+// ## OPACITY
+// Provides an opacity effect. Use a decimal fraction.
+//   Usage:
+//   @include opacity(.5);
+@mixin opacity($percentage) {
+ -khtml-opacity:$percentage;
+ -moz-opacity:$percentage;
+  opacity:$percentage;
+}
+
+// ========================================
+// ##TRANSITIONS
+// Provides a transition effect
+//   Usage:
+//   @include transition(all, .2s, ease);
+@mixin transition($transtype: 'all', $time: '.2s', $easing: 'ease') {
+  -o-transition: $transtype $time $easing;
+  -ms-transition: $transtype $time $easing;
+  -moz-transition: $transtype $time $easing;
+  -webkit-transition: $transtype $time $easing;
+  transition: $transtype $time $easing;
+}
+@mixin transition-none() {
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}

@@ -1,0 +1,13 @@
+@import "colors";
+.company-support-portal {
+  .st-autocomplete-results.st-ui-autocomplete {
+    a.st-ui-result {
+      // override padding
+      padding: 8px 12px 8px 12px;
+      .st-ui-type-heading {
+        color: $linkcolor !important;
+        @include fontsize(14,14);
+      }
+    }
+  }
+}

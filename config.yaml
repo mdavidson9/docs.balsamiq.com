@@ -1,0 +1,47 @@
+---
+theme:  "docs-balsamiq-com"
+baseurl:  "http://docsstaging.balsamiq.com"
+languageCode:  "en-us"
+title:  "Balsamiq Documentation"
+MetaDataFormat:  "yaml"
+pluralizeListTitles:  false
+Paginate:  "50"
+PageSize:  "50"
+contentdir:  "content"
+layoutdir:  "layouts"
+publishdir:  "public"
+params:
+  balsamiqcomurl: "http://staging.balsamiq.com"
+
+blackfriday:
+  plainIdAnchors:  true
+
+taxonomies:
+  category:  "categories"
+  tag:  "tags"
+
+menu.menudesktop:
+  name:  "desktop"
+  identifier:  "desktop"
+  url:  "/desktop/"
+
+menu.menumybalsamiq:
+  name:  "mybalsamiq"
+  identifier:  "mybalsamiq"
+  url:  "/mybalsamiq/"
+
+menu.menugoogledrive:
+  name:  "googledrive"
+  identifier:  "googledrive"
+  url:  "/google-drive/"
+
+menu.menujira:
+  name:  "jira"
+  identifier:  "jira"
+  url:  "/jira/"
+
+menu.menuconfluence:
+  name:  "confluence"
+  identifier:  "confluence"
+  url:  "/confluence/"
+---

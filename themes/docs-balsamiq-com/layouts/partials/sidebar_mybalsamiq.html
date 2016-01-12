@@ -1,0 +1,14 @@
+{{ $currentNode := . }}
+{{ range .Site.Menus.menumybalsamiq }}
+{{ if .HasChildren }}
+<h5><a href="#" data-toggle="collapse" data-target="#doc-menu" aria-expanded="false" aria-controls="doc-menu" class="menu-toggle"><i class="ss-icon ss-navigateright"></i> myBalsamiq</a></h5>
+<ul id="doc-menu" class="collapse">
+  <li><a href="../">Table of Contents</a></li>
+  {{ range .Children }}
+  <li {{if $currentNode.IsMenuCurrent "menumybalsamiq" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }}</a></li>
+  {{ end }}
+</ul>
+{{else}}
+{{/* when no parent */}}
+{{end}}
+{{end}}

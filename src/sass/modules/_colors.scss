@@ -1,0 +1,60 @@
+// ========================================
+// #COLORS
+// ========================================
+//
+// Provides color variables for black, graylight, gray, graymed, graydark, red, white
+//   Usage:
+//   .myclass-red-text {
+//     color: $red;
+//   }
+//
+//   <span class="myclass-red-text">Red Text</span>
+
+// BASE COLORS
+// UPDATED 2015-09-04
+
+// BLACK WHITE GRAY
+$black: #0A0A0A;
+$white: #FFF;
+$graypale: #F0F0F0;
+$graylight: #EEE;
+$gray: #DDD;
+$graymed: #BBB;
+$graydark: #999;
+$grayverydark: #666;
+$grayverydark2: #555;
+$grayblack: #292E31;
+// REDS
+$redverylight: #FF4C4C; // 255, 76, 76
+$redlight: #F71717; // 247, 23, 23
+$red: #C00; // 204, 0, 0
+$redmed: #A60000; // 166, 0, 0
+$reddark: #7C0000; // 124, 0, 0
+$redverydark: #6D0000; // 109, 0, 0
+// BLUES
+$blueverylight: #78C9FD; // 120, 201, 253
+$bluelight: #008AF4; // 0, 138, 244
+$blue: #0062AE; // 0, 98, 174
+$bluemed: #004d89; // 0, 77, 137
+$bluedark: #003C6A; //0, 60, 106
+// ORANGES
+$orangeverylight: #FFB34C; // 255, 179, 76
+$orangelight: #F79717; // 247, 151, 23
+$orange: #CC7500; // 204, 117, 0
+$orangemed: #A65f00; // 166, 95, 0
+$orangedark: #7C4700; // 124, 71, 0
+// GREENS
+$greenverylight: #3DCC3D; // 61, 204, 61
+$greenlight: #12C612; // 18, 198, 18
+$green: #00A300; // 0, 163, 0
+$greenmed: #008500; // 0, 133, 0
+$greendark: #006300; // 0, 99, 0
+// ##THEME COLORS
+$bodycolor: $white;
+$textcolor: $black;
+$linkcolor: $blue;
+$linkcolorhover: $orange;
+$buttonprimary: $blue;
+$buttonprimaryborder: $bluemed;
+$buttonbuy: $red;
+$buttonbuyborder: $redmed;

@@ -1,0 +1,69 @@
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main">
+  <div class="container-fluid">
+{{/* ======================================== */}}
+
+<div class="row">
+
+  <div class="local-nav local-nav-1 hidden-xs hidden-sm col-md-3">
+    <div id="sidebar-box">
+    {{ if eq .Section "desktop" }}
+      {{ partial "sidebar_desktop.html" . }}
+    {{ else if eq .Section "mybalsamiq" }}
+      {{ partial "sidebar_mybalsamiq.html" . }}
+    {{ else if eq .Section "jira" }}
+      {{ partial "sidebar_jira.html" . }}
+    {{ else if eq .Section "confluence" }}
+      {{ partial "sidebar_confluence.html" . }}
+    {{ else }}
+      <!-- sidebar -->
+    {{ end }}
+    {{ partial "sidebar_inpage.html" . }}
+    </div>
+  </div>
+
+  <div id="page-article" class="col-xs-12 col-md-9">
+    <div id="support-main">
+      <div class="support-body">
+        <article>
+          <h1 class="title">{{ .Title }}</h1>
+          <div class="breadcrumbs visible-xs visible-sm">{{ partial "breadcrumbs.html" . }}</a></div>
+          <div class="article-content content article">
+            {{ .Content }}
+          </div>
+          {{/*
+          <hr>
+          {{ partial "article_tags.html" . }}
+          */}}
+          <hr>
+          <nav class="section-pager">
+            <ul class="pager">
+              <li class="previous">
+              {{ if .NextInSection }}
+                <a href="{{.NextInSection.Permalink}}"><span aria-hidden="true">&larr;</span> {{.NextInSection.Title}}</a>
+              {{ end }}
+              </li>
+              <li class="next">
+              {{ if .PrevInSection }}
+                <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
+              {{ end }}
+              </li>
+            </ul>
+          </nav>
+         </article>
+      </div>
+    </div>
+  </div><!-- /.support-main -->
+
+</div> <!-- /.row -->
+
+{{/* ======================================== */}}
+  </div>
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

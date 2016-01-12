@@ -1,0 +1,8 @@
+<div class="tag-box">
+<ul class="tags">
+{{ range .Params.tags }}
+	<li><a class="tag-item" href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+{{ end }}
+	<li class="tag-label"><a href="/tags/">Browse Tags...</a></li>
+</ul>
+</div>

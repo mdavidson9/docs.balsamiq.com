@@ -1,0 +1,12 @@
+name = "Balsamiq Documentation"
+license = "MIT"
+description = "Balsamiq theme for Documentation site. https://docs.balsamiq.com"
+homepage = "https://docs.balsamiq.com"
+tags = ["company", "documentation"]
+features = ["documentation", "bootstrap"]
+min_version = 0.13
+
+[author]
+    name = "Balsamiq"
+    homepage = "https://balsamiq.com"
+    repo = "https://github.com/balsamiq/docs.balsamiq.com"

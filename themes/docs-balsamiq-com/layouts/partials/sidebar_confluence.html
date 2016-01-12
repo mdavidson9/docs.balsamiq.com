@@ -1,0 +1,9 @@
+{{ $currentNode := . }}
+{{ range .Site.Menus.menuconfluence }}
+  <h5>Mockups for Confluence</h5>
+  <ul>
+      {{ range .Children }}
+      <li{{if $currentNode.IsMenuCurrent "menuconfluence" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+      {{ end }}
+  </ul>
+{{end}}
