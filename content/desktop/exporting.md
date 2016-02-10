@@ -16,7 +16,13 @@ The Export menu contains the following export options:
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/export-menu.png)
 
-Read on for descriptions of each.
+Read on for descriptions of all of the options or skip ahead using the links below.
+
+* [Export to PDF...](#exporting-to-pdf)
+* [Current or All Mockups to PNG](#exporting-to-an-image)
+* [Mockup to Clipboard](#copying-to-the-clipboard)
+* [Mockup to JSON](#exporting-mockups-to-another-project)
+* [Project to BMMLs ZIP...](#exporting-for-use-in-a-previous-version)
 
 ## Exporting to PDF
 
@@ -36,15 +42,20 @@ After exporting, a notification window will appear to show you where your PDF wa
 
 ## Exporting to an Image
 
-To save one or all of your mockups as image files choose one of the export to PNG commands from the Export menu. Export > Current Mockup to PNG... will save the selected mockup in PNG image format, while Export > All Mockups to PNG... will save all of the mockups in your project as separate image files. If you check the "Use Transparent Background" option the exported images will be transparent anywhere the canvas shows through in the mockup.
+To save one or all of your mockups as image files choose one of the export to PNG commands from the Export menu. Export > Current Mockup to PNG... will save the selected mockup in PNG image format, while Export > All Mockups to PNG... will save all of the mockups in your project as separate image files. If you check the **"Use Transparent Background"** option the exported images will be transparent anywhere the canvas shows through in the mockup.
 
 The shortcuts for exporting a mockup and project to image files are CTRL/CMD+R and CTRL/CMD+Shift+R, respectively. Exporting all mockups will also generate images for any [alternates](/desktop/alternates/) you have created.
-
-To easily copy a mockup as an image to paste into another application, select Export > Mockup to Clipboard.
 
 You can also export a subset of the controls in your mockup by selecting them on the canvas and using the Export Current Mockup to PNG command. The export dialog will ask you if you want to export only the selected controls or the entire mockup.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/export-selected.png)
+
+* * *
+
+## Copying to the Clipboard
+
+To copy a mockup as an image to paste into another application, select Export > Mockup to Clipboard.
+
 
 * * *
 
