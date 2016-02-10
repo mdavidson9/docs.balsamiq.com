@@ -53,7 +53,7 @@ Balsamiq Mockups 3 has a dedicated area of the user interface for managing image
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets.png)
 
-The assets view shows all images and [custom icons](/desktop/icons/#adding-your-own-custom-icons) that have been added to your project. You can get to it by switching the navigator view to assets.
+The Assets view shows all images and [custom icons](/desktop/icons/#adding-your-own-custom-icons) that have been added to your project. You can get to it by switching the navigator view to Assets.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets1.png)
 

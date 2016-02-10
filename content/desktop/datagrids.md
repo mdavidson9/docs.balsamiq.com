@@ -15,13 +15,15 @@ The Data Grid control functions like many other [text-based controls](/desktop/t
 
 You can choose whether to show the first row as a header row in the [Property Inspector](/desktop/inspector/), as well as specifying the row height, row colors, and grid lines.
 
+Text in the Data Grid can be formatted as bold, italic, etc. using the [same syntax as other text controls](/desktop/text/#basic-formatting).
+
 ## Column Width Options
 
 Mockups lets you specify individual width and alignment options for each Data Grid column.
 
 Here's a quick video showing how to do this:
 
-<div class="video"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/b_nTKvhECa8?rel=0"></iframe></div>
+{{< yt b_nTKvhECa8 >}}
 
 Here are the details for creating column widths:
 
@@ -68,4 +70,4 @@ Some people like to prepare tables in a spreadsheet application like Excel. You 
 
 {{% alert info %}}**Note:** If you have commas in your cells, you will have to escape them with a backslash like this: `1\,000\,000`{{% /alert %}}
 
-The component recognizes both commas and tabs as delimiters. Any thing else should be populated into cells.
+The component recognizes both commas and tabs as delimiters. Anything else should be populated into cells.
