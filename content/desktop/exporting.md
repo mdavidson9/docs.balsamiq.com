@@ -26,7 +26,9 @@ Read on for descriptions of all of the options or skip ahead using the links bel
 
 ## Exporting to PDF
 
-You can export the mockups in your project as a PDF, which can be useful for printing, sending by email, presenting to clients, or posting online. If your mockups contain links, these will work in your exported PDF as well, which will allow you to create click-through prototypes of your designs. _(To learn more about linking, see [Linking Mockups Together](/desktop/linking/).)_
+You can export the mockups in your project as a PDF, which can be useful for printing, sending by email, presenting to clients, or posting online. If your mockups contain **links**, these will work in your exported PDF as well, which will allow you to create click-through prototypes of your designs. _(To learn more about linking, see [Linking Mockups Together](/desktop/linking/).)_
+
+{{% alert info %}}**Note:** Links may not work in the default Windows 8 or 10 PDF viewer. If this happens, you can download [Adobe Acrobat](//acrobat.adobe.com/us/en/products/pdf-reader.html) or one of the many other free PDF viewers.{{% /alert %}}
 
 To export to PDF select the Project > Export to PDF... menu command (shortcut: CTRL/CMD+P). Each mockup will be displayed on a separate page of a PDF document. The mockups will be in the same order as in the project, so arrange them in the order you'd like before exporting.
 
