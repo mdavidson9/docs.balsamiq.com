@@ -17,6 +17,8 @@ You will see an option listed there to **export to PDF**. When you select it you
 
 {{% alert info %}}**Note:** You can also export a project to PDF from the context menu on the [All Projects (a.k.a. Home) page](/mybalsamiq/home/) in myBalsamiq.{{% /alert %}}
 
+If you want to export a **single mockup** to PDF, you can go to the [Single Mockup page](/mybalsamiq/mockup/) and print to PDF from the browser print dialog (e.g., File > Print).
+
 ---
 
 ## Exporting to PNG Images
