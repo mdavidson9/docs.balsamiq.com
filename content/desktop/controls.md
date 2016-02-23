@@ -177,6 +177,6 @@ There are three controls that you can add to the canvas by "drawing" them with y
 
 See the video below for a demonstration. 
 
-{{< yt nuKPp-QFzOY >}}
+{{< yt A72KW9tps0s >}}
 
 After you've added these controls, you can easily convert them to other controls by using the [transform menu described above](#transforming-ui-controls).

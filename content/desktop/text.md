@@ -119,6 +119,8 @@ Type {mockup-name} (all lower-case) in a Label, Text, Title or Subtitle control 
 Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls.  
 ![placeholder-text.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text.png)
 
+{{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](/desktop/controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
+
 You can convert them to real text at any time by editing them and entering some text.
 
 ![placeholder-text-converted.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text-converted.png)
