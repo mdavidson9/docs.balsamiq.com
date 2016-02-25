@@ -152,7 +152,7 @@ When no controls are selected you'll see a place to add notes in the Properties 
 
 ### Trash
 
-Balsamiq Mockups 3 now has a Trash for mockups, assets and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts.
+Balsamiq Mockups 3 now has a trash for mockups, assets and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/trash.png)
 
