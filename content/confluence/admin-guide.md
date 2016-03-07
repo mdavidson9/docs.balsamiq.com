@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Mockups for Confluence Server Admin Guide"
 menu: "menuconfluence"
-weight: 20
+weight: 50
 ---
 
 ## Welcome
