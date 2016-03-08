@@ -6,7 +6,7 @@ menu: "menuconfluence"
 weight: 10
 ---
 
-## Welcome 
+## Welcome
 
 This page contains usage instructions for [Mockups for Confluence](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview).
 
@@ -52,7 +52,7 @@ To make changes to a mockup, edit the wiki page, select the mockup image and cli
 
 * * *
 
-## Linking Mockups Together 
+## Linking Mockups Together
 
 Much like the Desktop and Web versions of Mockups, you can create links between mockups by using the Link property in the Property Inspector (for controls that support linking; read [this article](https://support.balsamiq.com/tutorials/hotareas/) for controls that don't).
 
@@ -125,6 +125,8 @@ Here are the steps:
 3.  After doing this, you should see your mockup appear in the editor.
 
 This process can also be useful if you have removed a mockup from a page and want to re-add it. In that case, skip step 1 and follow steps 2-4.
+
+{{% alert info %}}**Note:** Any images used in mockups will have to be moved as well - and re-added to the mockup.{{% /alert %}}
 
 * * *
 
