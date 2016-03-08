@@ -80,7 +80,7 @@ The alternate that was promoted is retained in case you want to preserve it as p
 
 * * *
 
-## Duplicating Alternates as New Mockups
+## Duplicating Alternates
 
 Sometimes, an alternate grows into a mockup all its own. If you would like to create a new mockup based on an alternate, you can choose the "Duplicate As New Mockup" option from the contextual menu.
 
