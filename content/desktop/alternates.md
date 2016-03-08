@@ -82,11 +82,13 @@ The alternate that was promoted is retained in case you want to preserve it as p
 
 ## Duplicating Alternates
 
-Sometimes, an alternate grows into a mockup all its own. If you would like to create a new mockup based on an alternate, you can choose the "Duplicate As New Mockup" option from the contextual menu.
+You can duplicate mockups from the contextual menu. Doing this will create a new, randomly named alternate that is an exact copy of the alternate you chose to duplicate.
+
+Sometimes, however, an alternate grows into a mockup all its own. If you would like to create a whole new mockup based on an alternate, you can choose the "Duplicate As New Mockup" option from the contextual menu.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-duplicate.png)
 
-The new mockup will be named using **Name of Alternate** and then **Name of Original Mockup**. So if you had an alternate named "Rotated Header" in your "Homepage" mockup, the mockup created from the alternate would be "Rotated Header Homepage".
+The new mockup will be named using the **Name of the Alternate** and then the **Name of the Original Mockup**. So if you had an alternate named "Rotated Header", in your "Homepage" mockup, the mockup created from the alternate would be named "Rotated Header Homepage".
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-duplicatedresults.png)
 
