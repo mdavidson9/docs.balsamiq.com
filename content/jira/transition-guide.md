@@ -75,7 +75,7 @@ The migration instructions above will work even after the old plugin is disabled
 
 ## Changes to Licensing and Pricing
 
-Since Connect add-ons must be purchased via Atlassian Marketplace, our licensing model is changing for Mockups 3 for JIRA Cloud. Purchasing is subscription-based and requires that you subscribe based on your JIRA Cloud user tier. Full pricing details are here.
+Since Connect add-ons must be purchased via Atlassian Marketplace, our licensing model is changing for Mockups 3 for JIRA Cloud. Purchasing is subscription-based and requires that you subscribe based on your JIRA Cloud user tier. Full pricing details are [here](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/pricing).
 
 We greatly lowered our pricing to make it more affordable to customers under this licensing model. For some customers, purchasing a subscription will be cheaper than our old pricing, and for others the prices have gone up a little due to the Marketplace matching requirement.
 
