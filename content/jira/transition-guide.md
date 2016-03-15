@@ -89,7 +89,7 @@ We're here to help you figure out which option is best for your team!  [Contact 
 
 ## Customers with Active or Recently Expired Maintenance for Mockups for JIRA
 
-If the maintenance on your Mockups for JIRA license is current or expired in the last 3 months, we will be migrating your license to Mockups 3 for JIRA Cloud for you (we will email details to your billing and technical contacts on March 15, 2016).
+If the maintenance on your Mockups for JIRA license is current or expired in the last 3 months, we will be migrating your license to Mockups 3 for JIRA Cloud for you (we emailed details to your billing and technical contacts on March 15, 2016).
 
 We of course will be honoring the maintenance time you already purchased.
 
