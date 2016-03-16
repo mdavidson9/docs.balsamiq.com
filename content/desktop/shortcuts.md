@@ -553,6 +553,6 @@ The shortcuts below apply to Mockups for Desktop Version 3 and higher. Choose on
 
 ## Creating Your Own Keyboard Shortcuts
 
-Mac OS X users can create [application specific keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) from within OS X itself. Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3!
+Mac OS X users can create [application specific keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) from within OS X itself. Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3.app.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/OSX-keyboard-shortcuts.png)
