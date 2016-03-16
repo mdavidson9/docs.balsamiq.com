@@ -20,6 +20,10 @@ Below is a list of all the keyboard shortcuts and modifiers available in Balsami
 
 The shortcuts below apply to Mockups for Desktop Version 3 and higher. Choose one of the links to the right to download a cheat sheet.
 
+**Note:** Mac OS X users can create [application specific keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) from within OS X itself. Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3!
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/OSX-keyboard-shortcuts.png)
+
 <table class="tuftified">
 	<tbody>
 		<tr>
