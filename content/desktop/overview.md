@@ -94,11 +94,15 @@ You can move between mockups or assets using your keyboard via CTRL+Tab or by cl
 
 Mockups can be reordered by dragging them up and down in the navigator panel. This can be useful when [exporting to PDF](/desktop/exporting/#exporting-to-pdf), for example. The order of your mockups will be remembered when you close and reopen your project, even if opened on a different computer.
 
-### Nesting Mockups
+### Using Mockup Hierarchy
 
-To better organize your mockups you can use a hierarchical structure to "nest" some mockups under others. To nest a mockup, select it in the navigator and use the Tab key. You can then use the arrows to the left of the parent mockup to show and hide the mockups under it.
+Mockups 3 for Desktop also offers a hierarchical structure to better organize your mockups.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/nested-mockups-list.png)
+To use it, select the mockup you wish to be the child and press the Tab key. The child mockup will be placed in a tree hierarchy below the mockup above it.
+
+You can then use the arrows to the left of the parent mockup to show and hide the mockups under it.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/hierarchy.gif)
 
 To restore it to the top level, use Shift+Tab. The video below shows nesting mockups in action.
 
