@@ -555,7 +555,7 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 
 ## Creating Your Own Keyboard Shortcuts
 
-Mac OS X users can create [application specific keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) from within OS X itself.
+Mac users are able to create [keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) for any application inside of OS X.
 
 Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3.app.
 
