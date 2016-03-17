@@ -20,6 +20,9 @@ Below is a list of all the keyboard shortcuts and modifiers available in Balsami
 
 The shortcuts below apply to Mockups for Desktop Version 3 and higher. Choose one of the links to the right to download a cheat sheet.
 
+Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcuts) for details.
+
+
 <table class="tuftified">
 	<tbody>
 		<tr>
@@ -547,3 +550,13 @@ The shortcuts below apply to Mockups for Desktop Version 3 and higher. Choose on
 		</tr>
 	</tbody>
 </table>
+
+---
+
+## Creating Your Own Keyboard Shortcuts
+
+Mac users are able to create [keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) for any application inside of OS X.
+
+Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3.app.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/OSX-keyboard-shortcuts.png)

@@ -9,7 +9,7 @@ Mockups 3 for JIRA Cloud was released January 18, 2016. The new version has proj
 
 We will be retiring the old version of the plugin around April 26, 2016 however, in the meantime, you may be using an older version of the plugin.
 
-**If you haven't yet purchased Mockups for JIRA**, but have a Cloud instance older than January 18, 2016, you will have the older plugin pre-installed. You may have even trialed this version. As this older version will shortly be removed from your Cloud instance, we suggest you disable it via the UPM, install the [Mockups for 3 JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview) version, and trial this add-on. Here are details on [how it install the connect plugin](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/installation).
+**If you haven't yet purchased Mockups for JIRA**, but have a Cloud instance older than January 18, 2016, you will have the older plugin pre-installed. You may have even trialed this version. This older version will be removed from your Cloud instance in April, so feel free to install the [Mockups for 3 JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview) version, and give it a try! Here are details on [how it install the connect plugin](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/installation).
 
 **If you already purchased Mockups for JIRA** in most cases we will be installing the new add-on for you as part of [migrating your Balsamiq-issued license](#changes-to-licensing-and-pricing). Once your instance has been migrated to Mockups 3 for JIRA Cloud, your users will just need to follow the instructions to [migrate individual mockups](#migrating-your-mockups-to-the-new-plugin).
 
@@ -25,11 +25,15 @@ In order to take advantage of the new feature you need to migrate the old files 
 
 ---
 
-## Installing Balsamiq Mockups for JIRA 3 Cloud
+## Installing Balsamiq Mockups 3 for JIRA Cloud
 
 You can install the new plugin simply via the UPM, just search for "Balsamiq Mockups 3 for JIRA Cloud" and click "Install" to start the 30-day trial.
 
-{{% alert info %}}**Note**: You can install the new plugin even if you still have the old version of Mockups for JIRA installed and enabled, the two plugins can work side-by-side.{{% /alert %}}
+**Note**: You can install the new plugin even if you still have the old version of Mockups for JIRA installed and enabled, the two plugins can work side-by-side.
+
+When both plugins are enabled, you will have 2 Mockups options in the More menu. Select "Add Balsamiq Mockups" to use the new plugin, Mockups 3 for JIRA Cloud. The old plugin will be disabled automatically in April.
+
+![](//media.balsamiq.com/img/support/docs/jira/transitionguide/menuentry.png)
 
 ---
 
@@ -67,9 +71,9 @@ You can now take advantage of all the new Balsamiq Mockups 3 for JIRA Cloud good
 
 ## Disabling the Old Plugin
 
-If you have the old version of the plugin installed, you can disable it as soon as it's convenient for your users.
+If you have the old version of the plugin installed, it will be automatically disabled for you by Atlassian during the month of April.
 
-The migration instructions above will work even after the old plugin is disabled.
+The migration instructions [above](#migrating-your-mockups-to-the-new-plugin) will work even after the old plugin is disabled.
 
 ---
 
