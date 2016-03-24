@@ -386,6 +386,12 @@ body {
         border-radius: 18px;
       }
     }
+    // SOCIAL SHARE ICON STYLES
+    a.js-social-share, 
+    a.js-social-share:visited {
+      text-decoration: none;
+      padding-left: 10px;
+    }
   // ========================================
   }
   // END Support Main Column
