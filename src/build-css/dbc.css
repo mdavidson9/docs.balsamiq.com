@@ -424,9 +424,6 @@ body {
     #body-main .section-pager .pager li > a {
       margin-bottom: 12px;
       border-radius: 18px; }
-  #body-main a.js-social-share, #body-main a.js-social-share:visited {
-    text-decoration: none;
-    padding-left: 10px; }
 
 ul.tags.listing {
   -webkit-column-width: 400px;
