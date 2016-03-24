@@ -115,7 +115,6 @@ $(document).ready(function() {
   var navsect = window.location.href.split('/');
   $("body").addClass(navsect[3]);
 
-<<<<<<< HEAD
   // ========================================
   // POPUP FOR SOCIAL SHARING
   function windowPopup(url, width, height) {
@@ -132,6 +131,4 @@ $(document).ready(function() {
   e.preventDefault();
   windowPopup($(this).attr("href"), 500, 300);
   });
-=======
->>>>>>> parent of d1a15da... Adding JS and CSS for social share widget
 });
