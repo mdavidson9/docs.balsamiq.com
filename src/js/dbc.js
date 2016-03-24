@@ -131,5 +131,4 @@ $(document).ready(function() {
   e.preventDefault();
   windowPopup($(this).attr("href"), 500, 300);
   });
-
 });
