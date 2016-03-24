@@ -1,11 +1,11 @@
-// Import Mixins And Modules
+// Import Mixins, Colors, and Modules
 @import "config";
 @import "colors";
 
 // FOR SCROLLSPY
 body {
   position: relative;
-  border-top: 3px solid $red;
+  border-top: 3px solid $red; 
 }
 
 // ========================================
