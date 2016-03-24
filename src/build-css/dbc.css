@@ -424,10 +424,13 @@ body {
     #body-main .section-pager .pager li > a {
       margin-bottom: 12px;
       border-radius: 18px; }
+<<<<<<< HEAD
   #body-main a.js-social-share,
   #body-main a.js-social-share:visited {
     text-decoration: none;
     padding-left: 10px; }
+=======
+>>>>>>> parent of d1a15da... Adding JS and CSS for social share widget
 
 ul.tags.listing {
   -webkit-column-width: 400px;
