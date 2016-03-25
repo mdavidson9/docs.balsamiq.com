@@ -42,6 +42,8 @@ When you are ready to go back to the wiki page, just click on "Close" or select 
 
 {{% alert info %}}**A note for Confluence 3.x users:** In Confluence 3.x, you have to add a mockup by selecting the "Add UI Mockup" menu under the "Add Content" menu section of your wiki page.{{% /alert %}}
 
+---
+
 ## Editing a Mockup
 
 To make changes to a mockup, edit the wiki page, select the mockup image and click on the "Edit" button in the little macro control panel that shows up.
@@ -145,3 +147,13 @@ Here are the steps:
     3.  **}**  
     resulting in something like this **{mockup:Name=new name}**.
 5.  After doing this, you should see your mockup appear in the editor.
+
+---
+
+## Exporting a Mockup
+
+Mockups for Confluence Server allows you to [export your mockup to XML format](https://support.balsamiq.com/plugins/importtoatlassian/) so that you can import it to our other versions. It is not currently possible to export directly to PDF or an image (PNG, etc.) from the Balsamiq Mockups editor. 
+
+As [mentioned above](#looking-at-a-mockup-s-history), however, you can access your mockups in **PNG image** format by going to the **attachments** for the Confluence page.
+
+You can also take advantage of the ability to **export to PDF** within Confluence to export your wiki page, including any mockups, to PDF.
