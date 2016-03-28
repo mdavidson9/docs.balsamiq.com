@@ -86,7 +86,7 @@ There are a few icon sets that complement the hand-drawn style of Mockups. This 
 
 Some icon designers have even started creating icon packs that are compatible with our naming scheme. Here's [a list of the ones we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
 
-To use those icon packs, just unzip the icon images and drag them into your Assets [as described above](#adding-via-assets). If you are using myBalsamiq, upload the icon files via the Assets dialog there.
+To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-via-assets). If you are using myBalsamiq, upload the icon files via the Assets dialog there.
 
 * * *
 

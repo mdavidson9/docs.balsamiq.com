@@ -28,13 +28,13 @@ Once you have selected a mockup or web page to link to from the drop-down menu, 
 
 ## Linking to Existing Mockups
 
-The list is pre-populated with the names of the other mockups in the project. Select one to link to it. 
+The list is pre-populated with the names of the other mockups in the project. Select one to link to it.
 
 ---
 
 ## Linking to a New Mockup
 
-To link to a blank mockup that you haven't created yet, click "Link to a New Mockup" and a new mockup will be created and linked from the selected control.  Select "Link to a New Duplicate of This Mockup" to create a new mockup with the same content as the current mockup. A notification will be shown with the name of the new mockup. Clicking the notification will take you to that mockup. 
+To link to a blank mockup that you haven't created yet, click "Link to a New Mockup" and a new mockup will be created and linked from the selected control.  Select "Link to a New Duplicate of This Mockup" to create a new mockup with the same content as the current mockup. A notification will be shown with the name of the new mockup. Clicking the notification will take you to that mockup.
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/linktonewmockup.png)
 
 ---
@@ -45,7 +45,7 @@ You can also link to web URLs instead of other mockups, to show links to externa
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/linktourl.png)
 
---- 
+---
 ## Using Links in Presentation Mode
 
 When you're done linking your mockups up you can enter [Full Screen Presentation mode](/desktop/fullscreen/) and you'll be able to click on the links you set up to test your prototype.
