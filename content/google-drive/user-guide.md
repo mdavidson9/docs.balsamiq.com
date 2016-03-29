@@ -82,7 +82,7 @@ The Balsamiq Mockups editor allows you to create wireframes just like our other 
 Sometimes you might want to copy or move a mockup from a project to another. To do so, follow the steps below:
 
 1.  Open the two projects (each in its own browser tab or window)
-2.  In the source project, select the mockup you want to copy of move.
+2.  In the source project, select the mockup you want to copy or move.
 3.  In the Project menu, select Export > Mockup to JSON. This will put a text-based representation of the mockup in the clipboard.
 4.  In the target project, select Import > Mockup JSON... from the Project menu.
 5.  In the Import Mockup dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
