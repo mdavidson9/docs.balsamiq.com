@@ -30,8 +30,6 @@ Once you have selected a mockup or web page to link to from the drop-down menu, 
 
 The list is pre-populated with the names of the other mockups in the project. Select one to link to it.
 
-{{% alert info %}}**Note:** _Looking for a way to link to [alternates](https://docs.balsamiq.com/desktop/alternates)?_ Selecting an alternate version in the editor will result in links pointing to it (instead of the official mockup), even in Full Screen Presentation mode. Also, excluding the official version from your PDF export will make links pointing to the alternate version.{{% /alert %}}
-
 ---
 
 ## Linking to a New Mockup
