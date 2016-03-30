@@ -9,6 +9,8 @@ weight: 0
 
 Balsamiq Mockups for Google Drive provides the same functionality as Balsamiq Mockups for Desktop and myBalsamiq. The difference is that the files are stored and managed by Google Drive. If you use other Google Drive apps (Google Docs, for example), the file management features should be very familiar to you.
 
+You can easily [share your mockups](#sharing-via-google-drive) using the built-in features of Google Drive, [even if other people don't have the Balsamiq app installed](https://support.balsamiq.com/plugins/sharingwithgoogledrive/). If they do have the app, [you can edit your mockups at the same time](#collaborating-with-other-users-in-real-time).
+
 This guide is split into three main sections:
 
 1.  [Getting Started](#getting-started)
