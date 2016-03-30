@@ -138,6 +138,9 @@ You can transform controls quickly using the shortcut CTRL+T to bring up the tra
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-shortcut.png)
 
+See the video below for a demonstration.
+
+{{< yt xQ9tJqFsGb8 >}}
 
 ---
 
