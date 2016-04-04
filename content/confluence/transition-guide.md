@@ -5,11 +5,13 @@ menu: "menuconfluence"
 weight: 30
 ---
 
-Mockups 3 for Confluence Cloud was released March X, 2016. The new version has projects, symbols, real time collaboration and lots of other improvements.
+Mockups 3 for Confluence Cloud was released April 4, 2016. The new version has projects, symbols, real time collaboration and lots of other improvements.
+
+{{< yt zMOxwSdMcWM >}}
 
 We will soon be moving all Confluence Cloud instances to this new connect add-on, however, in the meantime, you may be using an older version of the plugin.
 
-If you haven’t yet purchased Mockups for Confluence, but have a Cloud instance older than March X, 2016, you will have the older plugin pre-installed. You may have even trialed this version. As this older version will shortly be removed from your Cloud instance, we suggest you disable it via the UPM, install the [Mockups for 3 Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and trial this add-on. Here are details on [how to install the add-on](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
+If you haven’t yet purchased Mockups for Confluence, but have a Cloud instance older than April 4, 2016, you will have the older plugin pre-installed. You may have even trialed this version. As this older version will shortly be removed from your Cloud instance, we suggest you disable it via the UPM, install the [Mockups 3 for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and trial this add-on. Here are details on [how to install the add-on](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
 
 If you already purchased Mockups for Confluence for your Cloud instance, continue to use and enjoy Mockups for Confluence! Your users should reference the [Mockups for Confluence for Server User Guide](/confluence/user-guide) and the administration of your plugin should refer to [Mockups for Confluence Cloud Admin Guide](/confluence/admin-guide-cloud/).
 

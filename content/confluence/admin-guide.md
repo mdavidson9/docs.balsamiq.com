@@ -8,7 +8,7 @@ weight: 50
 
 ## Welcome
 
-The Confluence Admin Guide contains installation, registration, updating and uninstalling instructions for [Mockups for Confluence](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview) **when installed on your own server**.
+The Mockups for Confluence Server Admin Guide contains installation, registration, updating and uninstalling instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview) **when installed on your own server**.
 
 {{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/admin-guide-cloud/) instead.{{% /alert %}}
 
@@ -18,19 +18,19 @@ Usage instructions for the plugin are [here](/confluence/user-guide).
 
 ## Installation Instructions
 
-Like most plugins, Balsamiq Mockups for Confluence is installed via Atlassian's [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin.
+Like most plugins, Balsamiq Mockups for Confluence Server is installed via Atlassian's [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin.
 
-To install the plugin, go to the Confluence Administration page. Select "Find new add-ons" and search for Balsamiq Mockups for Confluence.
+To install the plugin, go to the Confluence Administration page. Select "Find new add-ons" and search for Balsamiq Mockups for Confluence Server.
 
 ![](//media.balsamiq.com/img/support/installation/confluence-install-server1.png)
 
-Select "Free Trial" and accept the license agreement for Mockups for Confluence to begin the installation.
+Select "Free Trial" and accept the license agreement for Mockups for Confluence Server to begin the installation.
 
 Once the plugin has downloaded and installed, you'll be prompted to Log In with your Atlassian ID or MyAtlassian account to obtain an evaluation key.
 
 ![](//media.balsamiq.com/img/support/installation/confluence-jira-install-server3.png)
 
-You will then begin a 30-day trial evaluation of Mockups for Confluence.
+You will then begin a 30-day trial evaluation of Mockups for Confluence Server.
 
 * * *
 
@@ -38,7 +38,7 @@ You will then begin a 30-day trial evaluation of Mockups for Confluence.
 
 Please make sure you read the [Balsamiq and Atlassian Marketplace FAQ](https://support.balsamiq.com/sales/marketplace/) first.
 
-To register the plugin, go to the Confluence Administration page. Select "Manage new add-ons" and search for Balsamiq Mockups for Confluence.
+To register the plugin, go to the Confluence Administration page. Select "Manage new add-ons" and search for Balsamiq Mockups for Confluence Server.
 
 ![](//media.balsamiq.com/img/support/installation/confluence-reg-server1.png)
 
@@ -84,7 +84,7 @@ You can add and remove users to this group whenever you like, just make sure you
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit mockups.
 
-Using both Mockups for Confluence and Mockups for JIRA? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
+Using both Mockups for Confluence Server and Mockups for JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
 
 * * *
 

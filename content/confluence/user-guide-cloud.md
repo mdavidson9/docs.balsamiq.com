@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Mockups for Confluence Cloud User Guide"
+title: "Mockups 3 for Confluence Cloud User Guide"
 menu: "menuconfluence"
 weight: 10
 ---
@@ -14,11 +14,15 @@ Confluence Cloud Administrators: the [Mockups 3 for Confluence Cloud Admin Guide
 
 * * *
 
-{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released March X, 2016. See our [transition guide](/confluence/transition-guide) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
+{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released April 4, 2016. See our [transition guide](/confluence/transition-guide) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
 
-Balsamiq Mockups 3 for Confluence Cloud provides very similar functionality to Balsamiq Mockups for Desktop.
+Balsamiq Mockups 3 for Confluence Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
 The main difference is that the Balsamiq project files are stored and managed as Confluence Cloud attachments.
+
+* * *
+
+{{< yt zMOxwSdMcWM >}}
 
 * * *
 
