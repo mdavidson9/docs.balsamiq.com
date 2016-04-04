@@ -54,6 +54,10 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd class="shift">SHIFT</kbd>+<kbd>A</kbd></td>
 		</tr>
 		<tr>
+			<td>Ignore control(s) under cursor</td>
+			<td>Hold <kbd class="alt">ALT</kbd></td>
+		</tr>
+		<tr>
 			<td>Treat/do not treat selection as markup</td>
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd class="shift">SHIFT</kbd>+<kbd>K</kbd></td>
 		</tr>
@@ -62,7 +66,11 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 		</tr>
 		<tr>
 			<td>Resize maintaining aspect ratio</td>
-			<td>Hold <kbd class="shift">SHIFT</kbd></td>
+			<td>Hold <kbd class="shift">SHIFT</kbd> while resizing with mouse</td>
+		</tr>
+		<tr>
+			<td>Move selection along horizontal or vertical axis</td>
+			<td>Hold <kbd class="shift">SHIFT</kbd> while dragging</td>
 		</tr>
 		<tr>
 			<td>Disable snapping during move or resize</td>

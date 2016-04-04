@@ -9,6 +9,8 @@ weight: 0
 
 Balsamiq Mockups for Google Drive provides the same functionality as Balsamiq Mockups for Desktop and myBalsamiq. The difference is that the files are stored and managed by Google Drive. If you use other Google Drive apps (Google Docs, for example), the file management features should be very familiar to you.
 
+You can easily [share your mockups](#sharing-via-google-drive) using the built-in features of Google Drive, [even if other people don't have the Balsamiq app installed](https://support.balsamiq.com/plugins/sharingwithgoogledrive/). If they do have the app, [you can edit your mockups at the same time](#collaborating-with-other-users-in-real-time).
+
 This guide is split into three main sections:
 
 1.  [Getting Started](#getting-started)
@@ -82,7 +84,7 @@ The Balsamiq Mockups editor allows you to create wireframes just like our other 
 Sometimes you might want to copy or move a mockup from a project to another. To do so, follow the steps below:
 
 1.  Open the two projects (each in its own browser tab or window)
-2.  In the source project, select the mockup you want to copy of move.
+2.  In the source project, select the mockup you want to copy or move.
 3.  In the Project menu, select Export > Mockup to JSON. This will put a text-based representation of the mockup in the clipboard.
 4.  In the target project, select Import > Mockup JSON... from the Project menu.
 5.  In the Import Mockup dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
