@@ -1,18 +1,18 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Mockups for Confluence User Guide"
+title: "Mockups for Confluence Server User Guide"
 menu: "menuconfluence"
-weight: 10
+weight: 40
 ---
 
 ## Welcome
 
-This page contains usage instructions for [Mockups for Confluence](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview).
+This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview).
 
-Confluence Server Administrators: the **[Mockups for Confluence Server Admin Guide](/confluence/admin-guide/)** is for you.
+{{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/user-guide-cloud/) instead.{{% /alert %}}
 
-Confluence Cloud Administrators: the **[Mockups for Confluence Cloud Admin Guide](/confluence/admin-guide-cloud/)** is for you.
+Confluence Server Administrators: the [Mockups for Confluence Server Admin Guide](/confluence/admin-guide/) is for you.
 
 * * *
 
@@ -26,7 +26,7 @@ Edit the page, position the cursor where you'd like your mockup to be, then cli
 
 This will take you directly to the Balsamiq Mockup editor, where you can create your mockup (or import an existing mockup - see [this page](https://support.balsamiq.com/plugins/importtoatlassian/) for instructions).
 
-If you have never used Balsamiq Mockups before, here's a little intro of what you can do with it when using the Confluence plugin:
+If you have never used Balsamiq Mockups before, here's a little intro of what you can do with it when using the Confluence Server plugin:
 
 <div class="video"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/l9-dLyINrac?rel=0"></iframe></div>
 
@@ -40,7 +40,6 @@ When you are ready to go back to the wiki page, just click on "Close" or select 
 
 {{% alert info %}}**Note:** Even if your Balsamiq Mockups license is configured so that only specific people can create and edit mockups (explained in the [Admin Guide](/confluence/admin-guide)), anyone with access to your Confluence site will be able to see them.{{% /alert %}}
 
-{{% alert info %}}**A note for Confluence 3.x users:** In Confluence 3.x, you have to add a mockup by selecting the "Add UI Mockup" menu under the "Add Content" menu section of your wiki page.{{% /alert %}}
 
 ---
 
@@ -49,8 +48,6 @@ When you are ready to go back to the wiki page, just click on "Close" or select 
 To make changes to a mockup, edit the wiki page, select the mockup image and click on the "Edit" button in the little macro control panel that shows up.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguide/confluence2.png)
-
-{{% alert info %}}**A note for Confluence 3.x users:** In Confluence 3.x, you edit a mockup by clicking on the "edit this mockup" link under the mockup you want to edit.{{% /alert %}}
 
 * * *
 

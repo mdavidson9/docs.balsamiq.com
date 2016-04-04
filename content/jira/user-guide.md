@@ -2,7 +2,7 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups for JIRA Server User Guide"
 menu: "menujira"
-weight: 30
+weight: 40
 ---
 
 This page contains usage instructions for [Mockups for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
