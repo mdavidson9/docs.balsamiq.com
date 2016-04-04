@@ -7,13 +7,9 @@ weight: 30
 
 Mockups 3 for JIRA Cloud was released January 18, 2016. The new version has projects, symbols, real time collaboration and lots of other improvements.
 
-<<<<<<< HEAD
 {{< yt BlVN1xkVaRQ >}}
 
-We will soon be moving all JIRA Cloud instances to this new connect add-on, however, in the meantime, you may be using an older version of the plugin.
-=======
 We will be retiring the old version of the plugin around April 26, 2016 however, in the meantime, you may be using an older version of the plugin.
->>>>>>> master
 
 **If you haven't yet purchased Mockups for JIRA**, but have a Cloud instance older than January 18, 2016, you will have the older plugin pre-installed. You may have even trialed this version. This older version will be removed from your Cloud instance in April, so feel free to install the [Mockups for 3 JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview) version, and give it a try! Here are details on [how it install the connect plugin](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/installation).
 
