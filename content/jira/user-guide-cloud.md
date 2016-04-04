@@ -109,9 +109,6 @@ Once you have created a new project, the Balsamiq Mockups Panel will appear on y
 
 The panel will show the thumbnails of the mockups contained in the currently saved version of the Balsamiq project.
 
-{{% alert info %}}**Note** The panel only shows the 'Official Version' of each mockup. Learn more about alternates [here](/desktop/alternates/).{{% /alert %}}
-
-
 A variety of actions are available from the Balsamiq Mockups Panel.
 
 * * *

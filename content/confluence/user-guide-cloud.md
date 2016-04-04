@@ -118,8 +118,6 @@ The macro looks like a plain image, but when your mouse is over it, a control ba
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/macro-bar.png)
 
-{{% alert info %}}**Note:** The macro and the Full Screen Presentation mode only show the ‘Official Version’ of each mockup. Learn more about alternates [here](/desktop/alternates).{{% /alert %}}
-
 * * *
 
 ## Full Screen Presentation
@@ -151,8 +149,6 @@ Once you have created a new project, the Balsamiq Mockups Macro Editor will be a
 
 The macro editor lets you configure the views of the Balsamiq Mockups project that will be shown in the Confluence wiki page.
 
-You can configure the initial mockups, the size and the alignment. You can also launch the Balsamiq Mockups Editor and continue to edit your project.
+You can choose to show a thumbnail grid or, in case of the single mockup view, you can configure the initial mockup to show, its size and alignment. You can also launch the Balsamiq Mockups Editor and continue to edit your project.
 
 To add multiple views on the same project, just add more macros and select a different mockup in the "Selected Mockup" pulldown.
-
-{{% alert info %}}**Note:** The macro editor only shows the ‘Official Version’ of each mockup. Learn more about alternates [here](/desktop/alternates).{{% /alert %}}
