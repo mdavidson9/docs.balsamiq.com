@@ -15,9 +15,15 @@ JIRA Cloud Administrators: the [Mockups 3 for JIRA Cloud Admin Guide](/jira/admi
 
 {{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  See our [transition guide](/jira/transition-guide/) if you have the older pre-installed version of Mockups for JIRA.{{% /alert %}}
 
-Balsamiq Mockups 3 for JIRA Cloud provides very similar functionality to Balsamiq Mockups for Desktop.
+Balsamiq Mockups 3 for JIRA Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
 The main difference is that the Balsamiq project files are stored and managed as JIRA Cloud attachments.
+
+* * *
+
+{{< yt FOd_C9ZgY_E >}}
+
+* * *
 
 ## Adding a New Project to a JIRA Issue
 
@@ -108,9 +114,6 @@ Once you have created a new project, the Balsamiq Mockups Panel will appear on y
 ![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/panel.png)
 
 The panel will show the thumbnails of the mockups contained in the currently saved version of the Balsamiq project.
-
-{{% alert info %}}**Note** The panel only shows the 'Official Version' of each mockup. Learn more about alternates [here](/desktop/alternates/).{{% /alert %}}
-
 
 A variety of actions are available from the Balsamiq Mockups Panel.
 

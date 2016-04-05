@@ -2,7 +2,7 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups for JIRA Server Admin Guide"
 menu: "menujira"
-weight: 40
+weight: 50
 ---
 
 This page contains installation, registration, updating and uninstalling instructions for [Mockups for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) **when installed on your own server**.
@@ -74,7 +74,7 @@ In short: if your plugin license is lower than your JIRA license, you'll have to
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit mockups. If you'd like to limit this ability to a group of users, create a balsamiq-mockups-editors group and add people to it. If the group exists, the plugin will honor it. If not, it will act as if you had a group with everyone in it.
 
-Using both Mockups for Confluence and Mockups for JIRA? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
+Using both Mockups for Confluence Server and Mockups for JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
 
 * * *
 
