@@ -124,6 +124,16 @@ When you have finished reviewing or integrating alternate versions into an offic
 
 * * *
 
+## Alternates in Full Screen Presentation Mode
+
+You can view your alternates in [Full Screen Presentation Mode](/desktop/fullscreen) by using the navigator dropdown.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-alternates.png)
+
+When you select a mockup alternate in this view, its name will show up in parentheses next to the official mockup name.
+
+* * *
+
 ## Project Alternates
 
 In some cases you might want to **propose a set of alternate designs across several mockups**. This might happen if you are reviewing someone else's mockups and want them to see your proposed design changes throughout the project.
