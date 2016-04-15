@@ -25,6 +25,10 @@ You can navigate between mockups using the icons in the upper left. They behave 
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-navigation.png)
 
+If you have created mockup [alternates](/desktop/alternates), a menu will appear when you mouse over the mockup, allowing you to select and display the alternates. If you are viewing an alternate, its name will appear in parentheses next to the offical mockup name.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-alternates.png)
+
 If you have created [links](/desktop/linking/) between your mockups, the links will be clickable in full screen presentation mode.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/bighand.png)
