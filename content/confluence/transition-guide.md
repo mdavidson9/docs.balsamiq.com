@@ -13,7 +13,7 @@ We will soon be moving all Confluence Cloud instances to this new connect add-on
 
 If you haven’t yet purchased Mockups for Confluence, but have a Cloud instance older than April 4, 2016, you will have the older plugin pre-installed. You may have even trialed this version. As this older version will shortly be removed from your Cloud instance, we suggest you disable it via the UPM, install the [Mockups 3 for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and trial this add-on. Here are details on [how to install the add-on](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
 
-If you already purchased Mockups for Confluence for your Cloud instance, continue to use and enjoy Mockups for Confluence! Your users should reference the [Mockups for Confluence for Server User Guide](/confluence/user-guide) and the administration of your plugin should refer to [Mockups for Confluence Cloud Admin Guide](/confluence/admin-guide-cloud/).
+If you already purchased Mockups for Confluence for your Cloud instance, continue to use and enjoy Mockups for Confluence! Your users should reference the [Mockups for Confluence for Server User Guide](/confluence/user-guide) and the administrator of your plugin should refer to [Mockups for Confluence Server Admin Guide](/confluence/admin-guide).
 
 We will soon be migrating your license to the new Mockups 3 for Confluence Cloud version. We will be in contact by email with details regarding your options for in this licensing transition and the new pricing and license management in Atlassian Marketplace.
 
