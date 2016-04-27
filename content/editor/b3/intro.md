@@ -28,7 +28,7 @@ Balsamiq Mockups 3 is the most current version of our powerful editor. If you ar
 
 Balsamiq Mockups 3 for Desktop will run side-by-side with Balsamiq Mockups 2 for Desktop (as a separate application) so no need to uninstall your current version to use it. See below for [how to import Mockups 2 BMML files](#importing-existing-files).
 
-While it has been rigorously tested, if you find any bugs or issues, [tell us about it](#feedback-welcome)!
+While it has been rigorously tested, if you find any bugs or issues, [tell us about it](mailto:support@balsamiq.com)!
 
 * * *
 
