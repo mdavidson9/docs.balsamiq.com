@@ -14,7 +14,7 @@ The most noticeable changes are the two "biggies" that people have asked for sin
 
 But just as important was the work that was done under the hood to make it faster and smarter and the little tweaks across every part of the experience that we hope will make using it even better.
 
-In this article you'll find information about [**where to download it**](#how-to-update), [**what's new**](#whats-new-in-balsamiq-mockups-3) and, of course, [**how to import your existing files**](#importing-existing-files). If you are new to Balsamiq Mockups or want to dive deeper after reading this article you can head over to the [documentation table of contents](/desktop/) or [application overview](/desktop/overview/) next.
+In this article you'll find information about [**how to update**](#how-to-update), [**what's new**](#whats-new-in-balsamiq-mockups-3) and, of course, [**how to import your Mockups 2 BMML files**](#importing-mockups-2-bmml-files). If you are new to Balsamiq Mockups or want to dive deeper after reading this article you can head over to the [documentation table of contents](/b3/) or [application overview](/b3/overview/) next.
 
 Here's a quick 5-minute video walkthrough of some of the highlights of version 3.
 
@@ -24,11 +24,11 @@ Here's a quick 5-minute video walkthrough of some of the highlights of version 3
 
 ## How to Update
 
-Balsamiq Mockups 3 is now the current version of our desktop product and is available from our [**download page**](https://balsamiq.com/download/). It's a free update for existing customers, you won't even need to re-register.
+Balsamiq Mockups 3 is the most current version of our powerful editor. If you are using any of our web apps, it will update automatically. If you want to use it on the Desktop, you can grab the latest version from our [download page](https://balsamiq.com/download). It's a free update for existing customers, you won't even need to re-register.
 
-Balsamiq Mockups 3 will run side-by-side with Balsamiq Mockups 2 (as a separate application) so no need to uninstall your current version to use it. See below for [how to import existing files](#importing-existing-files).
+Balsamiq Mockups 3 for Desktop will run side-by-side with Balsamiq Mockups 2 for Desktop (as a separate application) so no need to uninstall your current version to use it. See below for [how to import Mockups 2 BMML files](#importing-existing-files).
 
-While it has been rigorously tested, if you find any bugs or issues, [tell us about it](#feedback-welcome)! You can also try downloading a new build, as we'll be responding quickly to bug reports and releasing fixes as soon as they're ready.
+While it has been rigorously tested, if you find any bugs or issues, [tell us about it](#feedback-welcome)!
 
 * * *
 
@@ -37,7 +37,6 @@ While it has been rigorously tested, if you find any bugs or issues, [tell us ab
 In a word, **lots!** Here are the "highlights" you should know about:
 
 *   [Projects!](#projects)
-*   [Autosave](#autosave)
 *   [A new user interface](#a-new-user-interface)
 *   [Easier look and feel customization](#easier-look-and-feel-customization)
 *   [Better Symbols](#better-symbols)
@@ -57,9 +56,6 @@ Finally. Not only can you have separate windows for different groups of mockups,
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/migration.png)
 
-### Autosave
-
-Your projects are automatically saved. No need to save them manually. And when you restart Mockups everything will be right where you left off.
 
 ### A New User Interface
 
@@ -86,7 +82,7 @@ Getting around and performing common actions is easy with the icons in the toolb
 5.  Mockup actions (rename, etc.) and navigate between mockups (_shown when left panel is hidden_)
 6.  Go to next or previous mockup (_shown when left panel is hidden_)
 
-### Easier Look and Feel Customization 
+### Easier Look and Feel Customization
 
 Control over the font used in Mockups has been one of the most-requested features since the very beginning. Custom fonts were previously available using a complicated configuration file, but we now allow you to set a project font in the new [Project Info panel](/desktop/projectinfo/). Yes, you can now easily use _any font you have installed_ in your mockups. Rejoice! You can also set a default size for it.
 
@@ -94,7 +90,7 @@ Control over the font used in Mockups has been one of the most-requested feature
 
 We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](https://support.balsamiq.com/desktop/wireframeskin/)). Finally, the default selection color is also configurable from this new panel.
 
-### Better Symbols 
+### Better Symbols
 
 In the previous version we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
 
@@ -180,7 +176,7 @@ We hope all these changes are welcome and that Balsamiq Mockups 3 still feels li
 
 * * *
 
-## Importing Existing Files
+## Importing Mockups 2 BMML Files
 
 Balsamiq Mockups 3 has a new file format to accommodate support for [projects](#projects) but you can easily import your old files.
 
