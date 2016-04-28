@@ -1,7 +1,7 @@
 ---
 date: 2015-05-09T16:46:50+02:00
 title: "The Project Info Panel"
-menu: "menudesktop"
+menu: "menub3editor"
 weight: 80
 ---
 

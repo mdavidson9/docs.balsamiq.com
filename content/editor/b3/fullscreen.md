@@ -1,7 +1,7 @@
 ---
 date: 2015-05-10T10:33:54+02:00
 title: "Full Screen Presentation Mode"
-menu: "menudesktop"
+menu: "menub3editor"
 weight: 190
 tags:
   - "Full Screen"
