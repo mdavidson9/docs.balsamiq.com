@@ -37,7 +37,6 @@ While it has been rigorously tested, if you find any bugs or issues, [tell us ab
 In a word, **lots!** Here are the "highlights" you should know about:
 
 *   [Projects!](#projects)
-*   [Autosave](#autosave)
 *   [A new user interface](#a-new-user-interface)
 *   [Easier look and feel customization](#easier-look-and-feel-customization)
 *   [Better Symbols](#better-symbols)
@@ -56,10 +55,6 @@ Finally. Not only can you have separate windows for different groups of mockups,
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/projects.png)
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/migration.png)
-
-### Autosave
-
-Your projects are automatically saved. No need to save them manually. And when you restart Mockups everything will be right where you left off.
 
 ### A New User Interface
 
@@ -86,7 +81,7 @@ Getting around and performing common actions is easy with the icons in the toolb
 5.  Mockup actions (rename, etc.) and navigate between mockups (_shown when left panel is hidden_)
 6.  Go to next or previous mockup (_shown when left panel is hidden_)
 
-### Easier Look and Feel Customization 
+### Easier Look and Feel Customization
 
 Control over the font used in Mockups has been one of the most-requested features since the very beginning. Custom fonts were previously available using a complicated configuration file, but we now allow you to set a project font in the new [Project Info panel](/desktop/projectinfo/). Yes, you can now easily use _any font you have installed_ in your mockups. Rejoice! You can also set a default size for it.
 
@@ -94,7 +89,7 @@ Control over the font used in Mockups has been one of the most-requested feature
 
 We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](https://support.balsamiq.com/desktop/wireframeskin/)). Finally, the default selection color is also configurable from this new panel.
 
-### Better Symbols 
+### Better Symbols
 
 In the previous version we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
 
