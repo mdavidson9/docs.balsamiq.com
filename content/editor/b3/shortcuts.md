@@ -16,9 +16,9 @@ Download:
 
 </div>
 
-Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups. While all of the shortcuts will work in the Desktop version, some might not work when you edit mockups in a browser.
+Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups 3. While all of the shortcuts will work in the Desktop version, some might not work when you edit mockups in a browser.
 
-The shortcuts below apply to Mockups for Desktop Version 3 and higher. Choose one of the links to the right to download a cheat sheet.
+The shortcuts below apply to Mockups 3 and higher. Choose one of the links to the right to download a cheat sheet.
 
 Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcuts) for details.
 

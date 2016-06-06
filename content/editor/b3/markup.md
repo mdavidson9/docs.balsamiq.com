@@ -44,7 +44,7 @@ You can use this "Treat As Markup / Do Not Treat As Markup" feature on any compo
 
 The video below demonstrates this process:
 
-<div class="video"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/UUJjqQ9Rdao?rel=0"></iframe></div>
+{{< yt UUJjqQ9Rdao >}}
 
 * * *
 

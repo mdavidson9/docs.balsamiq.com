@@ -11,7 +11,7 @@ New in Balsamiq Mockups 3 is the ability to define project-wide settings for ski
 
 These settings will be applied to all mockups in the project and will be saved with the project (i.e., they persist when the project is closed and reopened or shared with others).
 
-To learn more about the difference between sketch and wireframe skin, see [Working with Skins](/desktop/skins/).
+To learn more about the difference between sketch and wireframe skin, see [Working with Skins](/editor/b3/skins/).
 
 The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/), just as in previous versions (_not_ Comic Sans as you might think; although now you can set it to that, all you Comic Sans lovers out there!).
 

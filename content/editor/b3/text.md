@@ -36,13 +36,13 @@ All of the above syntax works around words separated by white spaces, and underl
 
 <span class="alert alert-info show" role="alert">
 **Notes:**<br>
-1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other mockups.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](/desktop/inspector/#adding-notes-to-your-mockups-symbols-and-assets) _except_ italic and strikethrough.</span>
+1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other mockups.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](/editor/b3/inspector/#adding-notes-to-your-mockups-symbols-and-assets) _except_ italic and strikethrough.</span>
 
 Here's a screenshot of what the above text looks like in a Paragraph control, for instance:
 
 ![](//media.balsamiq.com/img/support/docs/m4d/italiclinksbold.png)
 
-The shortcuts will work almost everywhere where it makes sense, and you can combine them, so to make an italic link use [\_this\_] or \_[this]\_. 
+The shortcuts will work almost everywhere where it makes sense, and you can combine them, so to make an italic link use [\_this\_] or \_[this]\_.
 
 
 Some controls like Paragraph or Label allow you to "unbold" the text via the Property Inspector panel. If you do so, the words you \*bolded\* will stay bold. A few controls use bold text by default, so bolding text within those controls won't make a difference.
@@ -61,7 +61,7 @@ In a paragraph control, you can create a bulleted list by preceding text with ei
 
 	* item 1
 	* item 2
-	- item 3 
+	- item 3
 	- item 4
 
 * * *
@@ -119,7 +119,7 @@ Type {mockup-name} (all lower-case) in a Label, Text, Title or Subtitle control 
 Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls.  
 ![placeholder-text.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text.png)
 
-{{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](/desktop/controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
+{{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](/editor/b3/controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
 
 You can convert them to real text at any time by editing them and entering some text.
 

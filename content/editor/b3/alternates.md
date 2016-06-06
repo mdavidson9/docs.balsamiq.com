@@ -24,7 +24,7 @@ Here's an overview:
 
 ## Creating Alternates
 
-When viewing a mockup without any controls selected you will see a section of the [Property Inspector panel](/desktop/inspector/) called **"Alternate Versions"** below the notes for that mockup.
+When viewing a mockup without any controls selected you will see a section of the [Property Inspector panel](/editor/b3/inspector/) called **"Alternate Versions"** below the notes for that mockup.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-new.png)
 
@@ -32,7 +32,7 @@ To create a new alternate **click the "+" (plus) icon** next to "Alternate Versi
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-create.png)
 
-or use the context menu in the [Navigator panel](/desktop/overview/#the-navigator-panel).
+or use the context menu in the [Navigator panel](/editor/b3/overview/#the-navigator-panel).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-create-navigator.png)
 
@@ -44,7 +44,7 @@ This will create a **copy of the current mockup as an alternate version** for yo
 
 {{% alert info %}}**Note:** You can create an alternate of an alternate. Clicking the "+" (plus) icon when an alternate is selected creates an alternate of the selected version rather than the official version.{{% /alert %}}
 
-When an alternate exists an icon will appear next to the name in the [Navigator panel](/desktop/overview/#the-navigator-panel) indicating that there are alternates. When you are working on an alternate version the Navigator panel will show the alternate name in parentheses.
+When an alternate exists an icon will appear next to the name in the [Navigator panel](/editor/b3/overview/#the-navigator-panel) indicating that there are alternates. When you are working on an alternate version the Navigator panel will show the alternate name in parentheses.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-default-navigator.png)
 
@@ -64,7 +64,7 @@ To switch between alternate versions of a mockup select the name of a version fr
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-menu-navigator.png)
 
-{{% alert info %}}**Note:** If you [link](/desktop/linking/) to a mockup that contains an alternate the link will go to the version of the mockup that is selected in the alternates list. The same rule applies to [exporting](/desktop/exporting/). The selected versions of your mockups will be exported.{{% /alert %}}
+{{% alert info %}}**Note:** If you [link](/editor/b3/linking/) to a mockup that contains an alternate the link will go to the version of the mockup that is selected in the alternates list. The same rule applies to [exporting](/editor/b3/exporting/). The selected versions of your mockups will be exported.{{% /alert %}}
 
 * * *
 
@@ -126,7 +126,7 @@ When you have finished reviewing or integrating alternate versions into an offic
 
 ## Alternates in Full Screen Presentation Mode
 
-You can view your alternates in [Full Screen Presentation Mode](/desktop/fullscreen) by using the navigator dropdown.
+You can view your alternates in [Full Screen Presentation Mode](/editor/b3/fullscreen) by using the navigator dropdown.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-alternates.png)
 

@@ -9,13 +9,13 @@ Balsamiq Mockups is a user interface design tool for creating [wireframes](https
 
 Each Balsamiq Mockups file (with a .bmpr file extension) represents one project and can contain many mockups and images, which are stored together in a single .bmpr file. Mockups for different projects should be created in separate Balsamiq Mockups files. To create a new project select Project > New Project from the menu.
 
-{{% alert info %}}**Note:** Single project files are new in Balsamiq Mockups 3 ([learn more](/desktop/intro/#projects)).{{% /alert %}}
+{{% alert info %}}**Note:** Single project files are new in Balsamiq Mockups 3 ([learn more](/editor/b3/intro/#projects)).{{% /alert %}}
 
 The Balsamiq Mockups user interface is made up of five primary areas: the [toolbar](#the-toolbar), the [UI Library](#the-ui-library), the [canvas](#the-mockup-canvas), the [navigator panel](#the-navigator-panel) and the [properties panel](#the-properties-panel). Each is described below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/ui-overview.png)
 
-For documentation on the UI areas that are unique to myBalsamiq, check out the [myBalsamiq editor documentation](/mybalsamiq/editor/).
+For documentation on the UI areas that are unique to myBalsamiq, check out the [myBalsamiq documentation](/mybalsamiq/).
 
 {{% alert info %}}**Note:** You can watch a video covering basic usage of the application in our [Mockups Intro Video tutorial](https://support.balsamiq.com/tutorials/introvideo/).{{% /alert %}}
 
@@ -29,18 +29,18 @@ The first set of icons is described below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar.png)
 
-1.  Navigate between Mockups, [Assets](/desktop/images/), [Symbols](/desktop/symbols/) and [Trash](/desktop/intro/#trash)
+1.  Navigate between Mockups, [Assets](/editor/b3/images/), [Symbols](/editor/b3/symbols/) and [Trash](/editor/b3/intro/#trash)
 2.  Show/Hide the left panel
 3.  View your mockups as a thumbnail grid
 4.  Create a new mockup
 5.  Mockup actions (rename, etc.) and navigate between mockups (_shown when left panel is hidden_)
 6.  Go to next or previous mockup (_shown when left panel is hidden_)
 
-The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-mockuop-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](/desktop/controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](/desktop/markup/)).
+The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-mockuop-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](/editor/b3/controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](/editor/b3/markup/)).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar1.png)
 
-The final section of the toolbar on the far right contains the [Quick Add tool](#the-quick-add-tool), toggle icons for the [UI Library](#the-ui-library), [Property Inspector](/desktop/inspector/) and [Project Info Panel](/desktop/projectinfo/), and an icon to enter [Full Screen Presentation Mode](/desktop/fullscreen/). ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar2.png)
+The final section of the toolbar on the far right contains the [Quick Add tool](#the-quick-add-tool), toggle icons for the [UI Library](#the-ui-library), [Property Inspector](/editor/b3/inspector/) and [Project Info Panel](/editor/b3/projectinfo/), and an icon to enter [Full Screen Presentation Mode](/editor/b3/fullscreen/). ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar2.png)
 
 The top of the toolbar shows the name of the project, which you can double-click to rename (or go to Project > Rename Project... in the menu).
 
@@ -62,7 +62,7 @@ Try out Quick Add now! As you become familiar with it, you could even hide the U
 
 ## The UI Library
 
-The UI Library, or UI controls Library, is the long strip of UI controls just below the toolbar. It lists all of the UI control types that come with Mockups as well as [Assets](/desktop/images/), [Icons](/desktop/icons/), and [Symbols](/desktop/symbols/). The main goal of the UI Library is to let you add UI controls to the mockup canvas, but you can also use it to see what's possible and to get inspiration for your UI mockup.
+The UI Library, or UI controls Library, is the long strip of UI controls just below the toolbar. It lists all of the UI control types that come with Mockups as well as [Assets](/editor/b3/images/), [Icons](/editor/b3/icons/), and [Symbols](/editor/b3/symbols/). The main goal of the UI Library is to let you add UI controls to the mockup canvas, but you can also use it to see what's possible and to get inspiration for your UI mockup.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/uilibrary.png)
 
@@ -74,7 +74,7 @@ The UI Library can be toggled on and off in several ways: clicking the icon to t
 
 ## The Mockup Canvas
 
-This is the main working area of Balsamiq Mockups, where your UI mockup comes to life. Once you add UI controls to it, you can move them, resize them and tweak them to your heart's content until your UI mockup is ready. See [Working with UI Controls](/desktop/controls/) to learn more.
+This is the main working area of Balsamiq Mockups, where your UI mockup comes to life. Once you add UI controls to it, you can move them, resize them and tweak them to your heart's content until your UI mockup is ready. See [Working with UI Controls](/editor/b3/controls/) to learn more.
 
 The mockup canvas grows and shrinks with your application window, so you can make room for bigger mockups if you need to.
 
@@ -92,11 +92,11 @@ You can hide the navigator panel by clicking the navigator toggle icon above the
 
 You can move between mockups or assets using your keyboard via CTRL+Tab or by clicking on one in the navigator and using the up and down arrow keys.
 
-Mockups can be reordered by dragging them up and down in the navigator panel. This can be useful when [exporting to PDF](/desktop/exporting/#exporting-to-pdf), for example. The order of your mockups will be remembered when you close and reopen your project, even if opened on a different computer.
+Mockups can be reordered by dragging them up and down in the navigator panel. This can be useful when [exporting to PDF](/editor/b3/exporting/#exporting-to-pdf), for example. The order of your mockups will be remembered when you close and reopen your project, even if opened on a different computer.
 
 ### Using Mockup Hierarchy
 
-Mockups 3 for Desktop also offers a hierarchical structure to better organize your mockups.
+Mockups 3 for editor/b3 also offers a hierarchical structure to better organize your mockups.
 
 To use it, select the mockup you wish to be the child and press the Tab key. The child mockup will be placed in a tree hierarchy below the mockup above it.
 
@@ -114,11 +114,11 @@ A context menu is also available for the objects that are open in the navigator 
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/mockup-context-menu.png)
 
-The contents of this menu vary depending on which type of object is selected (mockup, asset, symbol, or trash) but it generally contains options such as rename, move to trash, and duplicate. In the Mockups view it also contains actions for working with [alternates](/desktop/alternates/).
+The contents of this menu vary depending on which type of object is selected (mockup, asset, symbol, or trash) but it generally contains options such as rename, move to trash, and duplicate. In the Mockups view it also contains actions for working with [alternates](/editor/b3/alternates/).
 
 ### Renaming Mockups
 
-Renaming mockups can be done via the context menu or by double-clicking on the name of the mockup in the navigator panel. Mockups with [links](/desktop/linking/) will automatically be updated when a linked mockup name changes.
+Renaming mockups can be done via the context menu or by double-clicking on the name of the mockup in the navigator panel. Mockups with [links](/editor/b3/linking/) will automatically be updated when a linked mockup name changes.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/rename-mockup.png)
 
@@ -126,7 +126,7 @@ Renaming mockups can be done via the context menu or by double-clicking on the n
 
 ## The Properties Panel
 
-The panel on the right side of the application (when shown) displays properties for the selected control or object. Depending on which icon is selected it shows either the [Property Inspector](/desktop/inspector/) or [Project Info Panel](/desktop/projectinfo). It can be hidden by de-selecting both panel icons in the toolbar or unchecking Inspector and Project Information in the View menu.
+The panel on the right side of the application (when shown) displays properties for the selected control or object. Depending on which icon is selected it shows either the [Property Inspector](/editor/b3/inspector/) or [Project Info Panel](/editor/b3/projectinfo). It can be hidden by de-selecting both panel icons in the toolbar or unchecking Inspector and Project Information in the View menu.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/property-inspector.png)
 
