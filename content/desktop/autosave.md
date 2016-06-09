@@ -31,7 +31,7 @@ In the event you want to discard any changes you have made to the file, you can 
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/autosave-reload-from-disk.png)
 
-## Re-enabling Autosave
+## Re-Enabling Autosave
 
 To re-enable Mockups 3 for Desktop's autosave feature, simply click the **Project > Auto Save Every Change** menu item. A checkmark will appear and you should see a confirmation dialog in the lower right corner of the canvas.
 
