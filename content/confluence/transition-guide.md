@@ -9,13 +9,11 @@ Mockups 3 for Confluence Cloud was released April 4, 2016. The new version has p
 
 {{< yt zMOxwSdMcWM >}}
 
-We will soon be moving all Confluence Cloud instances to this new connect add-on, however, in the meantime, you may be using an older version of the plugin.
+We will be retiring the old version of the plugin around the end of June 2016. However, in the meantime, you may be using an older version of the plugin.
 
-If you haven’t yet purchased Mockups for Confluence, but have a Cloud instance older than April 4, 2016, you will have the older plugin pre-installed. You may have even trialed this version. As this older version will shortly be removed from your Cloud instance, we suggest you disable it via the UPM, install the [Mockups 3 for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and trial this add-on. Here are details on [how to install the add-on](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
+**If you haven't yet purchased Mockups for Confluence**, but have a Cloud instance older than April 4, 2016, you will have the older plugin pre-installed. You may have even trialed this version. This older version will be removed from your Cloud instance at the end of June, so feel free to install the [Mockups for 3 Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and give it a try! Here are details on [how it install the connect plugin](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
 
-If you already purchased Mockups for Confluence for your Cloud instance, continue to use and enjoy Mockups for Confluence! Your users should reference the [Mockups for Confluence for Server User Guide](/confluence/user-guide) and the administrator of your plugin should refer to [Mockups for Confluence Server Admin Guide](/confluence/admin-guide).
-
-We will soon be migrating your license to the new Mockups 3 for Confluence Cloud version. We will be in contact by email with details regarding your options for in this licensing transition and the new pricing and license management in Atlassian Marketplace.
+**If you already purchased Mockups for Confluence** in most cases we will be installing the new add-on for you as part of [migrating your Balsamiq-issued license](#changes-to-licensing-and-pricing). Once your instance has been migrated to Mockups 3 for Confluence Cloud, your users will just need to follow the instructions to [migrate individual mockups](#migrating-your-mockups-to-the-new-plugin).
 
 If you have any questions, don’t hesitate to [contact us](https://balsamiq.com/company/contact/#/s/m4c).
 
@@ -88,15 +86,15 @@ If pricing is an issue due to the big difference between your number of mockups 
 
 We don't have a specific integration between Confluence and myBalsamiq, but there are ways to [use the products together](https://support.balsamiq.com/mybalsamiq/mybandatlassian/).
 
-We're here to help you figure out which option is best for your team!  [Contact us](https://balsamiq.com/company/contact/#/s/m4j)!
+We're here to help you figure out which option is best for your team!  [Contact us](https://balsamiq.com/company/contact/#/s/m4c)!
 
 ## Customers with Active or Recently Expired Maintenance for Mockups for Confluence
 
-If the maintenance on your Mockups for Confluence license is current or expired in the last 3 months, we will be migrating your license to Mockups 3 for Confluence Cloud for you (we emailed details to your billing and technical contacts on March 15, 2016).
+If the maintenance on your Mockups for Confluence license is current or expired in the last 3 months, we will be migrating your license to Mockups 3 for Confluence Cloud for you (we emailed details to your billing and technical contacts on June 9, 2016).
 
 We of course will be honoring the maintenance time you already purchased.
 
-On April 4, 2016 Atlassian installed Mockups 3 for Confluence Cloud in your Cloud instance. You'll be given a free legacy plan in Marketplace equal the maintenance time period you purchased from Balsamiq plus an additional 6 months to make the transition to the new pricing easier (in some instances, the subscription may temporarily appear as a trial.) All of your users will have access to use Mockups 3 for Confluence Cloud, even if you only paid for a subset of users to use the add-on. This $0 legacy plan will appear on your monthly or annual Marketplace bill.
+On June 20, 2016 Atlassian installed Mockups 3 for Confluence Cloud in your Cloud instance. You'll be given a free legacy plan in Marketplace equal the maintenance time period you purchased from Balsamiq plus an additional 6 months to make the transition to the new pricing easier (in some instances, the subscription may temporarily appear as a trial.) All of your users will have access to use Mockups 3 for Confluence Cloud, even if you only paid for a subset of users to use the add-on. This $0 legacy plan will appear on your monthly or annual Marketplace bill.
 
 At the end of your free legacy time, you'll need to decide if you would like to continue to use the add-on. If you chose to continue, after your legacy plan has ended your Confluence Administrator can start the regular subscription by selecting "Free Trial."  You'll begin with the regular [30 day trial period](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) before the automatic renewals begin.
 
@@ -112,6 +110,6 @@ In the old version of the add-on, if you have expired maintenance you are still 
 
 As Mockups 3 for Confluence Cloud is based on Marketplace's automatic renewal subscription model, you will be required to have a paid subscription to use the add-on once your 30 day trial ends.
 
-We will be retiring the old version of the plugin around May 9, 2016. After that date, you'll need to start a [30 day trial](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) and subscribe to Mockups 3 for Confluence Cloud in order to use our add-on.
+We will be retiring the old version of the plugin around the end of June 2016. After that date, you'll need to start a [30 day trial](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) and subscribe to Mockups 3 for Confluence Cloud in order to use our add-on.
 
-As always, if you have any questions, concerns, or problems, we're here to help! [Contact us](https://balsamiq.com/company/contact/#/s/m4j)!
+As always, if you have any questions, concerns, or problems, we're here to help! [Contact us](https://balsamiq.com/company/contact/#/s/m4c)!
