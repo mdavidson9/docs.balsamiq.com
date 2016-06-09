@@ -94,7 +94,7 @@ If the maintenance on your Mockups for Confluence license is current or expired 
 
 We of course will be honoring the maintenance time you already purchased.
 
-On June 20, 2016 Atlassian installed Mockups 3 for Confluence Cloud in your Cloud instance. You'll be given a free legacy plan in Marketplace equal the maintenance time period you purchased from Balsamiq plus an additional 6 months to make the transition to the new pricing easier (in some instances, the subscription may temporarily appear as a trial.) All of your users will have access to use Mockups 3 for Confluence Cloud, even if you only paid for a subset of users to use the add-on. This $0 legacy plan will appear on your monthly or annual Marketplace bill.
+On June 20, 2016 Atlassian will install Mockups 3 for Confluence Cloud in your Cloud instance. You'll be given a free legacy plan in Marketplace equal the maintenance time period you purchased from Balsamiq plus an additional 6 months to make the transition to the new pricing easier (in some instances, the subscription may temporarily appear as a trial.) All of your users will have access to use Mockups 3 for Confluence Cloud, even if you only paid for a subset of users to use the add-on. This $0 legacy plan will appear on your monthly or annual Marketplace bill.
 
 At the end of your free legacy time, you'll need to decide if you would like to continue to use the add-on. If you chose to continue, after your legacy plan has ended your Confluence Administrator can start the regular subscription by selecting "Free Trial."  You'll begin with the regular [30 day trial period](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) before the automatic renewals begin.
 
