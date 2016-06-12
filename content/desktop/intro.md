@@ -127,7 +127,7 @@ There is now a dedicated area for images and other imported assets, accessible f
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets1.png)
 
-You can add images to your project without placing them in your mockups first. Click the "Import Asset..." icon to add a file from your computer or the "Download Asset..." icon to add an image from Flickr or the web. Or just drag an image on to the canvas from your computer.
+You can add images to your project without placing them in your mockups first. Click the "Import Asset..." icon to add a file from your computer or the "Download Asset..." icon to add an image from Flickr or the web. Or just drag an image onto the canvas from your computer.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets2.png)
 
