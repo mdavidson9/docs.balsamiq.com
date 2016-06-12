@@ -169,7 +169,7 @@ Yes, built-in background music to help you get into your creative zone! [Check o
 
 ### What's _not_ New
 
-For the most part we left experience of adding, arranging and editing controls the same, so it should be familiar if you are coming from the previous version.
+For the most part, we left experience of adding, arranging and editing controls the same, so it should be familiar if you are coming from the previous version.
 
 We hope all these changes are welcome and that Balsamiq Mockups 3 still feels like the application you've come to know and love, but better! If you have any thoughts or feedback, [please let us know!](#feedback-welcome)
 
