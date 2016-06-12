@@ -91,7 +91,7 @@ We also moved the skin switching options into the new Project Info panel to make
 
 ### Better Symbols
 
-In the previous version we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
+In the previous version, we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
 
 You can now just jump over to the Symbols panel and create a new one from scratch and it will appear in the "Symbols" tab in the UI Library. You can still create them the old-fashioned way (creating a named group and clicking the "Convert To Symbol" button).
 
