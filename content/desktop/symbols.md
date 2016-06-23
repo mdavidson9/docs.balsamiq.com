@@ -39,6 +39,10 @@ This new Symbol will be displayed in the Symbols category of the UI Library for 
 
 {{% alert info %}}**Tip:** Once a Symbol has been created you can also add it via [Quick Add](/desktop/overview/#the-quick-add-tool) using the first few letters of its name, just like other controls.{{% /alert %}}
 
+The video below describes the process of creating, editing, and using  Symbols.
+
+{{< yt VZKl26d4Np0 >}}
+
 ### 2\. Using the Symbols View
 
 New in Balsamiq Mockups 3 is a dedicated view for creating and managing Symbols. Symbols created using the Mockups view will be shown here, and you can also create Symbols in this view.
