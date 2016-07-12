@@ -172,7 +172,7 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd>3</kbd></td>
 		</tr>
 		<tr>
-			<td><a href="/desktop/controls/#transforming-ui-controls">Transform the selected controls</a></td>
+			<td><a href="../controls/#transforming-ui-controls">Transform the selected controls</a></td>
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd>T</kbd></td>
 		</tr>
 		<tr>
@@ -281,7 +281,7 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 			<td>[text in brackets]</td>
 		</tr>
 		<tr>
-			<td><a href="/desktop/text/#making-links-in-text-actually-work" title="Learn more about specifying working links">link with a target</a></td>
+			<td><a href="../text/#making-links-in-text-actually-work" title="Learn more about specifying working links">link with a target</a></td>
 			<td>[text in brackets](mockup_name) or<br />
 			[text in brackets](website_url)</td>
 		</tr>
@@ -302,7 +302,7 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 			<td>{size:12}text{size}</td>
 		</tr>
 		<tr>
-			<td><span style="color:#f00">color</span> (<a href="/desktop/text/#basic-formatting" title="Learn more about specifying colors">hex value or color name</a>)</td>
+			<td><span style="color:#f00">color</span> (<a href="../text/#basic-formatting" title="Learn more about specifying colors">hex value or color name</a>)</td>
 			<td>{color:#ff0000}text{color} or<br />
 			{color:red}text{color}</td>
 		</tr>
@@ -350,7 +350,7 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 		</tr>
 		<tr>
 			<th colspan="2">
-			<h2 id="drawing-controls"><a href="/desktop/controls/#drawing-basic-controls" title="Learn more about drawing controls here">Drawing Controls</a></h2>
+			<h2 id="drawing-controls"><a href="../controls/#drawing-basic-controls" title="Learn more about drawing controls here">Drawing Controls</a></h2>
 			</th>
 		</tr>
 		<tr>

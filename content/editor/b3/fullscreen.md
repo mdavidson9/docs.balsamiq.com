@@ -21,15 +21,15 @@ The far left icon toggles the top bar on and off. You can turn it off to remove 
 
 ## Navigating between Mockups
 
-You can navigate between mockups using the icons in the upper left. They behave like the navigation icons in the editor [toolbar](/editor/b3/overview/#the-toolbar). The up and down arrows navigate between your mockups in order, while the icon activated below allows you to jump directly to a specific mockup.   
+You can navigate between mockups using the icons in the upper left. They behave like the navigation icons in the editor [toolbar](../overview/#the-toolbar). The up and down arrows navigate between your mockups in order, while the icon activated below allows you to jump directly to a specific mockup.   
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-navigation.png)
 
-If you have created mockup [alternates](/editor/b3/alternates), a menu will appear when you mouse over the mockup, allowing you to select and display the alternates. If you are viewing an alternate, its name will appear in parentheses next to the offical mockup name.
+If you have created mockup [alternates](../alternates), a menu will appear when you mouse over the mockup, allowing you to select and display the alternates. If you are viewing an alternate, its name will appear in parentheses next to the offical mockup name.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-alternates.png)
 
-If you have created [links](/editor/b3/linking/) between your mockups, the links will be clickable in full screen presentation mode.
+If you have created [links](../linking/) between your mockups, the links will be clickable in full screen presentation mode.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/bighand.png)
 
@@ -44,9 +44,9 @@ You can turn off the big blue arrow in the full screen settings by clicking the 
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-settings.png)
 
-The settings panel also has an option to turn on and off **link hints**. When link hints are on areas that contain [links](/editor/b3/linking/) will be shown with a pink overlay so they can be seen easily.
+The settings panel also has an option to turn on and off **link hints**. When link hints are on areas that contain [links](../linking/) will be shown with a pink overlay so they can be seen easily.
 
-The **Markup** setting is for showing and hiding [markup](/editor/b3/markup/) elements, such as Sticky Notes, Arrows and Callouts (any control under the "Markup" tab in the UI Library). This is useful if you want to just look at your UI without the annotations that surround it.
+The **Markup** setting is for showing and hiding [markup](../markup/) elements, such as Sticky Notes, Arrows and Callouts (any control under the "Markup" tab in the UI Library). This is useful if you want to just look at your UI without the annotations that surround it.
 
 The last setting is to set the view to **zoom** out to fit the largest mockup. All other mockups will be zoomed relative to the largest mockup.
 
@@ -62,7 +62,7 @@ To exit Full Screen Presentation mode, hit the ESC key or click the icon in the 
 
 Full Screen Presentation Mode centers your entire project based on the mockup that is the tallest, and the mockup that is the widest. While this normally results in a presentation that is centered (and whose focus doesn't jump around), if you have a mockup that is a great deal larger than your other mockups, it may result in your project being off center, or pushed to the top of the screen.
 
-In the [Settings](/editor/b3/fullscreen#settings) panel, you will find a link called **Project Centering Rules**.
+In the [Settings](../fullscreen#settings) panel, you will find a link called **Project Centering Rules**.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-centering_rules_link.png)
 

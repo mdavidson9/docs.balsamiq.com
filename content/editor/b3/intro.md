@@ -63,7 +63,7 @@ Gone is the annoying flying property inspector! Now you have mockups on the left
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/panels.png)
 
-You can toggle the properties panels and UI Library independently by clicking the icons next to the Quick Add box or via [keyboard shortcuts](/desktop/shortcuts/).
+You can toggle the properties panels and UI Library independently by clicking the icons next to the Quick Add box or via [keyboard shortcuts](../shortcuts/).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar2.png)
 
@@ -84,7 +84,7 @@ Getting around and performing common actions is easy with the icons in the toolb
 
 ### Easier Look and Feel Customization
 
-Control over the font used in Mockups has been one of the most-requested features since the very beginning. Custom fonts were previously available using a complicated configuration file, but we now allow you to set a project font in the new [Project Info panel](/desktop/projectinfo/). Yes, you can now easily use _any font you have installed_ in your mockups. Rejoice! You can also set a default size for it.
+Control over the font used in Mockups has been one of the most-requested features since the very beginning. Custom fonts were previously available using a complicated configuration file, but we now allow you to set a project font in the new [Project Info panel](../projectinfo/). Yes, you can now easily use _any font you have installed_ in your mockups. Rejoice! You can also set a default size for it.
 
 ![ ](//media.balsamiq.com/img/support/docs/m4d/b3/project-info.png)
 
@@ -158,7 +158,7 @@ To recover a trashed object from the Trash panel click the context menu arrow an
 
 ### Alternates
 
-Alternates (also sometimes referred to as versions or branches) allow you to create variations on a single mockup design without adding more mockups to your project. [Read the full documentation here.](/desktop/alternates/)
+Alternates (also sometimes referred to as versions or branches) allow you to create variations on a single mockup design without adding more mockups to your project. [Read the full documentation here.](../alternates/)
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-create-navigator.png)
 

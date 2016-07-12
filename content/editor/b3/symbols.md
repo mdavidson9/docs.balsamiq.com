@@ -37,7 +37,7 @@ This new Symbol will be displayed in the Symbols category of the UI Library for 
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-uilibrary.png)
 
-{{% alert info %}}**Tip:** Once a Symbol has been created you can also add it via [Quick Add](/editor/b3/overview/#the-quick-add-tool) using the first few letters of its name, just like other controls.{{% /alert %}}
+{{% alert info %}}**Tip:** Once a Symbol has been created you can also add it via [Quick Add](../overview/#the-quick-add-tool) using the first few letters of its name, just like other controls.{{% /alert %}}
 
 ### 2\. Using the Symbols View
 
@@ -111,7 +111,7 @@ The big advantage is, of course, that any **changes you make to your Symbols wil
 
 ## Editing Symbols
 
-When you select a Symbol on the Mockups canvas you'll see two Symbol properties in the [Property Inspector](/editor/b3/inspector/): Break Apart and Edit Source.
+When you select a Symbol on the Mockups canvas you'll see two Symbol properties in the [Property Inspector](../inspector/): Break Apart and Edit Source.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-inspector.png)
 
@@ -159,15 +159,15 @@ If you want to use the same Symbol in multiple projects, you can copy it to anot
 
 In addition to creating Symbols and Symbol Libraries in Symbols view, it is also a good place to manage and organize your Symbols.
 
-You can add notes to both your Symbols and Symbol Libraries in the [Properties panel](/editor/b3/overview/#the-properties-panel) on the right. When an individual Symbol is selected the lower portion of the panel shows which mockups (if any) the Symbol is used in. This can be used to see if you can delete any Symbols that aren't being used, for example. Clicking on a mockup name will take you to that mockup in the Mockups view. ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-properties.png)
+You can add notes to both your Symbols and Symbol Libraries in the [Properties panel](../overview/#the-properties-panel) on the right. When an individual Symbol is selected the lower portion of the panel shows which mockups (if any) the Symbol is used in. This can be used to see if you can delete any Symbols that aren't being used, for example. Clicking on a mockup name will take you to that mockup in the Mockups view. ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-properties.png)
 
 ### Renaming Symbols
 
-To rename either a Symbol or Symbol Library you can double-click its name in the navigator panel on the left or use the [context menu](/editor/b3/overview/#context-menu-actions).
+To rename either a Symbol or Symbol Library you can double-click its name in the navigator panel on the left or use the [context menu](../overview/#context-menu-actions).
 
 ### Deleting Symbols
 
-You can also use the [context menu](/editor/b3/overview/#context-menu-actions) to delete Symbols and Symbol Libraries from your project. In the case of Symbol Libraries, like with mockups and images, deleting will move them to the trash, where you can delete them permanently or restore them. Deleting an individual Symbol from a Symbol Library, however, deletes it permanently.
+You can also use the [context menu](../overview/#context-menu-actions) to delete Symbols and Symbol Libraries from your project. In the case of Symbol Libraries, like with mockups and images, deleting will move them to the trash, where you can delete them permanently or restore them. Deleting an individual Symbol from a Symbol Library, however, deletes it permanently.
 
 {{% alert info %}}**Tip:** You can hold down Shift or Control/CMD to select multiple Symbols and delete or move multiple Symbols at once.{{% /alert %}}
 
@@ -176,7 +176,7 @@ Just like with images, deleting a Symbol from a mockup does not delete the Symbo
 
 ### Cloning Symbols
 
-Cloning Symbols (also available via the [context menu](/editor/b3/overview/#context-menu-actions)) can save you time when creating Symbols or Symbol Libraries that are similar.
+Cloning Symbols (also available via the [context menu](../overview/#context-menu-actions)) can save you time when creating Symbols or Symbol Libraries that are similar.
 
 ### Moving Symbols
 

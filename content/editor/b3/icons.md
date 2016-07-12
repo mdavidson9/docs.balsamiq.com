@@ -14,7 +14,7 @@ It should meet all your icon needs, but if not, you can [add your own icons](#ad
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-library.png)
 
-Icons from previous versions of Balsamiq Mockups have been remapped to the new icons. Go [here to learn about using the old icons](/editor/b3/transition/#where-are-the-old-icons-can-i-still-use-them) in your Balsamiq Mockups 3 projects.
+Icons from previous versions of Balsamiq Mockups have been remapped to the new icons. Go [here to learn about using the old icons](../transition/#where-are-the-old-icons-can-i-still-use-them) in your Balsamiq Mockups 3 projects.
 
 ## Adding Icons via the UI Library and Quick Add
 
@@ -32,11 +32,11 @@ Icon search results are shown _below_ any UI controls that match the text you en
 
 ## Adding and Swapping Icons via the Property Inspector
 
-Some controls allow you to add icons to them (buttons, for example). You can do this from the [Property Inspector](/editor/b3/inspector/) in one of two ways: the icon search and the icon library dialog.
+Some controls allow you to add icons to them (buttons, for example). You can do this from the [Property Inspector](../inspector/) in one of two ways: the icon search and the icon library dialog.
 
 ### Icon Search
 
-If the control you selected support icons, you will see the icon search box in the property inspector. This works much like [the Quick Add tool](/editor/b3/overview/#the-quick-add-tool), just type a few letters from the name of the icon you are looking for and a list of suggestions will pop up as a grid of icons to choose from. Just click on the one you want to select it.
+If the control you selected support icons, you will see the icon search box in the property inspector. This works much like [the Quick Add tool](../overview/#the-quick-add-tool), just type a few letters from the name of the icon you are looking for and a list of suggestions will pop up as a grid of icons to choose from. Just click on the one you want to select it.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-search.png)
 
@@ -70,7 +70,7 @@ Select the Assets category at the bottom, then click the little plus button, sel
 
 ### Adding via Assets
 
-The second way is to add icon files manually to your [assets](/editor/b3/images/). If you add an "icon_" prefix to each file name and drag them into your assets they'll also show up in the icon library and Quick Add searches.
+The second way is to add icon files manually to your [assets](../images/). If you add an "icon_" prefix to each file name and drag them into your assets they'll also show up in the icon library and Quick Add searches.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-custom.png)
 

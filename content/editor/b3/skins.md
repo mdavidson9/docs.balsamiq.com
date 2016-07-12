@@ -9,7 +9,7 @@ We know that some people need to shift from idea generation with internal teams 
 
 ## Switching from Sketch to Wireframe Skin
 
-To switch skins go to the [Project Info panel](/editor/b3/projectinfo/) and set the Skin setting to "Wireframe".
+To switch skins go to the [Project Info panel](../projectinfo/) and set the Skin setting to "Wireframe".
 
 ![ ](//media.balsamiq.com/img/support/docs/m4d/b3/skin-switcher.png)
 

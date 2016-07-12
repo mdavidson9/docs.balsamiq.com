@@ -9,13 +9,13 @@ tags:
   - "Presentation Mode"
 ---
 
-You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](/editor/b3/fullscreen/) mode or as an [exported PDF](/editor/b3/exporting/#exporting-to-pdf).
+You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).
 
-Linking mockups together is as easy as choosing a mockup name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](/editor/b3/inspector/) (click the "Show Link Inspector" link if you don't see it).
+Linking mockups together is as easy as choosing a mockup name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](../inspector/) (click the "Show Link Inspector" link if you don't see it).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/link_inspector.png)
 
-{{% alert info %}}**Note:** To learn how to create links from text strings inside other controls, see our article on [making links in text actually work](/editor/b3/text/#making-links-in-text-actually-work).{{% /alert %}}
+{{% alert info %}}**Note:** To learn how to create links from text strings inside other controls, see our article on [making links in text actually work](../text/#making-links-in-text-actually-work).{{% /alert %}}
 
 For controls that can have multiple targets, you'll see something like this:
 
@@ -48,9 +48,9 @@ You can also link to web URLs instead of other mockups, to show links to externa
 ---
 ## Using Links in Presentation Mode
 
-When you're done linking your mockups up you can enter [Full Screen Presentation mode](/editor/b3/fullscreen/) and you'll be able to click on the links you set up to test your prototype.
+When you're done linking your mockups up you can enter [Full Screen Presentation mode](../fullscreen/) and you'll be able to click on the links you set up to test your prototype.
 
-In Full Screen Presentation mode controls with links will have a red overlay on them and mousing over them will show a big hand pointer with the name of the target file or web page for the link (these options can be turned off in the [Full Screen settings panel](/editor/b3/fullscreen/#settings)).
+In Full Screen Presentation mode controls with links will have a red overlay on them and mousing over them will show a big hand pointer with the name of the target file or web page for the link (these options can be turned off in the [Full Screen settings panel](../fullscreen/#settings)).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/bighand.png)
 

@@ -5,7 +5,7 @@ menu: "menub3editor"
 weight: 20
 ---
 
-Thank you for trying out our latest version of Balsamiq Mockups! We think that you'll really like all of the improvements and find it easier to use. To learn more about the new features you can read the [Introduction to Balsamiq Mockups 3](/editor/b3/intro/) or dive into our [complete documentation](/editor/b3/).
+Thank you for trying out our latest version of Balsamiq Mockups! We think that you'll really like all of the improvements and find it easier to use. To learn more about the new features you can read the [Introduction to Balsamiq Mockups 3](../intro/) or dive into our [complete documentation](../).
 
 This article is intended to answer some questions you might have about switching to Balsamiq Mockups 3 from a previous version.
 
@@ -33,31 +33,31 @@ There are several options for importing, from bringing in entire projects to imp
 
 ![import menu](//media.balsamiq.com/img/support/docs/m4d/b3/import.png)
 
-See [this page](/desktop/importing/#importing-mockups-from-a-previous-version-bmml-files) for more detailed instructions.
+See [this page](../importing/#importing-mockups-from-a-previous-version-bmml-files) for more detailed instructions.
 
-Imported mockups should look the same as they did in your previous version, except that our old icons have been replaced with [Font Awesome icons](/editor/b3/icons/) (which you might like better anyway).
+Imported mockups should look the same as they did in your previous version, except that our old icons have been replaced with [Font Awesome icons](../icons/) (which you might like better anyway).
 
 * * *
 
 ## What about Your Other Products - myBalsamiq and Atlassian Server Add-ons?
 
-Our new file format and user interface is coming to all of our products soon. In the meantime, you can [import](/editor/b3/importing/) and [export](/desktop/exporting/#exporting-for-use-in-a-previous-version) ZIP files or individual BMMLs, but you might just want to wait until BMPR comes to your other Balsamiq product. Everything will all work seamlessly soon - thanks for your patience.
+Our new file format and user interface is coming to all of our products soon. In the meantime, you can [import](../importing/) and [export](../exporting/#exporting-for-use-in-a-previous-version) ZIP files or individual BMMLs, but you might just want to wait until BMPR comes to your other Balsamiq product. Everything will all work seamlessly soon - thanks for your patience.
 
 * * *
 
 ## How Do I Use Symbols from Mockups to Go in Balsamiq Mockups 3?
 
-There is an option in the Import menu for importing Symbol Libraries. [See here for details](/editor/b3/importing/#importing-symbols).
+There is an option in the Import menu for importing Symbol Libraries. [See here for details](../importing/#importing-symbols).
 
 * * *
 
 ## Where Are the Old Icons? Can I Still Use Them?
 
-We replaced them with the [Font Awesome](/editor/b3/icons/) icon set, which has more icons and is more current.
+We replaced them with the [Font Awesome](../icons/) icon set, which has more icons and is more current.
 
 Nostalgic for the old ones? You can download them here:
 
 *   [Balsamiq Mockups version 2 icon set - Sketch skin](//media.balsamiq.com/files/balsamiq_2_icons_sketch.zip) (.zip file, 268 Kb)
 *   [Balsamiq Mockups version 2 icon set - Wireframe skin](//media.balsamiq.com/files/balsamiq_2_icons_wireframe.zip) (.zip file, 234 Kb)
 
-See [these instructions for adding them as custom icons](/desktop/icons/#using-an-existing-set-of-custom-icons).
+See [these instructions for adding them as custom icons](../icons/#using-an-existing-set-of-custom-icons).

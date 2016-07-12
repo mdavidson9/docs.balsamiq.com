@@ -15,11 +15,11 @@ tags:
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/uilibrary.png)
 
-To add UI controls to your mockup, double-click or drag a control in [the UI Library](/editor/b3/overview/#the-ui-library) or type a keyword into [the Quick Add tool](/editor/b3/overview/#the-quick-add-tool).
+To add UI controls to your mockup, double-click or drag a control in [the UI Library](../overview/#the-ui-library) or type a keyword into [the Quick Add tool](../overview/#the-quick-add-tool).
 
 You can also duplicate controls already on the canvas using copy and paste or the duplicate command (CTRL/CMD + D). ALT/Option + drag will also duplicate controls and allow you to place them using your mouse.
 
-{{% alert info %}}**Note:** Full list of [keyboard shortcuts here](/editor/b3/shortcuts/).{{% /alert %}}
+{{% alert info %}}**Note:** Full list of [keyboard shortcuts here](../shortcuts/).{{% /alert %}}
 
 * * *
 
@@ -69,7 +69,7 @@ If you want to constrain proportions while dragging from a corner, hold the SHIF
 
 You can also use the keyboard to resize selected controls. CTRL/CMD+ALT+arrow keys to resize in 1px increments, CTRL/CMD+ALT+SHIFT+arrow keys for 10px increments.
 
-Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](/editor/b3/inspector/).
+Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](../inspector/).
 
 To resize one or more controls to match the size of another (to be the same width or height), you can use the "Resize To..." function in the Edit menu.
 
@@ -93,7 +93,7 @@ The same options are shown in the property inspector when multiple controls are 
 
 ## Layering UI Controls
 
-You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the right-click menu or [Property Inspector](/editor/b3/inspector/): Bring to Front, Bring Forward, Send Backward, and Send to Back. [Keyboard shortcuts](/editor/b3/shortcuts/) are also available.
+You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the right-click menu or [Property Inspector](../inspector/): Bring to Front, Bring Forward, Send Backward, and Send to Back. [Keyboard shortcuts](../shortcuts/) are also available.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/layering-controls.png)
 
@@ -101,7 +101,7 @@ You can layer controls as if they were pieces of paper on the mockup canvas. To 
 
 ## Locking UI Controls
 
-Locking a control will prevent it from being selectable. This can be useful for background controls that you want to stay in place or don't want to accidentally select (a browser or iPhone control, for example). You can lock a control by selecting it and choosing "Lock (control name)" from the context menu, or by clicking the lock icon in the [toolbar](/editor/b3/overview/#the-toolbar).
+Locking a control will prevent it from being selectable. This can be useful for background controls that you want to stay in place or don't want to accidentally select (a browser or iPhone control, for example). You can lock a control by selecting it and choosing "Lock (control name)" from the context menu, or by clicking the lock icon in the [toolbar](../overview/#the-toolbar).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/locking-controls.png)
 
@@ -118,11 +118,11 @@ To remove some UI controls from the mockup canvas, select them and hit the DELET
 
 ## Rotating UI Controls
 
-_Some_ of our UI controls can be rotated via the [Property Inspector](/editor/b3/inspector/) (the label, [image](/editor/b3/images/#adding-images-in-mockups-view), and [icon](/editor/b3/icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
+_Some_ of our UI controls can be rotated via the [Property Inspector](../inspector/) (the label, [image](../images/#adding-images-in-mockups-view), and [icon](../icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
 
 The reason we don't support rotating all controls because we believe that in 90% of cases, it is not needed in wireframes. In fact, adding the ability to rotate any control will likely result in wireframes that are very hard if not impossible to implement by the development team.
 
-If you feel that you need to rotate any other control, let us know on [this forum thread](https://forums.balsamiq.com/t/feature-request-rotate-any-shape-by-any-degree/1132) and we'll discuss whether to add it together. A workaround would be to rotate a control in a drawing application and then [import it as an image](/editor/b3/images/).
+If you feel that you need to rotate any other control, let us know on [this forum thread](https://forums.balsamiq.com/t/feature-request-rotate-any-shape-by-any-degree/1132) and we'll discuss whether to add it together. A workaround would be to rotate a control in a drawing application and then [import it as an image](../images/).
 
 * * *
 
@@ -146,7 +146,7 @@ See the video below for a demonstration.
 
 ## Grouping UI Controls
 
-Sometimes you might want to group some controls to better align them or move them all at once. To group a set of controls, select them and hit CTRL+G on your keyboard or use the Group command in the Edit menu or [toolbar](/editor/b3/overview/#the-toolbar). The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL+SHIFT+G on your keyboard or use the Ungroup command in the menu or toolbar.
+Sometimes you might want to group some controls to better align them or move them all at once. To group a set of controls, select them and hit CTRL+G on your keyboard or use the Group command in the Edit menu or [toolbar](../overview/#the-toolbar). The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL+SHIFT+G on your keyboard or use the Ungroup command in the menu or toolbar.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/group-select.png)
 
@@ -158,13 +158,13 @@ Here's a video that shows grouping in action:
 
 {{< yt rGNnhbY19yY >}}
 
-You can optionally give a group a name via the Property Inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming groups is also useful when creating [Symbols](/editor/b3/symbols/#1-creating-symbols-in-the-mockups-view).
+You can optionally give a group a name via the Property Inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming groups is also useful when creating [Symbols](../symbols/#1-creating-symbols-in-the-mockups-view).
 
 * * *
 
 ## Cropping Groups
 
-It is possible to crop (mask) a group of controls to only show a selected portion of it. When a [group](#grouping-ui-controls) is selected, a crop icon will show in the [Property Inspector](/editor/b3/inspector/). Click on it to edit the visible area of the group.
+It is possible to crop (mask) a group of controls to only show a selected portion of it. When a [group](#grouping-ui-controls) is selected, a crop icon will show in the [Property Inspector](../inspector/). Click on it to edit the visible area of the group.
 
 The video below illustrates how to use this feature.
 

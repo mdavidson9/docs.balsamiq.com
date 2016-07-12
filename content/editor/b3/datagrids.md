@@ -8,14 +8,14 @@ tags:
   - "Table"
 ---
 
-The Data Grid control functions like many other [text-based controls](/editor/b3/text/). It uses commas as column separators and new lines as rows. A basic table with three columns and two rows would look like this:
+The Data Grid control functions like many other [text-based controls](../text/). It uses commas as column separators and new lines as rows. A basic table with three columns and two rows would look like this:
 
 	First Name, Last Name, Email Address
 	firstname, lastname, email@email.com
 
-You can choose whether to show the first row as a header row in the [Property Inspector](/editor/b3/inspector/), as well as specifying the row height, row colors, and grid lines.
+You can choose whether to show the first row as a header row in the [Property Inspector](../inspector/), as well as specifying the row height, row colors, and grid lines.
 
-Text in the Data Grid can be formatted as bold, italic, etc. using the [same syntax as other text controls](/editor/b3/text/#basic-formatting).
+Text in the Data Grid can be formatted as bold, italic, etc. using the [same syntax as other text controls](../text/#basic-formatting).
 
 ## Column Width Options
 

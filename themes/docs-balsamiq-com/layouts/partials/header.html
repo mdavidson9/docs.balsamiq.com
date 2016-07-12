@@ -34,7 +34,7 @@
   <script src="/js/dbc.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
   <script src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq_search_autocomplete.js"></script>
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
-  <title>{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{ .Title }} {{ if .IsPage }} [{{title .Section }}] {{ end }} {{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>
 <body class="company-support-portal dbc">
   <!-- GA - Google Tag Manager -->

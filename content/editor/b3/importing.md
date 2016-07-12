@@ -12,7 +12,7 @@ tags:
 
 ## Importing Mockups from a Previous Version (BMML Files)
 
-Balsamiq Mockups 3 uses a different file format from previous versions ([read more about it here](/editor/b3/intro/#projects)). You can import your old mockups in one of three formats:
+Balsamiq Mockups 3 uses a different file format from previous versions ([read more about it here](../intro/#projects)). You can import your old mockups in one of three formats:
 
 1.  Individual BMML files
 2.  A folder containing BMML files (with images and Symbols in an assets sub-folder)
@@ -38,7 +38,7 @@ If you have Symbols files created with a previous version of Balsamiq Mockups yo
 
 ## Importing Mockups from Another Project
 
-The easiest way to move or copy mockups from one project to another is to simply drag a mockup (using the [navigator panel](/editor/b3/overview/#the-navigator-panel)) from one project to another project. You can also select and copy controls on the canvas in one project and paste them into the canvas in another project.
+The easiest way to move or copy mockups from one project to another is to simply drag a mockup (using the [navigator panel](../overview/#the-navigator-panel)) from one project to another project. You can also select and copy controls on the canvas in one project and paste them into the canvas in another project.
 
 Alternatively you can copy mockups from one project to another using the Import/Export Mockup JSON commands in the Project menu. Exporting to Mockups JSON (Project > Export > Mockup to JSON) will copy the Balsamiq Mockups code for the selected mockup to the clipboard. To create this mockup in a new project switch to it and choose “Import Mockup JSON…” from the Project > Import menu and paste the copied code. Images and Symbols won't be copied, however.
 
@@ -46,4 +46,4 @@ Alternatively you can copy mockups from one project to another using the Import/
 
 ## Importing Images
 
-To learn about importing images, see [Working with Images](/editor/b3/images/).
+To learn about importing images, see [Working with Images](../images/).

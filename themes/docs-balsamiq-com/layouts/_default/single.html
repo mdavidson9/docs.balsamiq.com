@@ -12,6 +12,8 @@
     <div id="sidebar-box">
     {{ if eq .Section "desktop" }}
       {{ partial "sidebar_desktop.html" . }}
+    {{ else if eq .Section "editor" }}
+      {{ partial "sidebar_editor.html" . }}
     {{ else if eq .Section "mybalsamiq" }}
       {{ partial "sidebar_mybalsamiq.html" . }}
     {{ else if eq .Section "jira" }}
