@@ -39,7 +39,7 @@ Imported mockups should look the same as they did in your previous version, exce
 
 * * *
 
-## What about Your Other Products - myBalsamiq and Atlassian Server Add-ons?
+## What about Your Other Products - myBalsamiq and Atlassian Server Add-Ons?
 
 Our new file format and user interface is coming to all of our products soon. In the meantime, you can [import](../importing/) and [export](../exporting/#exporting-for-use-in-a-previous-version) ZIP files or individual BMMLs, but you might just want to wait until BMPR comes to your other Balsamiq product. Everything will all work seamlessly soon - thanks for your patience.
 
