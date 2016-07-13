@@ -13,7 +13,7 @@ By default, Mockups 3 for Desktop will automatically save any changes you make. 
 
 Mockups 3 for Desktop automatically saves in two places. First, it commits all changes in real time to the [internal backup file](https://support.balsamiq.com/desktop/backup/). Then after a short period of inactivity, Mockups 3 for Desktop will commit the changes to your original project file. This delay should help when you're saving to a networked drive or folder.
 
-## Disabling Manual Save
+## Disabling Autosave
 
 If you find that the autosave feature is causing you problems or your workflow is better suited by manually saving, this is how you would disable it.
 
