@@ -193,4 +193,4 @@ Select what you'd like to import and your old files will be imported and a new B
 
 ![](//media.balsamiq.com/images/b3_prerelease/send-feedback.png)
 
-This is a big change for us so we'd love to know what you think of it. If you find any issues or have any comments, please use the Help > Send Feedback menu in Mockups to comment in the new [Balsamiq Forums](https://forums.balsamiq.com/). We'll see you there!
+We'd love to know what you think of it. If you find any issues or have any comments, please use the Help > Send Feedback menu in Mockups to comment in the  [Balsamiq Forums](https://forums.balsamiq.com/). We'll see you there!
