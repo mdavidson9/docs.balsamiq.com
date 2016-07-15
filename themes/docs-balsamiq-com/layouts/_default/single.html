@@ -34,7 +34,17 @@
           <h1 class="title">{{ .Title }}</h1>
           <div class="breadcrumbs visible-xs visible-sm">{{ partial "breadcrumbs.html" . }}</a></div>
           <div class="article-content content article">
-            {{ .Content }}
+            {{ if .Params.copy }}
+              {{ $copy := .Params.copy }}
+              {{ range where .Site.Pages "Params.menu" "menub3editor" }}
+                {{ $file := substr .File.LogicalName 0 -3}}
+                {{ if eq $file $copy }}
+                  {{ .Content }}
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              {{ .Content }}
+            {{ end }}
           </div>
           {{/*
           <hr>

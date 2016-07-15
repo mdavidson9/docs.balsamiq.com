@@ -6,6 +6,5 @@ weight: 100
 tags:
   - "Data Grid"
   - "Table"
+copy: "datagrids"
 ---
-
-{{< include datagrids >}}
