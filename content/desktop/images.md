@@ -6,6 +6,5 @@ weight: 120
 tags:
   - "Images"
   - "Assets"
+include: "images"
 ---
-
-{{< include images >}}

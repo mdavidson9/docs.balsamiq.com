@@ -6,7 +6,5 @@ weight: 190
 tags:
   - "Full Screen"
   - "Presentation Mode"
-
+include: "fullscreen"
 ---
-
-{{< include fullscreen >}}

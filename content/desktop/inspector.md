@@ -6,6 +6,5 @@ weight: 60
 tags:
   - "Property Inspector"
   - "Notes"
+include: "inspector"
 ---
-
-{{< include inspector >}}

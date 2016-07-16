@@ -7,6 +7,5 @@ tags:
   - "Linking"
   - "Full Screen"
   - "Presentation Mode"
+include: "linking"
 ---
-
-{{< include linking >}}

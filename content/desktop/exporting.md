@@ -9,6 +9,5 @@ tags:
   - "PNG"
   - "Printing"
   - "Image"
+include: "exporting"
 ---
-
-{{< include exporting >}}

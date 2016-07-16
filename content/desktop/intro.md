@@ -6,6 +6,5 @@ weight: 1
 tags:
   - "Overview"
   - "Introduction"
+include: "intro"
 ---
-
-{{< include intro >}}

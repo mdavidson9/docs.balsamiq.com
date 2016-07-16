@@ -6,6 +6,5 @@ weight: 110
 tags:
   - "Icons"
   - "Custom"
+include: "icons"
 ---
-
-{{< include icons >}}

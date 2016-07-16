@@ -5,6 +5,5 @@ menu: "menudesktop"
 weight: 70
 tags:
   - "Alternates"
+include: "alternates"
 ---
-
-{{< include alternates >}}

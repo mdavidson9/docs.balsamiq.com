@@ -9,6 +9,5 @@ tags:
   - "Group"
   - "Shortcuts"
   - "Elements"
+include: "controls"
 ---
-
-{{< include controls >}}
