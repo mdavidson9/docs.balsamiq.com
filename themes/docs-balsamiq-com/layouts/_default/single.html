@@ -16,6 +16,8 @@
       {{ partial "sidebar_editor.html" . }}
     {{ else if eq .Section "mybalsamiq" }}
       {{ partial "sidebar_mybalsamiq.html" . }}
+    {{ else if eq .Section "google-drive" }}
+      {{ partial "sidebar_gdrive.html" . }}
     {{ else if eq .Section "jira" }}
       {{ partial "sidebar_jira.html" . }}
     {{ else if eq .Section "confluence" }}

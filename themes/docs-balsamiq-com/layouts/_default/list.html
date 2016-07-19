@@ -13,6 +13,8 @@
       <div class="doc-list-header">
         {{ if eq .Title "Mybalsamiq" }}
         <h1>myBalsamiq Documentation</h1>
+        {{ else if eq .Title "Google-drive" }}
+        <h1>Mockups for Google Drive Documentation</h1>
         {{ else if eq .Title "Jira" }}
         {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for JIRA Documentation</h1>
