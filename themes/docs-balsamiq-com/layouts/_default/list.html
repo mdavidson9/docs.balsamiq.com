@@ -22,7 +22,7 @@
         {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for Confluence Documentation</h1>
         {{ else }}
-        <h1>{{ .Title }} Documentation</h1>
+        <h1>{{ .Title | humanize | title }} Documentation</h1>
         {{ end }}        
       </div>
       {{ if eq ($.Scratch.Get "showlist") 0 }}

@@ -52,7 +52,7 @@ To do this go to the Google Drive settings (inside the gear icon menu in the upp
 
 ## Purchasing
 
-Feel free to take advantage of the **fully-functional [30-day trial](https://support.balsamiq.com/sales/evaluate/)** period before purchasing a subscription. After 30 days you will still be able to view existing mockups in [presentation mode](/desktop/fullscreen/), but you will not be able to edit or create new mockups unless you sign up for a paid plan.
+Feel free to take advantage of the **fully-functional [30-day trial](https://support.balsamiq.com/sales/evaluate/)** period before purchasing a subscription. After 30 days you will still be able to view existing mockups in [presentation mode](../fullscreen/), but you will not be able to edit or create new mockups unless you sign up for a paid plan.
 
 Monthly and yearly subscriptions are available. Details on [how to sign up for and manage your paid plan are here](https://support.balsamiq.com/sales/gdrivesubscription/) (_Short version:_ Go to "Help > Sign Up for a Paid Plan" in the editor).
 
@@ -75,7 +75,7 @@ There are two ways to create a new Balsamiq Mockups project in Google Drive.
 
 ## Using the Balsamiq Mockups Editor
 
-The Balsamiq Mockups editor allows you to create wireframes just like our other products. The user interface is very similar to the desktop version, so reviewing the [Desktop application overview](/desktop/overview/) may be helpful if you have any questions after reading the instructions below.
+The Balsamiq Mockups editor allows you to create wireframes just like our other products. Reviewing the [application overview](../overview/) may be helpful if you have any questions after reading the instructions below.
 
 * * *
 

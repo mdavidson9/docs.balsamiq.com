@@ -1,0 +1,5 @@
+{{ if eq .Section "mybalsamiq" }}
+<h5>myBalsamiq</h5>
+{{ else }}
+<h5>Mockups for {{ .Section | humanize | title }}</h5>
+{{ end }}        
