@@ -21,7 +21,7 @@ If you have any questions, don’t hesitate to [contact us](https://balsamiq.com
 
 ## A New File Format
 
-In the old version of Balsamiq Mockups for Confluence, we stored each mockup in its own BMML attachment, and only linked to images. Balsamiq Mockups 3 for Confluence Cloud introduces a new project file format called BMPR: everything that belongs to a project (mockups, symbols, images, icons) is in a single file, saved as an attachment to your Confluence page. This makes it much easier to link and keep everything together. Learn more about the new plugin here.
+In the old version of Balsamiq Mockups for Confluence, we stored each mockup in its own BMML attachment, and only linked to images. Balsamiq Mockups 3 for Confluence Cloud introduces a new project file format called BMPR: everything that belongs to a project (mockups, symbols, images, icons) is in a single file, saved as an attachment to your Confluence page. This makes it much easier to link and keep everything together. Learn more about the new plugin [here](https://docs.balsamiq.com/confluence/user-guide-cloud/).
 
 In order to take advantage of the new features you need to migrate the old files to the new project format.
 
@@ -55,7 +55,7 @@ Just verify that everything is there, then select Project > Quit to go back to C
 
 ![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/transition5.png)
 
-Once you have returned to the Confluence editor, click "Save". You should then see the new Balsamiq Mockups 3 interactive macro.
+Once you have returned to the Confluence editor, click "Save". You should then see the new Balsamiq Mockups 3 macro.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/interactiveMacro.png)
 
