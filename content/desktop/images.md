@@ -111,6 +111,6 @@ Another option allows you to select all images that are not used in your mockups
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/select-unused-images.png)
 
-Selecting it will open the [Assets view](#adding-images-in-assets-view) where all the unused images will be selected for you. You can then delete them as explained [above](#deleting-assets). This is a great way to keep your project clean and will help to reduce the file size.
+Selecting it will open the [Assets view](#adding-images-in-assets-view) where all the unused images will be selected for you. You can then delete them as explained [above](#deleting-assets). This is a great way to reduce your project's file size.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/trash-unused-images.png)
