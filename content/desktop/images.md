@@ -104,3 +104,13 @@ The "Import New Version..." menu option allows you to select a new assets to rep
 ### Deleting Assets
 
 You can also use the context menu to delete assets from your project. Just like your mockups, deleting will move assets to the [trash](/desktop/intro/#trash), where you can delete them permanently or restore them. Note that deleting an image from the mockups canvas doesn't remove it from your project.
+
+### Select Unused Images
+
+Another option allows you to select all images that are not used in your mockups. The option is available in the **Edit** menu, as shown below:
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/select-unused-images.png)
+
+Selecting it will open the [Assets view](#adding-images-in-assets-view) where all the unused images will be selected for you. You can then delete them as explained [above](#deleting-assets). This is a great way to reduce your project's file size.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/trash-unused-images.png)
