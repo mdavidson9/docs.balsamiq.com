@@ -110,6 +110,6 @@ In the old version of the add-on, if you have expired maintenance you are still 
 
 As Mockups 3 for Confluence Cloud is based on Marketplace's automatic renewal subscription model, you will be required to have a paid subscription to use the add-on once your 30 day trial ends.
 
-We will be retiring the old version of the plugin around the end of June 2016. After that date, you'll need to start a [30 day trial](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) and subscribe to Mockups 3 for Confluence Cloud in order to use our add-on.
+We retired the old version of the plugin in July 2016. If you wish to use our add-on, you'll need to start a [30 day trial](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation) and subscribe to Mockups 3 for Confluence Cloud.
 
 As always, if you have any questions, concerns, or problems, we're here to help! [Contact us](https://balsamiq.com/company/contact/#/s/m4c)!
