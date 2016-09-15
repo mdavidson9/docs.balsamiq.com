@@ -8,3 +8,5 @@ src/build-js/
 src/build-css/
 src/build-includes
 
+
+.DS_Store
