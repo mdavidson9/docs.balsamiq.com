@@ -98,7 +98,7 @@ It is your sole responsibility to keep your user name, password and other sensit
 
 If you forget your password, we send you a secure link via email that lets you reset it.
 
-User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment. Site owners can assign passwords to staff and project members.
+User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment.
 
 Balsamiq staff will never change a password for you, nor change the site owner. Here's an article that describes how you can [change the site owner of a myBalsamiq site yourself](https://support.balsamiq.com/mybalsamiq/siteownerleft/).
 
@@ -422,6 +422,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
 *   2014, June 23: removed this sentence from General section: _You may not assign or otherwise transfer the Terms of Use nor any right granted hereunder without Balsamiq’s prior written consent._
 *   2014, June 18: rectified that we do collect your Billing Address. Changed Spreedly to Pin Payments (Pin Payments acquired Spreedly).

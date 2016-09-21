@@ -31,9 +31,9 @@ You can install the new plugin simply via the UPM, just search for "Balsamiq Moc
 
 **Note**: You can install the new plugin even if you still have the old version of Mockups for JIRA installed and enabled, the two plugins can work side-by-side.
 
-When both plugins are enabled, you will have 2 Mockups options in the More menu. Select "Add Balsamiq Mockups" to use the new plugin, Mockups 3 for JIRA Cloud. The old plugin will be disabled automatically in May.
+When both plugins are enabled, you will have 2 Mockups options. Select "Add Balsamiq Mockups" to use the new plugin, Mockups 3 for JIRA Cloud. The old plugin will be disabled automatically in May.
 
-![](//media.balsamiq.com/img/support/docs/jira/transitionguide/menuentry.png)
+![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/add.png)
 
 ---
 

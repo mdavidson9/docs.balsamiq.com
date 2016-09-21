@@ -114,3 +114,7 @@ Another option allows you to select all images that are not used in your mockups
 Selecting it will open the [Assets view](#adding-images-in-assets-view) where all the unused images will be selected for you. You can then delete them as explained [above](#deleting-assets). This is a great way to reduce your project's file size.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/trash-unused-images.png)
+
+## Using Images as Icons
+
+You can use any of your imported image assets as an [icon](/desktop/icons/#adding-your-own-icons) now. Easy and powerful! They’ll automatically show up in the icon library.
