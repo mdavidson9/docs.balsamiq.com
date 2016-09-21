@@ -62,15 +62,15 @@ You can also easily add your own icons for use in your wireframes.
 
 ### Using Your Image Assets
 
-You can pick any of your imported image [assets](/desktop/images/) as an icon now. Easy and powerful! They'll automatically show up in the icon library.
+You can pick any of your imported image [assets](/desktop/images/) and use it as an icon. They will automatically show up in the icon library, under the Assets category at the bottom.
 
 ### Adding via the Icon Library Dialog
 
-Another way to add your own icons is via the icon library dialog.
+You can also add your own icons from the icon library dialog.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-import.png)
 
-Select the Assets category at the bottom, then click the little plus button, select an image file and your image will be resized down to fit an existing icon size and copied to your assets.
+Select the Assets category, then click the little plus button, select an image file and your image will be resized down to fit an existing icon size and copied to your assets.
 
 * * *
 

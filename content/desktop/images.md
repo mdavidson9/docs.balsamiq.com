@@ -117,4 +117,6 @@ Selecting it will open the [Assets view](#adding-images-in-assets-view) where al
 
 ## Using Images as Icons
 
-You can use any of your imported image assets as an [icon](/desktop/icons/#adding-your-own-icons) now. Easy and powerful! They’ll automatically show up in the icon library.
+You can use any of your imported image assets as an [icon](/desktop/icons/#adding-your-own-icons). They will automatically show up in the icon library, under the Assets category at the bottom.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/image-icon.png)
