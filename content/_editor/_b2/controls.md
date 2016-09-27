@@ -7,11 +7,13 @@ weight: 72
 
 ## Adding UI Controls
 
-To add new UI controls to your mockup, you can use [the UI Library](http://support.balsamiq.com/customer/portal/articles/109151#uilibrary) or [the Quick Add tool](http://support.balsamiq.com/customer/portal/articles/109151#quickadd).
+![](http://media.balsamiq.com/img/support/docs/m4d/help_uilibrary.png)
 
-Another way to add a new UI control is to duplicate the selected controls. You can either use copy and paste to do so, or the duplicate menu command, shortcut (CTRL/CMD + D), or button, or simply hold down the ALT key (OPTION key on a Mac) and drag the selection. This will duplicate it in place and let you move it all at once.
+To add new UI controls to your mockup, you can use [the UI Library](http://support.balsamiq.com/customer/portal/articles/109151#uilibrary) or type a keyword into [the Quick Add tool](http://support.balsamiq.com/customer/portal/articles/109151#quickadd).
 
-**Note:** Full list of [keyboard shortcuts here](http://support.balsamiq.com/customer/portal/articles/110445).
+You can also duplicate controls already on the canvas using copy and paste or the duplicate command (CTRL/CMD + D).
+
+{{% alert info %}}**Note:** Full list of [keyboard shortcuts here](../shortcuts/).{{% /alert %}}
 
 * * *
 
@@ -22,8 +24,7 @@ There are a few different ways to select UI controls. If you are familiar with g
 *   Clicking on a UI control selects it
 *   Dragging a rectangle which encloses many UI controls selects them
 *   SHIFT+CLICK on a control adds it to the selection
-*   CTRL+CLICK on a selected control removes it from the selection
-*   Hold ALT to ignore items behind the mouse and drag-select, as shown in [this short video](http://www.youtube.com/watch?v=JOpaRBbwqNg)
+*   SHIFT+CLICK on a selected control removes it from the selection
 
 To select a control that is behind another control, right-click on the top control to bring up a menu that allows you to select controls behind it.
 
@@ -46,7 +47,7 @@ Once you have selected one or more UI controls, there are a few different ways t
 
 When you move objects on the canvas, Mockups tries to suggest alignment relative to other objects on the canvas using smart guides. This makes alignment a little easier and makes your Mockups generally look neater.
 
-If you ever want to temporarily disable this feature, you can hold down the CTRL key (CMD key on Mac) while moving or resizing, and snapping will be turned off. If you want to turn this feature off entirely, you can do so by altering your [config file settings](http://support.balsamiq.com/customer/portal/articles/111759).
+If you ever want to temporarily disable this feature, you can hold down the CTRL key while moving or resizing, and snapping will be turned off.
 
 * * *
 
@@ -56,9 +57,15 @@ Resizing the selected controls is easy. You can just grab any edge or corner of 
 
 If you want to constrain proportions while dragging from a corner, hold the SHIFT key while dragging.
 
-You can also use the keyboard to resize selected controls. CTRL+ALT+arrow keys to resize in 2px increments, CTRL+ALT+SHIFT+arrow keys for 20px increments.
-
 Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](http://support.balsamiq.com/customer/portal/articles/110114).
+
+* * *
+
+## Aligning UI Controls
+
+You can align and distribute (space out) controls by selecting multiple controls and selecting the desired option from the Property Inspector, as shown below.
+
+![](http://media.balsamiq.com/img/support/docs/m4d/help_aligning.png)
 
 * * *
 
@@ -66,11 +73,21 @@ Another way to resize some controls to their "natural size" is to use the Auto-S
 
 You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the [Property Inspector](http://support.balsamiq.com/customer/portal/articles/110114): bring to front, send to back, bring forward and send backward.
 
+![](http://media.balsamiq.com/img/support/docs/m4d/help_layering.png)
+
 * * *
+
+## Locking UI Controls
+
+Locking a control will prevent it from being selectable. This can be useful for background controls that you want to stay in place or don't want to accidentally select (a browser or iPhone control, for example). You can lock a control by clicking the lock icon in the Property Inspector.
+
+![](http://media.balsamiq.com/img/support/docs/m4d/help_locking.png)
+
+To unlock a control, right-click on it when your mouse cursor is over it.
 
 ## Deleting UI Controls
 
-To remove some UI controls from the mockup canvas, select them and hit the DELETE key. Alternatively you can click on the trashcan button in the toolbar or select "delete" from the Edit menu.
+To remove some UI controls from the mockup canvas, select them and hit the DELETE key. Alternatively you can click on the trashcan button in the Property Inspector or select "delete" from the Edit menu.
 
 * * *
 
