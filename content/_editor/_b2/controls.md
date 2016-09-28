@@ -91,13 +91,25 @@ To remove some UI controls from the mockup canvas, select them and hit the DELET
 
 * * *
 
+## Rotating UI Controls
+
+_Some_ of our UI controls can be rotated via the [Property Inspector](../inspector/) (the label, [image](../images/#adding-images-in-mockups-view), and [icon](../icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
+
+The reason we don't support rotating all controls because we believe that in 90% of cases, it is not needed in wireframes. In fact, adding the ability to rotate any control will likely result in wireframes that are very hard if not impossible to implement by the development team.
+
+If you feel that you need to rotate any other control, let us know on [this forum thread](https://forums.balsamiq.com/t/feature-request-rotate-any-shape-by-any-degree/1132) and we'll discuss whether to add it together. A workaround would be to rotate a control in a drawing application and then [import it as an image](../images/).
+
+* * *
+
 ## Grouping UI Controls
 
-Sometimes you might wish to group some controls to better align them or to move them all at once. To group a set of controls, select them and hit CTRL+G on your keyboard or use the Group command in the menu or Property Inspector. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL+SHIFT+G on your keyboard or use the Ungroup command in the menu or Property Inspector. Groups can be nested.
+Sometimes you might wish to group some controls to better align them or to move them all at once. To group a set of controls, select them and hit CTRL+G on your keyboard or use the Group command in the menu or Property Inspector. The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL+SHIFT+G on your keyboard or use the Ungroup command in the menu or Property Inspector.
 
-You can double-click on a group to "enter it" and edit its contents. Here's a video that explains how to use the feature:
+![](//media.balsamiq.com/img/support/docs/m4d/b3/group-select.png)
 
-<div style="min-height: 510px"><iframe allowfullscreen="" frameborder="0" height="510" src="http://www.youtube.com/embed/OgX27oUrkLY" width="640"></iframe></div>
+You can double-click on a group to “enter it” and edit its contents. A small breadcrumb bar (at the bottom of the editor) will indicate that you are editing a group and allow you to navigate back out of the group (you can also use the Escape key). Groups can be nested, as shown below.
+
+![](//media.balsamiq.com/img/support/docs/m4d/help_groupbar.png)
 
 You can optionally give a group a name via the group's property inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming and grouping controls is also the first step to creating [Symbols](http://support.balsamiq.com/customer/portal/articles/110439).
 
@@ -105,28 +117,8 @@ You can optionally give a group a name via the group's property inspector. This 
 
 ## Cropping Groups
 
-It is possible to crop (mask) groups to only show a selected portion of them.
+It is possible to crop (mask) a group of controls to only show a selected portion of it. When a [group](#grouping-ui-controls) is selected, a crop icon will show in the [Property Inspector](../inspector/). Click on it to edit the visible area of the group.
 
-The video below illustrates how to use this powerful feature:
+The video below illustrates how to use this feature.
 
 <div style="height:480px"><iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/GOnCNNHhfGc" width="640"></iframe></div>
-
-* * *
-
-## Wait, no rotation?
-
-Coming from generic drawing tools, the lack of a rotation feature in Mockups might be surprising.
-
-This limitation is intentional, and not due to programming complexity (it's not hard to add technically). The reason we don't support rotating all controls because we believe that in 90% of cases, it is not needed in wireframes. In fact, adding the ability to rotate any control will likely result in wireframes that are very hard if not impossible to implement by the development team.
-
-We do support rotation in images and a few controls, where it makes sense. Some controls can be rotated in 90-degree steps (icons, the triangle geometric shape, for example) and the label control has [a few rotation options](https://support.mybalsamiq.com/projects/uilibrary/Label%2C+String+of+Text) in its property inspector.
-
-If you feel that you need to rotate any other control, let us know on [this forum thread](http://community.balsamiq.com/balsamiq/topics/let_us_rotate_please) and we'll discuss whether to add it together.
-
-Also remember that you can always use the [image import feature](http://support.balsamiq.com/customer/portal/articles/110401) as a workaround.
-
-* * *
-
-## Available Controls
-
-You can [view a list and screenshots of all of the components](https://support.mybalsamiq.com/projects/uilibrary/story) that ship with Mockups.
