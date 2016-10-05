@@ -4,4 +4,5 @@ title: "Working with Skins (Sketch vs. Wireframe)"
 menu: "menudesktop"
 weight: 85
 include: "skins"
+editorversion: 3
 ---

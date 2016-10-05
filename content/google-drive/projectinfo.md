@@ -4,4 +4,5 @@ title: "The Project Info Panel"
 menu: "menugoogledrive"
 weight: 80
 include: "projectinfo"
+editorversion: 3
 ---

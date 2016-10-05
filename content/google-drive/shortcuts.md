@@ -4,4 +4,5 @@ title: "Keyboard Shortcuts"
 menu: "menugoogledrive"
 weight: 200
 include: "shortcuts"
+editorversion: 3
 ---

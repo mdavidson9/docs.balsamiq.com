@@ -4,4 +4,5 @@ title: "Working with Site Maps"
 menu: "menugoogledrive"
 weight: 150
 include: "sitemaps"
+editorversion: 3
 ---

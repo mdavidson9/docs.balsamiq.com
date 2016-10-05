@@ -4,4 +4,5 @@ title: "Working with Text"
 menu: "menugoogledrive"
 weight: 90
 include: "text"
+editorversion: 3
 ---

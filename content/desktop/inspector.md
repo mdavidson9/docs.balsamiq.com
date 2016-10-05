@@ -7,4 +7,5 @@ tags:
   - "Property Inspector"
   - "Notes"
 include: "inspector"
+editorversion: 3
 ---

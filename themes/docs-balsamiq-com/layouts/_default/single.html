@@ -43,12 +43,23 @@
           <div class="article-content content article">
             {{ if .Params.include }}
               {{ $include := .Params.include }}
-              {{ range where .Site.Pages "Params.menu" "menub3editor" }}
+              {{ if eq .Params.editorversion 3 }}
+                {{ range where .Site.Pages "Params.menu" "menub3editor" }}
                 {{ $file := substr .File.LogicalName 0 -3}}
                 {{ if eq $file $include }}
                   {{ .Content }}
+                  {{ end }}
                 {{ end }}
+              {{ else if eq .Params.editorversion 2 }}
+                {{ range where .Site.Pages "Params.menu" "menub2editor" }}
+{{ $file := substr .File.LogicalName 0 -3}}
+                {{ if eq $file $include }}
+                  {{ .Content }}
+                  {{ end }}
+                {{ end }}
+              {{ else }}
               {{ end }}
+
             {{ else }}
               {{ .Content }}
             {{ end }}

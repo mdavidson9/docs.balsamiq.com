@@ -4,4 +4,5 @@ title: "Balsamiq Mockups 3 Transition Guide"
 menu: "menudesktop"
 weight: 20
 include: "transition"
+editorversion: 3
 ---

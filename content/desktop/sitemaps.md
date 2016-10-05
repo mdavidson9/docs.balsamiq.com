@@ -4,4 +4,5 @@ title: "Working with Site Maps"
 menu: "menudesktop"
 weight: 150
 include: "sitemaps"
+editorversion: 3
 ---

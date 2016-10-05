@@ -4,4 +4,5 @@ title: "Mockups Application Overview"
 menu: "menudesktop"
 weight: 40
 include: "overview"
+editorversion: 3
 ---

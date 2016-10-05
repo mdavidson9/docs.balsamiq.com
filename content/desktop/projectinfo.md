@@ -4,4 +4,5 @@ title: "The Project Info Panel"
 menu: "menudesktop"
 weight: 80
 include: "projectinfo"
+editorversion: 3
 ---

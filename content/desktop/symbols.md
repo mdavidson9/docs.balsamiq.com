@@ -4,4 +4,5 @@ title: "Working with Symbols"
 menu: "menudesktop"
 weight: 140
 include: "symbols"
+editorversion: 3
 ---

@@ -4,4 +4,5 @@ title: "Working with Text"
 menu: "menudesktop"
 weight: 90
 include: "text"
+editorversion: 3
 ---

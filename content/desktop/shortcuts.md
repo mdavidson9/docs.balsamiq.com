@@ -4,4 +4,5 @@ title: "Keyboard Shortcuts"
 menu: "menudesktop"
 weight: 200
 include: "shortcuts"
+editorversion: 3
 ---
