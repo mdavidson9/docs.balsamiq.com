@@ -19,7 +19,7 @@ You will also see three little buttons in the lower-right corner of your screen.
 
 The first toggle is for showing and hiding linking hints and the big pointers. You can turn them off if you're using the presentation mode to test a new UI on some user and don't want to give them hints on where to click, or simply if you find the big pointer distracting.
 
-The second toggle is for showing and hiding [markup](about:blank) elements, such as Sticky Notes, Arrows and Callouts (any control under the "Markup" tab in the UI Library). This is useful if you want to just look at your UI without the annotations that surround it.
+The second toggle is for showing and hiding [markup](../markup/) elements, such as Sticky Notes, Arrows and Callouts (any control under the "Markup" tab in the UI Library). This is useful if you want to just look at your UI without the annotations that surround it.
 
 The third button lets you exit full-screen mode and edit the mockup you're currently viewing.
 

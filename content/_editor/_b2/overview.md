@@ -31,7 +31,7 @@ Try out Quick Add now! As you become familiar with it, you could even hide the U
 
 ### The Toolbar
 
-The toolbar includes most of the same commands as the Edit menu: undo, redo, duplicate, cut, copy, paste and delete. Not all versions of Balsamiq Mockups support the same keyboard shortcuts, so the Toolbar gives you a handy way to perform common actions. Notice that you'll find the same commands in the [Property Inspector](ThisNeedsALink) as well.
+The toolbar includes most of the same commands as the Edit menu: undo, redo, duplicate, cut, copy, paste and delete. Not all versions of Balsamiq Mockups support the same keyboard shortcuts, so the Toolbar gives you a handy way to perform common actions. Notice that you'll find the same commands in the [Property Inspector](../inspector/) as well.
 
 * * *
 

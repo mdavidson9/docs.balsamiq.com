@@ -9,7 +9,7 @@ The Property Inspector (also called the toolbox, palette, property dialog, prope
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/pi_inspector.png)
 
-The Property Inspector is displayed when you select an object on the canvas. You can drag the Property Inspector to move it, it will re-appear where you left it next time you need it. You can also make it smaller (so that only the title bar shows) by clicking the collapse icon in the upper-left corner.
+The Property Inspector is displayed when you select an object on the canvas. You can drag the Property Inspector to move it; it will re-appear where you left it next time you need it. You can also make it smaller (so that only the title bar shows) by clicking the collapse icon in the upper-left corner.
 
 If your UI Library is visible, you can set the inspector to be docked over it. The View menu shows this option.
 
