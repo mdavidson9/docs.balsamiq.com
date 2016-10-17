@@ -1,7 +1,7 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "Working with Symbols"
-menu: "menub2editor"
+menu: "menumybalsamiq"
 weight: 79
 ---
 
