@@ -10,3 +10,5 @@ src/build-includes
 
 
 .DS_Store
+
+*.log
