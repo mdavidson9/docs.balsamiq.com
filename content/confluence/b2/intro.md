@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Mockups for Confluence Server User Guide"
+title: "Introduction to Mockups for Confluence Server"
 menu: "menuconfluence"
 weight: 40
 ---
@@ -48,20 +48,6 @@ When you are ready to go back to the wiki page, just click on "Close" or select 
 To make changes to a mockup, edit the wiki page, select the mockup image and click on the "Edit" button in the little macro control panel that shows up.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguide/confluence2.png)
-
-* * *
-
-## Linking Mockups Together
-
-Much like the Desktop and Web versions of Mockups, you can create links between mockups by using the Link property in the Property Inspector (for controls that support linking; read [this article](https://support.balsamiq.com/tutorials/hotareas/) for controls that don't).
-
-![](//media.balsamiq.com/img/support/docs/m4d/link_inspector.png)
-
-You can link to other mockups or to web addresses. Once a link has been added the arrow in the lower-right corner will indicate what kind of link it is. Links to mockups will show as a plain arrow, while links to web pages will show as an arrow with a box around it.
-
-![](//media.balsamiq.com/img/support/docs/m4d/button_link.png)
-
-To navigate to other mockups that have been linked, go to Full Screen Presentation mode (View > Full Screen Presentation) in the Mockups Editor, or click on the linked control on the mockup image while viewing the page in Confluence.
 
 * * *
 
@@ -149,7 +135,7 @@ Here are the steps:
 
 ## Exporting a Mockup
 
-Mockups for Confluence Server allows you to [export your mockup to XML format](https://support.balsamiq.com/plugins/importtoatlassian/) so that you can import it to our other versions. It is not currently possible to export directly to PDF or an image (PNG, etc.) from the Balsamiq Mockups editor. 
+Mockups for Confluence Server allows you to [export your mockup to XML format](https://support.balsamiq.com/plugins/importtoatlassian/) so that you can import it to our other versions. It is not currently possible to export directly to PDF or an image (PNG, etc.) from the Balsamiq Mockups editor.
 
 As [mentioned above](#looking-at-a-mockup-s-history), however, you can access your mockups in **PNG image** format by going to the **attachments** for the Confluence page.
 

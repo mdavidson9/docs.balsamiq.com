@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Mockups for JIRA Server User Guide"
+title: "Introduction to Mockups for JIRA Server"
 menu: "menujira"
 weight: 40
 ---
