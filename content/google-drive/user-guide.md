@@ -1,8 +1,8 @@
 ---
 date: 2015-07-30T15:52:12-07:00
-title: "Mockups for Google Drive User Guide"
+title: "[REDIRECT] Mockups for Google Drive User Guide"
 menu: "menugoogledrive"
-weight: 0
+weight: 900
 ---
 
 ## Overview
