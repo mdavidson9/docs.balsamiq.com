@@ -11,9 +11,9 @@ weight: 40
 
 This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview).
 
-{{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/user-guide-cloud/) instead.{{% /alert %}}
+{{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/cloud/intro/) instead.{{% /alert %}}
 
-Confluence Server Administrators: the [Mockups for Confluence Server Admin Guide](/confluence/admin-guide/) is for you.
+Confluence Server Administrators: the [Mockups for Confluence Server Admin Guide](../admin-guide/) is for you.
 
 * * *
 
@@ -39,7 +39,7 @@ Once you name your mockup you can continue working on it and saving it periodica
 
 When you are ready to go back to the wiki page, just click on "Close" or select "Close Editor" from the Mockup menu. You will be taken back to the Confluence editor. Save the page and you're done!
 
-{{% alert info %}}**Note:** Even if your Balsamiq Mockups license is configured so that only specific people can create and edit mockups (explained in the [Admin Guide](/confluence/admin-guide)), anyone with access to your Confluence site will be able to see them.{{% /alert %}}
+{{% alert info %}}**Note:** Even if your Balsamiq Mockups license is configured so that only specific people can create and edit mockups (explained in the [Admin Guide](../admin-guide)), anyone with access to your Confluence site will be able to see them.{{% /alert %}}
 
 
 ---

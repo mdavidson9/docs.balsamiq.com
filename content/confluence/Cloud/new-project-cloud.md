@@ -33,7 +33,7 @@ If you do not see the menu item, please check with your Confluence Cloud adminis
 
 ## Using the Balsamiq Mockups Editor
 
-The Balsamiq Mockups editor allows you to create wireframes just like our other products. The user interface is very similar to the desktop version, so reviewing the [Desktop application overview](/desktop/overview/) may be helpful if you have any questions after reading the instructions below.
+The Balsamiq Mockups editor allows you to create wireframes just like our other products. Start with the [application overview](../overview) to learn more about using the editor.
 
 * * *
 

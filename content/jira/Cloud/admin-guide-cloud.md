@@ -8,13 +8,13 @@ weight: 20
 
 This page contains links to installation, pricing, and licensing information for [Mockups 3 for JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
 
-{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/admin-guide/) instead.{{% /alert %}}
+{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/server/mockups2/admin-guide/) instead.{{% /alert %}}
 
-Usage instructions for the plugin are in the [Balsamiq Mockups 3 for JIRA Cloud User Guide](/jira/user-guide-cloud/).
+Usage instructions for the plugin are in the [Balsamiq Mockups 3 for JIRA Cloud User Guide](../user-guide-cloud/).
 
 * * *
 
-{{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  See our [transition guide](/jira/transition-guide/) if you have the older pre-installed version of Mockups for JIRA.{{% /alert %}}
+{{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  See our [transition guide](../transition-guide/) if you have the older pre-installed version of Mockups for JIRA.{{% /alert %}}
 
 Balsamiq Mockups 3 for JIRA Cloud is an Atlassian-Connect powered add-on, sold exclusively via Atlassian Marketplace.
 

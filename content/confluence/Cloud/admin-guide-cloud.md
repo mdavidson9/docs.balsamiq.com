@@ -9,13 +9,13 @@ weight: 20
 
 This page contains links to installation, pricing, and licensing information for [Mockups 3 for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview).
 
-{{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/admin-guide/) instead.{{% /alert %}}
+{{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/server/mockups2/admin-guide/) instead.{{% /alert %}}
 
-Usage instructions for the plugin are in the [Balsamiq Mockups 3 for Confluence Cloud User Guide](/confluence/user-guide-cloud/).
+Usage instructions for the plugin are in the [Introduction to Mockups 3 for Confluence Cloud](../intro/).
 
 * * *
 
-{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released April 4, 2016.  See our [transition guide](/confluence/transition-guide/) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
+{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released April 4, 2016.  See our [transition guide](../transition-guide/) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
 
 Balsamiq Mockups 3 for Confluence Cloud is an Atlassian-Connect powered add-on, sold exclusively via Atlassian Marketplace.
 

@@ -8,13 +8,13 @@ weight: 10
 
 This page contains usage instructions for [Mockups 3 for JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
 
-{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/user-guide/) instead.{{% /alert %}}
+{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/server/mockups2/user-guide/) instead.{{% /alert %}}
 
-JIRA Cloud Administrators: the [Mockups 3 for JIRA Cloud Admin Guide](/jira/admin-guide-cloud/) is for you.
+JIRA Cloud Administrators: the [Mockups 3 for JIRA Cloud Admin Guide](../admin-guide-cloud/) is for you.
 
 * * *
 
-{{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  See our [transition guide](/jira/transition-guide/) if you have the older pre-installed version of Mockups for JIRA.{{% /alert %}}
+{{% alert warning %}}**Note:** Mockups 3 for JIRA Cloud was released January 18, 2016.  See our [transition guide](../transition-guide/) if you have the older pre-installed version of Mockups for JIRA.{{% /alert %}}
 
 Balsamiq Mockups 3 for JIRA Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
@@ -40,7 +40,7 @@ If you do not see the link, please check with your JIRA Cloud administrator that
 
 ## Using the Balsamiq Mockups Editor
 
-The Balsamiq Mockups editor allows you to create wireframes just like our other products. The user interface is very similar to the desktop version, so reviewing the [Desktop application overview](/desktop/overview/) may be helpful if you have any questions after reading the instructions below.
+The Balsamiq Mockups editor allows you to create wireframes just like our other products. Start with the [application overview](../overview/) to learn more about using the editor.
 
 * * *
 
@@ -74,7 +74,7 @@ That's it! You may now delete the mockup from the source project if you wish.
 
 If you have a project created in Balsamiq Mockups 3 for Desktop (with a .bmpr extension) you can just attach the file to the JIRA issue, refresh the page in order to let the Balsamiq Mockups panel appear ([see below](#using-the-balsamiq-mockups-panel)) and edit it directly.
 
-If you want to open a project containing .bmml files (Balsamiq Mockups version 2) go to the “Project > Import ” menu. You will have the option to import mockups from a .zip file, or from individual mockups or symbols. You can find more information in the [desktop documentation for importing](/desktop/importing/).
+If you want to open a project containing .bmml files (Balsamiq Mockups version 2) go to the “Project > Import ” menu. You will have the option to import mockups from a .zip file, or from individual mockups or symbols. You can find more information in the [documentation for importing](../importing/).
 
 * * *
 

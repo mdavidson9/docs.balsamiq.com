@@ -8,9 +8,9 @@ weight: 40
 
 This page contains usage instructions for [Mockups 2 for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
 
-{{% alert info %}}**Using JIRA Cloud?** If you are using JIRA Cloud (on atlassian.net), please see [this article](/jira/user-guide-cloud/) instead.{{% /alert %}}
+{{% alert info %}}**Using JIRA Cloud?** If you are using JIRA Cloud (on atlassian.net), please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
 
-JIRA Administrators: the [Mockups for JIRA Server Admin Guide](/jira/admin-guide) is for you.
+JIRA Administrators: the [Mockups for JIRA Server Admin Guide](../admin-guide) is for you.
 
 * * *
 
@@ -74,4 +74,4 @@ As the dialog says, if you leave the field blank no notifications will be sent. 
 
 That’s it!
 
-For instructions on **how to use the mockup editor itself**, please refer to the [editor documentation PDF](https://media.balsamiq.com/files/Balsamiq_Mockups_v1-v2_Docs.pdf).
+For instructions on **how to use the mockup editor itself**, please refer to the [application overview](../intro/).

@@ -7,13 +7,13 @@ product: "Mockups for Confluence Cloud"
 weight: 10
 ---
 
-{{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/user-guide/) instead.{{% /alert %}}
+{{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/server/mockups2/intro/) instead.{{% /alert %}}
 
-Confluence Cloud Administrators: the [Mockups 3 for Confluence Cloud Admin Guide](/confluence/admin-guide-cloud/) is for you.
+Confluence Cloud Administrators: the [Mockups 3 for Confluence Cloud Admin Guide](../admin-guide-cloud/) is for you.
 
 * * *
 
-{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released April 4, 2016. See our [transition guide](/confluence/transition-guide) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
+{{% alert warning %}}**Note:** Mockups 3 for Confluence Cloud was released April 4, 2016. See our [transition guide](../transition-guide) if you have the older pre-installed version of Mockups for Confluence.{{% /alert %}}
 
 Balsamiq Mockups 3 for Confluence Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
@@ -41,7 +41,7 @@ If you do not see the menu item, please check with your Confluence Cloud adminis
 
 ## Using the Balsamiq Mockups Editor
 
-The Balsamiq Mockups editor allows you to create wireframes just like our other products. The user interface is very similar to the desktop version, so reviewing the [Desktop application overview](/desktop/overview/) may be helpful if you have any questions after reading the instructions below.
+The Balsamiq Mockups editor allows you to create wireframes just like our other products. Start with the [application overview](../overview) to learn more about using the editor.
 
 * * *
 
@@ -75,7 +75,7 @@ That's it! You may now delete the mockup from the source project if you wish.
 
 If you have a project created in Balsamiq Mockups 3 for Desktop (with a .bmpr extension) you can just attach the file to the Confluence page, insert a Balsamiq Mockups macro to the page and edit it.
 
-If you want to open a project containing .bmml files (Balsamiq Mockups version 2) go to the “Project > Import ” menu. You will have the option to import mockups from a .zip file, or from individual mockups or symbols. You can find more information in the [desktop documentation for importing](/desktop/importing).
+If you want to open a project containing .bmml files (Balsamiq Mockups version 2) go to the “Project > Import ” menu. You will have the option to import mockups from a .zip file, or from individual mockups or symbols. You can find more information in the [documentation for importing](../importing).
 
 * * *
 
