@@ -37,7 +37,7 @@
           <h2 id="{{ .Key | urlize }}">{{ .Key }}</h2>
           <ul>
             {{ range .Pages.ByWeight }}
-            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul><hr />
         {{ end }}
