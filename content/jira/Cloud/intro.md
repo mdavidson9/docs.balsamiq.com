@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Mockups 3 for JIRA Cloud User Guide"
+title: "Introduction to Mockups 3 for JIRA Cloud"
 menu: "menujiracloud"
 product: "Mockups for JIRA Cloud"
 weight: 10
@@ -120,23 +120,6 @@ A variety of actions are available from the Balsamiq Mockups Panel.
 
 * * *
 
-## Full Screen Presentation
-
-Balsamiq Mockups includes a [full screen presentation mode](/desktop/fullscreen/) for presenting your wireframes to stakeholders or usability testing.
-
-There are two ways to access the presentation mode from the panel.
-
-1. You can click on the mockup thumbnail. The full screen viewer will open showing the selected mockups.
-1. You can click the “Full Screen” button: the full screen viewer will open on the first mockup.
-
-![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/goingfullscreen.png)
-
-While navigating in full screen mode you can open the editor on the selected mockup.
-
-![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/editinfullscreen.png)
-
-* * *
-
 ## Editing Existing Mockups
 
 There are two ways open the editor from the panel.
@@ -157,22 +140,6 @@ By clicking the “Add” button the editor will  open by showing a new mockups 
 ![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/addpanel.png)
 
 You can also add mockups directly from within the project editor.
-
-* * *
-
-## Moving Mockup to Trash
-
-Balsamiq Mockups has a Trash for mockups, assets and symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts. You can move a mockup to the Trash directly from the Balsamiq Mockups panel. The operation can be undone from the panel or inside the editor.
-
-![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/trash.png)
-
-* * *
-
-## Renaming the Project
-
-The panel shows on its top left the name of the Balsamiq project. You can rename the project directly from the panel.
-
-![](//media.balsamiq.com/img/support/docs/jira/userguidecloud/renameproject.png)
 
 * * *
 

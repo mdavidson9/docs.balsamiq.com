@@ -1,13 +1,11 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Mockups 3 for Confluence Cloud User Guide"
+title: "Introduction to Mockups 3 for Confluence Cloud"
 menu: "menuconfluencecloud"
 product: "Mockups for Confluence Cloud"
 weight: 10
 ---
-
-This page contains usage instructions for [Mockups 3 for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview).
 
 {{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/user-guide/) instead.{{% /alert %}}
 
@@ -125,12 +123,6 @@ The macro looks like a plain image, but when your mouse is over it, a control ba
 
 * * *
 
-## Full Screen Presentation
-
-If you want to see your mockups at a bigger size, present your wireframes to stakeholders or conduct usability tests, you can use the included [Full Screen Presentation mode](/desktop/fullscreen).
-
-* * *
-
 ## Editing Existing Mockups
 
 There are two ways to open the Balsamiq editor:
@@ -143,17 +135,3 @@ There are two ways to open the Balsamiq editor:
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/launch-mockups-editor.png)
 
 {{% alert info %}}**Note:** If you have read-only permission on an page, you will be still able to access the Full Screen viewer but you will not be able to edit the mockups.{{% /alert %}}
-
-* * *
-
-## Using the Balsamiq Mockups Macro Editor
-
-Once you have created a new project, the Balsamiq Mockups Macro Editor will be accessible from the Confluence page editor.
-
-![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/macro-editor.png)
-
-The macro editor lets you configure the views of the Balsamiq Mockups project that will be shown in the Confluence wiki page.
-
-You can choose to show a thumbnail grid or, in case of the single mockup view, you can configure the initial mockup to show, its size and alignment. You can also launch the Balsamiq Mockups Editor and continue to edit your project.
-
-To add multiple views on the same project, just add more macros and select a different mockup in the "Selected Mockup" pulldown.
