@@ -1,14 +1,15 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Mockups for Confluence Server Admin Guide"
-menu: "menuconfluence"
+title: "Mockups 2 for Confluence Server Admin Guide"
+menu: "menuconfluenceserver2"
+product: "Mockups 2 for Confluence Server"
 weight: 50
 ---
 
 ## Welcome
 
-The Mockups for Confluence Server Admin Guide contains installation, registration, updating and uninstalling instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview) **when installed on your own server**.
+The Mockups 2 for Confluence Server Admin Guide contains installation, registration, updating and uninstalling instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview) **when installed on your own server**.
 
 {{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/admin-guide-cloud/) instead.{{% /alert %}}
 

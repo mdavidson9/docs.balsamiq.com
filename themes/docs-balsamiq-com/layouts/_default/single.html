@@ -19,9 +19,17 @@
     {{ else if eq .Section "google-drive" }}
       {{ partial "sidebar_gdrive.html" . }}
     {{ else if eq .Section "jira" }}
-      {{ partial "sidebar_jira.html" . }}
-    {{ else if eq .Section "confluence" }}
-      {{ partial "sidebar_confluence.html" . }}
+        {{ if eq .Params.menu "menujiraserver2" }}
+          {{ partial "sidebar_jiraserver2.html" . }}
+        {{ else }}
+          {{ partial "sidebar_jira.html" . }}
+        {{ end }}
+     {{ else if eq .Section "confluence" }}
+        {{ if eq .Params.menu "menuconfluenceserver2" }}
+          {{ partial "sidebar_confluenceserver2.html" . }}
+        {{ else }}
+          {{ partial "sidebar_confluence.html" . }}
+        {{ end }}
     {{ else }}
       <!-- sidebar -->
     {{ end }}
@@ -33,7 +41,9 @@
     <div id="support-main">
       <div class="support-body">
         <article>
-          {{ if eq .Section "mybalsamiq" }}
+          {{ if .Params.product }}
+          <h5 class="subtitle">{{ .Params.product }}</h5>
+          {{ else if eq .Section "mybalsamiq" }}
           <h5 class="subtitle">myBalsamiq</h5>
           {{ else }}
           <h5 class="subtitle">Mockups for {{ .Section | humanize | title }}</h5>

@@ -1,8 +1,9 @@
 ---
 date: 2015-07-30T15:52:20-07:00
 draft: false
-title: "Introduction to Mockups for Confluence Server"
-menu: "menuconfluence"
+title: "Introduction to Mockups 2 for Confluence Server"
+menu: "menuconfluenceserver2"
+product: "Mockups 2 for Confluence Server"
 weight: 40
 ---
 

@@ -2,7 +2,8 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Mockups 3 for Confluence Cloud User Guide"
-menu: "menuconfluence"
+menu: "menuconfluencecloud"
+product: "Mockups for Confluence Cloud"
 weight: 10
 ---
 

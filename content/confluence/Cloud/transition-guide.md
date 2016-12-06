@@ -1,7 +1,8 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups 3 for Confluence Cloud Transition Guide"
-menu: "menuconfluence"
+menu: "menuconfluencecloud"
+product: "Mockups for Confluence Cloud"
 weight: 30
 ---
 

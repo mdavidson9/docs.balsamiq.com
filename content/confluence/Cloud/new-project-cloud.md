@@ -2,8 +2,9 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Creating a New Project in Mockups 3 for Confluence Cloud"
-menu: "menuconfluence"
-weight: 60
+menu: "menuconfluencecloud"
+product: "Mockups for Confluence Cloud"
+weight: 35
 ---
 
 Balsamiq Mockups 3 for Confluence Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop.
