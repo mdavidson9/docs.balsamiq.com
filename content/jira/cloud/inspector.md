@@ -2,7 +2,7 @@
 date: 2015-05-09T16:46:21+02:00
 title: "The Property Inspector"
 menu: "menujiracloud"
-product: "Mockups for JIRA Cloud"
+product: "Mockups 3 for JIRA Cloud"
 weight: 60
 tags:
   - "Property Inspector"

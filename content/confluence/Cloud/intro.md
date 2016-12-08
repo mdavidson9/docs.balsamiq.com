@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Introduction to Mockups 3 for Confluence Cloud"
 menu: "menuconfluencecloud"
-product: "Mockups for Confluence Cloud"
+product: "Mockups 3 for Confluence Cloud"
 weight: 10
 ---
 

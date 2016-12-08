@@ -2,7 +2,7 @@
 date: 2015-05-10T10:33:47+02:00
 title: "Linking Mockups Together"
 menu: "menuconfluencecloud"
-product: "Mockups for Confluence Cloud"
+product: "Mockups 3 for Confluence Cloud"
 weight: 180
 tags:
   - "Linking"
