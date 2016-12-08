@@ -91,6 +91,8 @@ Sometimes you might want to copy or move a mockup from a project to another. To 
 
 That's it! You may now delete the mockup from the source project if you wish.
 
+{{% alert info %}}**Note:** Symbols and images won't get transferred in this process. You will have to manually add them to the new project.{{% /alert %}}
+
 * * *
 
 ## Exporting Your Mockups		

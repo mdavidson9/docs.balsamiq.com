@@ -97,8 +97,6 @@ However the changes made in editing mode (i.e. inside the Balsamiq editor) will 
 
 This can be done by selecting the “Save” command in the “Project” menu or by simply closing the editor.
 
-![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/saving.png)
-
 * * *
 
 ## Returning to Confluence (Closing the Editor)
@@ -113,11 +111,11 @@ This will also save the current project and update the version that will be now 
 
 ## Using the Balsamiq Mockups Macro
 
-Once you have created a new project, the Balsamiq Mockups interactive macro will appear on your Confluence page.
+Once you have created a new project, the Balsamiq Mockups macro will appear on your Confluence page.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/macro.png)
 
-The macro looks like a plain image, but when your mouse is over it, a control bar will appear. The control bar allows you to navigate the project, to launch the editor on the selected mockup or to enter Full Screen Presentation mode.
+The macro looks like a plain image, but when your mouse is over it, a control bar will appear. The control bar allows you to launch the editor on the selected mockup or to enter Full Screen Presentation mode.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/macro-bar.png)
 

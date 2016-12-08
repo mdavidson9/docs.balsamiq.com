@@ -24,8 +24,10 @@ Balsamiq Mockups 3 for Confluence Cloud is an Atlassian-Connect powered add-on, 
 * [Product Page on Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview)
 * [Installation instructions](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation)
 * [Pricing and Licensing information](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/pricing)
-* [Confluence Cloud Documentation on Managing Add-Ons](https://confluence.atlassian.com/doc/managing-add-ons-or-plugins-25788666.html)
+* [Confluence Cloud Documentation on Managing Add-Ons](https://confluence.atlassian.com/confcloud/managing-add-ons-or-plugins-724766519.html)
 
-Once installed, the add-on will be available to all of your Confluence users.
+Once installed, the add-on will be available to all of your Confluence users. Non-matching license tiers are not available, due to a limitation of Atlassian Connect.
 
-Non-matching license tiers are not available, due to a limitation of Atlassian Connect.
+### Stopping Your Subscription
+
+If you need to stop using Mockups 3 for Confluence Cloud for a time, select **Unsubscribe** in the [Universal Plugin Manager](https://confluence.atlassian.com/confcloud/managing-add-ons-or-plugins-724766519.html), but keep the add-on installed, if you wish to retain the ability of viewing existing mockup files. (Note: per Marketplace licensing, your subscription and access to the add-on will end immediately when you select "Unsubscribe." You will not receive credit for unused time.)

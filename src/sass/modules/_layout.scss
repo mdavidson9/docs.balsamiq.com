@@ -5,7 +5,7 @@
 // FOR SCROLLSPY
 body {
   position: relative;
-  border-top: 3px solid $red; 
+  border-top: 3px solid $red;
 }
 
 // ========================================
@@ -393,7 +393,7 @@ body {
       }
     }
     // SOCIAL SHARE ICON STYLES
-    a.js-social-share, 
+    a.js-social-share,
     a.js-social-share:visited {
       text-decoration: none;
       padding-left: 10px;
@@ -524,4 +524,8 @@ ul {
 }
 .red {
   color: $red !important;
+}
+
+code {
+  margin: 0;
 }

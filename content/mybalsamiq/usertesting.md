@@ -15,13 +15,14 @@ The prototype view follows a project's permissions settings, but allows you to s
 
 Here are a couple of articles on how to integrate myBalsamiq's prototype view with the leading user testing tools:
 
+*   [User Testing Your Balsamiq Mockups with CanvasFlip](https://blogs.balsamiq.com/product/2016/06/21/canvasflip/)
 *   [User Testing your Balsamiq Prototypes with TryMyUI](http://blogs.balsamiq.com/product/2015/11/02/trymyui/)
+*   [User Testing Your Mobile Balsamiq Mockups with HeatData](http://blogs.balsamiq.com/product/2013/09/24/heatdata/)
 *   [User Testing your myBalsamiq prototypes with UserTesting.com](http://blogs.balsamiq.com/product/2013/05/15/usertestingcom/)
 *   [How to test your myBalsamiq prototypes with Loop11](http://blogs.balsamiq.com/product/2012/03/19/loop11/)
 *   [User Testing your myBalsamiq wireframes with Usabilla](http://blogs.balsamiq.com/product/2012/03/14/usabilla/)
 *   [User Testing your myBalsamiq Prototypes with Kupima](http://blogs.balsamiq.com/product/2012/04/06/kupima/)
 *   [User Testing your myBalsamiq Prototypes with UserZoom](http://blogs.balsamiq.com/product/2012/06/22/userzoom/)
 *   [Give Mockup presentations on your iPad/iPhone with Link Viewer](http://blogs.balsamiq.com/product/2012/10/31/linkviewer/)
-*   [User Testing Your Mobile Balsamiq Mockups with HeatData](http://blogs.balsamiq.com/product/2013/09/24/heatdata/)
 
 The same approach can be used with any user-testing tool that supports entering URLs in their tests. Just copy the prototype view's URL from your browser and paste it into the usability tool's test settings form.
