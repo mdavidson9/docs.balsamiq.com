@@ -10,7 +10,7 @@ tags:
 
 There are multiple ways to add images to your mockups. The easiest way is to simply drag and drop an image file from your computer on to the Mockups canvas. Read on to learn more about adding and using images and other assets in your projects.
 
-{{% alert info %}}**Note:** To see how to use Assets in **myBalsamiq**, see [this article](/editor/b2/assets) in the myBalsamiq Documentation.{{% /alert %}}
+{{% alert info %}}**Note:** To see how to use Assets in **myBalsamiq**, see [this article](/mybalsamiq/assets) in the myBalsamiq Documentation.{{% /alert %}}
 
 ## Adding Images in Mockups View
 
@@ -104,3 +104,19 @@ The "Import New Version..." menu option allows you to select a new assets to rep
 ### Deleting Assets
 
 You can also use the context menu to delete assets from your project. Just like your mockups, deleting will move assets to the [trash](../intro/#trash), where you can delete them permanently or restore them. Note that deleting an image from the mockups canvas doesn't remove it from your project.
+
+### Select Unused Images
+
+Another option allows you to select all images that are not used in your mockups. The option is available in the **Edit** menu, as shown below:
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/select-unused-images.png)
+
+Selecting it will open the [Assets view](#adding-images-in-assets-view) where all the unused images will be selected for you. You can then delete them as explained [above](#deleting-assets). This is a great way to reduce your project's file size.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/trash-unused-images.png)
+
+## Using Images as Icons
+
+You can use any of your imported image assets as an [icon](../icons/#adding-your-own-icons). They will automatically show up in the icon library, under the Assets category at the bottom.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/image-icon.png)

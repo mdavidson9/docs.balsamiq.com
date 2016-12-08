@@ -9,7 +9,7 @@ Balsamiq Mockups supports the concept of Symbols. A Symbol is a group of control
 
 In essence, Symbols let you create reusable common elements that you can use across different mockups.
 
-{{% alert info %}}**Note:** To work with Symbols in **myBalsamiq**, see [this article](/editor/b2/symbols) in the myBalsamiq Documentation.{{% /alert %}}
+{{% alert info %}}**Note:** To work with Symbols in **myBalsamiq**, see [this article](/mybalsamiq/symbols) in the myBalsamiq Documentation.{{% /alert %}}
 
 ## Creating Symbols
 
@@ -38,6 +38,10 @@ This new Symbol will be displayed in the Symbols category of the UI Library for 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-uilibrary.png)
 
 {{% alert info %}}**Tip:** Once a Symbol has been created you can also add it via [Quick Add](../overview/#the-quick-add-tool) using the first few letters of its name, just like other controls.{{% /alert %}}
+
+The video below describes the process of creating, editing, and using Symbols.
+
+{{< yt VZKl26d4Np0 >}}
 
 ### 2\. Using the Symbols View
 

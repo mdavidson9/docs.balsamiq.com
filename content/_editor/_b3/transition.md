@@ -35,6 +35,11 @@ There are several options for importing, from bringing in entire projects to imp
 
 See [this page](../importing/#importing-mockups-from-a-previous-version-bmml-files) for more detailed instructions.
 
+We have two recommendations if you want to switch to Balsamiq Mockups 3 but have active projects in BMML format:
+
+1.  **Use versions [2.2](https://balsamiq.com/download/archives/?prefix=mockups-desktop/2.2/) and [3](https://balsamiq.com/download/) side-by-side.** The application names are different so you can run both versions together. For continuity you might want to finish any existing projects in version 2 and start new projects in version 3.
+2.  **Switch fully to version 3.** Import all of your active projects to new Balsamiq Mockups 3 projects and stop using version 2 completely. Going back and forth is going to be a pain since you'll be exporting and importing frequently.
+
 Imported mockups should look the same as they did in your previous version, except that our old icons have been replaced with [Font Awesome icons](../icons/) (which you might like better anyway).
 
 * * *

@@ -92,7 +92,7 @@ We also moved the skin switching options into the new Project Info panel to make
 
 ### Better Symbols
 
-In the previous version we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
+In the previous version, we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
 
 You can now just jump over to the Symbols panel and create a new one from scratch and it will appear in the "Symbols" tab in the UI Library. You can still create them the old-fashioned way (creating a named group and clicking the "Convert To Symbol" button).
 
@@ -128,7 +128,7 @@ There is now a dedicated area for images and other imported assets, accessible f
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets1.png)
 
-You can add images to your project without placing them in your mockups first. Click the "Import Asset..." icon to add a file from your computer or the "Download Asset..." icon to add an image from Flickr or the web. Or just drag an image on to the canvas from your computer.
+You can add images to your project without placing them in your mockups first. Click the "Import Asset..." icon to add a file from your computer or the "Download Asset..." icon to add an image from Flickr or the web. Or just drag an image onto the canvas from your computer.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets2.png)
 
@@ -148,7 +148,7 @@ When no controls are selected you'll see a place to add notes in the Properties 
 
 ### Trash
 
-Balsamiq Mockups 3 now has a trash for mockups, assets and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts.
+Balsamiq Mockups 3 now has a trash for mockups, assets, and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/trash.png)
 
@@ -170,7 +170,7 @@ Yes, built-in background music to help you get into your creative zone! [Check o
 
 ### What's _not_ New
 
-For the most part we left experience of adding, arranging and editing controls the same, so it should be familiar if you are coming from the previous version.
+For the most part, we left experience of adding, arranging and editing controls the same, so it should be familiar if you are coming from the previous version.
 
 We hope all these changes are welcome and that Balsamiq Mockups 3 still feels like the application you've come to know and love, but better! If you have any thoughts or feedback, [please let us know!](#feedback-welcome)
 
@@ -194,4 +194,4 @@ Select what you'd like to import and your old files will be imported and a new B
 
 ![](//media.balsamiq.com/images/b3_prerelease/send-feedback.png)
 
-This is a big change for us so we'd love to know what you think of it. If you find any issues or have any comments, please use the Help > Send Feedback menu in Mockups to comment in the new [Balsamiq Forums](https://forums.balsamiq.com/). We'll see you there!
+We'd love to know what you think of it. If you find any issues or have any comments, please use the Help > Send Feedback menu in Mockups to comment in the  [Balsamiq Forums](https://forums.balsamiq.com/). We'll see you there!

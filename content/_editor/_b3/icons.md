@@ -56,27 +56,21 @@ Once you have selected an icon, you can resize it, rotate it or remove it via th
 
 * * *
 
-## Adding Your Own Custom Icons
+## Adding Your Own Icons
 
-You can also add your own icons for use in your wireframes.
+You can also easily add your own icons for use in your wireframes.
+
+### Using Your Image Assets
+
+You can pick any of your imported image [assets](../images/) and use it as an icon. They will automatically show up in the icon library, under the Assets category at the bottom.
 
 ### Adding via the Icon Library Dialog
 
-There are two ways to add custom icons to Balsamiq Mockups. One way is via the icon library dialog.
+You can also add your own icons from the icon library dialog.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-import.png)
 
-Select the Assets category at the bottom, then click the little plus button, select an image file and your image will be resized down to fit an existing icon size and copied to your assets.
-
-### Adding via Assets
-
-The second way is to add icon files manually to your [assets](../images/). If you add an "icon_" prefix to each file name and drag them into your assets they'll also show up in the icon library and Quick Add searches.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-custom.png)
-
-{{% alert info %}}**Note:** Mac users can quickly add the "icon_" prefix to multiple files at once using the [batch rename tool in Mac OS X](https://support.apple.com/kb/PH19067?viewlocale=en_US&locale=en_US) (10.10 and higher).{{% /alert %}}
-
-The words you use in your filename after icon\_ are used as the searchable keywords in the icon dialog. So the keyword would be "airplane" for the filename icon\_airplane.png. You can string together a few labels to get synonyms for the icon. For example, if the file is named icon\_bag briefcase portfolio.png, all of those words after icon\_ will be searchable.
+Select the Assets category, then click the little plus button, select an image file and your image will be resized down to fit an existing icon size and copied to your assets.
 
 * * *
 

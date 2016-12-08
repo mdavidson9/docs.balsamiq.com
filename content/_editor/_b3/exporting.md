@@ -10,7 +10,7 @@ tags:
   - "Printing"
   - "Image"
 ---
-{{% alert info %}}**Note:** To learn how to export your mockups in **myBalsamiq**, see [this article](/editor/b2/exporting/) in the myBalsamiq Documentation.{{% /alert %}}
+{{% alert info %}}**Note:** To learn how to export your mockups in **myBalsamiq**, see [this article](/mybalsamiq/exporting/) in the myBalsamiq Documentation.{{% /alert %}}
 
 The Export menu contains the following export options:
 
