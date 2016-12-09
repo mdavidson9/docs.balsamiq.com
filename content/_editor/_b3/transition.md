@@ -25,7 +25,7 @@ If you are transitioning from version 2 to version 3 of Balsamiq Mockups the mos
 
 In previous versions each mockup was a separate file and images and Symbols needed to be stored in a specific subfolder in order to be recognized. This made it very confusing when working with lots of mockups, many images or multiple projects.
 
-No longer. Our new file format, BMPR (or, "bumper"), contains all the mockups from one project in a single file, as well as all its images and Symbols. Everything stays together in one place, even if you move the file around. This also means the same project file can be opened in *any* Mockups 3 product, from the [Desktop](https://www.balsamiq.com/products/mockups) to the [Cloud](https://balsamiq.com/products/mockups/mybalsamiq/).
+No longer. Our new file format, BMPR (or, "bumper"), contains all the mockups from one project in a single file, as well as all its images and Symbols. Everything stays together in one place, even if you move the file around. This also means the same project file can be opened in *any* Mockups 3 product.
 
 For our existing customers this means that you will need to import your existing files to Balsamiq Mockups 3 for them to work. Don't worry, we made it very easy.
 
