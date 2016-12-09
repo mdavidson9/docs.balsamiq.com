@@ -1,15 +1,16 @@
-<h2>For JIRA Cloud</h2>
-
+<h2 id="mockups-jira-cloud">Mockups for JIRA Cloud</h2>
+<!-- add screenshot here -->
 <ul>
-	<li><a href="/jira/user-guide-cloud/">Mockups 3 for JIRA Cloud User Guide</a></li>
-	<li><a href="/jira/admin-guide-cloud/">Mockups 3 for JIRA Cloud Admin Guide</a></li>
-	<li><a href="/jira/transition-guide/">Mockups 3 for JIRA Cloud Transition Guide</a></li>
+  {{ range .Site.Menus.menujiracloud.ByWeight }}
+    <li><a href="{{.URL}}"> {{ .Name }} </a> </li>
+    {{ end }}
 </ul>
 
 <hr/>
-<h2>For JIRA Server</h2>
-
+<h2 id="mockups2-jira-server">Mockups 2 for JIRA Server</h2>
+<!-- add screenshot here -->
 <ul>
-	<li><a href="/jira/user-guide/">Mockups for JIRA Server User Guide</a></li>
-	<li><a href="/jira/admin-guide/">Mockups for JIRA Server Admin Guide</a></li>
+    {{ range .Site.Menus.menujiraserver2.ByWeight }}
+    <li><a href="{{.URL}}"> {{ .Name }} </a> </li>
+    {{ end }}
 </ul>

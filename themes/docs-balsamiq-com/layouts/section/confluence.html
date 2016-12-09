@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main">
+  <div class="container-fluid">
+{{/* ======================================== */}}
+
+<div class="row">
+  <div class="col-xs-12 doc-overview">
+    <main role="main">
+      <div class="doc-list-header">
+        <h1>Mockups for Confluence Documentation</h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">      
+          <h3 class="text-center mb2 mt1">Which version of Mockups for Confluence are you using?</h3>
+        </div>
+      </div>
+      <div class="row">
+        {{ range (.Data.Pages.GroupByParam "product").Reverse }}
+        <div class="col-xs-12 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="//media.balsamiq.com/img/support/docs/confluence/{{ .Key | urlize }}.png" class="img-responsive center-block">
+<div class="text-center"><div style="display:inline;"><img src="//media.balsamiq.com/img/support/docs/confluence/icon-{{ .Key | urlize }}.png"></div> 
+  <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ .Key }}</h3></div>
+            </div>
+            <div class="list-group">
+            {{ range .Pages.ByWeight }}
+            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+            {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </main>
+  </div> <!-- /.doc-overview -->
+
+</div>{{/* /.row */}}
+
+{{/* ======================================== */}}
+  </div>
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

@@ -12,12 +12,24 @@
     <div id="sidebar-box">
     {{ if eq .Section "desktop" }}
       {{ partial "sidebar_desktop.html" . }}
+    {{ else if eq .Section "editor" }}
+      {{ partial "sidebar_editor.html" . }}
     {{ else if eq .Section "mybalsamiq" }}
       {{ partial "sidebar_mybalsamiq.html" . }}
+    {{ else if eq .Section "google-drive" }}
+      {{ partial "sidebar_gdrive.html" . }}
     {{ else if eq .Section "jira" }}
-      {{ partial "sidebar_jira.html" . }}
-    {{ else if eq .Section "confluence" }}
-      {{ partial "sidebar_confluence.html" . }}
+        {{ if eq .Params.menu "menujiraserver2" }}
+          {{ partial "sidebar_jiraserver2.html" . }}
+        {{ else }}
+          {{ partial "sidebar_jira.html" . }}
+        {{ end }}
+     {{ else if eq .Section "confluence" }}
+        {{ if eq .Params.menu "menuconfluenceserver2" }}
+          {{ partial "sidebar_confluenceserver2.html" . }}
+        {{ else }}
+          {{ partial "sidebar_confluence.html" . }}
+        {{ end }}
     {{ else }}
       <!-- sidebar -->
     {{ end }}
@@ -29,10 +41,38 @@
     <div id="support-main">
       <div class="support-body">
         <article>
-          <h1 class="title">{{ .Title }}</h1>
+          {{ if .Params.product }}
+          <h5 class="subtitle">{{ .Params.product }}</h5>
+          {{ else if eq .Section "mybalsamiq" }}
+          <h5 class="subtitle">myBalsamiq</h5>
+          {{ else }}
+          <h5 class="subtitle">Mockups for {{ .Section | humanize | title }}</h5>
+          {{ end }}        
+          <h1 class="title mt0">{{ .Title }}</h1>
           <div class="breadcrumbs visible-xs visible-sm">{{ partial "breadcrumbs.html" . }}</a></div>
           <div class="article-content content article">
-            {{ .Content }}
+            {{ if .Params.include }}
+              {{ $include := .Params.include }}
+              {{ if eq .Params.editorversion 3 }}
+                {{ range where .Site.Pages "Params.menu" "menub3editor" }}
+                {{ $file := substr .File.LogicalName 0 -3}}
+                {{ if eq $file $include }}
+                  {{ .Content }}
+                  {{ end }}
+                {{ end }}
+              {{ else if eq .Params.editorversion 2 }}
+                {{ range where .Site.Pages "Params.menu" "menub2editor" }}
+{{ $file := substr .File.LogicalName 0 -3}}
+                {{ if eq $file $include }}
+                  {{ .Content }}
+                  {{ end }}
+                {{ end }}
+              {{ else }}
+              {{ end }}
+
+            {{ else }}
+              {{ .Content }}
+            {{ end }}
           </div>
           {{/*
           <hr>

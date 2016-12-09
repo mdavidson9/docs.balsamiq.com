@@ -13,6 +13,8 @@
       <div class="doc-list-header">
         {{ if eq .Title "Mybalsamiq" }}
         <h1>myBalsamiq Documentation</h1>
+        {{ else if eq .Title "Google-drive" }}
+        <h1>Mockups for Google Drive Documentation</h1>
         {{ else if eq .Title "Jira" }}
         {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for JIRA Documentation</h1>
@@ -20,25 +22,27 @@
         {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for Confluence Documentation</h1>
         {{ else }}
-        <h1>{{ .Title }} Documentation</h1>
+        <h1>{{ .Title | humanize | title }} Documentation</h1>
         {{ end }}        
       </div>
-      {{ if eq ($.Scratch.Get "showlist") 0 }}
-      <ol id="list">
-      {{ range .Data.Pages.ByWeight }}
-        {{ .Render "li"}}
+      {{ if eq ($.Scratch.Get "showlist") 0 }}  <!-- Products with only one version -->
+        <ol id="list">
+        {{ range .Data.Pages.ByWeight }}
+          {{ .Render "li"}}
+        {{ end }}
+        </ol>
+      {{ else }} <!-- Products with multiple versions -->
+      
+        {{ range (.Data.Pages.GroupByParam "product").Reverse }}
+          <h2 id="{{ .Key | urlize }}">{{ .Key }}</h2>
+          <ul>
+            {{ range .Pages.ByWeight }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul><hr />
+        {{ end }}
       {{ end }}
-      </ol>
-      {{ end }}
-    {{ if eq .Title "Desktop" }}
-      {{ partial "desktop_faqs.html" . }}
-    {{ else if eq .Title "Mybalsamiq" }}
-      {{ partial "myb_faqs.html" . }}
-    {{ else if eq .Title "Jira" }}
-      {{ partial "jira_toc.html" . }}
-    {{ else if eq .Title "Confluence" }}
-      {{ partial "confluence_toc.html" . }}
-    {{ end }}
+
     </main>
   </div> <!-- /.doc-overview -->
 
