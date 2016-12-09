@@ -9,7 +9,7 @@ Balsamiq Mockups supports the concept of Symbols. A Symbol is a group of control
 
 In essence, Symbols let you create reusable common elements that you can use across different mockups.
 
-{{% alert info %}}**Note:** To work with Symbols in **myBalsamiq**, see [this article](/mybalsamiq/symbols) in the myBalsamiq Documentation.{{% /alert %}}
+{{% alert info %}}**Note:** To work with Symbols in **myBalsamiq**, see [this article](/mybalsamiq/symbols/) in the myBalsamiq Documentation.{{% /alert %}}
 
 ## Creating Symbols
 

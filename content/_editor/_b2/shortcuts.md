@@ -5,9 +5,14 @@ menu: "menub2editor"
 weight: 81
 ---
 
-<div style="float: right; width: 150px; margin-left: 18px;">[![](http://media.balsamiq.com/files/balsamiq-keyboard-shortcuts-thumb.png)​](http://media.balsamiq.com/files/balsamiq-keyboard-shortcuts.png)
+<div style="float: right; width: 150px; margin-left: 18px;">
+<a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts.png" class="fb"><img src="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-thumb.png"></a>
 
-<div class="t10">Download: [PDF](http://media.balsamiq.com/files/balsamiq-keyboard-shortcuts.pdf) | [PNG](http://media.balsamiq.com/files/balsamiq-keyboard-shortcuts.png)</div>
+<div class="t10">
+Download:
+  <a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts.pdf">PDF</a> |
+  <a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts.png">PNG</a>
+</div>
 
 </div>
 
