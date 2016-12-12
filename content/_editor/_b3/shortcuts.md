@@ -1,8 +1,6 @@
 ---
-date: 2015-05-10T10:34:01+02:00
 title: "Keyboard Shortcuts"
 menu: "menub3editor"
-weight: 200
 ---
 
 <div style="float: right; width: 150px; margin-left: 18px;">

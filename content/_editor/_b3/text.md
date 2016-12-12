@@ -1,8 +1,6 @@
 ---
-date: 2015-05-09T16:47:53+02:00
 title: "Working with Text"
 menu: "menub3editor"
-weight: 90
 ---
 
 Many Mockups UI controls, such as Button, Label or DataGrid, have text in them. To edit the text, double-click on the control and start typing. Or, if you have the control selected, simply hit Enter or F2 to start editing. To commit the text you typed, simply click anywhere other than the text field you typed in or hit Enter or CTRL+Enter. If you want to discard the text changes you just made, hit the ESC key.

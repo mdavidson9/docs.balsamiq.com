@@ -1,8 +1,6 @@
 ---
-date: 2015-05-09T16:59:07+02:00
 title: "Working with Site Maps"
 menu: "menub3editor"
-weight: 150
 ---
 
 You can create simple site maps from a text outline using the Site Map control.

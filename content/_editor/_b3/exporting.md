@@ -1,14 +1,6 @@
 ---
-date: 2015-05-09T16:59:30+02:00
 title: "Exporting Your Mockups"
 menu: "menub3editor"
-weight: 160
-tags:
-  - "Exporting"
-  - "PDF"
-  - "PNG"
-  - "Printing"
-  - "Image"
 ---
 {{% alert info %}}**Note:** To learn how to export your mockups in **myBalsamiq**, see [this article](/mybalsamiq/exporting/) in the myBalsamiq Documentation.{{% /alert %}}
 

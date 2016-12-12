@@ -1,8 +1,6 @@
 ---
-date: 2015-05-09T16:58:34+02:00
 title: "Working with Symbols"
 menu: "menub3editor"
-weight: 140
 ---
 
 Balsamiq Mockups supports the concept of Symbols. A Symbol is a group of controls that represents a single piece of functionality. It is often used for parts of the user interface that show up on several screens. Other software sometimes refers to this feature as templates, master pages, custom components, or widgets.

@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Presenting Your Work"
 menu: "menub2editor"
-weight: 84
 ---
 
 Mockups includes a "Full Screen Presentation" mode for those times when you need to present your wireframes to other stakeholders.

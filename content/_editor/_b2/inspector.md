@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "The Property Inspector"
 menu: "menub2editor"
-weight: 73
 ---
 
 The Property Inspector (also called the toolbox, palette, property dialog, properties window, toolbar, floating window, floating tool bar, properties box and control dialog) is the little floating rectangle that appears once you select one or more UI controls. It allows you to perform some common functions such as copying/pasting, layering, and aligning controls, as well as some control-specific customizations.

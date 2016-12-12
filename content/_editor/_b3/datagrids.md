@@ -1,11 +1,6 @@
 ---
-date: 2015-05-09T16:48:09+02:00
 title: "Working with Data Grids / Tables"
 menu: "menub3editor"
-weight: 100
-tags:
-  - "Data Grid"
-  - "Table"
 ---
 
 The Data Grid control functions like many other [text-based controls](../text/). It uses commas as column separators and new lines as rows. A basic table with three columns and two rows would look like this:

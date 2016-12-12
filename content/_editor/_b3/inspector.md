@@ -1,11 +1,6 @@
 ---
-date: 2015-05-09T16:46:21+02:00
 title: "The Property Inspector"
 menu: "menub3editor"
-weight: 60
-tags:
-  - "Property Inspector"
-  - "Notes"
 ---
 
 The Property Inspector is a panel on the right side of the application that allows you to set some common properties such as alignment, position and size as well as settings specific to certain controls (selection state, text properties, color, etc.). It is available when viewing mockups, assets, and Symbols.

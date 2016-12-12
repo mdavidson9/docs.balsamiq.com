@@ -1,8 +1,6 @@
 ---
-date: 2015-05-09T16:44:43+02:00
 title: "Mockups Application Overview"
 menu: "menub3editor"
-weight: 40
 ---
 
 Balsamiq Mockups is a user interface design tool for creating [wireframes](https://support.balsamiq.com/resources/whatarewireframes/) (also called mockups or low-fidelity prototypes). You can use it to generate digital sketches of your product ideas to facilitate discussion and understanding before any code is written.

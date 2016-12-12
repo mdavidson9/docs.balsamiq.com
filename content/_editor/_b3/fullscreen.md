@@ -1,12 +1,6 @@
 ---
-date: 2015-05-10T10:33:54+02:00
 title: "Full Screen Presentation Mode"
 menu: "menub3editor"
-weight: 190
-tags:
-  - "Full Screen"
-  - "Presentation Mode"
-
 ---
 
 Mockups includes a full screen presentation mode for presenting your wireframes to stakeholders or usability testing.

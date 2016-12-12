@@ -1,12 +1,6 @@
 ---
-date: 2015-05-10T10:33:47+02:00
 title: "Linking Mockups Together"
 menu: "menub3editor"
-weight: 180
-tags:
-  - "Linking"
-  - "Full Screen"
-  - "Presentation Mode"
 ---
 
 You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).

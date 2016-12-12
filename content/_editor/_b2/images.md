@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Working with Images"
 menu: "menub2editor"
-weight: 77
 ---
 
 ## Adding Images

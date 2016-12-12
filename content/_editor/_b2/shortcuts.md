@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Keyboard Shortcuts"
 menu: "menub2editor"
-weight: 81
 ---
 
 <div style="float: right; width: 150px; margin-left: 18px;">

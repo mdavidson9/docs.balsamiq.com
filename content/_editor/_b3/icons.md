@@ -1,11 +1,6 @@
 ---
-date: 2015-05-09T16:48:21+02:00
 title: "Working with Icons"
 menu: "menub3editor"
-weight: 110
-tags:
-  - "Icons"
-  - "Custom"
 ---
 
 Balsamiq Mockups 3 includes the amazing [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon set. It contains over 500 icons in a wide range of categories that can be sized from very small to very large. It is also updated frequently and we plan to keep up with the updates whenever we release a new version of our product (_[more about why we switched here](http://blogs.balsamiq.com/product/2015/03/31/font-awesome/)_).

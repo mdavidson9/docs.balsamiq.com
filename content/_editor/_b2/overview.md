@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Mockups Application Overview"
 menu: "menub2editor"
-weight: 71
 ---
 
 Balsamiq Mockups is made up of three major blocks. From top to bottom: the [Application Bar](#the-application-bar), the [UI library](#the-ui-library), and the [Mockup Canvas](#the-mockup-canvas) Each is described below.

@@ -1,8 +1,6 @@
 ---
-date: 2015-05-09T16:58:17+02:00
 title: "Working with Markup"
 menu: "menub3editor"
-weight: 130
 ---
 
 Markup is a special kind of component in the UI Library that is used for adding annotations, comments, and explanatory notes.

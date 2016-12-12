@@ -1,10 +1,6 @@
 ---
-date: 2015-05-09T16:46:35+02:00
 title: "Working with Alternates"
 menu: "menub3editor"
-weight: 70
-tags:
-  - "Alternates"
 ---
 
 Alternates (also sometimes referred to as _versions_ or _branches_) allow you to create **variations on a single mockup design** without adding more mockups to your project.

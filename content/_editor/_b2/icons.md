@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Working with Icons"
 menu: "menub2editor"
-weight: 76
 ---
 
 Balsamiq Mockups and myBalsamiq come packed with over 600 icons courtesy of the [Font Awesome Icon Library](http://fontawesome.io).

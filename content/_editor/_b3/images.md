@@ -1,11 +1,6 @@
 ---
-date: 2015-05-09T16:57:52+02:00
 title: "Working with Images and Assets"
 menu: "menub3editor"
-weight: 120
-tags:
-  - "Images"
-  - "Assets"
 ---
 
 There are multiple ways to add images to your mockups. The easiest way is to simply drag and drop an image file from your computer on to the Mockups canvas. Read on to learn more about adding and using images and other assets in your projects.

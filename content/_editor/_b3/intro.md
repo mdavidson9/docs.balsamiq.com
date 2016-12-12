@@ -1,11 +1,6 @@
 ---
-date: 2015-05-09T16:32:43+02:00
 title: "Introduction to Balsamiq Mockups 3"
 menu: "menub3editor"
-weight: 1
-tags:
-  - "Overview"
-  - "Introduction"
 ---
 
 Balsamiq Mockups 3 is the result of nearly a year of heads-down coding to create the product that our customers have been asking for and the product we wanted for ourselves.

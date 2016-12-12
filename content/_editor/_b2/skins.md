@@ -1,8 +1,6 @@
 ---
-date: 2015-09-23T15:48:49-07:00
 title: "Working with Skins (sketch vs. wireframe)"
 menu: "menub2editor"
-weight: 83
 ---
 
 We know that some people need to shift from idea generation with internal teams to presentation with clients or stakeholders, and in those situations the default "sketch" skin may present challenges with certain audiences. To address this need, we created a "wireframe" skin that allows you to switch from a sketchy, hand-drawn style to a crisper, cleaner wireframe elements.
