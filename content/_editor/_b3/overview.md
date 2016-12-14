@@ -13,8 +13,6 @@ The Balsamiq Mockups user interface is made up of five primary areas: the [toolb
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/ui-overview.png)
 
-For documentation on the UI areas that are unique to myBalsamiq, check out the [myBalsamiq documentation](/mybalsamiq/).
-
 {{% alert info %}}**Note:** You can watch a video covering basic usage of the application in our [Mockups Intro Video tutorial](https://support.balsamiq.com/tutorials/introvideo/).{{% /alert %}}
 
 * * *
@@ -34,7 +32,7 @@ The first set of icons is described below.
 5.  Mockup actions (rename, etc.) and navigate between mockups (_shown when left panel is hidden_)
 6.  Go to next or previous mockup (_shown when left panel is hidden_)
 
-The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-mockuop-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
+The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-mockup-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar1.png)
 

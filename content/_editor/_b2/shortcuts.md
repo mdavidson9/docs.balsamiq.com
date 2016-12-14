@@ -30,7 +30,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Working with Controls
+Working with Controls
 
 </th>
 
@@ -366,7 +366,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Working with Icons
+Working with Icons
 
 </th>
 
@@ -408,7 +408,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Working with Text
+Working with Text
 
 </th>
 
@@ -458,7 +458,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Text Formatting
+Text Formatting
 
 </th>
 
@@ -540,7 +540,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Special Text Macros
+Special Text Macros
 
 </th>
 
@@ -574,7 +574,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Quick Add
+Quick Add
 
 </th>
 
@@ -617,7 +617,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Working with Mockup Files
+Working with Mockup Files
 
 </th>
 
@@ -747,7 +747,7 @@ Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose on
 
 <th colspan="2">
 
-## Views
+Views
 
 </th>
 

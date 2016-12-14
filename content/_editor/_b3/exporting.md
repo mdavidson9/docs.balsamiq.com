@@ -2,8 +2,6 @@
 title: "Exporting Your Mockups"
 menu: "menub3editor"
 ---
-{{% alert info %}}**Note:** To learn how to export your mockups in **myBalsamiq**, see [this article](/mybalsamiq/exporting/) in the myBalsamiq Documentation.{{% /alert %}}
-
 The Export menu contains the following export options:
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/export-menu.png)
@@ -73,7 +71,7 @@ Another method is to use the Import/Export Mockup JSON commands in the Project m
 
 You can also export your project for use in a previous version of Balsamiq Mockups or version that doesn't yet support the [new BMPR file format](../intro/#projects).
 
-Selecting Export > Project to BMMLs ZIP... will save your mockups as a ZIP file containing individual BMML files (compatible with Balsamiq Mockups version 2) and images and Symbols stored in an assets sub-folder. You can then upload this file to myBalsamiq or unzip it and open the mockups with an older version of Balsamiq Mockups.
+Selecting Export > Project to BMMLs ZIP... will save your mockups as a ZIP file containing individual BMML files (compatible with Balsamiq Mockups version 2) and images and Symbols stored in an assets sub-folder. You can then unzip it and open the mockups with an older version of Balsamiq Mockups.
 
 {{% alert info %}}**Note:** This is also how you would export your mockups for use with Balsamiq Mockups for Confluence Server or JIRA Server. [Detailed instructions are here](https://support.balsamiq.com/plugins/importtoatlassian/).{{% /alert %}}
 
@@ -82,5 +80,3 @@ Selecting Export > Project to BMMLs ZIP... will save your mockups as a ZIP file 
 ## Exporting from Other Balsamiq Products
 
 If you're looking for export instructions for our plugins, including Google Drive, Confluence and JIRA, [see this FAQ page](https://support.balsamiq.com/plugins/importtoatlassian/).
-
-To export from myBalsamiq, see [this article](/mybalsamiq/sharing/).

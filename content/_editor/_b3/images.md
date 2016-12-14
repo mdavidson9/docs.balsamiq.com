@@ -5,8 +5,6 @@ menu: "menub3editor"
 
 There are multiple ways to add images to your mockups. The easiest way is to simply drag and drop an image file from your computer on to the Mockups canvas. Read on to learn more about adding and using images and other assets in your projects.
 
-{{% alert info %}}**Note:** To see how to use Assets in **myBalsamiq**, see [this article](/mybalsamiq/assets) in the myBalsamiq Documentation.{{% /alert %}}
-
 ## Adding Images in Mockups View
 
 As mentioned above, dragging an image from your computer to Balsamiq Mockups will add it to the canvas. Doing this will place the image into the selected mockup and copy the image file to your [Assets](#adding-images-in-assets-view) so that you can easily reuse it in other mockups.
