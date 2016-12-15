@@ -5,7 +5,7 @@ menu: "menumybalsamiq"
 weight: 70
 ---
 
-The Mockups editor in myBalsamiq is similar to the editor in the desktop version. See the [Balsamiq Mockups for Desktop editor documentation](/desktop/overview/) for reference.
+The Mockups editor in myBalsamiq is similar to the editor in other versions. See the [Mockups Application Overview](../overview/) and [Working with UI Controls](../controls/) for more details.
 
 ## UI Overview
 
@@ -17,7 +17,7 @@ The myBalsamiq editor is made up of four main parts, as shown below: **The Menu 
 
 ## The Menu Bar
 
-The Menu Bar is where you will find menus and icons for performing common actions, as well as the [Quick Add](/desktop/overview/#the-quick-add-tool) box. It is very similar to the Application Bar found in the Desktop version, which you can [read about in the Desktop documentation](/desktop/overview/#the-toolbar).
+The Menu Bar is where you will find menus and icons for performing common actions, as well as the [Quick Add](../overview/#the-quick-add-tool) box. You can learn more in the [Mockups Application Overview](../overview/#the-application-bar).
 
 * * *
 
@@ -33,7 +33,7 @@ You can also view any Symbols you have created in the Project Browser by clickin
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-tabs.png)
 
-This tab has a second level of tabs for viewing [Project Symbols or Site Symbols](/mybalsamiq/assets/).
+This tab has a second level of tabs for viewing [Project Symbols or Site Symbols](../assets/).
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-symbolstabs.png)
 

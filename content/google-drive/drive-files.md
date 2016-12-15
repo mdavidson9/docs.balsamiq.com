@@ -21,9 +21,9 @@ If the Google Drive users you are sharing with do not have Mockups for Google Dr
 
 {{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your mockups but not edit them.{{% /alert %}}
 
-Alternatively, you can export your mockups as PNG images or an interactive PDF and use sharing in Google Drive to allow others to view them. See the [section above](#exporting-your-mockups) for how to export to PNG or PDF.
+Alternatively, you can export your mockups as PNG images or an interactive PDF and use sharing in Google Drive to allow others to view them. See the [Exporting Your Mockups](../exporting/) for how to export to PNG or PDF.
 
-Once you've shared your mockups with another person you can both work on them at the same time. See the [section above on collaborating](#collaborating-with-other-users-in-real-time) for details.
+Once you've shared your mockups with another person you can both work on them at the same time. See [Collaborating with Other Users in Real Time](../collaborating/) for details.
 
 * * *
 
@@ -45,6 +45,6 @@ You can see previous versions of your mockups via the Google Drive interface. Ri
 
 ![Manage revisions](//media.balsamiq.com/img/support/docs/gdrive/userguide/managerevisions.png)
 
-{{% alert info %}}**Note:** A new version is created each time you [quit](#returning-to-google-drive-closing-the-editor) the application or if you manually save via the editor menu (Project > Save Project).{{% /alert %}}
+{{% alert info %}}**Note:** A new version is created each time you [quit](../intro/#returning-to-google-drive-closing-the-editor) the application or if you manually save via the editor menu (Project > Save Project).{{% /alert %}}
 
 Clicking on a previous version will download the .bmpr file.
