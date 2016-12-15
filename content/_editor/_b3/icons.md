@@ -5,7 +5,7 @@ menu: "menub3editor"
 
 Balsamiq Mockups 3 includes the amazing [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon set. It contains over 500 icons in a wide range of categories that can be sized from very small to very large. It is also updated frequently and we plan to keep up with the updates whenever we release a new version of our product (_[more about why we switched here](http://blogs.balsamiq.com/product/2015/03/31/font-awesome/)_).
 
-It should meet all your icon needs, but if not, you can [add your own icons](#adding-your-own-custom-icons) or [request new ones from Font Awesome](http://fortawesome.github.io/Font-Awesome/community/#requesting-new-icons).
+It should meet all your icon needs, but if not, you can [add your own icons](#adding-your-own-icons) or [request new ones from Font Awesome](http://fortawesome.github.io/Font-Awesome/community/#requesting-new-icons).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-library.png)
 
@@ -75,7 +75,7 @@ There are a few icon sets that complement the hand-drawn style of Mockups. This 
 
 Some icon designers have even started creating icon packs that are compatible with our naming scheme. Here's [a list of the ones we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
 
-To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-via-assets).
+To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-your-own-icons).
 
 * * *
 

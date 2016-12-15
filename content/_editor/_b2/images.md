@@ -51,4 +51,4 @@ Mockups also allows you to import your own icons. Importing an image with "icon_
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_customiconlibrary.png)
 
-More details about Custom Icons can be found [here](/icons/#adding-your-own-custom-icons).
+More details about Custom Icons can be found [here](../icons/#adding-your-own-custom-icons).

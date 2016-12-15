@@ -7,7 +7,7 @@ menu: "menub2editor"
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_uilibrary.png)
 
-To add new UI controls to your mockup, you can use [the UI Library](http://support.balsamiq.com/customer/portal/articles/109151#uilibrary) or type a keyword into [the Quick Add tool](http://support.balsamiq.com/customer/portal/articles/109151#quickadd).
+To add new UI controls to your mockup, you can use [the UI Library](../overview/#the-ui-library) or type a keyword into [the Quick Add tool](../overview/#the-quick-add-tool).
 
 You can also duplicate controls already on the canvas using copy and paste or the duplicate command (CTRL/CMD + D).
 
@@ -37,7 +37,7 @@ Once you have selected one or more UI controls, there are a few different ways t
 *   You can drag it with your mouse (hold down the SHIFT key to maintain the original horizontal or vertical position)
 *   You can "nudge it" one pixel at a time with your keyboard's UP/DOWN/LEFT/RIGHT keys
 *   You can move it with bigger steps by holding down SHIFT and using your keyboard's UP/DOWN/LEFT/RIGHT keys
-*   You can move your controls to be aligned in one direction by using the align tools found in the [Property Inspector](http://support.balsamiq.com/customer/portal/articles/110114)
+*   You can move your controls to be aligned in one direction by using the align tools found in the [Property Inspector](../inspector/)
 
 * * *
 
@@ -55,7 +55,7 @@ Resizing the selected controls is easy. You can just grab any edge or corner of 
 
 If you want to constrain proportions while dragging from a corner, hold the SHIFT key while dragging.
 
-Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](http://support.balsamiq.com/customer/portal/articles/110114).
+Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](../inspector/).
 
 * * *
 
@@ -69,7 +69,7 @@ You can align and distribute (space out) controls by selecting multiple controls
 
 ## Layering UI Controls
 
-You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the [Property Inspector](http://support.balsamiq.com/customer/portal/articles/110114): bring to front, send to back, bring forward and send backward.
+You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the [Property Inspector](../inspector/): bring to front, send to back, bring forward and send backward.
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_layering.png)
 
@@ -91,7 +91,7 @@ To remove some UI controls from the mockup canvas, select them and hit the DELET
 
 ## Rotating UI Controls
 
-_Some_ of our UI controls can be rotated via the [Property Inspector](../inspector/) (the label, [image](../images/#adding-images-in-mockups-view), and [icon](../icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
+_Some_ of our UI controls can be rotated via the [Property Inspector](../inspector/) (the label, [image](../images/), and [icon](../icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
 
 The reason we don't support rotating all controls because we believe that in 90% of cases, it is not needed in wireframes. In fact, adding the ability to rotate any control will likely result in wireframes that are very hard if not impossible to implement by the development team.
 
@@ -109,7 +109,7 @@ You can double-click on a group to “enter it” and edit its contents. A small
 
 ![](//media.balsamiq.com/img/support/docs/m4d/help_groupbar.png)
 
-You can optionally give a group a name via the group's property inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming and grouping controls is also the first step to creating [Symbols](http://support.balsamiq.com/customer/portal/articles/110439).
+You can optionally give a group a name via the group's property inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming and grouping controls is also the first step to creating [Symbols](../symbols/).
 
 * * *
 
@@ -119,4 +119,4 @@ It is possible to crop (mask) a group of controls to only show a selected portio
 
 The video below illustrates how to use this feature.
 
-<div style="height:480px"><iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/GOnCNNHhfGc" width="640"></iframe></div>
+{{< yt GOnCNNHhfGc >}}

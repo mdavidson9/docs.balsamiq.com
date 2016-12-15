@@ -9,7 +9,7 @@ The most noticeable changes are the two "biggies" that people have asked for sin
 
 But just as important was the work that was done under the hood to make it faster and smarter and the little tweaks across every part of the experience that we hope will make using it even better.
 
-In this article you'll find information about [**how to update**](#how-to-update), [**what's new**](#whats-new-in-balsamiq-mockups-3) and, of course, [**how to import your Mockups 2 BMML files**](#importing-mockups-2-bmml-files). If you are new to Balsamiq Mockups or want to dive deeper after reading this article you can head over to the [documentation table of contents](/b3/) or [application overview](/b3/overview/) next.
+In this article you'll find information about [**how to update**](#how-to-update), [**what's new**](#what-s-new-in-balsamiq-mockups-3) and, of course, [**how to import your Mockups 2 BMML files**](#importing-mockups-2-bmml-files). If you are new to Balsamiq Mockups or want to dive deeper after reading this article you can head over to the [documentation table of contents](../) or [application overview](../overview/) next.
 
 Here's a quick 5-minute video walkthrough of some of the highlights of version 3.
 
@@ -21,7 +21,7 @@ Here's a quick 5-minute video walkthrough of some of the highlights of version 3
 
 Balsamiq Mockups 3 is the most current version of our powerful editor. If you are using any of our web apps, it will update automatically. If you want to use it on the Desktop, you can grab the latest version from our [download page](https://balsamiq.com/download). It's a free update for existing customers, you won't even need to re-register.
 
-Balsamiq Mockups 3 for Desktop will run side-by-side with Balsamiq Mockups 2 for Desktop (as a separate application) so no need to uninstall your current version to use it. See below for [how to import Mockups 2 BMML files](#importing-existing-files).
+Balsamiq Mockups 3 for Desktop will run side-by-side with Balsamiq Mockups 2 for Desktop (as a separate application) so no need to uninstall your current version to use it. See below for [how to import Mockups 2 BMML files](#importing-mockups-2-bmml-files).
 
 While it has been rigorously tested, if you find any bugs or issues, [tell us about it](mailto:support@balsamiq.com)!
 
@@ -161,7 +161,7 @@ Alternates (also sometimes referred to as versions or branches) allow you to cre
 
 Yes, built-in background music to help you get into your creative zone! [Check out the blog post for more details.](http://blogs.balsamiq.com/product/2015/04/29/3-1/)
 
-![](http://balsamiqmu.wpengine.netdna-cdn.com/product/files/2015/04/music.png)
+![](//media.balsamiq.com/img/support/docs/m4d/b3/music.png)
 
 ### What's _not_ New
 
