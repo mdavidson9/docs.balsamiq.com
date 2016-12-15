@@ -22,9 +22,9 @@
         <div class="col-xs-12 col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
-              <img src="//media.balsamiq.com/img/support/docs/jira/{{ .Key | urlize }}.png" class="img-responsive center-block">
-<div class="text-center"><div style="display:inline;"><img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Key | urlize }}.png"></div> 
-  <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ .Key }}</h3></div>
+              {{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/{{ .Key | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Key | urlize }}.png"></a></div> 
+  <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}{{ .Key }}</a></h3></div>
             </div>
             <div class="list-group">
             {{ range .Pages.ByWeight }}

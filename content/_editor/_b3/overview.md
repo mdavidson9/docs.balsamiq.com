@@ -7,7 +7,7 @@ Balsamiq Mockups is a user interface design tool for creating [wireframes](https
 
 Each Balsamiq Mockups file (with a .bmpr file extension) represents one project and can contain many mockups and images, which are stored together in a single .bmpr file. Mockups for different projects should be created in separate Balsamiq Mockups files. To create a new project select Project > New Project from the menu.
 
-{{% alert info %}}**Note:** Single project files are new in Balsamiq Mockups 3 ([learn more](../intro/#projects)).{{% /alert %}}
+{{% alert info %}}**Note:** Single project files are new in Balsamiq Mockups 3.{{% /alert %}}
 
 The Balsamiq Mockups user interface is made up of five primary areas: the [toolbar](#the-toolbar), the [UI Library](#the-ui-library), the [canvas](#the-mockup-canvas), the [navigator panel](#the-navigator-panel) and the [properties panel](#the-properties-panel). Each is described below.
 
@@ -25,7 +25,7 @@ The first set of icons is described below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/toolbar.png)
 
-1.  Navigate between Mockups, [Assets](../images/), [Symbols](../symbols/) and [Trash](../intro/#trash)
+1.  Navigate between Mockups, [Assets](../images/), [Symbols](../symbols/) and [Trash](#trash)
 2.  Show/Hide the left panel
 3.  View your mockups as a thumbnail grid
 4.  Create a new mockup
@@ -139,3 +139,15 @@ This view shows thumbnails of all of your mockups and is useful for getting an o
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/thumbnail-multi-select.png)
 
 Thumbnail grid view is available when viewing mockups and assets, and is the only view available for trash.
+
+---
+
+## Trash
+
+Balsamiq Mockups 3 has a trash for mockups, assets, and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress but still allows you to browse or recover earlier concepts.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/trash.png)
+
+To recover a trashed object from the Trash panel click the context menu arrow and select "Restore." You also have the option to delete permanently.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/trash2.png)
