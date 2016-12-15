@@ -9,7 +9,7 @@ weight: 40
 
 ## Welcome
 
-This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/cloud/overview).
+This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview).
 
 {{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/cloud/intro/) instead.{{% /alert %}}
 
@@ -102,7 +102,7 @@ It is possible to move mockups from one page to another. However, this is somewh
 
 Here are the steps:
 
-1.  Go to the Attachments page and move _both_ the .bmml and .png files (both file types should have a "mockup\_" prefix) to the page you wish to move the mockup to (_see [this page](https://confluence.atlassian.com/display/DOC/Moving+an+Attachment) for Confluence documentation on moving attachments_).
+1.  Go to the Attachments page and move _both_ the .bmml and .png files (both file types should have a "mockup\_" prefix) to the page you wish to move the mockup to (_refer to [the Confluence documentation](https://confluence.atlassian.com/search/?query=moving%20an%20attachment%20) for more information_).
 2.  On the new page, Edit the page and type the following text:
     1.  **{mockup:Name=**
     2.  *the name of the mockup without the "mockup\_" prefix or the .bmml extension (so "mockup\_login screen.bmml" would become "**login screen**")*

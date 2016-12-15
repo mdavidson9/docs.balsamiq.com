@@ -11,7 +11,7 @@ There are two ways to select an icon to use: the icon search and the icon librar
 
 ## Icon Search
 
-If the controls you selected support icons, you will see the icon search box in the property inspector. This works much like [the Quick Add tool](http://support.balsamiq.com/customer/portal/articles/109151#quickadd): just type a few letters from the name of the icon you are looking for and a list of suggestions will pop up. In this case, the list is a grid of icons to choose from. Just click on the one you want to select it.
+If the controls you selected support icons, you will see the icon search box in the property inspector. This works much like [the Quick Add tool](../overview/#the-quick-add-tool): just type a few letters from the name of the icon you are looking for and a list of suggestions will pop up. In this case, the list is a grid of icons to choose from. Just click on the one you want to select it.
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_iconsearch.png)
 

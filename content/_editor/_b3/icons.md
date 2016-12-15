@@ -9,7 +9,7 @@ It should meet all your icon needs, but if not, you can [add your own icons](#ad
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/icon-library.png)
 
-Icons from previous versions of Balsamiq Mockups have been remapped to the new icons. Go [here to learn about using the old icons](../transition/#where-are-the-old-icons-can-i-still-use-them) in your Balsamiq Mockups 3 projects.
+Icons from previous versions of Balsamiq Mockups have been remapped to the new icons.
 
 ## Adding Icons via the UI Library and Quick Add
 
