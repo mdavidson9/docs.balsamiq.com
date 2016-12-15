@@ -102,7 +102,7 @@ You can then use the arrows to the left of the parent mockup to show and hide th
 
 To restore it to the top level, use Shift+Tab. The video below shows nesting mockups in action.
 
-<div class="video"><iframe allowfullscreen="" frameborder="0" src="//www.youtube.com/embed/WCbh2CpnWQo?rel=0"></iframe></div>
+{{< yt WCbh2CpnWQo >}}
 
 ### Context Menu Actions
 

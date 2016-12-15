@@ -9,7 +9,7 @@ To enter Full Screen Presentation mode, just click on the full-screen icon in th
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-topbar.png)
 
-Balsamiq Mockups will expand to take up your whole screen (to eliminate distractions), and your mockup will be centered on the screen.
+Balsamiq Mockups will expand to take up your whole screen, with your mockup centered on it.
 
 The far left icon toggles the top bar on and off. You can turn it off to remove everything but the mockup (even the icon will disappear until the cursor is placed over it), this is useful for usability testing when you want a more realistic experience.
 

@@ -23,7 +23,7 @@ There are a few different ways to select UI controls. If you are familiar with g
 *   Dragging a rectangle which encloses many UI controls selects them
 *   SHIFT + CLICK on a control adds it to the selection
 *   CTRL/CMD + CLICK on a selected control removes it from the selection
-*   Hold ALT to ignore items behind the mouse and drag-select, as shown in [this short video](http://www.youtube.com/watch?v=JOpaRBbwqNg)
+*   Hold ALT to ignore items behind the mouse and drag-select, as shown in {{< yt JOpaRBbwqNg >}}
 
 To select a control that is behind another control, right-click on the top control to bring up a menu that allows you to select controls behind it.
 
@@ -150,7 +150,7 @@ Here's a video that shows grouping in action:
 
 {{< yt rGNnhbY19yY >}}
 
-You can optionally give a group a name via the Property Inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming groups is also useful when creating [Symbols](../symbols/#1-creating-symbols-in-the-mockups-view).
+You can give a group a name via the Property Inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming groups is also useful when creating [Symbols](../symbols/#1-creating-symbols-in-the-mockups-view).
 
 * * *
 

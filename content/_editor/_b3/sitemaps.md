@@ -29,8 +29,6 @@ This is what the outline above looks like in vertical orientation (default):
 
 ![](//media.balsamiq.com/img/support/docs/m4d/sitemap-horizontal.png)
 
-{{% alert info %}}**Note:** The Horizontal Site Map is only available in Mockups 3 products.{{% /alert %}}
-
 ---
 
 ## Generating Site Maps Automatically
@@ -41,7 +39,7 @@ Next to the options for changing the orientation in the [Property Inspector](../
 
 Each time you click the "Populate from Project" project the site map will be updated to reflect the current project structure.
 
-If you have [nested mockups](../overview/#the-navigator-panel) they will be shown as child nodes in the site map, as shown below.
+If you are using [mockup hierarchy](../overview/#the-navigator-panel), child mokcups will be shown as child nodes in the site map, as shown below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-populated.png)
 
