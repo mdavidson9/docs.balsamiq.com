@@ -5,7 +5,7 @@ menu: "menub3editor"
 
 ## Importing Mockups from a Previous Version (BMML Files)
 
-Balsamiq Mockups 3 uses a different file format from previous versions ([read more about it here](../intro/#projects)). You can import your old mockups in one of three formats:
+Balsamiq Mockups 3 uses a different file format from previous versions. You can import your old mockups in one of three formats:
 
 1.  Individual BMML files
 2.  A folder containing BMML files (with images and Symbols in an assets sub-folder)

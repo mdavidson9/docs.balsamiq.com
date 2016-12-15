@@ -28,7 +28,7 @@ Symbols can be made from existing groups, or from ones you create fresh. The fol
 
 You will notice that the group selection becomes a light green. This means that the selection is now an instance of a symbol. This new Symbol (named, for example, "login form") will be displayed in the _Project Assets_ tab of the UI Library. You can also add the Symbol via Quick Add.
 
-_**Note:** for a more detailed description of this process, see our visual step-by-step guide: **[How to Create a Symbol](http://support.balsamiq.com/customer/portal/articles/1306464)**._
+_**Note:** for a more detailed description of this process, see our visual step-by-step guide: **[How to Create a Symbol](https://support.balsamiq.com/tutorials/symbol/)**._
 
 * * *
 

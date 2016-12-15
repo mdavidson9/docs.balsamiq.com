@@ -10,7 +10,7 @@ This page contains links to installation, pricing, and licensing information for
 
 {{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/server/mockups2/admin-guide/) instead.{{% /alert %}}
 
-Usage instructions for the plugin are in the [Balsamiq Mockups 3 for JIRA Cloud User Guide](../user-guide-cloud/).
+Usage instructions for the plugin are in the [Balsamiq Mockups 3 for JIRA Introduction](../intro/).
 
 * * *
 

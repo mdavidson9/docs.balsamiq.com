@@ -3,7 +3,7 @@ title: "Linking Mockups Together"
 menu: "menub2editor"
 ---
 
-You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).
+You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an exported PDF.
 
 Linking mockups together is as easy as choosing a mockup name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](../inspector/) (click the "Show Link Inspector" link if you don't see it).
 
