@@ -3,6 +3,8 @@ title: "Keyboard Shortcuts"
 menu: "menub2editor"
 ---
 
+{{% alert info %}}**Note:** Some of these shortcuts do not work in our web versions, depending on which browser and operating system you are using.{{% /alert %}}
+
 <div style="float: right; width: 150px; margin-left: 18px;">
 <a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts.png" class="fb"><img src="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-thumb.png"></a>
 
@@ -14,23 +16,18 @@ Download:
 
 </div>
 
-Below is a list of all the keyboard shortcuts and modifiers which you can use in Balsamiq Mockups. While all of the shortcuts will work in the Desktop version, some might not work when you edit mockups in a browser.
+Below is a list of all the keyboard shortcuts and modifiers which you can use in Balsamiq Mockups. 
 
-If you are running OS X, you can also use the Command Key (the CMD/Apple Key) wherever you read CTRL in the list below.
-
-Shortcuts below apply to Mockups for Desktop Version 2.2.4 and higher. Choose one of the links to the right to download a cheat sheet.
-
-<style type="text/css">.subhead {background: #eee; font-weight: bold; padding-left: 3px !important; color: #666;}</style>
+Choose one of the links to the right to download a cheat sheet.
 
 <table class="tuftified">
-
 <tbody>
 
 <tr>
 
 <th colspan="2">
 
-Working with Controls
+			<h2 id="working-with-controls">Working with Controls</h2>
 
 </th>
 
@@ -38,7 +35,7 @@ Working with Controls
 
 <tr>
 
-<td class="subhead" colspan="2">Selection</td>
+			<td class="subhead" colspan="2"><h3>Selection</h3></td>
 
 </tr>
 
@@ -46,7 +43,7 @@ Working with Controls
 
 <td>Edit the selected control's text</td>
 
-<td>ENTER or F2</td>
+<td><kbd>ENTER</kbd> or <kbd>F2</kbd></td>
 
 </tr>
 
@@ -54,7 +51,7 @@ Working with Controls
 
 <td>Add to selection</td>
 
-<td>SHIFT+CLICK</td>
+<td><kbd>SHIFT</kbd>+CLICK</td>
 
 </tr>
 
@@ -62,7 +59,7 @@ Working with Controls
 
 <td>Toggle selection</td>
 
-<td>CTRL+CLICK</td>
+<td><kbd>CTRL</kbd>+CLICK</td>
 
 </tr>
 
@@ -70,7 +67,7 @@ Working with Controls
 
 <td>Select All</td>
 
-<td>CTRL+A</td>
+<td><kbd>CTRL</kbd>+<kbd>A</kbd></td>
 
 </tr>
 
@@ -78,13 +75,13 @@ Working with Controls
 
 <td>Deselect All</td>
 
-<td>CTRL+SHIFT+A</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd></td>
 
 </tr>
 
 <tr>
 
-<td class="subhead" colspan="2">Size / Position</td>
+<td class="subhead" colspan="2"><h3>Size / Position</h3></td>
 
 </tr>
 
@@ -92,7 +89,7 @@ Working with Controls
 
 <td>Resize maintaining aspect ratio</td>
 
-<td>Hold SHIFT</td>
+<td>Hold <kbd>SHIFT</kbd></td>
 
 </tr>
 
@@ -100,7 +97,7 @@ Working with Controls
 
 <td>Disable snapping during move or resize</td>
 
-<td>Hold CTRL</td>
+<td>Hold <kbd>CTRL</kbd></td>
 
 </tr>
 
@@ -108,7 +105,7 @@ Working with Controls
 
 <td>Increase font or icon size</td>
 
-<td><span style="font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 15px;">CTRL+]</span></td>
+<td><kbd>CTRL</kbd>+<kbd>]</kbd></td>
 
 </tr>
 
@@ -116,7 +113,7 @@ Working with Controls
 
 <td>Decrease font or icon size</td>
 
-<td>CTRL+[</td>
+<td><kbd>CTRL</kbd>+<kbd>[</kbd></td>
 
 </tr>
 
@@ -124,7 +121,7 @@ Working with Controls
 
 <td>Nudge selection 1px</td>
 
-<td>**↑↓←→**</td>
+<td><kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -132,7 +129,7 @@ Working with Controls
 
 <td>Nudge selection 20px</td>
 
-<td>SHIFT+ **↑↓←→**</td>
+<td><kbd>SHIFT</kbd>+ <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -140,7 +137,7 @@ Working with Controls
 
 <td>Nudge-Resize selection 2px</td>
 
-<td>CTRL+ALT+ **↑↓←→**</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+ <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -148,7 +145,7 @@ Working with Controls
 
 <td>Nudge-Resize selection 20px</td>
 
-<td>CTRL+ALT+SHIFT+ **↑↓←→**</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>SHIFT</kbd>+ <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -156,7 +153,7 @@ Working with Controls
 
 <td>Pan the canvas (Hand tool)</td>
 
-<td>SPACE BAR+Click and Drag</td>
+<td><kbd>SPACE BAR</kbd>+Click and Drag</td>
 
 </tr>
 
@@ -164,7 +161,7 @@ Working with Controls
 
 <td>Bring to front</td>
 
-<td>CTRL+SHIFT+**↑**</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>↑</kbd></td>
 
 </tr>
 
@@ -172,7 +169,7 @@ Working with Controls
 
 <td>Send to back</td>
 
-<td>CTRL+SHIFT+**↓**</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>↓</kbd></td>
 
 </tr>
 
@@ -180,7 +177,7 @@ Working with Controls
 
 <td>Bring forward</td>
 
-<td>CTRL+**↑**</td>
+<td><kbd>CTRL</kbd>+<kbd>↑</kbd></td>
 
 </tr>
 
@@ -188,7 +185,7 @@ Working with Controls
 
 <td>Send backward</td>
 
-<td>CTRL+**↓**</td>
+<td><kbd>CTRL</kbd>+<kbd>↓</kbd></td>
 
 </tr>
 
@@ -196,13 +193,13 @@ Working with Controls
 
 <td>Clone selection</td>
 
-<td>ALT+drag</td>
+<td><kbd>ALT</kbd>+drag</td>
 
 </tr>
 
 <tr>
 
-<td class="subhead" colspan="2">Edit/History</td>
+<td class="subhead" colspan="2"><h3>Edit/History</h3></td>
 
 </tr>
 
@@ -210,7 +207,7 @@ Working with Controls
 
 <td>Undo last command</td>
 
-<td>CTRL+Z</td>
+<td><kbd>CTRL</kbd>+<kbd>Z</kbd></td>
 
 </tr>
 
@@ -218,7 +215,7 @@ Working with Controls
 
 <td>Redo last command</td>
 
-<td>CTRL+Y</td>
+<td><kbd>CTRL</kbd>+<kbd>Y</kbd></td>
 
 </tr>
 
@@ -226,7 +223,7 @@ Working with Controls
 
 <td>Cut the selected controls</td>
 
-<td>CTRL+X</td>
+<td><kbd>CTRL</kbd>+<kbd>X</kbd></td>
 
 </tr>
 
@@ -234,7 +231,7 @@ Working with Controls
 
 <td>Copy the selected controls</td>
 
-<td>CTRL+C</td>
+<td><kbd>CTRL</kbd>+<kbd>C</kbd></td>
 
 </tr>
 
@@ -242,7 +239,7 @@ Working with Controls
 
 <td>Paste</td>
 
-<td>CTRL+V</td>
+<td><kbd>CTRL</kbd>+<kbd>V</kbd></td>
 
 </tr>
 
@@ -250,7 +247,7 @@ Working with Controls
 
 <td>Paste In Place</td>
 
-<td>CTRL+SHIFT+V</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>V</kbd></td>
 
 </tr>
 
@@ -258,7 +255,7 @@ Working with Controls
 
 <td>Delete the selected controls</td>
 
-<td>DELETE or BACKSPACE</td>
+<td><kbd>DELETE</kbd> or <kbd>BACKSPACE</kbd></td>
 
 </tr>
 
@@ -266,7 +263,7 @@ Working with Controls
 
 <td>Duplicate the selected controls</td>
 
-<td>CTRL+D</td>
+<td><kbd>CTRL</kbd>+<kbd>D</kbd></td>
 
 </tr>
 
@@ -274,7 +271,7 @@ Working with Controls
 
 <td>Lock the selected controls</td>
 
-<td>CTRL+2</td>
+<td><kbd>CTRL</kbd>+<kbd>2</kbd></td>
 
 </tr>
 
@@ -282,13 +279,13 @@ Working with Controls
 
 <td>Unlock all locked controls</td>
 
-<td>CTRL+3</td>
+<td><kbd>CTRL</kbd>+<kbd>3</kbd></td>
 
 </tr>
 
 <tr>
 
-<td class="subhead" colspan="2">Group</td>
+<td class="subhead" colspan="2"><h3>Group</h3></td>
 
 </tr>
 
@@ -296,7 +293,7 @@ Working with Controls
 
 <td>Group the selected controls</td>
 
-<td>CTRL+G</td>
+<td><kbd>CTRL</kbd>+<kbd>G</kbd></td>
 
 </tr>
 
@@ -304,13 +301,13 @@ Working with Controls
 
 <td>Ungroup the selected groups</td>
 
-<td>CTRL+SHIFT+G</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>G</kbd></td>
 
 </tr>
 
 <tr>
 
-<td class="subhead" colspan="2">Align</td>
+<td class="subhead" colspan="2"><h3>Align</h3></td>
 
 </tr>
 
@@ -318,7 +315,7 @@ Working with Controls
 
 <td>Align selected controls left</td>
 
-<td>CTRL+ALT+1</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>1</kbd></td>
 
 </tr>
 
@@ -326,7 +323,7 @@ Working with Controls
 
 <td>Align selected controls center</td>
 
-<td>CTRL+ALT+2</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>2</kbd></td>
 
 </tr>
 
@@ -334,7 +331,7 @@ Working with Controls
 
 <td>Align selected controls right</td>
 
-<td>CTRL+ALT+3</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>3</kbd></td>
 
 </tr>
 
@@ -342,7 +339,7 @@ Working with Controls
 
 <td>Align selected controls top</td>
 
-<td>CTRL+ALT+4</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>4</kbd></td>
 
 </tr>
 
@@ -350,7 +347,7 @@ Working with Controls
 
 <td>Align selected controls middle</td>
 
-<td>CTRL+ALT+5</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>5</kbd></td>
 
 </tr>
 
@@ -358,7 +355,7 @@ Working with Controls
 
 <td>Align selected controls bottom</td>
 
-<td>CTRL+ALT+6</td>
+<td><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>6</kbd></td>
 
 </tr>
 
@@ -366,7 +363,7 @@ Working with Controls
 
 <th colspan="2">
 
-Working with Icons
+<h2 id="working-with-icons">Working with Icons</h2>
 
 </th>
 
@@ -376,7 +373,7 @@ Working with Icons
 
 <td>Navigating the Suggestion List</td>
 
-<td>**↑↓←→**</td>
+<td><kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -384,7 +381,7 @@ Working with Icons
 
 <td>Using the selected icon</td>
 
-<td>ENTER</td>
+<td><kbd>ENTER</kbd></td>
 
 </tr>
 
@@ -392,7 +389,7 @@ Working with Icons
 
 <td>Closing the Icons Library</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -400,7 +397,7 @@ Working with Icons
 
 <td>Closing the Suggestion List</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -408,7 +405,7 @@ Working with Icons
 
 <th colspan="2">
 
-Working with Text
+<h2 id="working-with-text">Working with Text</h2>
 
 </th>
 
@@ -418,7 +415,7 @@ Working with Text
 
 <td>Start Editing text of the selected control</td>
 
-<td>ENTER or F2</td>
+<td><kbd>ENTER</kbd> or <kbd>F2</kbd></td>
 
 </tr>
 
@@ -426,7 +423,7 @@ Working with Text
 
 <td>Committing the current text</td>
 
-<td>ENTER (single-line controls), CTRL+ENTER (multi-line controls) or click anywhere</td>
+<td><kbd>ENTER</kbd> (single-line controls), <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (multi-line controls) or click anywhere</td>
 
 </tr>
 
@@ -434,7 +431,7 @@ Working with Text
 
 <td>Ignoring the current edit</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -442,7 +439,7 @@ Working with Text
 
 <td>Grow/Increase Text Size</td>
 
-<td>CTRL+]</td>
+<td><kbd>CTRL</kbd>+<kbd>]</kbd></td>
 
 </tr>
 
@@ -450,7 +447,7 @@ Working with Text
 
 <td>Shrink/Decrease Text Size</td>
 
-<td>CTRL+[</td>
+<td><kbd>CTRL</kbd>+<kbd>[</kbd></td>
 
 </tr>
 
@@ -458,7 +455,7 @@ Working with Text
 
 <th colspan="2">
 
-Text Formatting
+<h2 id="text-formatting">Text Formatting</h2>
 
 </th>
 
@@ -466,7 +463,7 @@ Text Formatting
 
 <tr>
 
-<td>_italic_</td>
+<td><em>italic</em></td>
 
 <td>_text in underscores_</td>
 
@@ -482,7 +479,7 @@ Text Formatting
 
 <tr>
 
-<td>[link with a target](http://support.balsamiq.com/customer/portal/articles/110121#linking "Learn more about specifying working links")</td>
+<td><a href="../text/#making-links-in-text-actually-work">link with a target</a></td>
 
 <td>[text in brackets](mockup_name) or  
 [text in brackets](website_url)</td>
@@ -491,7 +488,7 @@ Text Formatting
 
 <tr>
 
-<td>**bold**</td>
+<td><strong>bold</strong></td>
 
 <td>*text in asterisks*</td>
 
@@ -523,7 +520,7 @@ Text Formatting
 
 <tr>
 
-<td><span style="color:#f00">color</span> ([hex value or color name](http://support.balsamiq.com/customer/portal/articles/110121#textstyle "Learn more about specifying colors"))</td>
+<td><span style="color:#f00">color</span> (<a href="../text/#basic-formatting">hex value or color name</a>)</td>
 
 <td>{color:#ff0000}text{color} or  
 {color:red}text{color}</td>
@@ -540,7 +537,7 @@ Text Formatting
 
 <th colspan="2">
 
-Special Text Macros
+<h2 id="special-text-macros">Special Text Macros</h2>
 
 </th>
 
@@ -574,7 +571,7 @@ Special Text Macros
 
 <th colspan="2">
 
-Quick Add
+<h2 id="quick-add">Quick Add</h2>
 
 </th>
 
@@ -584,8 +581,8 @@ Quick Add
 
 <td>Sending focus to Quick Add</td>
 
-<td>/ (forward slash) or  
-+ (plus sign)</td>
+<td><kbd>/</kbd> (forward slash) or  
+<kbd>+</kbd> (plus sign)</td>
 
 </tr>
 
@@ -593,7 +590,7 @@ Quick Add
 
 <td>Navigating the Suggestion List</td>
 
-<td>**↑↓←→**</td>
+<td><kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td>
 
 </tr>
 
@@ -601,7 +598,7 @@ Quick Add
 
 <td>Closing the Suggestion List</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -609,7 +606,7 @@ Quick Add
 
 <td>Sending focus back to the Canvas</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -617,7 +614,7 @@ Quick Add
 
 <th colspan="2">
 
-Working with Mockup Files
+<h2 id="working-with-mockup-files">Working with Mockup Files</h2>
 
 </th>
 
@@ -627,7 +624,7 @@ Working with Mockup Files
 
 <td>New Blank Mockup</td>
 
-<td>CTRL+N</td>
+<td><kbd>CTRL</kbd>+<kbd>N</kbd></td>
 
 </tr>
 
@@ -635,7 +632,7 @@ Working with Mockup Files
 
 <td>New Clone of Current Mockup</td>
 
-<td>CTRL+SHIFT+N</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd></td>
 
 </tr>
 
@@ -643,7 +640,7 @@ Working with Mockup Files
 
 <td>Open a mockup file</td>
 
-<td>CTRL+O</td>
+<td><kbd>CTRL</kbd>+<kbd>O</kbd></td>
 
 </tr>
 
@@ -651,7 +648,7 @@ Working with Mockup Files
 
 <td>Save the current mockup file</td>
 
-<td>CTRL+S</td>
+<td><kbd>CTRL</kbd>+<kbd>S</kbd></td>
 
 </tr>
 
@@ -659,7 +656,7 @@ Working with Mockup Files
 
 <td>Save as...</td>
 
-<td>CTRL+SHIFT+S</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd></td>
 
 </tr>
 
@@ -667,7 +664,7 @@ Working with Mockup Files
 
 <td>Close current mockup</td>
 
-<td>CTRL+W</td>
+<td><kbd>CTRL</kbd>+<kbd>W</kbd></td>
 
 </tr>
 
@@ -675,7 +672,7 @@ Working with Mockup Files
 
 <td>Close all mockups</td>
 
-<td>CTRL+SHIFT+W</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>W</kbd></td>
 
 </tr>
 
@@ -683,7 +680,7 @@ Working with Mockup Files
 
 <td>Export this mockup's XML</td>
 
-<td>CTRL+E</td>
+<td><kbd>CTRL</kbd>+<kbd>E</kbd></td>
 
 </tr>
 
@@ -691,7 +688,7 @@ Working with Mockup Files
 
 <td>Import mockup</td>
 
-<td>CTRL+SHIFT+E</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd></td>
 
 </tr>
 
@@ -699,7 +696,7 @@ Working with Mockup Files
 
 <td>Export Snapshot to Clipboard</td>
 
-<td>CTRL+SHIFT+C</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd></td>
 
 </tr>
 
@@ -707,7 +704,7 @@ Working with Mockup Files
 
 <td>Export Snapshot to PNG</td>
 
-<td>CTRL+R</td>
+<td><kbd>CTRL</kbd>+<kbd>R</kbd></td>
 
 </tr>
 
@@ -715,7 +712,7 @@ Working with Mockup Files
 
 <td>Export All Snapshots to PNG</td>
 
-<td>CTRL+SHIFT+R</td>
+<td><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd></td>
 
 </tr>
 
@@ -723,7 +720,7 @@ Working with Mockup Files
 
 <td>Print mockup</td>
 
-<td>CTRL+P</td>
+<td><kbd>CTRL</kbd>+<kbd>P</kbd></td>
 
 </tr>
 
@@ -731,7 +728,7 @@ Working with Mockup Files
 
 <td>Quit Balsamiq Mockups</td>
 
-<td>CTRL+Q</td>
+<td><kbd>CTRL</kbd>+<kbd>Q</kbd></td>
 
 </tr>
 
@@ -739,7 +736,7 @@ Working with Mockup Files
 
 <td>Looping through the open files in Mockups for Desktop</td>
 
-<td>CTRL+TAB and CTRL+SHIFT+TAB</td>
+<td><kbd>CTRL</kbd>+<kbd>TAB</kbd> and <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>TAB</kbd></td>
 
 </tr>
 
@@ -747,7 +744,7 @@ Working with Mockup Files
 
 <th colspan="2">
 
-Views
+<h2 id="views">Views</h2>
 
 </th>
 
@@ -757,7 +754,7 @@ Views
 
 <td>Hide/Show the UI Library</td>
 
-<td>CTRL+L</td>
+<td><kbd>CTRL</kbd>+<kbd>L</kbd></td>
 
 </tr>
 
@@ -765,7 +762,7 @@ Views
 
 <td>Enter Full Screen View</td>
 
-<td>CTRL+F</td>
+<td><kbd>CTRL</kbd>+<kbd>F</kbd></td>
 
 </tr>
 
@@ -773,7 +770,7 @@ Views
 
 <td>Exit Full Screen View</td>
 
-<td>ESC</td>
+<td><kbd>ESC</kbd></td>
 
 </tr>
 
@@ -781,7 +778,7 @@ Views
 
 <td>Show/Hide Markup</td>
 
-<td>CTRL+K</td>
+<td><kbd>CTRL</kbd>+<kbd>K</kbd></td>
 
 </tr>
 
@@ -789,7 +786,7 @@ Views
 
 <td>Zoom In</td>
 
-<td>CTRL++ (plus sign) or CTRL+mouse scroll up</td>
+<td><kbd>CTRL</kbd>+<kbd>+</kbd> (plus sign) or <kbd>CTRL</kbd>+mouse scroll up</td>
 
 </tr>
 
@@ -797,7 +794,7 @@ Views
 
 <td>Zoom Out</td>
 
-<td>CTRL+- (minus sign) or CTRL+mouse scroll down</td>
+<td><kbd>CTRL</kbd>+<kbd>-</kbd> (minus sign) or <kbd>CTRL</kbd>+mouse scroll down</td>
 
 </tr>
 
@@ -805,7 +802,7 @@ Views
 
 <td>Zoom to Actual Size</td>
 
-<td>CTRL+1</td>
+<td><kbd>CTRL</kbd>+<kbd>1</kbd></td>
 
 </tr>
 
@@ -813,12 +810,10 @@ Views
 
 <td>Zoom to Fit</td>
 
-<td>CTRL+0</td>
+<td><kbd>CTRL</kbd>+<kbd>0</kbd></td>
 
 </tr>
 
 </tbody>
 
 </table>
-
-<style type="text/css">#body-main h4 {font-weight: bold; color: #333;}</style>

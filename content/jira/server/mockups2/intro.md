@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:28-07:00
 title: "Introduction to Mockups 2 for JIRA Server"
 menu: "menujiraserver2"
 product: "Mockups 2 for JIRA Server"
-weight: 40
+weight: 110
 ---
 
 This page contains usage instructions for [Mockups 2 for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).

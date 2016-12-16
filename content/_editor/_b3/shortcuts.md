@@ -14,12 +14,11 @@ Download:
 
 </div>
 
-Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups 3. While all of the shortcuts will work in the Desktop version, some might not work when you edit mockups in a browser.
+Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups 3. While all of the shortcuts will work in the Desktop version, **some might not work in our web versions**.
 
 The shortcuts below apply to Mockups 3 and higher. Choose one of the links to the right to download a cheat sheet.
 
-Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcuts) for details.
-
+{{% alert info %}}**Note:** If you are using the Desktop version on a Mac you can also create [custom shortcuts](https://support.balsamiq.com/desktop/customshortcuts/).{{% /alert %}}
 
 <table class="tuftified">
 	<tbody>
@@ -556,13 +555,3 @@ Want to create custom shortcuts? See [below](#creating-your-own-keyboard-shortcu
 		</tr>
 	</tbody>
 </table>
-
----
-
-## Creating Your Own Keyboard Shortcuts
-
-Mac users are able to create [keyboard shortcuts](https://support.apple.com/kb/PH21534?locale=en_US) for any application inside of OS X.
-
-Open **System Preferences > Keyboard > Shortcuts > App Shortcuts** and add any shortcuts you would like to Balsamiq Mockups 3.app.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/OSX-keyboard-shortcuts.png)

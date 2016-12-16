@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:28-07:00
 title: "Mockups 2 for JIRA Server Admin Guide"
 menu: "menujiraserver2"
 product: "Mockups 2 for JIRA Server"
-weight: 50
+weight: 120
 ---
 
 This page contains installation, registration, updating and uninstalling instructions for [Mockups 2 for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) **when installed on your own server**.
