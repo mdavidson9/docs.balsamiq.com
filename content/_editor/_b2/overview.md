@@ -21,7 +21,9 @@ The Mockups menus should be pretty self-explanatory. The only tricky bit is that
 
 ### The Quick Add Tool
 
-The Quick Add tool is the fastest way to add UI controls to your mockup. To use quick add, click inside the quick add input box (or use the / or + keyboard shortcut to enter it). Then you simply type a few letters from the name of the UI control you wish to add and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list to the UI control you wish to add, hit the ENTER key and voila', a new control is placed on the mockup canvas for you. For instance, typing "bu" shows a list containing "Button", "Button Bar", "Help Button", "Radio Button" and "Round Button". Typing "hel", on the other hand, only returns "Help Button". Pressing the ESCape key makes the list disappear, as one would expect.
+The Quick Add tool is the fastest way to add UI controls to your mockup. To use quick add, click inside the quick add input box (or use the / or + keyboard shortcut to enter it). Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click Enter to add the control or icon on the mockup canvas.
+
+For example, typing “bu” shows a list containing “Button”, “Button Bar”, “Help Button”, “Radio Button” and “Round Button”. Typing “hel”, on the other hand, only returns “Help Button”. Pressing the ESCape key makes the list disappear, as one would expect.
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_quickadd.png)
 
@@ -51,6 +53,6 @@ The UI Library can be positioned to the top, left, or right of the application w
 
 The rest of the application is the Mockup Canvas.
 
-This is the main working area of Balsamiq Mockups, where your UI mockup comes to life. Once you add UI controls to it, you can move them, resize them and tweak them to your heart's content until your UI mockup is ready. See the sections below for instructions.
+This is the main working area of Balsamiq Mockups, where your UI mockup comes to life. Once you add UI controls to it, you can move them, resize them and tweak them to your heart's content until your UI mockup is ready.
 
 The mockup canvas grows and shrinks with your browser or application window, so you can make room for bigger mockups if you need to.

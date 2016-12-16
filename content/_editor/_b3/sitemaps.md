@@ -39,7 +39,7 @@ Next to the options for changing the orientation in the [Property Inspector](../
 
 Each time you click the "Populate from Project" project the site map will be updated to reflect the current project structure.
 
-If you are using [mockup hierarchy](../overview/#the-navigator-panel), child mokcups will be shown as child nodes in the site map, as shown below.
+If you are using [mockup hierarchy](../overview/#the-navigator-panel), child mockups will be shown as child nodes in the site map, as shown below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-populated.png)
 

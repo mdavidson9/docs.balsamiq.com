@@ -9,7 +9,7 @@ To use images in Mockups, **add an Image control from the UI Library** and place
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_importimage.png)
 
-The Project Assets panel shows all images in your assets (copied to your assets folder in the Desktop version or imported as Project Assets in myBalsamiq). If you have Site/Account assets, a tab will appear for them. If you use web images or images using relative paths that are not project assets, those will show in the Other Assets tab. On the desktop, you'll also see a handy link to open the Account Assets folder when you click on the Account Assets tab.
+The Project Assets panel shows all images in your assets. If you have Site/Account assets, a tab will appear for them. If you use web images or images using relative paths that are not project assets, those will show in the Other Assets tab. On the desktop, you'll also see a handy link to open the Account Assets folder when you click on the Account Assets tab.
 
 Click the plus icon in the upper right corner of the drop-down to choose a new image, or just double-click on the Image UI control to quickly bring up the image browser dialog. You can choose images from your hard drive or networked drive, or from the Web or Flickr. Mockups supports GIF, JPG/JPEG, and PNG image file formats.
 
