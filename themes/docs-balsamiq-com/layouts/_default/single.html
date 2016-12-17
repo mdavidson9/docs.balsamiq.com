@@ -7,24 +7,24 @@
 {{/* ======================================== */}}
 
 <div class="row">
-
+{{ $.Scratch.Add "twoversions" 0 }}
   <div class="local-nav local-nav-1 hidden-xs hidden-sm col-md-3">
     <div id="sidebar-box">
     {{ if eq .Section "desktop" }}
       {{ partial "sidebar_desktop.html" . }}
-    {{ else if eq .Section "editor" }}
-      {{ partial "sidebar_editor.html" . }}
     {{ else if eq .Section "mybalsamiq" }}
       {{ partial "sidebar_mybalsamiq.html" . }}
     {{ else if eq .Section "google-drive" }}
       {{ partial "sidebar_gdrive.html" . }}
     {{ else if eq .Section "jira" }}
+        {{ $.Scratch.Set "twoversions" 1 }}
         {{ if eq .Params.menu "menujiraserver2" }}
           {{ partial "sidebar_jiraserver2.html" . }}
         {{ else }}
           {{ partial "sidebar_jira.html" . }}
         {{ end }}
      {{ else if eq .Section "confluence" }}
+        {{ $.Scratch.Set "twoversions" 1 }}
         {{ if eq .Params.menu "menuconfluenceserver2" }}
           {{ partial "sidebar_confluenceserver2.html" . }}
         {{ else }}
@@ -82,13 +82,28 @@
           <nav class="section-pager">
             <ul class="pager">
               <li class="previous">
+              {{ if eq ($.Scratch.Get "twoversions") 1 }}
+                {{ if eq .File.BaseFileName "intro"}} <!-- don't show previous arrow (to other version of plugin docs) for first article -->
+                 {{ else }}
+                <a href="{{.NextInSection.Permalink}}"><span aria-hidden="true">&larr;</span> {{.NextInSection.Title}}</a>
+                {{ end }}
+              {{ else }}
               {{ if .NextInSection }}
                 <a href="{{.NextInSection.Permalink}}"><span aria-hidden="true">&larr;</span> {{.NextInSection.Title}}</a>
               {{ end }}
+              {{ end }}
               </li>
+
               <li class="next">
+              {{ if eq ($.Scratch.Get "twoversions") 1 }}
+                {{ if eq .File.BaseFileName "shortcuts"}} <!-- don't show next arrow (to other version of plugin docs) for last article -->
+                {{ else }}
+                <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
+                {{ end }}
+              {{ else }}
               {{ if .PrevInSection }}
                 <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
+              {{ end }}
               {{ end }}
               </li>
             </ul>

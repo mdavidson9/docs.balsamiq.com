@@ -4,7 +4,7 @@ draft: false
 title: "Mockups 2 for Confluence Server Admin Guide"
 menu: "menuconfluenceserver2"
 product: "Mockups 2 for Confluence Server"
-weight: 20
+weight: 1120
 ---
 
 ## Welcome

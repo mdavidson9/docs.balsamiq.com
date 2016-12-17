@@ -4,7 +4,7 @@ draft: false
 title: "Introduction to Mockups 2 for Confluence Server"
 menu: "menuconfluenceserver2"
 product: "Mockups 2 for Confluence Server"
-weight: 10
+weight: 1110
 ---
 
 ## Welcome
