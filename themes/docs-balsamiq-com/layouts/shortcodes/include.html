@@ -1,0 +1,7 @@
+{{ $data := .Get 0 }}
+{{ range where .Site.Pages "Params.menu" "menub3editor" }}
+{{ $file := substr .File.LogicalName 0 -3}}
+{{ if eq $file $data }}
+   {{ .Content }}
+{{ end }}
+{{ end }}

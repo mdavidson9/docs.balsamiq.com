@@ -1,8 +1,8 @@
 {{ $currentNode := . }}
-<h5><a href="#" data-toggle="collapse" data-target="#doc-menu" aria-expanded="false" aria-controls="doc-menu" class="menu-toggle"><i class="ss-icon ss-navigateright"></i> Mockups for JIRA</a></h5>
+<h5><a href="#" data-toggle="collapse" data-target="#doc-menu" aria-expanded="false" aria-controls="doc-menu" class="menu-toggle"><i class="ss-icon ss-navigateright"></i>Mockups 3 for JIRA Cloud</a></h5>
 <ul id="doc-menu" class="collapse">
-  <li><a href="../">Table of Contents</a></li>
-    {{ range .Site.Menus.menujira }}
-    <li{{if $currentNode.IsMenuCurrent "menujira" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+  <li><a href="/jira/#mockups-3-for-jira-cloud">Table of Contents</a></li>
+    {{ range .Site.Menus.menujiracloud }}
+    <li{{if $currentNode.IsMenuCurrent "menujiracloud" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
     {{ end }}
 </ul>

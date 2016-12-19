@@ -6,7 +6,6 @@ weight: 191
 tags:
   - "Autosave"
   - "Manual Save"
-
 ---
 
 By default, Mockups 3 for Desktop will automatically save any changes you make. This ensures that you will never lose any work.
@@ -21,7 +20,7 @@ In the **Project** drop down menu, you will find an item named **Auto Save Every
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/autosave-disable.png)
 
-While autosave is disabled, your changes will only be committed to your original project file when you manually save them, either via the **Project > Save** menu option, or by using the [keyboard shortcut](/desktop/shortcuts) (**CMD+S** on OS X and **CTRL+S** on Windows).
+While autosave is disabled, your changes will only be committed to your original project file when you manually save them, either via the **Project > Save** menu option, or by using the [keyboard shortcut](../shortcuts/) (**CMD+S** on OS X and **CTRL+S** on Windows).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/autosave-disabled-confirmation.png)
 

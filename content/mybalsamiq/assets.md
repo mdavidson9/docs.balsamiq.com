@@ -2,7 +2,7 @@
 date: 2015-09-23T15:48:49-07:00
 title: "Using Assets in myBalsamiq"
 menu: "menumybalsamiq"
-weight: 80
+weight: 88
 ---
 
 myBalsamiq sites provide an assets manager for Site Assets and Project Assets. You can use this as a place to store re-usable images, Mockups, or other files you want to share with your team.
