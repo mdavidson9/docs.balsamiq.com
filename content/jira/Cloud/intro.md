@@ -8,7 +8,7 @@ weight: 10
 
 This page contains usage instructions for [Mockups 3 for JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
 
-{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/server/mockups2/user-guide/) instead.{{% /alert %}}
+{{% alert info %}}**Using JIRA Server?** If you are hosting JIRA behind the firewall, please see [this article](/jira/server/mockups2/intro/) instead.{{% /alert %}}
 
 JIRA Cloud Administrators: the [Mockups 3 for JIRA Cloud Admin Guide](../admin-guide-cloud/) is for you.
 

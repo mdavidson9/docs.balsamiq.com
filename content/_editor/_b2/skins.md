@@ -1,5 +1,5 @@
 ---
-title: "Working with Skins (sketch vs. wireframe)"
+title: "Working with Skins (Sketch vs. Wireframe)"
 menu: "menub2editor"
 ---
 

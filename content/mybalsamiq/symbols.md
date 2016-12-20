@@ -90,7 +90,7 @@ To create a Symbol Library, you can either create a symbol (which will automatic
 
 * * *
 
-## Sharing Symbols Across Projects
+## Sharing Symbols across Projects
 
 If you would like a Symbol Library to be used across all projects, you need only upload the library to your site assets.
 
