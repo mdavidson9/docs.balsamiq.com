@@ -11,7 +11,7 @@ Commonly used Markup items include: Arrow / Line, Callout, Sticky Note, Red X, a
 
 * * *
 
-## Toggling Markup On and Off
+## Toggling Markup on and Off
 
 When you're editing your mockups, you will sometimes want to see what the mockup looks like with Markup off. You can do this by using the Show/Hide Markup toggle button in the upper right corner of the editor to the left of the Presentation Mode button.
 

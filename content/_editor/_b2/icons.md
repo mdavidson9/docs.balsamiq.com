@@ -51,7 +51,7 @@ Now the icon can be added to your mockups. Add an icon control to your mockup, o
 
 * * *
 
-## Best Practices for Creating or Preparing your Custom Icons
+## Best Practices for Creating or Preparing Your Custom Icons
 
 Mockups works with color and transparency, but icons you add may not turn out looking as you want them to if they're not prepared to work the way Mockups expects them to. Below are some tips to get the most out of your custom icons.
 

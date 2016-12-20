@@ -1,6 +1,6 @@
 ---
 date: 2015-09-23T15:48:49-07:00
-title: "Working with Skins (sketch vs. wireframe)"
+title: "Working with Skins (Sketch vs. Wireframe)"
 menu: "menumybalsamiq"
 weight: 83
 include: "skins"
