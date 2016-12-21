@@ -46,7 +46,7 @@ Balsamiq Mockups 3 has a dedicated area of the user interface for managing image
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets.png)
 
-The Assets view shows all images and [custom icons](../icons/#adding-your-own-custom-icons) that have been added to your project. You can get to it by switching the navigator view to Assets.
+The Assets view shows all images and [custom icons](../icons/#adding-your-own-icons) that have been added to your project. You can get to it by switching the navigator view to Assets.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/assets1.png)
 
@@ -96,7 +96,7 @@ The "Import New Version..." menu option allows you to select a new assets to rep
 
 ### Deleting Assets
 
-You can also use the context menu to delete assets from your project. Just like your mockups, deleting will move assets to the [trash](../intro/#trash), where you can delete them permanently or restore them. Note that deleting an image from the mockups canvas doesn't remove it from your project.
+You can also use the context menu to delete assets from your project. Just like your mockups, deleting will move assets to the [trash](../overview/#trash), where you can delete them permanently or restore them. Note that deleting an image from the mockups canvas doesn't remove it from your project.
 
 ### Select Unused Images
 
