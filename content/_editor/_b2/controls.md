@@ -109,7 +109,7 @@ You can double-click on a group to “enter it” and edit its contents. A small
 
 ![](//media.balsamiq.com/img/support/docs/m4d/help_groupbar.png)
 
-You can optionally give a group a name via the group's property inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming and grouping controls is also the first step to creating [Symbols](../symbols/).
+You can optionally give a group a name via the group's property inspector. This can be helpful when you have a lot of groups and need to "know where you are" when you edit their contents. Naming and grouping controls is also the first step to creating [Symbols](/mybalsamiq/symbols/).
 
 * * *
 
