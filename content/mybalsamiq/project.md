@@ -9,7 +9,7 @@ An individual project page holds all the Mockups for a project.
 
 Projects are like folders to keep all of your wireframes together based on whatever organization makes sense to you. For example, you could create a single project for a web site design you’re working on, or you could create multiple projects for the web site design to keep parts of your design separate. How you organize is up to you.
 
-You can also [watch the Working with Projects section of our intro video](http://www.youtube.com/watch?v=-cjEyt1ahNw#t=1m45s) on YouTube for a quick intro to Projects in myBalsamiq.
+You can also [watch the Working with Projects section of our intro video](//www.youtube.com/watch?v=-cjEyt1ahNw#t=1m45s) on YouTube for a quick intro to Projects in myBalsamiq.
 
 * * *
 
