@@ -11,7 +11,7 @@ The image below is a marked up screenshot showing all the parts and functions on
 
 <small>[View full size image in a new window &rarr;](//media.balsamiq.com/img/support/docs/myb/anatomy-mockup.png)</small>
 
-You can also [watch the Mockup section of our intro video](http://www.youtube.com/watch?v=-cjEyt1ahNw#t=3m59s) on YouTube for a quick intro to Mockups in myBalsamiq.
+You can also [watch the Mockup section of our intro video](//www.youtube.com/watch?v=-cjEyt1ahNw#t=3m59s) on YouTube for a quick intro to Mockups in myBalsamiq.
 
 * * *
 
