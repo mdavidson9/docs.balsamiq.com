@@ -16,6 +16,8 @@
       {{ partial "sidebar_mybalsamiq.html" . }}
     {{ else if eq .Section "google-drive" }}
       {{ partial "sidebar_gdrive.html" . }}
+    {{ else if eq .Section "cloud" }}
+      {{ partial "sidebar_cloud.html" . }}
     {{ else if eq .Section "jira" }}
         {{ $.Scratch.Set "twoversions" 1 }}
         {{ if eq .Params.menu "menujiraserver2" }}
@@ -53,9 +55,16 @@
           <div class="article-content content article">
             {{ if .Params.include }}
               {{ $include := .Params.include }}
-              {{ if eq .Params.editorversion 3 }}
-                {{ range where .Site.Pages "Params.menu" "menub3editor" }}
+              {{ if eq .Params.editorversion 4 }}
+                {{ range where .Site.Pages "Params.menu" "menuwireframes" }}
                 {{ $file := substr .File.LogicalName 0 -3}}
+                {{ if eq $file $include }}
+                  {{ .Content }}
+                  {{ end }}
+                {{ end }}
+              {{ else if eq .Params.editorversion 3 }}
+                {{ range where .Site.Pages "Params.menu" "menub3editor" }}
+{{ $file := substr .File.LogicalName 0 -3}}
                 {{ if eq $file $include }}
                   {{ .Content }}
                   {{ end }}
