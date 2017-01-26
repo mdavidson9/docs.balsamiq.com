@@ -5,3 +5,5 @@ product: "Balsamiq Cloud"
 title: "Terms of Use and Privacy Policy"
 weight: 300
 ---
+
+_to be written_

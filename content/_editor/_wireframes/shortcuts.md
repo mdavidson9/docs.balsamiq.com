@@ -3,4 +3,4 @@ menu: "menuwireframes"
 title: "Keyboard Shortcuts"
 ---
 
-Hello.
+_to be written_

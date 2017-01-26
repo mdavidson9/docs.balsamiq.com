@@ -5,6 +5,5 @@ menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Editor Overview"
 weight: 20
+include: "overview"
 ---
-
-Hello.

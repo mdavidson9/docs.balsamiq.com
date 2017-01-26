@@ -6,4 +6,4 @@ title: "Signing Up and Plans"
 weight: 2
 ---
 
-Hello.
+_maybe this should be in the Sales docs?_
