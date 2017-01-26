@@ -1,6 +1,6 @@
 ---
 theme:  "docs-balsamiq-com"
-baseurl:  "http://docsstaging.balsamiq.com"
+baseurl:  "http://docscloud.balsamiq.com"
 languageCode:  "en-us"
 title:  "Balsamiq Documentation"
 MetaDataFormat:  "yaml"
