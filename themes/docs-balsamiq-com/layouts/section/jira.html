@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="row">
-        {{ range (.Data.Pages.GroupByParam "product").Reverse }}
+        {{ range first 2 (.Data.Pages.GroupByParam "product").Reverse }}
         <div class="col-xs-12 col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
