@@ -54,17 +54,9 @@
 
   <!-- DBC -->
   <link rel="stylesheet" href="/css/dbc.min.css?v={{ .Now.Format "2006-01-02-1504" }}" type="text/css" media="all">
-  <link rel="stylesheet" href="/css/gifplayer.css" type="text/css" media="all">
   <script src="/js/dbc.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
   <script src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq_search_autocomplete.js"></script>
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
-  <script type="text/javascript" src="/js/jquery.gifplayer.js"></script>
-<script>
-			$(document).ready( function(){
-				$("img[alt='gif']").gifplayer({ label: 'Play' });
-			});
-</script>
-
   <title>{{ replace .Title "-" " " | title }} {{ if .IsPage }} {{ if .Params.product }} [{{title .Params.product }}] {{ else }} [{{title .Section | humanize | title }}] {{ end }} {{ end }} {{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>
 <body class="company-support-portal dbc">

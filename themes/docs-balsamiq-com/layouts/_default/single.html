@@ -1,5 +1,12 @@
 {{ partial "header.html" . }}
 
+{{/* Initialize gifplayer (http://rubentd.com/gifplayer/) for images with alt text set to "gif" */}}
+<script>
+			$(document).ready( function(){
+				$("img[alt='gif']").gifplayer({ label: 'Play' });
+			});
+</script>
+
 {{/* ======================================== */}}
 {{/* BODY MAIN */}}
 <div id="body-main">
