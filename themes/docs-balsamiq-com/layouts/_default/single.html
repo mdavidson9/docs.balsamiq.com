@@ -49,7 +49,7 @@
           <h5 class="subtitle">myBalsamiq</h5>
           {{ else }}
           <h5 class="subtitle">Mockups for {{ .Section | humanize | title }}</h5>
-          {{ end }}        
+          {{ end }}
           <h1 class="title mt0">{{ .Title }}</h1>
           <div class="breadcrumbs visible-xs visible-sm">{{ partial "breadcrumbs.html" . }}</a></div>
           <div class="article-content content article">
@@ -117,7 +117,7 @@
               </li>
             </ul>
           </nav>
-          <span class="gray">Share this page: 
+          <span class="gray">Share this page:
           <a href="https://twitter.com/intent/tweet/?text={{ .Title }}&url={{ .Permalink }}&via=balsamiq" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF611;</i></a>
           <a href="https://www.facebook.com/share.php?u={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF610;</i></a>
           <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF613;</i></a>
