@@ -9,7 +9,7 @@ Once you've [added controls](../adding-controls/) to the [editor canvas](../over
 
 The Property Inspector is a panel on the right side of the application that allows you to set some common properties such as alignment, position and size as well as settings specific to certain controls (selection state, text properties, color, etc.). It is available when viewing wireframes, [assets](../images), and [Symbols](../symbols/).
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/property-inspector.png)
+![](//media.balsamiq.com/img/support/docs/bw/property-inspector.png)
 
 You can show and hide the Property Inspector by clicking the toggle icon above it (keyboard shortcut CTRL/CMD + ; or ALT/Option + Enter). When hidden you can also show it by right-clicking a control and selecting "Properties...".
 
@@ -249,6 +249,10 @@ Links will be added to each node in the site map to the corresponding mockup in 
 *   You can't resize Site Maps, but if you are unable to view the entire map on your canvas you can try changing the orientation or showing one of the nodes expanded in a separate Site Map, as shown below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/sitemap-split.png)
+
+### The Tree Pane
+
+*TBD*
 
 ---
 

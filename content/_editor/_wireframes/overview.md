@@ -2,7 +2,7 @@
 menu: "menuwireframes"
 title: "Editor Overview"
 ---
-The Balsamiq Wireframes editor interface is made up of five primary areas: the [toolbar](#the-toolbar), the [UI Library](#the-ui-library), the [canvas](#the-mockup-canvas), the [navigator panel](#the-navigator-panel) and the [properties panel](#the-properties-panel). Each is described below.
+The Balsamiq Wireframes editor interface is made up of five primary areas: the [toolbar](#the-toolbar), the [UI Library](#the-ui-library), the [canvas](#the-canvas), the [navigator panel](#the-navigator-panel) and the [properties panel](#the-properties-panel). Each is described below.
 
 ![](//media.balsamiq.com/img/support/docs/bw/ui-overview-annotated.png)
 
@@ -14,14 +14,14 @@ The first set of icons is described below.
 
 ![](//media.balsamiq.com/img/support/docs/bw/toolbar-left.png)
 
-1.  Navigate between Mockups, [Assets](../images/), [Symbols](../symbols/) and [Trash](#trash)
+1.  Navigate between Wireframes, [Assets](../images/), [Symbols](../symbols/) and [Trash](#trash)
 2.  Show/Hide the left panel
-3.  View your mockups as a thumbnail grid
-4.  Create a new mockup
-5.  Mockup actions (rename, etc.) and navigate between mockups (_shown when left panel is hidden_)
-6.  Go to next or previous mockup (_shown when left panel is hidden_)
+3.  View your wireframes as a thumbnail grid
+4.  Create a new wireframe
+5.  Wireframe actions (rename, etc.) and navigate between wireframes (_shown when left panel is hidden_)
+6.  Go to next or previous wireframe (_shown when left panel is hidden_)
 
-The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-mockup-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
+The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
 
 ![](//media.balsamiq.com/img/support/docs/bw/toolbar-middle.png)
 
@@ -35,33 +35,33 @@ The top of the toolbar shows the name of the project, which you can double-click
 
 ## The Quick Add Tool
 
-The Quick Add tool is the fastest way to add UI controls to your mockup. To use quick add, click inside the quick add input box (or use the / or + keyboard shortcut to enter it). Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click or press Enter to add the control or icon on the mockup canvas. You can also use Shift + Enter to place the control where your mouse cursor is on the canvas.
+The Quick Add tool is the fastest way to add UI controls to your wireframes. To use quick add, click inside the quick add input box (or use the / or + keyboard shortcut to enter it). Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click or press Enter to add the control or icon on the canvas. You can also use Shift + Enter to place the control where your mouse cursor is on the canvas.
 
 For example, typing "bu" shows a list containing "Button", "Button Bar", "Help Button", "Radio Button" and "Round Button". Typing "hel", on the other hand, only returns "Help Button". Pressing the ESCape key makes the list disappear, as one would expect.
 
 ![](//media.balsamiq.com/img/support/docs/bw/quickadd.png)
 
-{{%alert info %}}**Tip:** As you become familiar with quick add, you can hide the UI Library and only use quick add to add UI elements to your wireframes. This maximizes both your mockup canvas area and your speed.{{% /alert %}}
+{{%alert info %}}**Tip:** As you become familiar with quick add, you can hide the UI Library and only use quick add to add UI elements to your wireframes. This maximizes both your canvas area and your speed.{{% /alert %}}
 
 ---
 ## The UI Library
 
-The UI Library, or UI controls Library, is the long strip of user interface controls just below the toolbar. It lists all of the UI control types that are included as well as [Assets](../images/), [Icons](../icons/), and [Symbols](../symbols/). The main goal of the UI Library is to let you add UI controls to the mockup canvas, but you can also use it to see what's possible and to get inspiration for your UI mockup.
+The UI Library, or UI controls Library, is the long strip of user interface controls just below the toolbar. It lists all of the UI control types that are included as well as [Assets](../images/), [Icons](../icons/), and [Symbols](../symbols/). The main goal of the UI Library is to let you add UI controls to the canvas, but you can also use it to see what's possible and to get inspiration for your wireframes.
 
 ![](//media.balsamiq.com/img/support/docs/bw/uilibrary.png)
 
-To add a new UI control to the canvas, select the control type you wish to add then either drag it to the mockup canvas below or simply double-click and it will be placed on the mockup canvas for you.
+To add a new UI control to the canvas, select the control type you wish to add then either drag it to the canvas below or simply double-click and it will be placed on the canvas for you.
 
 The UI Library can be toggled on and off in several ways: clicking the icon to the right of the Quick Add box, using the keyboard shortcut CTRL/CMD+L, or by selecting View > UI Library from the application menu.
 
 ---
-## The Mockup Canvas
+## The Canvas
 
-This is the main working area of the editor, where your UI wireframe comes to life. Once you add UI controls to it, you can move them, resize them and tweak them until your UI mockup is ready. See [Adding and Arranging UI Controls](../adding-controls/) to learn more.
+This is the main working area of the editor, where your UI wireframe comes to life. Once you add UI controls to it, you can move them, resize them and tweak them until your UI wireframe is ready. See [Adding and Arranging UI Controls](../adding-controls/) to learn more.
 
-The canvas grows and shrinks with your application window, so you can make room for bigger mockups if you need to.
+The canvas grows and shrinks with your application window, so you can make room for bigger wireframes if you need to.
 
-{{% alert info %}}**Note:** If you are working on a small screen or have very large mockups you might want to read [this article on hiding the panels to make more room for the canvas](https://support.balsamiq.com/desktop/smallscreen/).{{% /alert %}}
+{{% alert info %}}**Note:** If you are working on a small screen or have very large wireframes you might want to read [this article on hiding the panels to make more room for the canvas](https://support.balsamiq.com/desktop/smallscreen/).{{% /alert %}}
 
 
 ---
@@ -81,13 +81,13 @@ Wireframes can be reordered by dragging them up and down in the navigator panel.
 
 The navigator panel also offers a hierarchical structure to better organize your wireframes.
 
-To use it, select the wireframe you wish to be the child and press the Tab key. The child wireframe will be placed in a tree hierarchy below the mockup above it.
+To use it, select the wireframe you wish to be the child and press the Tab key. The child wireframe will be placed in a tree hierarchy below the wireframe above it.
 
 You can then use the arrows to the left of the parent wireframe to show and hide the wireframes under it.
 
 ![gif](//media.balsamiq.com/img/support/docs/bw/hierarchy.png)
 
-To restore it to the top level, use Shift+Tab. The video below shows nesting mockups in action.
+To restore it to the top level, use Shift+Tab. The video below shows nesting wireframes in action.
 
 {{< yt WCbh2CpnWQo >}}
 
@@ -139,9 +139,9 @@ The two skins provided are intended to allow you to work on early ideas using a 
 
 The screenshots below show a comparison of a sample design in the default "sketch" and "wireframe" skins, respectively. Click to view larger images.
 
-<p class="clearfix"><a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" rel="popup"><img alt="Sketch Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" style="width: 390px; margin-right: 3px;" /></a> <a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" rel="popup"><img alt="Wireframe Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" style="width: 390px;" /></a></p>
+<p class="clearfix center"><a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" rel="popup"><img alt="Sketch Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" style="width: 390px; margin-right: 3px;" /></a> <a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" rel="popup"><img alt="Wireframe Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" style="width: 390px;" /></a></p>
 
-The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/), just as in previous versions (_not_ Comic Sans as you might think; although now you can set it to that, all you Comic Sans lovers out there!).
+The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/), just as in previous versions (_not_ Comic Sans as you might think; although you can set it to that, all you Comic Sans lovers out there!).
 
 {{% alert info %}}**Note:** If you want to use a specific project font we recommend that you set it before you start creating your wireframes. Changing the project font may adversely affect existing wireframes in your project. Each font has different dimensions and proportions so switching fonts may cause controls to overlap or line up unevenly. Also, setting your project font to a variant such as "thin", "light", or "extrabold" may override font style settings on individual controls.{{% /alert %}}
 
