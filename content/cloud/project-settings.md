@@ -5,5 +5,5 @@ menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Project Settings"
 weight: 90
-include: "settings"
+include: "project-settings"
 ---
