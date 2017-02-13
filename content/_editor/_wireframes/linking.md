@@ -27,9 +27,9 @@ The list is pre-populated with the names of the other wireframes in the project.
 
 ---
 
-## Linking to a New wireframe
+## Linking to a New Wireframe
 
-To link to a blank wireframe that you haven't created yet, click "Link to a New wireframe" and a new wireframe will be created and linked from the selected control.  Select "Link to a New Duplicate of This wireframe" to create a new wireframe with the same content as the current wireframe. A notification will be shown with the name of the new wireframe. Clicking the notification will take you to that wireframe.
+To link to a blank wireframe that you haven't created yet, click "Link to a New Wireframe" and a new wireframe will be created and linked from the selected control.  Select "Link to a New Duplicate of This wireframe" to create a new wireframe with the same content as the current wireframe. A notification will be shown with the name of the new wireframe. Clicking the notification will take you to that wireframe.
 ![](//media.balsamiq.com/img/support/docs/bw/linktonewwireframe.png)
 
 ---
@@ -43,7 +43,7 @@ You can also link to web URLs instead of other wireframes, to show links to exte
 ---
 ## Using Links in Presentation Mode
 
-When you're done linking your wireframes up you can enter [Full Screen Presentation mode](../fullscreen/) and you'll be able to click on the links you set up to test your prototype.
+When you're done linking your wireframes up, you can enter [Full Screen Presentation mode](../fullscreen/), and you'll be able to click on the links you set up to test your prototype.
 
 In Full Screen Presentation mode controls with links will have a red overlay on them and mousing over them will show a big hand pointer with the name of the target file or web page for the link (these options can be turned off in the [Full Screen settings panel](../fullscreen/#settings)).
 
