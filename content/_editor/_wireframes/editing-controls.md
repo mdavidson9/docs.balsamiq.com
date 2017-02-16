@@ -116,7 +116,7 @@ You can link specific strings of text as well as the whole control.
 
 Type lorem in a Paragraph or Text Area to use our [Lorem Ipsum](http://www.lipsum.com/ "What is Lorem Ipsum") generator.
 
-![](//media.balsamiq.com/img/support/docs/m4d/lorem.gif)
+![gif](//media.balsamiq.com/img/support/docs/m4d/lorem.gif)
 
 #### {Mockup-Name}
 
