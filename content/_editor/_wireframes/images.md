@@ -3,7 +3,7 @@ menu: "menuwireframes"
 title: "Using Images, Assets, and Icons"
 ---
 
-There are multiple ways to add images and icons to your wireframes. The easiest way is to simply drag and drop an image file from your computer on to the wireframes canvas. Read on to learn more about adding and using images/icons/assets in your projects.
+There are multiple ways to add images and icons to your wireframes. The easiest way is to simply **drag and drop** an image file from your computer on to the wireframes canvas. Read on to learn more about adding and using images/icons/assets in your projects.
 
 ## Adding Images in Wireframes View
 
@@ -111,6 +111,8 @@ Selecting it will open the [Assets view](#adding-images-in-assets-view) where al
 * * *
 
 ## Adding Icons via the UI Library and Quick Add
+
+Icons from the amazing [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon set are pre-installed. It contains over 500 icons in a wide range of categories that can be sized from very small to very large. It is also updated frequently and we plan to keep up with the updates whenever we release a new version of our product
 
 Icons have their own category in the UI Library so you can drag and drop them just like any other control.
 

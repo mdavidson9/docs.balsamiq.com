@@ -17,6 +17,8 @@ Demo (video?)
 
 1. To get started, you first need to **sign up and create a Balsamiq Cloud site**. For more information on how to do that, read LINK.
 
+![](http://media.balsamiq.com/img/support/docs/bw/create-new-site.png)
+
 1. Next, **create a project** by clicking the Create a New Project or Upload Project buttons (*check this*). A project is a set of wireframes that pertain to a specific product or feature. 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-project.png)
 {{% alert info %}}**Tip:** Larger projects can be broader in scope, but may be harder to manage. One project may be appropriate for an entire new product that needs to be fleshed out, but more mature products typically have one project per feature or release. {{% /alert %}}
