@@ -35,16 +35,20 @@ Demo (video?)
 
 ## What's New and Transition Information
 
-If you have used a Balsamiq product before, the overall experience should be **familiar** to you, **yet also new**. Balsamiq Cloud brings the **collaborative editing** features from our web-based myBalsamiq product to the **updated editor** from our Desktop version, and adds **more communication and review capabilities** such as [chat](link), [comments](link), and [review mode](link). 
+If you have used a Balsamiq product before, the overall experience should be **familiar** to you, **yet also new**. Balsamiq Cloud brings the **collaborative editing** features from our web-based myBalsamiq product to the **updated editor** from our Desktop version, and adds **new communication and review capabilities** such as [chat](link), [comments](link), and [review mode](link). 
 
-DETAILS HERE ON HOW TO TRANSITION FROM MYB AND DESKTOP TO CLOUD
+If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version that uses .bmpr files), all you need to do is upload them by clicking the Upload Projects button (_link to managing projects article here?_).
+
+If you are using myBalsamiq, you can learn how to export your projects to .bmpr format **HERE**.
+
+*More transition details here?*
 
 ---
 
 ## Next Steps
 
-The rest of our documentation contains a top-to-bottom description of the features and use of Balsamiq Cloud. A good starting point would be [Managing Projects](../projects/), to get familiar with the collaboration features, followed by the [Editor Overview](../overview/), to learn about the nuts and bolts of how to navigate and create your wireframes.
+The rest of our documentation contains a top-to-bottom description of the features and use of Balsamiq Cloud. A good starting point would be [Managing Projects](../projects/), to get familiar with the collaboration features, followed by the [Editor Overview](../overview/), to learn about the user interface for navigating and creating your wireframes.
 
 For troubleshooting, frequently-asked questions, and tutorials, head over to our **[support site](//support.balsamiq.com)**. There, you can learn about pricing and payment information, contact us, watch tutorials, and connect with the user community. *(links here)*
 
-HAPPY WIREFRAMING!
+HAPPY WIREFRAMING, from the Balsamiq team!
