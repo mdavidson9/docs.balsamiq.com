@@ -56,6 +56,8 @@ Balsamiq Wireframes does not support printing directly to a printer. Instead you
 
 ## Exporting Wireframes to Another Project
 
-You can copy wireframes or [Symbols](../symbols/) across projects by dragging them from one project to another. Note that dragging wireframes will only copy them, not remove them from the originating project.
+You can copy wireframes from one project to another using the Import/Export Wireframe JSON commands in the Project menu. Exporting to Wireframes JSON (Project > Export > Wireframe to JSON > Copy and Close) will copy the Balsamiq Wireframes code for the selected wireframe to the clipboard.
 
-Another method is to use the Import/Export Wireframe JSON commands in the Project menu. Exporting to Wireframes JSON (Project > Export > Wireframe to JSON) will copy the Balsamiq wireframe code for the selected wireframe to the clipboard. To create this wireframe in a new project switch to it and choose “Import Wireframe JSON…” from the Project > Import menu and paste the copied code.
+To create this wireframe in a new project, switch to it, choose “Import Wireframe JSON…” from the Project > Import menu and paste the copied code. Images and Symbols won’t be copied, however.
+
+{{% alert info %}}**Note:** In Balsamiq Wireframes for Desktop, you can copy wireframes or [Symbols](../symbols/) across projects by dragging them from one project to another. You can also select and copy controls on the canvas in one project and paste them into the canvas in another project.{{% /alert %}}
