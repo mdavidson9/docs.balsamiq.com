@@ -10,11 +10,11 @@ This page contains usage instructions for [Balsamiq Wireframes for JIRA Server](
 
 {{% alert info %}}Using JIRA Cloud? Please see [this article](https://docs.balsamiq.com/jira/cloud/intro/) instead. {{% /alert %}}
 
-JIRA Cloud Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide](https://docs.balsamiq.com/jira/cloud/admin-guide-cloud/) (TODO) is for you.
+JIRA Server Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide](../admin-guide/) is for you.
 
 * * *
 
-{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released ??? (TODO). See our [transition guide](https://docs.balsamiq.com/jira/cloud/transition-guide/) (TODO) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
+{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released ??? (TODO). See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
 
 Balsamiq Wireframes for JIRA Server provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
@@ -22,17 +22,15 @@ The main difference is that the Balsamiq project files are stored and managed as
 
 * * *
 
-* * *
-
 ## Adding a New Project to a JIRA Issue
 
-To add a new Balsamiq Wireframes project to a particular JIRA issue you simply click on the "Add Balsamiq Wireframes" link.
+To add a new Balsamiq Wireframes project to a particular JIRA issue, you simply need to click on the "Add Balsamiq Wireframes" menu option.
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-2.png)
 
-The link will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
+This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
-If you do not see the link, please check with your JIRA Server administrator that the Balsamiq Wireframes for JIRA Server add-on is installed and that you have editing permission on the current issue.
+If you do not see the menu option, please check with your JIRA Server administrator that the Balsamiq Wireframes for JIRA Server add-on is installed and that you have editing permission on the current issue.
 
 * * *
 
