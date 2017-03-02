@@ -137,6 +137,6 @@ You can also add wireframes directly from within the Balsamiq Wireframes editor.
 
 If you want to remove a project from the JIRA issue you can use the **Delete Project** button.
 
-{{% alert warning %}}**Note:** Note that this action can not be undone.{{% /alert %}}Note that this action can not be undone.
+{{% alert warning %}}**Note:** This action can not be undone.{{% /alert %}}
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/deletepanel.png)
