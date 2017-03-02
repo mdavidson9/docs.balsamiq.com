@@ -18,13 +18,13 @@ Usage instructions for the plugin are in the [Balsamiq Wireframes for JIRA Serve
 
 Like most Atlassian add-ons, Balsamiq Wireframes for JIRA is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin (<a>UPM installation instructions</a>).
 
-To install the plugin, go to the JIRA Administration page. Select "Find new add-ons" and search for Balsamiq Wireframes for JIRA Server.
+To install the plugin, go to the JIRA Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for JIRA Server.
 
-(TODO: redo the screenshot)
+**TODO: redo the screenshot**
 
 ![](https://media.balsamiq.com/img/support/installation/jira-install-server1.png)
 
-Select "Free Trial" and accept the license agreement for Balsamiq Wireframes for JIRA Server to begin the installation.
+Click on "Free Trial" and accept the license agreement for Balsamiq Wireframes for JIRA Server to begin the installation.
 
 Once the plugin has downloaded and installed, you’ll be prompted to Log In with your Atlassian ID or MyAtlassian account to obtain an evaluation key.
 
@@ -40,7 +40,7 @@ Please make sure you read the [Balsamiq and Atlassian Marketplace FAQ](https://s
 
 To register the plugin, go to the JIRA Administration page. Select "Manage new add-ons" and search for Balsamiq Wireframes for JIRA Server.
 
-(TODO: redo the screenshot or photoshop the version number)
+**TODO: redo the screenshot**
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-4.png)
 
@@ -56,7 +56,9 @@ This is what you’ll see if you don’t have a license installed and select the
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-2.png)
 
-This is what you’ll see if you have installed a license you purchase via Atlassian Marketplace. Note that an Atlassian Marketplace license, if installed, trumps any existing Balsamiq license.
+This is what you’ll see if you have installed a license you purchase via Atlassian Marketplace.
+
+{{% alert info %}}**Note:** An Atlassian Marketplace license, if installed, trumps any existing Balsamiq license.{{% /alert %}}
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-3.png)
 
@@ -67,11 +69,11 @@ If you receive an error when registering, [this FAQ](https://support.balsamiq.co
 
 ## Selecting Balsamiq Wireframes Editors
 
-If you purchased your plugin license via Atlassian Marketplace all of your JIRA users will be able to access the plugin.
+If you purchased your plugin license via Atlassian Marketplace, all of your JIRA users will be able to access the plugin.
 
-If you purchased your plugin license from Balsamiq depending on your Balsamiq Wireframes and JIRA license levels you might see different instructions on the plugin licensing page regarding who can create and edit new wireframes.
+If instead you purchased your plugin license from Balsamiq, depending on your Balsamiq Wireframes and JIRA license levels, you might see different instructions on the plugin licensing page regarding who can create and edit new wireframes.
 
-In short: if your plugin license is lower than your JIRA license, you’ll have to create a JIRA user group (by default called _balsamiq-wireframes-editors_) and add people to it manually, making sure you don’t add more than what your plugin allows for.
+In short: if your plugin license is lower than your JIRA license, you’ll have to create a JIRA user group (by default called _balsamiq-wireframes-editors_) and add people to it manually, making sure that you don’t add more than what your plugin allows for.
 
 You can customize the name of the Balsamiq Wireframes editors group in the add-on configuration page.
 
@@ -96,7 +98,7 @@ If you are running an old version of JIRA and want to figure out which version o
 
 Uninstalling via UPM automatically removes all plugin modules from your JIRA.
 
-The wireframes project created with the plugin will NOT be deleted, they’ll just stay where they are as attachments to issues, but you will not be able to view or edit it.
+The wireframes project created with the plugin will **NOT** be deleted. They will just stay where they are as attachments to issues, but you will not be able to view or edit it.
 
 * * *
 
@@ -106,8 +108,8 @@ Balsamiq Wireframes for JIRA Server uses a behind the firewall service in order 
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-8.png)
 
-The default configuration should works in most of the case. If you encounter any issue, here you can find find some useful [hints](../rtc-troubleshooting/).
+The default configuration should works in most cases. If you encounter any issue, you can find find some useful hints on [this page](../rtc-troubleshooting/).
 
 ## Troubleshooting
 
-If you have trouble, [email us](https://balsamiq.com/company/contact/#/t/m4j) and we’ll help you!
+If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4j) and we’ll do our best to help.
