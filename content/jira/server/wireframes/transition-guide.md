@@ -36,11 +36,11 @@ Clicking “show more details" shows this message:
 
 To start the conversion process for the BMMLS on this JIRA issue, just click the “Migrate to Balsamiq Wireframes for JIRA Server" button.
 
-![](https://media.balsamiq.com/img/support/docs/jira/transitionguide/transition3.png)
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/transition-guide-3.png.png)
 
 At the end of the migration you should then see the new Balsamiq Wireframes for JIRA Server panel, and two attachments: the BMPR file (that contains all of your wireframes and assets) and a ZIP file with the data in the old format, as a backup.  
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/transition-guide-3.png)
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/transition-guide-4.png)
 
 
 That’s it! You can now take advantage of all the new Balsamiq Wireframes for JIRA Server goodness!
