@@ -8,6 +8,12 @@ weight: 2130
 
 Balsamiq Wireframes for JIRA Server was released ??? ?? **(TODO)**. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
 
+Here’s a quick 5-minute video walkthrough of some of the highlights of Balsamiq Wireframes for JIRA Server.
+
+{{< yt fa0Cn33lloU >}}
+
+* * *
+
 ## A New File Format
 
 In the old version of Balsamiq Mockups for JIRA Server, we stored each mockup in its own BMML attachment, and only linked to images.
@@ -37,6 +43,6 @@ At the end of the migration you should then see the new Balsamiq Wireframes for 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/transition-guide-3.png)
 
 
-That’s it!
+That’s it! You can now take advantage of all the new Balsamiq Wireframes for JIRA Server goodness!
 
-You can now take advantage of all the new Balsamiq Wireframes for JIRA Server goodness! See the [introduction here](../intro/).
+To learn more about the new features, you can read the [Introduction to Balsamiq Wireframes for JIRA Server](../intro/).
