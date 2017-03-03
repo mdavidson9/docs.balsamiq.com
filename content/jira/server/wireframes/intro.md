@@ -18,10 +18,6 @@ JIRA Server Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide
 
 Balsamiq Wireframes for JIRA Server provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as JIRA Server attachments.
 
-Here’s a quick 5-minute video walkthrough of some of the highlights of Balsamiq Wireframes for JIRA Server.
-
-{{< yt fa0Cn33lloU >}}
-
 * * *
 
 ## Adding a New Project to a JIRA Issue
