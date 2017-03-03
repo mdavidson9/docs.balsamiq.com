@@ -16,7 +16,7 @@ Usage instructions for the plugin are in the [Balsamiq Wireframes for JIRA Serve
 
 ## Installation Instructions
 
-Like most Atlassian add-ons, Balsamiq Wireframes for JIRA is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin (<a>UPM installation instructions</a>).
+Like most Atlassian add-ons, Balsamiq Wireframes for JIRA is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM.
 
 To install the plugin, go to the JIRA Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for JIRA Server.
 
@@ -25,10 +25,6 @@ To install the plugin, go to the JIRA Administration page, select "Find new add-
 ![](https://media.balsamiq.com/img/support/installation/jira-install-server1.png)
 
 Click on "Free Trial" and accept the license agreement for Balsamiq Wireframes for JIRA Server to begin the installation.
-
-Once the plugin has downloaded and installed, you’ll be prompted to Log In with your Atlassian ID or MyAtlassian account to obtain an evaluation key.
-
-![Atlassian ID](https://media.balsamiq.com/img/support/installation/confluence-jira-install-server3.png)
 
 You will then begin a 30-day trial evaluation of Balsamiq Wireframes for JIRA Server.
 
@@ -39,8 +35,6 @@ You will then begin a 30-day trial evaluation of Balsamiq Wireframes for JIRA Se
 Please make sure you read the [Balsamiq and Atlassian Marketplace FAQ](https://support.balsamiq.com/sales/marketplace/) first.
 
 To register the plugin, go to the JIRA Administration page. Select "Manage new add-ons" and search for Balsamiq Wireframes for JIRA Server.
-
-**TODO: redo the screenshot**
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-4.png)
 

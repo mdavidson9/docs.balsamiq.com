@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for JIRA Server"
 weight: 2130
 ---
 
-Balsamiq Wireframes for JIRA Server was released ??? ?? **(TODO)**. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
+Balsamiq Wireframes for JIRA Server was released was released in BETA on March 2, 2017. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
 
 Here’s a quick 5-minute video walkthrough of some of the highlights of Balsamiq Wireframes for JIRA Server.
 

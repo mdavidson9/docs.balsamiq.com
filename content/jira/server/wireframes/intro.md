@@ -14,7 +14,7 @@ JIRA Server Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide
 
 * * *
 
-{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released ??? **(TODO)**. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
+{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released in BETA on March 2, 2017. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
 
 Balsamiq Wireframes for JIRA Server provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as JIRA Server attachments.
 
