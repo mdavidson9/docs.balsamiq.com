@@ -78,6 +78,8 @@ To export your project to another Balsamiq product, all you need to do is downlo
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-5.png)
 
+* * *
+
 ## Saving the Project
 
 All the changes made on your project in the editor are always autosaved and visible by the collaborators that are editing the same project in real time.
