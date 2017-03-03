@@ -9,13 +9,11 @@ You can copy wireframes from one project to another using the Import/Export Wire
 
 To create this wireframe in a new project, switch to it, choose “Import Wireframe JSON…” from the Project > Import menu and paste the copied code. Images and Symbols won't be copied, however.
 
-{{% alert info %}}**Note:** In Balsamiq Wireframes for Desktop, you can copy wireframes or [Symbols](../symbols/) across projects by dragging them from one project to another. You can also select and copy controls on the canvas in one project and paste them into the canvas in another project.{{% /alert %}}
-
 * * *
 
 ## Importing From Balsamiq Mockups 3 for Desktop
 
-Because Mockups 3 for Desktop uses the same file format (BMPR) than Balsamiq Wireframes and Balsamiq Cloud, importing files there is a pretty straight forward process. You can simply open an existing file in Wireframes for Desktop, or upload it directly in Balsamiq Cloud if you are using our web version.
+Because Mockups 3 for Desktop uses the same file format (BMPR) that Balsamiq Cloud uses, importing files there is a pretty straight forward process. You can upload your file directly as a [new project](../projects/).
 
 * * *
 
