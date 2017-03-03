@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq Wireframes for JIRA Server Admin Guide"
+title: "Balsamiq Wireframes for JIRA Server Admin Guide (BETA)"
 menu: "menujirawireframes"
 product: "Balsamiq Wireframes for JIRA Server"
 weight: 2120
@@ -19,8 +19,6 @@ Usage instructions for the plugin are in the [Balsamiq Wireframes for JIRA Serve
 Like most Atlassian add-ons, Balsamiq Wireframes for JIRA is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM.
 
 To install the plugin, go to the JIRA Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for JIRA Server.
-
-**TODO: redo the screenshot**
 
 ![](https://media.balsamiq.com/img/support/installation/jira-install-server1.png)
 
@@ -100,7 +98,7 @@ The wireframes project created with the plugin will **NOT** be deleted. They wil
 
 Balsamiq Wireframes for JIRA Server uses a behind the firewall service in order to allow the real time collaboration, chat and other features.
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/admin-guide-8.png)
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/rtc-troubleshooting-2.png)
 
 The default configuration should works in most cases. If you encounter any issue, you can find find some useful hints on [this page](../rtc-troubleshooting/).
 

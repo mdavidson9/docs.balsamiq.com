@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Introduction to Balsamiq Wireframes for JIRA Server"
+title: "Introduction to Balsamiq Wireframes for JIRA Server (BETA)"
 menu: "menujirawireframes"
 product: "Balsamiq Wireframes for JIRA Server"
 weight: 2110
@@ -34,7 +34,7 @@ If you do not see the menu option, please check with your JIRA Server administra
 
 ## Using the Balsamiq Wireframes Editor
 
-The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](https://docs.balsamiq.com/jira/cloud/overview/) **(TODO)** to learn more about using the editor.
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](https://docs.balsamiq.com/jira/cloud/overview/) to learn more about using the editor.
 
 * * *
 
@@ -69,8 +69,6 @@ That’s it! You may now delete the wireframe from the source project if you wis
 ## Importing from Other Versions of Balsamiq
 
 If you have a project created in another Balsamiq product (using the .bmpr extension), you can just attach the file to the JIRA issue, refresh the page in order to let the Balsamiq Wireframes panel appear ([see below](#using-the-balsamiq-wireframes-panel)) and edit it directly.
-
-If you are importing a project from myBalsamiq... **TBD**
 
 * * *
 
