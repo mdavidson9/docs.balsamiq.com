@@ -206,15 +206,15 @@ From the Edit menu on the project page you can perform the following actions:
  The main Edit button opens the Mockups editor so you can begin editing your Mockups.
 
 **Clone Project**
- Creates a copy of the project and all of its mockups to a new project.
+ Creates a copy of the project and all of its mockups and project assets to a new project.
 
 **Download BMPR**
- Creates a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. The BMPR file format is used in all our Mockups 3 products and above.
+ Creates a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions. The resulting BMPR file can be used in all our Mockups 3 products (from version 3.5.7) and above.
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR.png)
 
 **Download Zip**
- Saves a compressed BMMLs ZIP file to your computer with all your mockups and assets so you can easily move projects from one myBalsamiq site to another.
+ Saves a compressed BMMLs ZIP file to your computer with all your mockups and project assets so you can easily move projects from one myBalsamiq site to another.
 
 **Export to PDF**
  Exports a PDF of the project. You can use the exported PDF for sharing the file with others or using as a click-through prototype.
@@ -224,18 +224,18 @@ To export a project, select **Export PDF...** from the Edit Menu, and then selec
 ![](//media.balsamiq.com/img/support/docs/myb/export-pdf-dialog.png)
 
 **Manage Members**
- Allows you to add or remove project members, and invite new users by entering their email addresses. This action is only available for the Project Owner and for the Site Owner.
+ Allows you to add or remove project members, and invite new users by entering their email addresses. This action is only available for the project owner and for the site owner.
 
 **Change Owner**
- Allows you to pass the project ownership to another Staff member. Again, this action is only available for the Project Owner and for the Site Owner.
+ Allows you to pass the project ownership to another staff member. Again, this action is only available for the project owner and for the site owner.
 
 **Archive Project**
  Moves the project to the archives, where it will be inactive unless un-archived. Archived projects don't count towards your plan. Archiving old projects allows you to create new projects without needing to [upgrade your plan](https://support.balsamiq.com/sales/mybsubscriptions/#changing-your-plan). You will not be able to view the project while it is archived.
 
-Only the site owner and the project owner are able to archive projects, and only the site owner and the person who archived a project are able to un-archive it.
+Only the site owner and the project owner are able to archive and un-archive projects.
 
 **Delete Project**
- Deletes the project and all of its contents permanently. 
+ Deletes the project and all of its contents permanently.
 
  {{% alert warning %}}**Note:** Contents cannot be recovered.{{% /alert %}}
 
