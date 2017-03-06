@@ -115,8 +115,6 @@ On your site's home page, you can download individual projects from the action m
 
 {{% alert info %}}**Note:** Only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.{{% /alert %}}
 
-On your site's home page, you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options.
-
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-home.png)
 
 **Download from Project Pages**
