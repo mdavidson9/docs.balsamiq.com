@@ -107,19 +107,23 @@ When prompted by the dialog, browse for your .zip file on your computer and clic
 
 **Download from Home Page**
 
-When you download a project, you'll be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+On your site's home page, you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options:
 
-**Note:** As of right now, only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.
+1. **Download BMPR**: This option will create a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions. The resulting BMPR file can be used in all our Mockups 3 products (from version 3.5.7) and above.
 
-On your site's home page you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title and select Download. You will be prompted to save the .zip compressed file to your computer.
+2. **Download Zip**: This option will be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+
+{{% alert info %}}**Note:** Only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.{{% /alert %}}
+
+On your site's home page, you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options.
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-home.png)
 
 **Download from Project Pages**
 
-From a [project's page](/mybalsamiq/project/) (grid, story, or list view) you can select the drop down menu next to the Edit button and select Download Project. You will be prompted to save the .zip compressed file to your computer.
+From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select **Download BMPR** or **Download Zip**. See the details for each option [above](#project-actions).
 
-![](//media.balsamiq.com/img/support/docs/myb/project-download.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-download-2.png)
 
 * * *
 
@@ -149,7 +153,7 @@ When you select Delete from the Project Menu or the using the Manage Project but
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-delete.png)
 
-**We cannot recover any of your contents for you once a project is deleted.** Once it’s gone, it’s gone. So be sure you download it first if you’ll want to refer to it later.
+{{% alert warning %}}**Note:** Contents cannot be recovered. So be sure you download it first if you’ll want to refer to it later.{{% /alert %}}
 
 * * *
 
