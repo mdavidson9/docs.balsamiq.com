@@ -36,4 +36,4 @@ You can specify a 2nd Site Owner via the 2nd dropdown. A 2nd Site Owner can be g
 
 Deleting a site can only be done by the [Site Owner](need a link). To do this, type the name of the and click the **Delete Site** button. If you have an active subscription for the site, deleting the site will cancel it.
 
-{{% alert info %}}**Note:** Deleting a site cannot be undone. All of your project data will be deleted immediately, with no way to recover it. {{% /alert %}}
+{{% alert warning %}}**Note:** Deleting a site cannot be undone. All of your project data will be deleted immediately, with no way to recover it. {{% /alert %}}
