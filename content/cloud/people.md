@@ -6,19 +6,26 @@ title: "People and Permissions"
 weight: 6
 ---
 
-In order to manage users on a Balsamiq Cloud site, you need to be a Staff Member or the Site Owner on that site.
+Balsamiq Cloud user permissions can be lumped into three main groups: **Site Owners**, **Staff Members**, and **Project Members**.
 
-Site Owners can manage users on the global level by clicking on the **People** link in the upper left corner of their projects homepage.
+### Site Owners
+Site Owners are the admins for the entire Balsamiq Cloud site. They can:
 
-![](//media.balsamiq.com/img/support/docs/cloud/manage-users-page.png)
+- Access any project on the site.
+- Create new projects.
+- Add Staff and Project Members to any project on the site.
+- Manage the site and billing information
 
-From the manage users page, Site Owners can invite users to their Balsamiq Cloud site.
+### Staff Members
+Staff members are project administrators for any project they have access to. They can:
 
-{{% alert info %}}**Note:** Inviting users in this way will not grant them access to any existing projects. {{% /alert %}}
+- Create new projects.
+- Own projects
+- Invite project members to projects they own or have access to.
+- See all of the users on the site
 
-When inviting from the manage users page, Site Owners can also choose to grant newly invited users with Staff Member permissions. Staff Members can create projects and invite users to any project that they have been given access to. For a full breakdown of Balsamiq Cloud permission differences, check out the [Access Control Matrix](https://docs.google.com/spreadsheets/d/1W9LNek14gOSDQ0FCtsULxbqz5xpuUg2azlYty_biKh8/edit#gid=1)
-
-Site owners can also grant and revote Staff Member permissions to existing users by using the **Staff Check Box** next to their account information.
+### Project Members
+There are two kinds of Project Members. Those who can view and edit a site, and those who can view and comment. They only have access to sites they are a part of, and cannot invite (or see) other members of the site.
 
 ## User Permissions at a Glance
 
