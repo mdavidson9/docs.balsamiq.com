@@ -90,11 +90,11 @@ If you are looking for a more traditional "spec", what you could do is go to the
 
 * * *
 
-## Download the Project and Send Them a Zip
+## Download the Project and Send Them the BMPR File
 
-![](//media.balsamiq.com/img/support/docs/myb/project-manage.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR.png)
 
-If your clients use Mockups for Desktop or if they are willing to install the 7-day free trial, you could [download the whole project as a ZIP](/mybalsamiq/project/#project-actions) and email it to them to play around with in Mockups for Desktop.
+If your clients use one of our Mockups 3 product, you could [download the whole project as a BMPR file](/mybalsamiq/project/#project-actions) and email it to them. They will be able to play around with the resulting BMPR file in any Mockups 3 product (from version 3.5.7) and above. Each product comes with a 30-days free trial and if the trial expires, the product can still be used to view the project.
 
 * * *
 
