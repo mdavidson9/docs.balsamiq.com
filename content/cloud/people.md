@@ -33,9 +33,9 @@ When looking at any Project Card, you will see that some users have different co
 
 ![](//media.balsamiq.com/img/support/docs/cloud/user-glance.png)
 
-**Green** means they are a Project Owner
-**Grey** means they have View and Edit permissions
-**Orange** means they have View and Comment permissions
+- **Green** means they are a Project Owner
+- **Grey** means they have View and Edit permissions
+- **Orange** means they have View and Comment permissions
 
 ---
 
