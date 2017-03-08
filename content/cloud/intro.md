@@ -6,7 +6,7 @@ title: "Introduction to Balsamiq Cloud"
 weight: 1
 ---
 
-## What is Balsamiq Cloud?
+## What Is Balsamiq Cloud?
 
 Balsamiq Cloud is a web-based user interface design tool for creating [wireframes](https://support.balsamiq.com/resources/whatarewireframes/) (sometimes called mockups or low-fidelity prototypes). You can use it to generate digital sketches of your idea or concept for an application or website, to facilitate discussion and understanding before any code is written. The completed wireframes can be used for user testing, clarifying your vision, getting feedback from stakeholders, or getting approval to start development.
 

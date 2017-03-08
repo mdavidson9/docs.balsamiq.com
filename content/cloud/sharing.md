@@ -6,7 +6,7 @@ title: "Sharing, Presenting, and Reviewing"
 weight: 100
 ---
 
-Balsamiq Cloud is all about collaboration and we offer many ways for you to get feedback on your designs. This document outlines a few different ways, so that you can pick the right one to fit each situation.
+Balsamiq Cloud is all about collaboration and we offer many ways for you to get feedback on your designs. This document outlines a few different ways so that you can pick the right one to fit each situation.
 
 **For sharing with colleagues:** just have your [site owner](../people/#site-owners) invite them as [staff members](../people/#staff-members). Once they’re set up as staff members on your Balsamiq Cloud site, you can quickly [invite them](../people/#inviting-someone-to-a-project) to projects.
 

@@ -148,9 +148,13 @@ The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/)
 
 ### Comments
 
-*TBD*
+The Comments Panel allows you to collaborate on your designs by sharing feedback asynchronously or, if you prefer, making notes for yourself as you work. 
 
 ![ ](//media.balsamiq.com/img/support/docs/bw/comments-panel.png)
+
+Comments can be marked as resolved after they are reviewed and addressed. You can add Callout markers to indicate specific places in the wireframe where the comments applies or add a link to an [alternate](../alternates/) version.
+
+You can learn more about comments in [Sharing, Presenting, and Reviewing](../sharing/#review-and-comment).
 
 ---
 
