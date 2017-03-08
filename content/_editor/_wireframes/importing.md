@@ -13,13 +13,21 @@ To create this wireframe in a new project, switch to it, choose “Import Wirefr
 
 ## Importing From Balsamiq Mockups 3 for Desktop
 
-Because Mockups 3 for Desktop uses the same file format (BMPR) that Balsamiq Cloud uses, importing files there is a pretty straight forward process. You can upload your file directly as a [new project](../projects/).
+Because Mockups 3 for Desktop uses the same file format (BMPR) that Balsamiq Cloud uses, importing files there is a pretty straight forward process. You can directly upload your file as a [project](../projects/) there.
 
 * * *
 
 ## Importing From myBalsamiq
 
-TBD
+If you are using myBalsamiq and would like to move your wireframes to Balsamiq Cloud, here is the way to download a project from your myBalsamiq project page:
+
+![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR.png)
+
+The option is also available from your myBalsamiq home page:
+
+![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR-home.png)
+
+The “Download BMPR” option will create a BMPR file from your myBalsamiq project and downloads it to your computer. You can then directly upload your file as a [project](../projects/) in Balsamiq Cloud.
 
 * * *
 
