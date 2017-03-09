@@ -8,7 +8,7 @@ weight: 100
 
 Balsamiq Cloud is all about collaboration and we offer many ways for you to get feedback on your designs. This document outlines a few different ways so that you can pick the right one to fit each situation.
 
-**For sharing with colleagues:** just have your [site owner](../people/#site-owners) invite them as [staff members](../people/#staff-members). Once they’re set up as staff members on your Balsamiq Cloud site, you can quickly [invite them](../people/#inviting-someone-to-a-project) to projects.
+For sharing with colleagues: just have your [site owner](../people/#site-owners) invite them as [staff members](../people/#staff-members). Once they’re set up as staff members on your Balsamiq Cloud site, you can quickly [invite them](../people/#inviting-someone-to-a-project) to projects.
 
 ---
 
@@ -24,13 +24,43 @@ To add someone as a project member, just [invite them](../people/#inviting-someo
 
 ## Allow Public Reviews
 
-Clicking this checkbox will allow anyone to view and comment on the project, including anonymous users that you have shared the project link with. Anonymous users cannot edit the project.
+An easy way to share one project is to **Allow Public Reviews** from its sharing settings.
+
+Clicking this checkbox will allow anyone to [review and comment](#review-and-comment) on the project, including anonymous users that you have shared the project link with.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/allow-public-review.png)
 
 ---
 
 ## Review and Comment
+
+The "Review and Comment" mode is a great option for anyone who does not need to edit the wireframes. Some users will only have access to this mode (see [managing user permissions](../people/#managing-user-permissions-on-projects)) but editors can switch to this mode from the top-right option in the [toolbar](../cloud/overview/#the-toolbar).
+
+![gif](//media.balsamiq.com/img/support/docs/cloud/review-and-comment-switch.png)
+
+Notice how the border color around the profile picture translates the [access level](../people/#user-permissions-at-a-glance).
+
+The comments panel allows you to collaborate on your designs by sharing feedback asynchronously or, if you prefer, making notes for yourself as you work. A new comment will generate a notification in the toolbar.
+
+![](//media.balsamiq.com/img/support/docs/cloud/comment-notification.png)
+
+### Callouts
+
+You can add Callout markers to indicate specific places in the wireframe where the comments applies.
+
+![gif](//media.balsamiq.com/img/support/docs/cloud/comment-callout.png)
+
+### Link to an Alternate Version
+
+You can also add a link to an alternate version.
+
+![](//media.balsamiq.com/img/support/docs/cloud/comment-alternate.png)
+
+### Comment Actions
+
+Once a comment is added, each reviewer can reply to it and like it. You can also edit and delete your own comments.
+
+![](//media.balsamiq.com/img/support/docs/cloud/comment-actions.png)
 
 ---
 
