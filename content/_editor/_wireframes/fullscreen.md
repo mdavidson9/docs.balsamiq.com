@@ -13,7 +13,7 @@ The application will expand to take up your whole screen, with your wireframe ce
 
 The far left icon toggles the top bar on and off. You can turn it off to remove everything but the wireframe (even the icon will disappear until the cursor is placed over it), this is useful for usability testing when you want a more realistic experience.
 
-### Navigating Between Wireframes
+## Navigating between Wireframes
 
 You can navigate between wireframes using the icons in the upper left. They behave like the navigation icons in the editor [toolbar](../overview/#the-toolbar). The up and down arrows navigate between your wireframes in order, while the icon activated below allows you to jump directly to a specific wireframe.   
 
@@ -25,7 +25,9 @@ If you have created [links](../linking/) between your wireframes, the links will
 
 ![](//media.balsamiq.com/img/support/docs/bw/bighand.png)
 
-### Settings
+---
+
+## Settings
 
 By default you will also see a big **blue arrow** pointer in place of the regular mouse cursor. This is useful for presenting your wireframes. The pointer will point towards the center of the screen in order to always stay out of the way of your wireframe as much as possible.
 
@@ -45,7 +47,9 @@ The info icon next to the settings icon will open a panel to view and edit notes
 
 To exit Full Screen Presentation mode, hit the ESC key or click the icon in the upper right corner.
 
-### Adjusting Your Project's Centering
+---
+
+## Adjusting Your Project's Centering
 
 Full Screen Presentation Mode centers your entire project based on the wireframe that is the tallest, and the wireframe that is the widest. While this normally results in a presentation that is centered (and whose focus doesn't jump around), if you have a wireframe that is a great deal larger than your other wireframes, it may result in your project being off center, or pushed to the top of the screen.
 

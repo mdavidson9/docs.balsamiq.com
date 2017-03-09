@@ -4,6 +4,6 @@ editorversion: 4
 menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Full Screen Presentation Mode"
-weight: 160
+weight: 105
 include: "fullscreen"
 ---

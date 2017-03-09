@@ -2,7 +2,7 @@
 date: 2017-01-19T13:46:35+02:00
 menu: "menucloud"
 product: "Balsamiq Cloud"
-title: "Sharing, Presenting, and Reviewing"
+title: "Sharing and Reviewing"
 weight: 100
 ---
 
@@ -12,7 +12,7 @@ For sharing with colleagues: just have your [site owner](../people/#site-owners)
 
 ---
 
-## Make Them a Project Member
+## Sharing with Team Members
 
 Adding someone as a project member gives them the ability to view a project and comment there, but also edit the wireframes if you give them the permission to do so.
 
@@ -22,7 +22,7 @@ To add someone as a project member, just [invite them](../people/#inviting-someo
 
 ---
 
-## Allow Public Reviews
+## Public Sharing
 
 An easy way to share one project is to **Allow Public Reviews** from its sharing settings.
 
@@ -32,7 +32,7 @@ Clicking this checkbox will allow anyone to [review and comment](#review-and-com
 
 ---
 
-## Review and Comment
+## Reviewing and Commenting
 
 The "Review and Comment" mode is a great option for anyone who does not need to edit the wireframes. Some users will only have access to this mode (see [managing user permissions](../people/#managing-user-permissions-on-projects)) but editors can switch to this mode from the top-right option in the [toolbar](../cloud/overview/#the-toolbar).
 
@@ -50,7 +50,7 @@ You can add Callout markers to indicate specific places in the wireframe where t
 
 ![gif](//media.balsamiq.com/img/support/docs/cloud/comment-callout.png)
 
-### Link to an Alternate Version
+### Linking to an Alternate Version
 
 You can also add a link to an alternate version.
 
@@ -76,7 +76,7 @@ The application will expand to take up your whole screen, with your wireframe ce
 
 ---
 
-## Share an Interactive PDF Document
+## Sharing an Interactive PDF Document
 
 PDFs generated in Balsamiq Cloud are completely interactive. That means that they not only display your project as you have designed it, they will also respect [any links](../linking) you have added to the project as well. This is one of the best ways to share your project with collaborators and clients who don't need to make changes.
 
@@ -84,6 +84,6 @@ The PDF will be created in high resolution and with selectable text (good for th
 
 ---
 
-## Share PNG Images
+## Sharing PNG Images
 
 You can export all of your wireframes to static PNG images, and send those to your clients. More info about that feature [here](../exporting/#exporting-to-an-image).

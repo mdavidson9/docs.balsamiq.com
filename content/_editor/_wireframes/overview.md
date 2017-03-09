@@ -154,7 +154,7 @@ The Comments Panel allows you to collaborate on your designs by sharing feedback
 
 Comments can be marked as resolved after they are reviewed and addressed. You can add Callout markers to indicate specific places in the wireframe where the comments applies or add a link to an [alternate](../alternates/) version.
 
-You can learn more about comments in [Sharing, Presenting, and Reviewing](../sharing/#review-and-comment).
+You can learn more about comments in [Sharing and Reviewing](../sharing/#review-and-comment).
 
 ---
 
