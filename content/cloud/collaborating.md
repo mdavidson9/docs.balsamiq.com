@@ -50,7 +50,7 @@ Besides real-time collaboration and chat, Balsamiq Cloud offers many other ways 
 
 Among those, the Comments Panel is a great alternative to chat, especially since it doesn't require edit permissions.
 
-![](//media.balsamiq.com/img/support/docs/cloud/comments-panel.png)
+![](//media.balsamiq.com/img/support/docs/bw/comments-panel.png)
 
 Comments can be marked as resolved after they are reviewed and addressed. You can add [Callout markers](../sharing/#callouts) to indicate specific places in the wireframe where the comments applies or add a [link to an alternate](../sharing/#linking-to-an-alternate-version) version.
 
