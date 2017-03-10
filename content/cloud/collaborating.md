@@ -28,9 +28,9 @@ Opening the same wireframe will allow you to see your co-worker's edits in real-
 
 ---
 
-## Chatting
+## Chatting with other Editors
 
-The chat feature is a great way to discuss and gather quick feedback, while working on a project. The option will appear as soon as two or more users join the same project.
+The Editor Chat feature is a great way to discuss and gather quick feedback, while working on a project. The option will appear as soon as two or more users join the same project.
 
 ![gif](//media.balsamiq.com/img/support/docs/cloud/chat-start.png)
 
