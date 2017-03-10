@@ -18,7 +18,7 @@ Balsamiq Cloud supports real-time collaboration between users. Once two or more 
 
 ![](//media.balsamiq.com/img/support/docs/cloud/rtc.png)
 
-The [navigator panel](../overview/#the-navigator-panel) indicates which wireframes your co-workers are working on by displaying their profile avatar there.
+The [navigator panel](../overview/#the-navigator-panel) indicates which wireframes your co-workers are working on by displaying their profile picture there.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/rtc-navigator.png)
 
@@ -48,10 +48,10 @@ Once clicked, the chat window will appear on the bottom-right corner of your bro
 
 Besides real-time collaboration and chat, Balsamiq Cloud offers many other ways to get feedback on your designs. To learn more about it, see [Sharing and Reviewing](../sharing).
 
-Among those, the Comments Panel is a great alternative to chat, especially since it doesn't require **Edit** permissions.
+Among those, the Comments Panel is a great alternative to chat, especially since it doesn't require edit permissions.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/comments-panel.png)
 
-Comments can be marked as resolved after they are reviewed and addressed. You can add Callout markers to indicate specific places in the wireframe where the comments applies or add a link to an [alternate](../alternates) version.
+Comments can be marked as resolved after they are reviewed and addressed. You can add [Callout markers](../sharing/#callouts) to indicate specific places in the wireframe where the comments applies or add a [link to an alternate](../sharing/#linking-to-an-alternate-version) version.
 
 You can learn more about comments in [Reviewing and Commenting](../sharing/#reviewing-and-commenting).
