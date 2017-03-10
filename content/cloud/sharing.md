@@ -3,7 +3,7 @@ date: 2017-01-19T13:46:35+02:00
 menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Sharing and Reviewing"
-weight: 100
+weight: 44
 ---
 
 Balsamiq Cloud is all about collaboration and we offer many ways for you to get feedback on your designs. This document outlines a few different ways so that you can pick the right one to fit each situation.

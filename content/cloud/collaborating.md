@@ -3,7 +3,7 @@ date: 2017-01-19T13:46:35+02:00
 menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Collaborative Editing"
-weight: 120
+weight: 46
 ---
 
 Balsamiq Cloud is optimized for collaborative work. This document outlines the different ways to interact with your team, while editing a [project](../projects).
@@ -28,7 +28,7 @@ Opening the same wireframe will allow you to see your co-worker's edits in real-
 
 ---
 
-## Chatting with other Editors
+## Chatting with Other Editors
 
 The Editor Chat feature is a great way to discuss and gather quick feedback, while working on a project. The option will appear as soon as two or more users join the same project.
 

@@ -10,11 +10,13 @@ In each of your sites, you will find a collection of projects that you and your 
 
 ![](//media.balsamiq.com/img/support/docs/cloud/projects-homepage.png)
 
-From this page you can create and upload as many projects as your [subscription](Need link) allows.
+From this page you can create and upload as many projects as your [subscription](Need link) allows. If you have existing Balsamiq (.bmpr) files you can just **drag them on to this screen to upload** them.
 
 {{% alert info %}}**Note:** If you were invited to join a site, it is likely that there will be projects available to you already. {{% /alert %}}
 
-When you click on the "Create Project" button, you will immediately be taken to the Balsamiq Cloud editor, and get started wireframing quickly. When you are done (or want to take a break) your work will be waiting for you on your projects home page.
+When you click on the "Create Project" button, you will immediately be taken to the Balsamiq Wireframes editor, and get started wireframing quickly. When you are done (or want to take a break) your work will be waiting for you on your projects home page.
+
+To edit a project, just click on it to load the [Balsamiq Wireframes editor](../overview/).
 
 ## Cloning, Downloading, and Deleting Projects
 
