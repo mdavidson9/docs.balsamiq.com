@@ -62,7 +62,10 @@ Clicking on either of the New Project links will open up the new project dialog 
 **3\. Project Description**
  Optionally enter a project description. This can be changed later.
 
-**4\. Book Cover Style**
+**4\. Project Members**
+ Select project members from your list of staff and non-staff members. You can also "Automatically ass new staff members to this project" by selecting the related option.
+
+**5\. Book Cover Style**
  Select a book cover style so that you can easily pick out projects on the home view. We find that the different book cover styles and colors help us to organize our projects. You could even use the colors to categorize project, so you can spot them quickly.
 
 See also the instructions for [uploading an entire project from your desktop](/mybalsamiq/project/#uploading-and-downloading-projects).
