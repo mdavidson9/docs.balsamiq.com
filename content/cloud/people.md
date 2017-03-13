@@ -11,18 +11,22 @@ Balsamiq Cloud user permissions can be lumped into three main groups: **Site Own
 ### Site Owners
 Site Owners are the admins for the entire Balsamiq Cloud site. They can:
 
-- Access any project on the site.
-- Create new projects.
-- Add Staff and Project Members to any project on the site.
+- Access any project on the site
+- Create new projects
+- Add Staff and Project Members to any project on the site
 - Manage the site and billing information
+
+{{% alert info %}}**Note:** See [Managing Your Site Settings](../sites/#managing-your-site-settings) to learn how to transfer site ownership or add a second Site Owner. {{% /alert %}}
 
 ### Staff Members
 Staff members are project administrators for any project they have access to. They can:
 
-- Create new projects.
+- Create new projects
 - Own projects
-- Invite project members to projects they own or have access to.
+- Invite project members to projects they own or have access to
 - See all of the users on the site
+
+{{% alert info %}}**Note:** See [Managing Users](../sites/#managing-users) to learn how to make someone a Staff Member. {{% /alert %}}
 
 ### Project Members
 There are two kinds of Project Members. Those who can view and edit a site, and those who can view and comment. They only have access to sites they are a part of, and cannot invite (or see) other members of the site.
@@ -57,7 +61,7 @@ To invite a user to a project, type their name (if they are an existing user) or
 
 You can select their access level when you invite by changing the value in the dropdown next to the invite button.
 
-### Removing Someone from a Projects
+### Removing Someone from a Project
 
 To remove a user from a project, click the **X** by their permission level.
 
