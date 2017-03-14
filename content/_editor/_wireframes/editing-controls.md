@@ -25,7 +25,7 @@ Some controls use certain characters as separators. For instance, to create mult
 
 ![](//media.balsamiq.com/img/support/tutorials/firstmockup/FirstMockup-tabs_edit.png)
 
-Or, a space character separates tags in a Tag Cloud control. Some other controls, like the Tree, use other characters altogether. In such cases the default text for the Control includes explanations on how to use it.
+Or, a space character separates tags in a Tag Cloud control. Some other controls, like the [Tree Pane](#the-tree-pane), use other characters altogether. In such cases the default text for the control includes explanations on how to use it.
 
 When editing text in a Label or Paragraph control you will see a small number in the lower-right corner of the editing box. This is the number of characters, which can be useful for copywriting or other purposes.
 
@@ -49,7 +49,7 @@ All of the above syntax works around words separated by white spaces, and underl
 
 <span class="alert alert-info show" role="alert">
 **Notes:**<br>
-1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other mockups.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](../inspector/#adding-notes-to-your-mockups-symbols-and-assets) _except_ italic and strikethrough.</span>
+1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other mockups.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](../overview/#the-properties-panel) _except_ italic and strikethrough.</span>
 
 Here's a screenshot of what the above text looks like in a Paragraph control, for instance:
 
@@ -125,7 +125,7 @@ Type {mockup-name} (all lower-case) in a Label, Text, Title or Subtitle control 
 
 ### Placeholder Text
 
-Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls.  
+Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls in the UI Library.  
 ![placeholder-text.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text.png)
 
 {{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](../adding-controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
@@ -236,7 +236,7 @@ Edit the Site Map control by double-clicking or selecting it and pressing the En
 	- Support
 	- Blog
 
-Using the [Property Inspector](../inspector/) you can add [links](../linking/) to the nodes in the map and change the text properties and orientation of the map (vertical or horizontal).
+Using the [Property Inspector](#editing-properties-via-the-property-inspector) you can add [links](../linking/) to the nodes in the map and change the text properties and orientation of the map (vertical or horizontal).
 
 This is what the outline above looks like in vertical orientation (default):
 
@@ -249,17 +249,17 @@ This is what the outline above looks like in vertical orientation (default):
 
 #### Generating Site Maps Automatically
 
-Next to the options for changing the orientation in the [Property Inspector](../inspector/) is a button that allows you to automatically populate a site map based on the order and structure of your mockups in the [Navigator Panel](../overview/#the-navigator-panel).
+Next to the options for changing the orientation in the [Property Inspector](#editing-properties-via-the-property-inspector) is a button that allows you to automatically populate a site map based on the order and structure of your wireframes in the [Navigator Panel](../overview/#the-navigator-panel).
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-settings.png)
 
 Each time you click the "Populate from Project" project the site map will be updated to reflect the current project structure.
 
-If you are using [mockup hierarchy](../overview/#the-navigator-panel), child mockups will be shown as child nodes in the site map, as shown below.
+If you are using a [parent-child hierarchy](../overview/#using-a-hierarchy), child wireframes will be shown as child nodes in the site map, as shown below.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-populated.png)
 
-Links will be added to each node in the site map to the corresponding mockup in your project.
+Links will be added to each node in the site map to the corresponding wireframe in your project.
 
 #### Notes and Options
 
