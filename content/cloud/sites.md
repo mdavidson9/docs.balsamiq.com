@@ -46,7 +46,7 @@ Clicking the **People** link at the top of the page will show a list of all the 
 
 Add users by entering one or more email addresses in the box at the bottom of the page.
 
-IMG HERE
+![](//media.balsamiq.com/img/support/docs/cloud/site-people.png)
 
 ### Making Someone a Staff Member
 
@@ -55,4 +55,3 @@ Checking the "Staff" checkbox will make someone a Staff Member, allowing them to
 ### Deleting Users
 
 To remove a person from the site, click the **X** to the far right of their name. They will no longer be able to access any projects, except those that allow [public (anonymous) reviews](../people/#allow-public-reviews).
-
