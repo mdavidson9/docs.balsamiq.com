@@ -25,7 +25,7 @@ The group of icons in the center of the toolbar is for commonly-performed [canva
 
 ![](//media.balsamiq.com/img/support/docs/bw/toolbar-middle.png)
 
-The final section of the toolbar on the far right contains the [Quick Add tool](#the-quick-add-tool), toggle icons for the [UI Library](#the-ui-library), [Property Inspector](../inspector/) and [Project Info Panel](../projectinfo/), and an icon to enter [Full Screen Presentation Mode](../fullscreen/). ![](//media.balsamiq.com/img/support/docs/bw/toolbar-right.png)
+The final section of the toolbar on the far right contains the [Quick Add tool](#the-quick-add-tool), toggle icons for the [UI Library](#the-ui-library), [Comments Panel](#comments) [Property Inspector](#the-property-inspector) and [Project Info Panel](#the-project-info-panel), and an icon to enter [Full Screen Presentation Mode](../fullscreen/). ![](//media.balsamiq.com/img/support/docs/bw/toolbar-right.png)
 
 The top of the toolbar shows the name of the project, which you can double-click to rename (or go to Project > Rename Project... in the menu).
 
@@ -35,9 +35,11 @@ The top of the toolbar shows the name of the project, which you can double-click
 
 ## The Quick Add Tool
 
-The Quick Add tool is the fastest way to add UI controls to your wireframes. To use quick add, click inside the quick add input box (or use the / or + keyboard shortcut to enter it). Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click or press Enter to add the control or icon on the canvas. You can also use Shift + Enter to place the control where your mouse cursor is on the canvas.
+The Quick Add tool is the fastest way to add UI controls to your wireframes. To use quick add, click inside the quick add input box (or **use the "/" or "+" keyboard shortcut to enter it**). 
 
-For example, typing "bu" shows a list containing "Button", "Button Bar", "Help Button", "Radio Button" and "Round Button". Typing "hel", on the other hand, only returns "Help Button". Pressing the ESCape key makes the list disappear, as one would expect.
+Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click or press Enter to add the control or icon on the canvas. You can also use Shift + Enter to place the control where your mouse cursor is on the canvas.
+
+For example, typing "bu" shows a list containing "Button", "Button Bar", "Help Button", "Radio Button" and "Round Button". Typing "hel", on the other hand, only returns "Help Button". Pressing the ESCape key makes the list disappear.
 
 ![](//media.balsamiq.com/img/support/docs/bw/quickadd.png)
 
@@ -46,7 +48,7 @@ For example, typing "bu" shows a list containing "Button", "Button Bar", "Help B
 ---
 ## The UI Library
 
-The UI Library, or UI controls Library, is the long strip of user interface controls just below the toolbar. It lists all of the UI control types that are included as well as [Assets](../images/), [Icons](../icons/), and [Symbols](../symbols/). The main goal of the UI Library is to let you add UI controls to the canvas, but you can also use it to see what's possible and to get inspiration for your wireframes.
+The UI Library, or User Interface controls Library, is the long strip of user interface controls just below the toolbar. It lists all of the UI control types that are included as well as [Assets](../images/), [Icons](../images/#adding-icons-via-the-ui-library-and-quick-add), and [Symbols](../symbols/). The main goal of the UI Library is to let you add UI controls to the canvas, but you can also use it to see what's possible and to get inspiration for your wireframes.
 
 ![](//media.balsamiq.com/img/support/docs/bw/uilibrary.png)
 
@@ -122,7 +124,7 @@ If you have multiple controls selected it will show properties that are common t
 
 When no controls are selected the Property Inspector shows notes for the selected wireframes, asset, or Symbol. In the wireframes view the panel also shows [wireframe alternates](../alternates/).
 
-{{% alert info %}}**Note:** You can format notes text using the [syntax described here](../controls/#basic-formatting) to make text bold, underlined, etc.{{% /alert %}}
+{{% alert info %}}**Note:** You can format notes text using the [syntax described here](../editing-controls/#basic-formatting) to make text bold, underlined, etc.{{% /alert %}}
 
 For assets and Symbols it also shows the count and name of wireframes where the selected object is used.
 
@@ -133,18 +135,19 @@ The Project Info Panel allows you to define project-wide settings for skin, font
 
 ![ ](//media.balsamiq.com/img/support/docs/bw/project-info-panel.png)
 
-These settings will be applied to all wireframes in the project and will be saved with the project (i.e., they persist when the project is closed and reopened or shared with others).
-
-The two skins provided are intended to allow you to work on early ideas using a rough, sketchy look, and then later update it to a crisper, more polished look when it is ready for presentation.
-
-The screenshots below show a comparison of a sample design in the default "sketch" and "wireframe" skins, respectively. Click to view larger images.
-
-<p class="clearfix center"><a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" rel="popup"><img alt="Sketch Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" style="width: 390px; margin-right: 3px;" /></a> <a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" rel="popup"><img alt="Wireframe Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" style="width: 390px;" /></a></p>
+These settings will be applied to *all wireframes in the project* and will be saved with the project (i.e., they persist when the project is closed and reopened or shared with others).
 
 The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/), just as in previous versions (_not_ Comic Sans as you might think; although you can set it to that, all you Comic Sans lovers out there!).
 
 {{% alert info %}}**Note:** If you want to use a specific project font we recommend that you set it before you start creating your wireframes. Changing the project font may adversely affect existing wireframes in your project. Each font has different dimensions and proportions so switching fonts may cause controls to overlap or line up unevenly. Also, setting your project font to a variant such as "thin", "light", or "extrabold" may override font style settings on individual controls.{{% /alert %}}
 
+#### Sketch vs. Wireframe Skin
+
+The two skins provided are intended to allow you to work on early ideas using a rough, sketchy look (Sketch Skin), and then later update it to a crisper, more polished look when it is ready for presentation (Wireframe Skin).
+
+The screenshots below show a comparison of a sample design in the default "sketch" and "wireframe" skins, respectively. Click to view larger images.
+
+<p class="clearfix center"><a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" rel="popup"><img alt="Sketch Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-sketchy.png" style="width: 390px; margin-right: 3px;" /></a> <a class="fb fleft" href="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" rel="popup"><img alt="Wireframe Skin" src="//media.balsamiq.com/img/support/prodfaqs/search-wireframe.png" style="width: 390px;" /></a></p>
 
 ### Comments
 
@@ -154,7 +157,7 @@ The Comments Panel allows you to collaborate on your designs by sharing feedback
 
 Comments can be marked as resolved after they are reviewed and addressed. You can add Callout markers to indicate specific places in the wireframe where the comments applies or add a link to an [alternate](../alternates/) version.
 
-You can learn more about comments in [Sharing and Reviewing](../sharing/#review-and-comment).
+You can learn more about comments in [Sharing and Reviewing](../sharing/#reviewing-and-commenting).
 
 ---
 
