@@ -43,7 +43,7 @@ Just launch the prototype view, copy the long and nearly-impossible-to-guess URL
 
 Similar to the approach above, you could simply send them single mockup images using the [Image Permalink](/mybalsamiq/mockup/#mockup-description-permalink-download) feature.
 
-![](//media.balsamiq.com/img/support/docs/myb/mockup-info.png)
+![](//media.balsamiq.com/img/support/docs/myb/image-permalink.png)
 
 This link doesn't require people to log in (but is secure due to it's crazy-long and hard to guess), and will always return the latest version of a mockup's image.
 
@@ -65,7 +65,7 @@ Just set the project's [access control slider](/mybalsamiq/project/#setting-acce
 
 ## Export the Project to PDF
 
-![](//media.balsamiq.com/img/support/docs/myb/project-manage.png)
+![](//media.balsamiq.com/img/support/docs/myb/export-pdf.png)
 
 Yet another option is to use the ["Export to PDF"](/mybalsamiq/project/#project-actions) feature (available from the Project Page) to export the entire project as a PDF. Just format the PDF the way you prefer, download it and send it to them for review.
 
@@ -84,7 +84,7 @@ Some tips about exporting to PDF:
 
 ## Print the Story View as PDF
 
-![](//media.balsamiq.com/img/support/docs/myb/project-gridstorymap.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-story-view.png)
 
 If you are looking for a more traditional "spec", what you could do is go to the project page, select the "Story" view and print that page to PDF. It puts all the mockups and their notes one on top of the other in a nice spec-like format.
 
