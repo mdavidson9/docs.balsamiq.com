@@ -128,11 +128,30 @@ Type {mockup-name} (all lower-case) in a Label, Text, Title or Subtitle control 
 Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls.  
 ![placeholder-text.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text.png)
 
-{{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](../controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
+{{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](../adding-controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
 
 You can convert them to real text at any time by editing them and entering some text.
 
 ![placeholder-text-converted.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text-converted.png)
+
+---
+
+## Transforming Control Types
+
+Many controls can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
+
+Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-control-type.png)
+
+You can transform controls quickly using the shortcut CTRL+T to bring up the transform menu in the center of the canvas.
+
+![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-shortcut.png)
+
+See the video below for a demonstration.
+
+{{< yt xQ9tJqFsGb8 >}}
+
 
 ---
 
@@ -253,22 +272,3 @@ Links will be added to each node in the site map to the corresponding mockup in 
 ### The Tree Pane
 
 *TBD*
-
----
-
-## Transforming Control Types
-
-Many controls can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
-
-Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-control-type.png)
-
-You can transform controls quickly using the shortcut CTRL+T to bring up the transform menu in the center of the canvas.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-shortcut.png)
-
-See the video below for a demonstration.
-
-{{< yt xQ9tJqFsGb8 >}}
-
