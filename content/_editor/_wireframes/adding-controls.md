@@ -5,7 +5,7 @@ title: "Adding and Arranging UI Controls"
 
 ## Adding UI Controls
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/uilibrary.png)
+![](//media.balsamiq.com/img/support/docs/bw/uilibrary.png)
 
 To add UI controls to your mockup, double-click or drag a control in [the UI Library](../overview/#the-ui-library) or type a keyword into [the Quick Add tool](../overview/#the-quick-add-tool).
 
@@ -23,7 +23,7 @@ There are a few different ways to select UI controls. If you are familiar with g
 *   Dragging a rectangle which encloses many UI controls selects them
 *   SHIFT + CLICK on a control adds it to the selection
 *   CTRL/CMD + CLICK on a selected control removes it from the selection
-*   Hold ALT to ignore items behind the mouse and drag-select, as shown in {{< yt JOpaRBbwqNg >}}
+*   Hold ALT to ignore items behind the mouse and drag-select
 
 To select a control that is behind another control, right-click on the top control to bring up a menu that allows you to select controls behind it.
 
@@ -47,7 +47,7 @@ Once you have selected one or more UI controls, there are a few different ways t
 
 ## Snapping and Smart Guides
 
-When you move objects on the canvas, Mockups tries to suggest alignment relative to other objects on the canvas using smart guides. This makes alignment a little easier and makes your Mockups generally look neater.
+When you move objects on the canvas, the editor tries to suggest alignment relative to other objects on the canvas using smart guides. This makes alignment a little easier and makes your wireframes generally look neater.
 
 If you ever want to temporarily disable this feature, you can hold down the CTRL/CMD key while moving or resizing, and snapping will be turned off.
 
@@ -61,7 +61,7 @@ If you want to constrain proportions while dragging from a corner, hold the SHIF
 
 You can also use the keyboard to resize selected controls. CTRL/CMD+ALT+arrow keys to resize in 1px increments, CTRL/CMD+ALT+SHIFT+arrow keys for 10px increments.
 
-Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](../inspector/).
+Another way to resize some controls to their "natural size" is to use the Auto-Size function found in the [Property Inspector](../overview/#the-property-inspector).
 
 To resize one or more controls to match the size of another (to be the same width or height), you can use the "Resize To..." function in the Edit menu.
 
@@ -85,7 +85,7 @@ The same options are shown in the property inspector when multiple controls are 
 
 ## Layering UI Controls
 
-You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the right-click menu or [Property Inspector](../inspector/): Bring to Front, Bring Forward, Send Backward, and Send to Back. [Keyboard shortcuts](../shortcuts/) are also available.
+You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the right-click menu or [Property Inspector](../overview/#the-property-inspector): Bring to Front, Bring Forward, Send Backward, and Send to Back. [Keyboard shortcuts](../shortcuts/) are also available.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/layering-controls.png)
 
@@ -110,7 +110,7 @@ To remove some UI controls from the mockup canvas, select them and hit the DELET
 
 ## Rotating UI Controls
 
-_Some_ of our UI controls can be rotated via the [Property Inspector](../inspector/) (the label, [image](../images/#adding-images-in-mockups-view), and [icon](../icons/) controls, for example), but most can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
+_Some_ of the UI controls can be rotated via the [Property Inspector](../overview/#the-property-inspector) (the label, [image](../images/#adding-images-in-mockups-view), and [icon](../images/#adding-icons-via-the-ui-library-and-quick-add) controls, for example), but many can't. If you are used to generic drawing tools this might be surprising. This limitation is intentional, and not due to programming complexity (it's not hard to add technically).
 
 The reason we don't support rotating all controls because we believe that in 90% of cases, it is not needed in wireframes. In fact, adding the ability to rotate any control will likely result in wireframes that are very hard if not impossible to implement by the development team.
 
@@ -118,27 +118,9 @@ If you feel that you need to rotate any other control, let us know on [this foru
 
 * * *
 
-## Transforming UI Controls
-
-Many of the controls in Balsamiq Mockups can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
-
-Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-control-type.png)
-
-You can transform controls quickly using the shortcut CTRL+T to bring up the transform menu in the center of the canvas.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-shortcut.png)
-
-See the video below for a demonstration.
-
-{{< yt xQ9tJqFsGb8 >}}
-
----
-
 ## Grouping UI Controls
 
-Sometimes you might want to group some controls to better align them or move them all at once. To group a set of controls, select them and hit CTRL+G on your keyboard or use the Group command in the Edit menu or [toolbar](../overview/#the-toolbar). The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL+SHIFT+G on your keyboard or use the Ungroup command in the menu or toolbar.
+Sometimes you might want to group some controls to better align them or move them all at once. To group a set of controls, select them and hit CTRL/CMD + G on your keyboard or use the Group command in the Edit menu or [toolbar](../overview/#the-toolbar). The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL/CMD + SHIFT + G on your keyboard or use the Ungroup command in the menu or toolbar.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/group-select.png)
 
@@ -156,7 +138,7 @@ You can give a group a name via the Property Inspector. This can be helpful when
 
 ## Cropping Groups
 
-It is possible to crop (mask) a group of controls to only show a selected portion of it. When a [group](#grouping-ui-controls) is selected, a crop icon will show in the [Property Inspector](../inspector/). Click on it to edit the visible area of the group.
+It is possible to crop (mask) a group of controls to only show a selected portion of it. When a [group](#grouping-ui-controls) is selected, a crop icon will show in the [Property Inspector](../overview/#the-property-inspector). Click on it to edit the visible area of the group.
 
 The video below illustrates how to use this feature.
 
@@ -168,10 +150,10 @@ The video below illustrates how to use this feature.
 
 ## "Drawing" Basic Controls
 
-There are three controls that you can add to the canvas by "drawing" them with your mouse while holding down a letter key. To quickly draw a rectangle on the canvas, hold down the **R** key and drag your mouse. Holding down **T** instead will draw a block of text, and **Y** will produce a line of text.
+There are three controls that you can add to the canvas by "drawing" them with your mouse while holding down a letter key. To quickly draw a **rectangle** on the canvas, hold down the **R** key and drag your mouse. Holding down **T** instead will draw a **block of text**, and **Y** will produce a **line of text**.
 
 See the video below for a demonstration.
 
 {{< yt A72KW9tps0s >}}
 
-After you've added these controls, you can easily convert them to other controls by using the [transform menu described above](#transforming-ui-controls).
+After you've added these controls, you can easily convert them to other controls by using the [transform menu](../editing-controls/#transforming-control-types).
