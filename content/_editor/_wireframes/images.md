@@ -3,11 +3,11 @@ menu: "menuwireframes"
 title: "Using Images, Assets, and Icons"
 ---
 
-There are multiple ways to add images and icons to your wireframes. The easiest way is to simply **drag and drop** an image file from your computer on to the wireframes canvas. Read on to learn more about adding and using images/icons/assets in your projects.
+There are multiple ways to add images and icons to your wireframes. The easiest way is to simply **drag and drop** an image file from your computer on to the wireframes canvas. Read on to learn more about adding and using images, icons, and other assets to your projects.
 
 ## Adding Images in Wireframes View
 
-As mentioned above, dragging an image from your computer to Balsamiq Wireframes will add it to the canvas. Doing this will place the image into the selected wireframe and copy the image file to your [Assets](#adding-images-in-assets-view) so that you can easily reuse it in other wireframes.
+As mentioned above, dragging an image from your computer to the editor will add it to the canvas. Doing this will place the image into the selected wireframe and copy the image file to your [Assets](#adding-images-in-assets-view) so that you can easily reuse it in other wireframes.
 
 You can modify the image properties in the Property Inspector, similar to other UI controls.
 
@@ -70,8 +70,6 @@ You can also store other types of files in your project that won't be used in yo
 
 {{% alert info %}}**Note:** Assets are limited to 20 Megabytes per file for performance reasons.{{% /alert %}}
 
-![](//media.balsamiq.com/img/support/docs/bw/placeholder.png)
-
 These files can't be viewed inside the application, but they are "packaged" with your project, so if you give the project file to someone else they will be able to save the files from the Balsamiq project to their computer using the "Save to disk" button or [context menu item](#managing-images-and-other-assets).
 
 * * *
@@ -128,7 +126,7 @@ Icon search results are shown _below_ any UI controls that match the text you en
 
 ## Adding and Swapping Icons via the Property Inspector
 
-Some controls allow you to add icons to them (buttons, for example). You can do this from the [Property Inspector](../inspector/) in one of two ways: the icon search and the icon library dialog.
+Some controls allow you to add icons to them (buttons, for example). You can do this from the [Property Inspector](../overview/#the-property-inspector) in one of two ways: the icon search and the icon library dialog.
 
 ### Icon Search
 
@@ -154,7 +152,7 @@ Once you have selected an icon, you can resize it, rotate it or remove it via th
 
 ## Adding Your Own Icons
 
-You can also easily add your own icons for use in your wireframes by selecting any of your imported images, and us=ing them as an icon. They will automatically show up in the icon library, under the Assets category at the bottom.
+You can also easily add your own icons for use in your wireframes by selecting any of your imported images, and using them as an icon. They will automatically show up in the icon library, under the Assets category at the bottom.
 
 ![](//media.balsamiq.com/img/support/docs/bw/custom-icon-assets.png)
 
@@ -162,9 +160,7 @@ You can also easily add your own icons for use in your wireframes by selecting a
 
 ## Using an Existing Set of Custom Icons
 
-There are a few icon sets that complement the hand-drawn style of wireframes. This [blog entry at Tips Blogger](http://www.tipsblogger.com/2009/11/30-awesome-hand-drawnsketch-icon-sets/) lists some more hand drawn icon sets that might be useful for this feature.
-
-Here's [a list of the custom icon packs that we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
+There are a few icon sets that complement the hand-drawn style of wireframes. Here's [a list of the custom icon packs that we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
 
 To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-your-own-icons).
 
@@ -172,7 +168,7 @@ To use those icon packs, just unzip the icon images and drag them into your asse
 
 ## Best Practices for Creating or Preparing Custom Icons
 
-Wireframes works with color and transparency, but icons you add may not turn out looking as you want them to if they're not prepared to work the way Wireframes expects them to. Below are some tips to get the most out of your custom icons.
+The editor recognizes color and transparency, but icons you add may not turn out looking as you want them to if they're not prepared the way we expect. Below are some tips to get the most out of your custom icons.
 
 ### Color
 

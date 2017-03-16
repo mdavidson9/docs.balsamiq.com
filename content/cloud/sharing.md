@@ -8,7 +8,7 @@ weight: 44
 
 Balsamiq Cloud is designed for collaboration and offers many ways for you to get feedback on your designs. This document outlines a few different ways so that you can pick the right one to fit each situation.
 
-For sharing with collaborators, just have your [site owner](../people/#site-owners) invite them as [staff members](../people/#staff-members). Once they’re set up as staff members on your Balsamiq Cloud site, you can quickly [invite them](../people/#inviting-someone-to-a-project) to projects.
+For sharing with collaborators, just have your [site owner](../people/#site-owners) invite them as [staff members](../people/#staff-members). Once they’re set up as staff members on your Balsamiq Cloud site, you can quickly [invite them](../people/#inviting-someone-to-a-project) to projects. To learn how to work on the same wireframes together, see our article on [Collaborative Editing](../collaborating/).
 
 ---
 

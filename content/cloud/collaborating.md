@@ -14,7 +14,7 @@ Balsamiq Cloud is optimized for collaborative work. This document outlines the d
 
 ## Collaborating in Real-Time
 
-Balsamiq Cloud supports real-time collaboration between users. Once two or more users join the same project, every change will be shared in real-time with all the team. The [toolbar](../overview/#the-toolbar) will indicate any user joining the project, and the [permission level](../people/#user-permissions-at-a-glance) they have.
+Balsamiq Cloud supports real-time collaboration between users. Once two or more users join the same project, every change will be reflected in real-time with everyone. The [toolbar](../overview/#the-toolbar) will show users who have joined the project, and the [permission level](../people/#user-permissions-at-a-glance) they have.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/rtc.png)
 
@@ -30,7 +30,7 @@ Opening the same wireframe will allow you to see your co-worker's edits in real-
 
 ## Chatting with Other Editors
 
-The Editor Chat feature is a great way to discuss and gather quick feedback, while working on a project. The option will appear as soon as two or more users join the same project.
+The Editor Chat feature is a great way to discuss and gather quick feedback while working on a project. The option will appear as soon as two or more users join the same project.
 
 ![gif](//media.balsamiq.com/img/support/docs/cloud/chat-start.png)
 
