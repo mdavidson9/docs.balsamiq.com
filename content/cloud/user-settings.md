@@ -8,6 +8,8 @@ weight: 200
 
 In the upper-right corner of the of the Sites, Projects, and Editor views, you'll see your user avatar (icon). 
 
+![](//media.balsamiq.com/img/support/docs/cloud/user-avatar.png)
+
 Clicking on it will give you two options: **User Settings** and **Logout**.
 
 The User Settings dialog looks like this:

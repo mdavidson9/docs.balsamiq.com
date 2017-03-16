@@ -3,7 +3,7 @@ menu: "menuwireframes"
 title: "Alternates"
 ---
 
-Alternates (also sometimes referred to as _versions_ or _branches_) allow you to create **variations on a single wireframe design** without adding more wireframes to your project.
+Alternates (also sometimes referred to as versions or branches) allow you to create **variations on a single wireframe design** without adding more wireframes to your project.
 
 Creating alternates can be useful during the early design phase when exploring concepts and in later stages for reviewers to add their feedback and propose changes.
 
@@ -20,7 +20,7 @@ Here's an overview:
 
 ## Creating Alternates
 
-When viewing a wireframe without any controls selected you will see a section of the [Property Inspector panel](../inspector/) called **"Alternate Versions"** below the notes for that wireframe.
+When viewing a wireframe without any controls selected you will see a section of the [Property Inspector panel](../overview/#the-property-inspector) called **"Alternate Versions"** below the notes for that wireframe.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-new.png)
 

@@ -3,7 +3,7 @@ menu: "menuwireframes"
 title: "Markup"
 ---
 
-Markup is a special kind of component in the UI Library that is used for adding annotations, comments, and explanatory notes.
+Markup is a special kind of component type in the UI Library that is used for adding annotations, comments, and explanatory notes.
 
 Commonly used Markup items include: Arrow / Line, Callout, Sticky Note, Red X, and Curly Braces. The screenshot below shows the Markup button panel selected in the UI Library, and markup items on the page.
 
@@ -26,7 +26,7 @@ There are keyboard shortcuts for toggling visibility on and off.
 
 Press CTRL+K on Windows (CMD+K on Mac) to toggle markup on and off.
 
-In Full Screen presentation mode you can just press the "M" (or "K") key.
+In [Full Screen presentation mode](../fullscreen/) you can just press the "M" (or "K") key.
 
 * * *
 

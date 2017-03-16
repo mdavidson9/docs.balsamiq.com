@@ -53,7 +53,7 @@ To exit Full Screen Presentation mode, hit the ESC key or click the icon in the 
 
 Full Screen Presentation Mode centers your entire project based on the wireframe that is the tallest, and the wireframe that is the widest. While this normally results in a presentation that is centered (and whose focus doesn't jump around), if you have a wireframe that is a great deal larger than your other wireframes, it may result in your project being off center, or pushed to the top of the screen.
 
-In the [Settings](../fullscreen#settings) panel, you will find a link called **Project Centering Rules**.
+In the Settings panel, you will find a link called **Project Centering Rules**.
 
 ![](//media.balsamiq.com/img/support/docs/bw/fullscreen-settings-centering.png)
 

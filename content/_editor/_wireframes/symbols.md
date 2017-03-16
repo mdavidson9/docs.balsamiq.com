@@ -85,15 +85,7 @@ The video below describes the process of creating, editing, and using Symbols.
 
 ## Importing Symbols
 
-In addition to creating Symbols from scratch, you can import Symbols created in a previous version of Balsamiq Mockups. Click the Import Symbol Library button to open a dialog for importing Mockups files in BMML format (the format used in [Mockups To Go](https://support.balsamiq.com/resources/mockupstogo/), for example).
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols3.png)
-
-You can also import Symbols from the Project > Import menu.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-import.png)
-
-The imported Symbol will be created in a new Symbol Library.
+*IMPORT FROM WTG WILL GO HERE*
 
 * * *
 
@@ -111,7 +103,7 @@ The big advantage is, of course, that any **changes you make to your Symbols wil
 
 ## Editing Symbols
 
-When you select a Symbol on the canvas you'll see two Symbol properties in the [Property Inspector](../inspector/): Break Apart and Edit Source.
+When you select a Symbol on the canvas you'll see two Symbol properties in the [Property Inspector](../overview/#the-property-inspector): Break Apart and Edit Source.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-inspector.png)
 
@@ -151,7 +143,7 @@ You can also revert all changes you made to a Symbol's instance at once, via the
 
 ## Using Symbols across Projects
 
-If you want to use the same Symbol in multiple projects, you can copy it to another project by dragging it from one project to another. You can also create a template project, described in [Using Symbols and Assets across Projects](https://support.balsamiq.com/desktop/accountassets/).
+If you want to use the same Symbol in multiple projects, you can copy it to another project. You can also create a template project, described in [Using Symbols and Assets across Projects](https://support.balsamiq.com/desktop/accountassets/).
 
 * * *
 

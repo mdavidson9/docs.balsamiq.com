@@ -3,7 +3,7 @@ menu: "menuwireframes"
 title: "Linking Wireframes Together"
 ---
 
-You can link wireframes together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../sharing/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).
+You can link wireframes together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).
 
 Linking wireframes together is as easy as choosing a wireframe name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](../overview/#the-properties-panel) (click the "Show Link Inspector" link if you don't see it).
 
@@ -45,7 +45,7 @@ You can also link to web URLs instead of other wireframes, to show links to exte
 ---
 ## Using Links in Presentation Mode
 
-When you're done linking your wireframes up, you can enter [Full Screen Presentation mode](../sharing/), and you'll be able to click on the links you set up to test your prototype.
+When you're done linking your wireframes up, you can enter [Full Screen Presentation mode](../fullscreen/), and you'll be able to click on the links you set up to test your prototype.
 
 In Full Screen Presentation mode controls with links will have a red overlay on them and mousing over them will show a big hand pointer with the name of the target file or web page for the link (these options can be turned off in the [Full Screen settings panel](../fullscreen/#settings)).
 
