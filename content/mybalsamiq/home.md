@@ -122,7 +122,7 @@ On your site's home page, you can download individual projects from the action m
 
 **Download from Project Pages**
 
-From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select **Download BMPR** or **Download Zip**. See the details for each option [above](#project-actions).
+From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select **Download BMPR** or **Download Zip**.
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-2.png)
 
