@@ -57,7 +57,7 @@
 	        <article>
 						<h1 class="title">{{ .Title }}</h1>
 							<div class="article-content content article">
-								{{ $file := substr .File.LogicalName 0 -3}}
+                {{ $file := .File.BaseFileName }}
 										{{ range where .Site.Pages "Params.menu" (printf "%s%s" "menu" $file) }}
 		                {{ if eq .File.LogicalName "tos.md" }}
 		                  {{ .Content }}

@@ -64,21 +64,21 @@
               {{ $include := .Params.include }}
               {{ if eq .Params.editorversion 4 }}
                 {{ range where .Site.Pages "Params.menu" "menuwireframes" }}
-                {{ $file := substr .File.LogicalName 0 -3}}
+                {{ $file := .File.BaseFileName }}
                 {{ if eq $file $include }}
                   {{ .Content }}
                   {{ end }}
                 {{ end }}
               {{ else if eq .Params.editorversion 3 }}
                 {{ range where .Site.Pages "Params.menu" "menub3editor" }}
-{{ $file := substr .File.LogicalName 0 -3}}
+								{{ $file := .File.BaseFileName }}
                 {{ if eq $file $include }}
                   {{ .Content }}
                   {{ end }}
                 {{ end }}
               {{ else if eq .Params.editorversion 2 }}
                 {{ range where .Site.Pages "Params.menu" "menub2editor" }}
-{{ $file := substr .File.LogicalName 0 -3}}
+								{{ $file := .File.BaseFileName }}
                 {{ if eq $file $include }}
                   {{ .Content }}
                   {{ end }}

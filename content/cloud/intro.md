@@ -16,13 +16,13 @@ Here's a quick demonstration of how it works.
 
 ### Quick Start Guide
 
-1. To get started, you first need to **sign up and create a Balsamiq Cloud site**. For more information on how to do that, read _[signing up link here](need link)_.
+1. To get started, you first need to **sign up** at **[balsamiq.cloud](https://balsamiq.cloud/)** and then [**create** a new site](../sites/) or **join** an existing one by [invitation](../people/#inviting-someone-to-a-project).
 
-1. Next, **create a project** by clicking the Create a New Project or Upload Project buttons. A project is a set of wireframes that pertain to a specific product or feature. 
+1. Next, **create a project** by clicking the Create a New Project or [Upload Project](#transitioning-from-a-previous-version) buttons, or join one that you have been invited to. A project is a set of wireframes that pertain to a specific product or feature. 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-project.png)
 {{% alert info %}}**Tip:** Larger projects can be broader in scope, but may be harder to manage. One project may be appropriate for an entire new product that needs to be fleshed out, but more mature products typically have one project per feature or release. {{% /alert %}}
 
-1. Depending on how you work, you can also **[invite collaborators](../people/#inviting-someone-to-a-project)** to edit or review the wireframes as you build them. Balsamiq Cloud supports [real-time collaboration, comments, and chat](../collaborating/), so that multiple people can work on the same project together. Click the "manage project members..." icon to add collaborators or get a public link to share.
+1. Depending on how you work (or you [role](../people/) on the project), you can also **[invite collaborators](../people/#inviting-someone-to-a-project)** to edit or review the wireframes as you build them. Balsamiq Cloud supports [real-time collaboration, comments, and chat](../collaborating/), so that multiple people can work on the same project together. Click the "manage project members..." icon to add collaborators or get a [public link](../sharing/#public-sharing) to share.
 ![](//media.balsamiq.com/img/support/docs/cloud/invite-project-member-2.png)
 ![](//media.balsamiq.com/img/support/docs/bw/reviewing-mode.png)
 
@@ -34,9 +34,15 @@ Here's a quick demonstration of how it works.
 
 ---
 
-## What's New and Transition Information
+## What's New
 
-If you have used a Balsamiq product before, the overall experience should be familiar to you, yet also new. Balsamiq Cloud brings the **collaborative editing** features from our web-based myBalsamiq product to the **updated editor** from our Desktop version, and adds **new communication and review capabilities** such as [chat, comments, and review mode](../collaborating/). 
+If you have used a Balsamiq product before, the overall experience should be familiar, yet also new. 
+
+Balsamiq Cloud brings the **collaborative editing** features from our web-based myBalsamiq product to the **updated editor** from our Desktop version, and adds new **communication** and **review** capabilities such as [chat, comments, and review mode](../collaborating/). 
+
+---
+
+## Transitioning From a Previous Version
 
 If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version that uses .bmpr files), you can simply drag and drop to [upload your files](../projects/).
 

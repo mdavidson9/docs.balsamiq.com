@@ -6,13 +6,17 @@ title: "Managing Sites"
 weight: 3
 ---
 
-After successfully logging into Balsamiq Cloud, you will be greeted by your Sites Homepage. From this page you can access any of your existing sites, or create a new one. To access an existing site, simply click on it, and you will be brought to that site's [project page](../projects/).
+When you log into Balsamiq Cloud for the first time, you will be prompted to [create a new site](#creating-a-new-site). If you were [invited](../people/#inviting-someone-to-a-project) by someone else, then you will should also see their site.
+
+![](//media.balsamiq.com/img/support/docs/cloud/new-site-blank-slate.png)
+
+If you already have one or more sites, you will see them listed when you log in. From this page you can access any of your existing sites, or create a new one. To access an existing site, simply click on it, and you will be brought to that site's [project page](../projects/).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/sites-homepage.png)
 
 ## Creating a New Site
 
-To create a new Balsamiq Cloud Site, click the plus button in the upper left corner of your Sites Homepage. A screen will pop up asking you to name the site, and remind you of our [subscription tiers](need a link).
+To create a new Balsamiq Cloud Site, **click the plus button in the upper left corner** of your Sites Homepage. A screen will pop up asking you to name the site, and remind you of our [subscription tiers](need a link).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-new-site.png)
 

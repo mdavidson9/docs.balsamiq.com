@@ -271,4 +271,17 @@ Links will be added to each node in the site map to the corresponding wireframe 
 
 ### The Tree Pane
 
-*TBD*
+The Tree Pane control allows you to create a hierarchical list of objects, similar to what you would see in a file explorer or vertical navigation panel.
+
+![](//media.balsamiq.com/img/support/docs/bw/tree-pane-default.png)
+
+You can show common icons next to items in the list, such as folders, files, and other types of expand/collapse symbols.
+
+Double-click to edit the text and you will see how to use it ("f" for closed folder, "F" for open folder, etc.).
+
+![](//media.balsamiq.com/img/support/docs/bw/tree-pane-edit.png)
+
+{{% alert info %}}**Note:** Make sure to add a space between the icon indicator and the text after it (.e.g., "F folder name", not "Ffolder name").{{% /alert %}}
+
+To indent items use a space or dot (".") for each level in the hierarchy you want to indent to.
+
