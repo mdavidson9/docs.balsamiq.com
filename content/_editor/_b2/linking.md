@@ -5,13 +5,13 @@ menu: "menub2editor"
 
 You can link mockups together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an exported PDF.
 
-Linking mockups together is as easy as choosing a mockup name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](../inspector/) (click the "Show Link Inspector" link if you don't see it).
+Linking mockups together is as easy as choosing a mockup name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/workarounds/#make-any-control-linkable)), and you'll see a "Link" drop-down in the [Property Inspector](../inspector/) (click the "Show Link Inspector" link if you don't see it).
 
 {{% alert info %}}**Note:** To learn how to create links from text strings inside other controls, see our article on [making links in text actually work](../text/#making-links-in-text-actually-work).{{% /alert %}}
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/link_inspector.png)
 
-The list is pre-populated with the names of all the mockups in the same project as the mockup you're editing. 
+The list is pre-populated with the names of all the mockups in the same project as the mockup you're editing.
 
 For controls that can have multiple targets, you'll see something like this:
 
