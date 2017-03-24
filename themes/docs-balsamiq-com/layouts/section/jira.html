@@ -13,17 +13,17 @@
         <h1>Mockups for JIRA Documentation</h1>
       </div>
       <div class="row">
-        <div class="col-xs-12">      
+        <div class="col-xs-12">
           <h3 class="text-center mb2 mt1">Which version of Mockups for JIRA are you using?</h3>
         </div>
       </div>
       <div class="row">
-        {{ range (.Data.Pages.GroupByParam "product").Reverse }}
+        {{ range first 2 (.Data.Pages.GroupByParam "product").Reverse }}
         <div class="col-xs-12 col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
               {{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/{{ .Key | urlize }}.png" class="img-responsive center-block"></a>
-<div class="text-center"><div style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Key | urlize }}.png"></a></div> 
+<div class="text-center"><div style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Key | urlize }}.png"></a></div>
   <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}{{ .Key }}</a></h3></div>
             </div>
             <div class="list-group">

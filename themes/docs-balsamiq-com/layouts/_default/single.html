@@ -29,8 +29,10 @@
         {{ $.Scratch.Set "twoversions" 1 }}
         {{ if eq .Params.menu "menujiraserver2" }}
           {{ partial "sidebar_jiraserver2.html" . }}
-        {{ else }}
-          {{ partial "sidebar_jira.html" . }}
+				{{ else if eq .Params.menu "menujiracloud" }}
+					{{ partial "sidebar_jira.html" . }}
+				{{ else }}
+         	{{ partial "sidebar_jirawireframes.html" . }}
         {{ end }}
      {{ else if eq .Section "confluence" }}
         {{ $.Scratch.Set "twoversions" 1 }}
