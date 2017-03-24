@@ -18,8 +18,8 @@
         </div>
       </div>
       <div class="row">
-        {{ range first 2 (.Data.Pages.GroupByParam "product").Reverse }}
-        <div class="col-xs-12 col-md-6">
+        {{ range first 3 (.Data.Pages.GroupByParam "product").Reverse }}
+        <div class="col-xs-12 col-md-4">
           <div class="panel panel-default">
             <div class="panel-body">
               {{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/jira/{{ .Key | urlize }}.png" class="img-responsive center-block"></a>
