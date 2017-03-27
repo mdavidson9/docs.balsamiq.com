@@ -112,7 +112,9 @@ When prompted by the dialog, browse for your .zip file on your computer and clic
 
 On your site's home page, you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options:
 
-1. **Download BMPR**: This option will create a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions. The resulting BMPR file can be used in all our Mockups 3 products (from version 3.5.7) and above.
+1. **Download BMPR**: This option will create a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions.
+
+{{% alert info %}}**Note:** The resulting BMPR file can be opened directly in Mockups 3 for Desktop (from version 3.5.7 and above). You can download the latest version on [this page](https://balsamiq.com/download) if needed.{{% /alert %}}
 
 2. **Download Zip**: This option will be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
 
