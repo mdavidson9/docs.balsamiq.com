@@ -29,8 +29,10 @@
         {{ $.Scratch.Set "twoversions" 1 }}
         {{ if eq .Params.menu "menujiraserver2" }}
           {{ partial "sidebar_jiraserver2.html" . }}
-        {{ else }}
+        {{ else if eq .Params.menu "menujiracloud" }}
           {{ partial "sidebar_jira.html" . }}
+        {{ else }}
+        {{ partial "sidebar_jirawireframes.html" . }}
         {{ end }}
      {{ else if eq .Section "confluence" }}
         {{ $.Scratch.Set "twoversions" 1 }}
@@ -101,7 +103,9 @@
               {{ if eq ($.Scratch.Get "twoversions") 1 }}
                 {{ if eq .File.BaseFileName "intro"}} <!-- don't show previous arrow (to other version of plugin docs) for first article -->
                  {{ else }}
+                 {{ if .NextInSection }}
                 <a href="{{.NextInSection.Permalink}}"><span aria-hidden="true">&larr;</span> {{.NextInSection.Title}}</a>
+                {{ end }}
                 {{ end }}
               {{ else }}
               {{ if .NextInSection }}
@@ -114,7 +118,9 @@
               {{ if eq ($.Scratch.Get "twoversions") 1 }}
                 {{ if eq .File.BaseFileName "shortcuts"}} <!-- don't show next arrow (to other version of plugin docs) for last article -->
                 {{ else }}
+                {{ if .PrevInSection }}
                 <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}} <span aria-hidden="true">&rarr;</span></a>
+                {{ end }}
                 {{ end }}
               {{ else }}
               {{ if .PrevInSection }}

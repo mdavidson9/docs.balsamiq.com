@@ -11,7 +11,7 @@ The Mockups editor in myBalsamiq is similar to the editor in other versions. See
 
 The myBalsamiq editor is made up of four main parts, as shown below: **The Menu Bar, the UI Library, the Mockups editor canvas, and the Project Browser.**
 
-[![](//media.balsamiq.com/img/support/docs/myb/editor-overview.png "Click to enlarge")](//media.balsamiq.com/img/support/docs/myb/editor-overview_lg.png)
+![](//media.balsamiq.com/img/support/docs/myb/editor-overview.png)
 
 * * *
 
@@ -37,9 +37,9 @@ This tab has a second level of tabs for viewing [Project Symbols or Site Symbols
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-symbolstabs.png)
 
-### Reorder, Rename, and Delete
+### Reorder, Rename, Delete and Clone
 
-When you move your mouse cursor over the name of a mockup you will see a small arrow appear. Clicking on this arrow will show a menu that allows you to rename or delete the mockup.
+When you move your mouse cursor over the name of a mockup you will see a small arrow appear. Clicking on this arrow will show a menu that allows you to rename, delete or clone the mockup.
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-rename.png)
 
