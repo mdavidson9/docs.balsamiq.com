@@ -5,7 +5,7 @@ title: "Linking Wireframes Together"
 
 You can link wireframes together to create a simple prototype for your site or software application. This can be useful for demonstrating click-through prototypes or for usability testing when you're displaying your project in [Full Screen Presentation](../fullscreen/) mode or as an [exported PDF](../exporting/#exporting-to-pdf).
 
-Linking wireframes together is as easy as choosing a wireframe name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/hotareas/)), and you'll see a "Link" drop-down in the [Property Inspector](../overview/#the-properties-panel) (click the "Show Link Inspector" link if you don't see it).
+Linking wireframes together is as easy as choosing a wireframe name from a drop-down menu. Simply click on a control that supports linking (most do, and [here's a workaround for those that don't](https://support.balsamiq.com/tutorials/workarounds/#make-any-control-linkable)), and you'll see a "Link" drop-down in the [Property Inspector](../overview/#the-properties-panel) (click the "Show Link Inspector" link if you don't see it).
 
 ![](//media.balsamiq.com/img/support/docs/bw/link_inspector.png)
 
