@@ -7,7 +7,7 @@ Markup is a special kind of component type in the UI Library that is used for ad
 
 Commonly used Markup items include: Arrow / Line, Callout, Sticky Note, Red X, and Curly Braces. The screenshot below shows the Markup button panel selected in the UI Library, and markup items on the page.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/markup-on.png)
+![](//media.balsamiq.com/img/support/docs/bw/markup-on.png)
 
 
 ## Toggling Markup on and Off
@@ -16,7 +16,7 @@ When you're editing your wireframes, you will sometimes want to see what the wir
 
 The screenshot below shows the previous page with Markup off.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/markup-off.png)
+![](//media.balsamiq.com/img/support/docs/bw/markup-off.png)
 
 * * *
 
@@ -38,7 +38,7 @@ If you want to make a Markup item Non-Markup, right click on the component and s
 
 You can use this "Treat As Markup / Do Not Treat As Markup" feature on any component. If you right-click on a regular component, you can make it behave like Markup by selecting "Treat as Markup." It will be hidden when you toggle Markup visibility off.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/markup-nonmarkup.png)
+![](//media.balsamiq.com/img/support/docs/bw/markup-nonmarkup.png)
 
 The video below demonstrates this process:
 
