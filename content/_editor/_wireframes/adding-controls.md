@@ -27,7 +27,7 @@ There are a few different ways to select UI controls. If you are familiar with g
 
 To select a control that is behind another control, right-click on the top control to bring up a menu that allows you to select controls behind it.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/select_from_layers.png)
+![](//media.balsamiq.com/img/support/docs/bw/select_from_layers.png)
 
 {{% alert info %}}**Note:** To see this and the other techniques in this article demonstrated in a video, see [this tutorial on Tips for Working with Controls](https://support.balsamiq.com/tutorials/controls/).{{% /alert %}}
 
@@ -65,7 +65,7 @@ Another way to resize some controls to their "natural size" is to use the Auto-S
 
 To resize one or more controls to match the size of another (to be the same width or height), you can use the "Resize To..." function in the Edit menu.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/resize-to.png)
+![](//media.balsamiq.com/img/support/docs/bw/resize-to.png)
 
 Select multiple controls and use this option to size all the selected controls to match the narrowest, widest, shortest, or tallest control in the selection.
 
@@ -75,11 +75,11 @@ Select multiple controls and use this option to size all the selected controls t
 
 You can align and distribute (space out) controls by selecting multiple controls and right-clicking to bring up the menu shown below.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/aligning-controls-contextmenu.png)
+![](//media.balsamiq.com/img/support/docs/bw/aligning-controls-contextmenu.png)
 
 The same options are shown in the property inspector when multiple controls are selected.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/aligning-controls-inspector.png)
+![](//media.balsamiq.com/img/support/docs/bw/aligning-controls-inspector.png)
 
 * * *
 
@@ -87,7 +87,7 @@ The same options are shown in the property inspector when multiple controls are 
 
 You can layer controls as if they were pieces of paper on the mockup canvas. To do so, you select the controls you want to layer and select one of four layering commands available via the right-click menu or [Property Inspector](../overview/#the-property-inspector): Bring to Front, Bring Forward, Send Backward, and Send to Back. [Keyboard shortcuts](../shortcuts/) are also available.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/layering-controls.png)
+![](//media.balsamiq.com/img/support/docs/bw/layering-controls.png)
 
 * * *
 
@@ -95,7 +95,7 @@ You can layer controls as if they were pieces of paper on the mockup canvas. To 
 
 Locking a control will prevent it from being selectable. This can be useful for background controls that you want to stay in place or don't want to accidentally select (a browser or iPhone control, for example). You can lock a control by selecting it and choosing "Lock (control name)" from the context menu, or by clicking the lock icon in the [toolbar](../overview/#the-toolbar).
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/locking-controls.png)
+![](//media.balsamiq.com/img/support/docs/bw/locking-controls.png)
 
 To unlock a control, right-click on it when your mouse cursor is over it.
 
@@ -122,11 +122,11 @@ If you feel that you need to rotate any other control, let us know on [this foru
 
 Sometimes you might want to group some controls to better align them or move them all at once. To group a set of controls, select them and hit CTRL/CMD + G on your keyboard or use the Group command in the Edit menu or [toolbar](../overview/#the-toolbar). The controls will change color to purple to indicate that they are grouped. Once grouped, the controls will behave as one when moving or aligning. To ungroup controls, press CTRL/CMD + SHIFT + G on your keyboard or use the Ungroup command in the menu or toolbar.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/group-select.png)
+![](//media.balsamiq.com/img/support/docs/bw/group-select.png)
 
 You can double-click on a group to "enter it" and edit its contents. A small floating breadcrumb bar will indicate that you are editing a group and allow you to navigate back out of the group (you can also use the Escape key). Groups can be nested, as shown below.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/group-edit.png)
+![](//media.balsamiq.com/img/support/docs/bw/group-edit.png)
 
 Here's a video that shows grouping in action:
 
