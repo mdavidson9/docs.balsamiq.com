@@ -131,7 +131,7 @@ Another option for creating placeholder text, besides the [Lorem Ipsum text gene
 
 {{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](../adding-controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
 
-You can convert them to real text at any time by editing them and entering some text.
+You can convert them to real text at any time by editing them and entering some text or simply by double-clicking each control, as shown below.
 
 ![gif](//media.balsamiq.com/img/support/docs/bw/placeholder-text-converted.png)
 
