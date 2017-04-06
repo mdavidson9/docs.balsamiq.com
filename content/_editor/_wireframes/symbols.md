@@ -17,13 +17,11 @@ The editor has a dedicated view for creating and managing Symbols. Symbols creat
 
 To get to the Symbols view, use the navigator icon and select Symbols. You will see any existing Symbols in a list in the left panel.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols1.png)
-
-The toolbar contains two icons for creating Symbols: one for creating one from a blank canvas and another for [importing](#importing-symbols).
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-toolbar.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols1.png)
 
 Click the New Symbol Library icon to create a new Symbol Library. The Symbols view shows Symbols as well as their Symbol Library containers. In Symbols view it is helpful to know the difference before creating them. Read on for an explanation.
+
+![](//media.balsamiq.com/img/support/docs/bw/symbols-toolbar.png)
 
 ### Symbols vs. Symbol Libraries
 
@@ -31,7 +29,7 @@ A Symbol Library is a collection of individual Symbols. It can be used as a way 
 
 In Symbols view Symbols are shown as a nested list inside their Symbol Library, as shown below.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols2.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols2.png)
 
 You can select the Symbol Library name to see all the Symbols it contains, or you can select the name of an individual Symbol to see only that Symbol.
 
@@ -39,7 +37,7 @@ When viewing a Symbol you will see a small floating bar showing a breadcrumb pat
 
 The icon at the top of the list of Symbols allows you to choose whether you want to see other Symbols in the Symbol Library along with the selected Symbol or not.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-showother.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-showother.png)
 
 {{% alert info %}}**Note:** The Symbol Library that a Symbol belongs to is ignored in the UI Library and Quick Add. You will see a list of all your Symbols, regardless of which Symbol Library they belong to.{{% /alert %}}
 
@@ -59,21 +57,21 @@ When you create a new Symbol Library two sample Symbols are created automaticall
 
 1.  Select the controls you want to group.
 
-    ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-group.png)
+    ![](//media.balsamiq.com/img/support/docs/bw/symbols-group.png)
 
 2.  Group your selection (select Edit >Group, click the Group icon in the toolbar, or use CTRL/CMD+G). Note that the controls will turn a bluish color to indicate they are a group.
 3.  Name the group.
 4.  Click on the "Convert To Symbol" button in the Property Inspector
 
-    ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-convert.png)
+    ![](//media.balsamiq.com/img/support/docs/bw/symbols-convert.png)
 
 You will notice that the group selection becomes a light green. This means that the selection is now an instance of a Symbol and you can reuse it in your project.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-created.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-created.png)
 
 This new Symbol will be displayed in the Symbols category of the UI Library for all wireframes in your project so that you can easily add it to any wireframe.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-uilibrary.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-uilibrary.png)
 
 {{% alert info %}}**Tip:** Once a Symbol has been created you can also add it via [Quick Add](../overview/#the-quick-add-tool) using the first few letters of its name, just like other controls.{{% /alert %}}
 
@@ -95,7 +93,7 @@ You can use Symbols just like any other control. You can add them from the UI Li
 
 The primary difference is that the properties for the Symbol itself are limited, similar to other grouped controls.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-inuse.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-inuse.png)
 
 The big advantage is, of course, that any **changes you make to your Symbols will update everywhere you use them**. Read on to learn about editing Symbols.
 
@@ -105,13 +103,13 @@ The big advantage is, of course, that any **changes you make to your Symbols wil
 
 When you select a Symbol on the canvas you'll see two Symbol properties in the [Property Inspector](../overview/#the-property-inspector): Break Apart and Edit Source.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-inspector.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-inspector.png)
 
 "Break Apart" breaks the connection between the individual controls inside the Symbol and the Symbol itself for the selected instance, meaning that it is no longer a Symbol (although the original Symbol remains intact). Any changes you make to a broken apart Symbol will not get updated elsewhere and any changes made to the Symbol will not update where it has been broken apart.
 
 "Edit Source" does what you'd expect it to do, it takes you to the Symbols view where you can edit the Symbol. The main benefit of reusable Symbols is that if you need to make a change, you can just do it in one place and it will be propagated to all the instances (uses) of that Symbol. When you are done editing a Symbol you can click the "Back to Wireframes" button on the canvas. Edits made to the Symbol will be immediately reflected in any wireframes that it is used in.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-hideother.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-hideother.png)
 
 {{% alert info %}}**Tip:** You can also edit a Symbol by right-clicking on it in the UI Library and selecting "Edit Symbol Source."{{% /alert %}}
 
@@ -121,23 +119,23 @@ When you select a Symbol on the canvas you'll see two Symbol properties in the [
 
 Once you have created a Symbol, you might want to change it a little each time you use it. Imagine for instance a Symbol you created as a master page or template, containing a web page's title and navigation.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-template.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-template.png)
 
 All your website pages will have the same font size and position for the title, but the title's text should be different on each page. The same goes for which page should be shown as selected in your navigation bar.
 
 Symbols allow you to achieve this result by letting you override certain Symbol properties each time you use a Symbol. To do so, start by double-clicking on a symbol to "enter it". Although this experience is very similar to editing a group's contents, you will notice that  the editor informs you that what you're doing is really overriding some properties of a Symbol.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-override.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-override.png)
 
 At this point, you can manipulate each control inside the symbols at will, as if you were editing a group. Some operations are not permitted while overriding symbol properties, such as adding, deleting or grouping controls. If, instead, you want to [edit all instances of the Symbol](#editing-symbols) click the "Edit" button.
 
 If you make a mistake, you can always undo to get back. If you want to remove a single property change and go back to a Symbol's default property, you can click on the little green "x" icon in the Property Inspector.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-override2.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-override2.png)
 
 You can also revert all changes you made to a Symbol's instance at once, via the "x" icon in the Property Inspector you see when selecting the whole symbol.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-revert.png)
+![](//media.balsamiq.com/img/support/docs/bw/symbols-revert.png)
 
 * * *
 
@@ -151,7 +149,7 @@ If you want to use the same Symbol in multiple projects, you can copy it to anot
 
 In addition to creating Symbols and Symbol Libraries in Symbols view, it is also a good place to manage and organize your Symbols.
 
-You can add notes to both your Symbols and Symbol Libraries in the [Properties panel](../overview/#the-properties-panel) on the right. When an individual Symbol is selected the lower portion of the panel shows which wireframes (if any) the Symbol is used in. This can be used to see if you can delete any Symbols that aren't being used, for example. Clicking on a wireframe name will take you to that wireframe in the Wireframes view. ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols-properties.png)
+You can add notes to both your Symbols and Symbol Libraries in the [Properties panel](../overview/#the-properties-panel) on the right. When an individual Symbol is selected the lower portion of the panel shows which wireframes (if any) the Symbol is used in. This can be used to see if you can delete any Symbols that aren't being used, for example. Clicking on a wireframe name will take you to that wireframe in the Wireframes view. ![](//media.balsamiq.com/img/support/docs/bw/symbols-properties.png)
 
 ### Renaming Symbols
 
