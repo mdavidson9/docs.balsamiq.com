@@ -23,7 +23,7 @@ Many UI controls, such as Button, Label or DataGrid, have text in them. To edit 
 
 Some controls use certain characters as separators. For instance, to create multiple tabs in a tabs bar, you separate them with a comma.
 
-![](//media.balsamiq.com/img/support/tutorials/firstmockup/FirstMockup-tabs_edit.png)
+![](//media.balsamiq.com/img/support/docs/bw/tabs-bar-edit.png)
 
 Or, a space character separates tags in a Tag Cloud control. Some other controls, like the [Tree Pane](#the-tree-pane), use other characters altogether. In such cases the default text for the control includes explanations on how to use it.
 
@@ -53,7 +53,7 @@ All of the above syntax works around words separated by white spaces, and underl
 
 Here's a screenshot of what the above text looks like in a Paragraph control, for instance:
 
-![](//media.balsamiq.com/img/support/docs/m4d/italiclinksbold.png)
+![](//media.balsamiq.com/img/support/docs/bw/italiclinksbold.png)
 
 The shortcuts will work almost everywhere where it makes sense, and you can combine them, so to make an italic link use [\_this\_] or \_[this]\_.
 
@@ -66,7 +66,7 @@ If you want to show these special formatting characters as actual text, you can 
 
 Most controls allow you to insert a line break to wrap text from one line to the next. You can do this by writing \r in front of the text you want to start on a new line. See the example below where a line break is used in the second item in a Radio Button control.
 
-![](//media.balsamiq.com/img/support/docs/m4d/linebreak.png)
+![](//media.balsamiq.com/img/support/docs/bw/linebreak.png)
 
 #### Bulleted Lists
 
@@ -100,11 +100,11 @@ Adding links in this way will cause them to show up in the Property Inspector as
 
 This text
 
-![bracket_links-edit.png](//media.balsamiq.com/img/support/docs/m4d/bracket_links-edit.png)
+![](//media.balsamiq.com/img/support/docs/bw/bracket_links-edit.png)
 
 results in
 
-![bracket_links.png](//media.balsamiq.com/img/support/docs/m4d/b3/bracket_links.png)
+![](//media.balsamiq.com/img/support/docs/bw/bracket_links.png)
 
 You can link specific strings of text as well as the whole control.
 
@@ -116,7 +116,7 @@ You can link specific strings of text as well as the whole control.
 
 Type lorem in a Paragraph or Text Area to use our [Lorem Ipsum](http://www.lipsum.com/ "What is Lorem Ipsum") generator.
 
-![gif](//media.balsamiq.com/img/support/docs/m4d/lorem.png)
+![gif](//media.balsamiq.com/img/support/docs/bw/lorem.png)
 
 #### {Mockup-Name}
 
@@ -125,14 +125,15 @@ Type {mockup-name} (all lower-case) in a Label, Text, Title or Subtitle control 
 
 ### Placeholder Text
 
-Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls in the UI Library.  
-![placeholder-text.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text.png)
+Another option for creating placeholder text, besides the [Lorem Ipsum text generator](#more-macros), is to use the **Line of Text** and **Block of Text** controls in the UI Library.
+
+![](//media.balsamiq.com/img/support/docs/bw/placeholder-text.png)
 
 {{% alert info %}}**Note:** Read about [drawing these controls directly on the canvas](../adding-controls/#drawing-basic-controls) to learn how to add them really quickly.{{% /alert %}}
 
-You can convert them to real text at any time by editing them and entering some text.
+You can convert them to real text at any time by editing them and entering some text or simply by double-clicking each control, as shown below.
 
-![placeholder-text-converted.png](//media.balsamiq.com/img/support/docs/m4d/b3/placeholder-text-converted.png)
+![gif](//media.balsamiq.com/img/support/docs/bw/placeholder-text-converted.png)
 
 ---
 
@@ -142,11 +143,11 @@ Many controls can be converted into other controls. This can be useful when you 
 
 Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-control-type.png)
+![](//media.balsamiq.com/img/support/docs/bw/transform-control-type.png)
 
 You can transform controls quickly using the shortcut CTRL+T to bring up the transform menu in the center of the canvas.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/transform-shortcut.png)
+![](//media.balsamiq.com/img/support/docs/bw/transform-shortcut.png)
 
 See the video below for a demonstration.
 
@@ -251,13 +252,13 @@ This is what the outline above looks like in vertical orientation (default):
 
 Next to the options for changing the orientation in the [Property Inspector](#editing-properties-via-the-property-inspector) is a button that allows you to automatically populate a site map based on the order and structure of your wireframes in the [Navigator Panel](../overview/#the-navigator-panel).
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-settings.png)
+![](//media.balsamiq.com/img/support/docs/bw/site-map-settings.png)
 
 Each time you click the "Populate from Project" project the site map will be updated to reflect the current project structure.
 
 If you are using a [parent-child hierarchy](../overview/#using-a-hierarchy), child wireframes will be shown as child nodes in the site map, as shown below.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/site-map-populated.png)
+![](//media.balsamiq.com/img/support/docs/bw/site-map-populated.png)
 
 Links will be added to each node in the site map to the corresponding wireframe in your project.
 
@@ -284,4 +285,3 @@ Double-click to edit the text and you will see how to use it ("f" for closed fol
 {{% alert info %}}**Note:** Make sure to add a space between the icon indicator and the text after it (.e.g., "F folder name", not "Ffolder name").{{% /alert %}}
 
 To indent items use a space or dot (".") for each level in the hierarchy you want to indent to.
-
