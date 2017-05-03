@@ -22,19 +22,19 @@ Here's an overview:
 
 When viewing a wireframe without any controls selected you will see a section of the [Property Inspector panel](../overview/#the-property-inspector) called **"Alternate Versions"** below the notes for that wireframe.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-new.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-new.png)
 
 To create a new alternate **click the "+" (plus) icon** next to "Alternate Versions"
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-create.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-create.png)
 
 or use the context menu in the [Navigator panel](../overview/#the-navigator-panel).
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-create-navigator.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-create-navigator.png)
 
 This will create a **copy of the current wireframe as an alternate version** for you to modify. By default it will automatically be named with the word "Alternate" followed by some random numbers and letters to ensure that the name is unique.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-default.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-default.png)
 
 **The selection in the alternate versions list tells you which version of the wireframe you are working on.** You can create as many alternates as you'd like.
 
@@ -42,11 +42,11 @@ This will create a **copy of the current wireframe as an alternate version** for
 
 When an alternate exists an icon will appear next to the name in the [Navigator panel](../overview/#the-navigator-panel) indicating that there are alternates. When you are working on an alternate version the Navigator panel will show the alternate name in parentheses.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-default-navigator.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-default-navigator.png)
 
 To **rename** the alternate double-click on the name in the alternates versions list or use the context or right-click menu and select "Rename..."
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-menu.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-menu.png)
 
 * * *
 
@@ -54,11 +54,11 @@ To **rename** the alternate double-click on the name in the alternates versions 
 
 Once you have created an alternate version you can edit it just like any other wireframe, including adding assets and symbols. Changes that you make **will not affect the original wireframe** (shown as the Official Version). You can also add notes in the notes panel for the alternate to describe your thoughts on it or communicate to others about it.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-testimonials.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-title.png)
 
 To switch between alternate versions of a wireframe select the name of a version from the list in the properties panel or from the context menu in the Navigator panel. You may also switch back to the Official Version by selecting it in the list.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-menu-navigator.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-menu-navigator.png)
 
 {{% alert info %}}**Note:** If you [link](../linking/) to a wireframe that contains an alternate the link will go to the version of the wireframe that is selected in the alternates list. The same rule applies to [exporting](../exporting/). The selected versions of your wireframes will be exported.{{% /alert %}}
 
@@ -88,7 +88,7 @@ Sometimes, however, an alternate grows into a wireframe all its own. If you woul
 
 The new wireframe will be named using the **Name of the Alternate** and then the **Name of the Original Wireframe**. So if you had an alternate named "Rotated Header", in your "Homepage" wireframe, the wireframe created from the alternate would be named "Rotated Header Homepage".
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-duplicatedresults.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-duplicatedresults.png)
 
 * * *
 
@@ -100,15 +100,13 @@ If you want to combine parts of an alternate with the official version, you can 
 
 Selecting "Merge with Official" will add the contents of the selected version to the official version, to the right of the wireframe contents, as shown below.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-post-merge.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-post-merge.png)
 
 If the notes in the alternate are different than the notes in the original, they will also be merged, separated by a dashed horizontal line.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-post-merge2.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-post-merge2.png)
 
 You can then manually edit the contents to create a new official version that is a combination of the preferred elements of each version.
-
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-final.png)
 
 * * *
 
@@ -124,7 +122,7 @@ When you have finished reviewing or integrating alternate versions into an offic
 
 You can view your alternates in [Full Screen Presentation Mode](../fullscreen) by using the navigator dropdown.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-alternates.png)
+![](//media.balsamiq.com/img/support/docs/bw/fullscreen-alternates.png)
 
 When you select a wireframe alternate in this view, its name will show up in parentheses next to the official wireframe name.
 
@@ -138,11 +136,11 @@ When you rename an alternate you can choose from a list of existing alternate na
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-rename-from-list.png)
 
-In the Navigator panel next to the word Mockups a menu shows the **names of all alternates that appear in your project**.
+In the Navigator panel next to the word Wireframes a menu shows the **names of all alternates that appear in your project**.
 
 Selecting an alternate from this list will **select that alternate in _all the wireframes_ that have an alternate with that name**.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-mockups-menu.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-mockups-menu.png)
 
 {{% alert info %}}**Note:** This is conceptually similar to creating a branch in a codebase, except that it only applies to wireframes that have specific alternate version names.{{% /alert %}}
 
