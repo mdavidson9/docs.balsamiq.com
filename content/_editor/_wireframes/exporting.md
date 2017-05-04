@@ -44,7 +44,7 @@ The shortcuts for exporting a wireframe and project to image files are CTRL/CMD+
 
 You can also export a subset of the controls in your wireframe by selecting them on the canvas and using the Export Current wireframe to PNG command. The export dialog will ask you if you want to export only the selected controls or the entire wireframe.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/export-selected.png)
+![](//media.balsamiq.com/img/support/docs/bw/export-selected.png)
 
 * * *
 
