@@ -78,17 +78,20 @@ We collect the following personal data:
 Name  
  E-mail address  
  Billing Address  
+ IP Address
  Optional Phone number and Skype ID  
  Optional Geographical location  
  Optional Working hours  
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-We use return e-mail addresses to answer the e-mail we receive. Such addresses are not used for any other purpose and are not shared with outside parties.
+The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include but is not limited to subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
-Please be aware that your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
+We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
 
-Finally, we never use or share the personally identifiable information provided to us online in ways unrelated to the ones described above.
+We collect the IP addresses of everyone that registers with myBalsamiq. This information is used for debugging and analytics purposes. Our [Logmatic](https://logmatic.io/) logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company's accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -124,7 +127,7 @@ If you delete your site manually, or if your site gets suspended for payment and
 
 ### What Are the System Requirements for Using myBalsamiq?
 
-A modern web browser (Internet Explorer users need IE9 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
+A modern web browser (Internet Explorer users need IE11 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
 
 myBalsamiq stores auto-save data and other settings in Flash Local SharedObjects on the end user's computer. We do not clear those on exit. myBalsamiq does not use ActiveX or Java in the browser.
 
