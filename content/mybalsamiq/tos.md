@@ -98,15 +98,15 @@ It is your sole responsibility to keep your user name, password and other sensit
 
 If you forget your password, we send you a secure link via email that lets you reset it.
 
-User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment. Site owners can assign passwords to staff and project members.
+User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment.
 
 Balsamiq staff will never change a password for you, nor change the site owner. Here's an article that describes how you can [change the site owner of a myBalsamiq site yourself](https://support.balsamiq.com/mybalsamiq/siteownerleft/).
 
 ### Who Can See My Credit Card Number?
 
-No-one at Balsamiq. We use the very trustworthy and secure [Pin Payments](https://pinpayments.com/) payment service. Read about their security measures on the [Pin Payments Terms and Conditions](https://pin.net.au/terms) (in short, they encrypt your credit card info).
+No-one at Balsamiq. We use the very trustworthy and secure [Pin Payments](https://pinpayments.com/) and [Stripe](https://stripe.com) payment services. Read about their security measures on the [Pin Payments Terms and Conditions](https://pin.net.au/terms) and on the [Stripe Security Guide](https://stripe.com/help/security) (in short, they encrypt your credit card info).
 
-Once you sign up Pin Payments will charge your card each month. Both Pin Payments and Balsamiq are PCI-DSS compliant. Even though Balsamiq employees never see your credit card information, Balsamiq has an internal security policy to follow in case we accidentally come across a customer's credit card info.
+Once you sign up Pin Payments or Stripe will charge your card each month. Pin Payments, Stripe and Balsamiq are all PCI-DSS compliant. Even though Balsamiq employees never see your credit card information, Balsamiq has an internal security policy to follow in case we accidentally come across a customer's credit card info.
 
 ### Our Commitment to Children's Privacy
 
@@ -160,7 +160,7 @@ We use secure private keys when accessing myBalsamiq servers via SSH, and protec
 
 We log application data (username and email, subdomain and project name). We rotate logs with 14-days conservation. We stream logs from our servers to our own secure recorder server using SSL.
 
-As mentioned [above](#who-can-see-my-credit-card-number), we rely on Pin Payments for payment processing.
+As mentioned [above](#who-can-see-my-credit-card-number), we rely on Pin Payments and Stripe for payment processing.
 
 We use [PubNub](http://www.pubnub.com/) to provide real-time updates, always sent over SSL. Here's their [privacy policy](http://www.pubnub.com/privacy-policy).
 
@@ -219,7 +219,7 @@ The trademarks, logos and service marks displayed on this Site are the property 
 
 Balsamiq does not claim intellectual property rights over wireframes created on myBalsamiq nor the [project and account assets](/mybalsamiq/assets/) your users upload.
 
-We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site (see [this page](https://mockupstogo.mybalsamiq.com/projects/submissions/grid) as an example).
+We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site (see [this page](https://mockupstogo.mybalsamiq.com/projects/aboutmtg/grid) as an example).
 
 You acknowledge and agree that Balsamiq has no liability of any kind should anyone you granted access to your content modify, destroy, corrupt, copy or distribute it, or violate the terms of use or other limitations that you may impose on the use of your shared content.
 
@@ -422,6 +422,8 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
+*   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
 *   2014, June 23: removed this sentence from General section: _You may not assign or otherwise transfer the Terms of Use nor any right granted hereunder without Balsamiq’s prior written consent._
 *   2014, June 18: rectified that we do collect your Billing Address. Changed Spreedly to Pin Payments (Pin Payments acquired Spreedly).
