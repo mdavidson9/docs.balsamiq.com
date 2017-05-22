@@ -85,11 +85,11 @@ Name
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include but is not limited to subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
+The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
 We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
 
-We collect the IP addresses of everyone that registers with myBalsamiq. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+We collect the IP addresses of everyone who registers with myBalsamiq. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
 
 The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company's accounting department, or with Stripe when responding to a chargeback.
 
