@@ -89,7 +89,7 @@ The email addresses we collect for the site owner, secondary billing administrat
 
 We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
 
-We collect the IP addresses of everyone that registers with myBalsamiq. This information is used for debugging and analytics purposes. Our [Logmatic](https://logmatic.io/) logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+We collect the IP addresses of everyone that registers with myBalsamiq. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
 
 The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company's accounting department, or with Stripe when responding to a chargeback.
 
@@ -425,6 +425,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2017, May 22: added IP address info, clarified personal data usage, and updated system requirements for IE11. 
 *   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
 *   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
