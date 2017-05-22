@@ -43,7 +43,7 @@ Your access and use of myBalsamiq is always subject to the most current version 
 
 If you'd like to be notified every time we make a change to this document, please enter your email address below to subscribe to our "myBalsamiq ToS changes" mailing list:
 
-<form action="http://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
+<form action="https://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
 
 ### Breach of Terms
 
@@ -244,9 +244,9 @@ That said, high reliability is something we are proud of and something we delibe
 
 We monitor myBalsamiq closely and have set up automated alarms to be notified (via email and SMS) when the myBalsamiq service is under stress, so that we can deal with the issue before it becomes a problem that might impact customer access.
 
-You can see for yourself how we're doing on this front by looking at this [Pingdom](http://www.pingdom.com)-powered chart (click for more info):
+You can see for yourself how we're doing on this front by looking at this [Pingdom](https://www.pingdom.com)-powered chart (click for more info):
 
-[![Uptime Report for myBalsamiq: Last 30 days](http://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
+[![Uptime Report for myBalsamiq: Last 30 days](https://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
 
 You acknowledge and agree that Balsamiq shall not be liable for any failure to store your materials on myBalsamiq at any time.
 
@@ -425,7 +425,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
-*   2017, May 22: added IP address info, clarified personal data usage, and updated system requirements for IE11. 
+*   2017, May 22: added IP address info, clarified personal data usage, and updated system requirements for IE11.
 *   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
 *   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
