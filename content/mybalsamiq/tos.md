@@ -78,7 +78,7 @@ We collect the following personal data:
 Name  
  E-mail address  
  Billing Address  
- IP Address
+ IP Address  
  Optional Phone number and Skype ID  
  Optional Geographical location  
  Optional Working hours  
