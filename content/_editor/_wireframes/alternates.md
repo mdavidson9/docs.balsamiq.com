@@ -68,7 +68,7 @@ To switch between alternate versions of a wireframe select the name of a version
 
 If you decide that you like one alternate better than the original wireframe you can "promote" it to the official version, which replaces and overwrites the original.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-promote.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-promote.png)
 
 {{% alert info %}}**Note:** You can undo this action by using the undo command (CTRL/CMD+Z) **three times**.{{% /alert %}}
 
@@ -80,11 +80,11 @@ The alternate that was promoted is retained in case you want to preserve it as p
 
 You can duplicate wireframes from the contextual menu. Doing this will create a new, randomly named alternate that is an exact copy of the alternate you chose to duplicate.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-duplicate.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-duplicate.png)
 
 Sometimes, however, an alternate grows into a wireframe all its own. If you would like to create a whole new wireframe based on an alternate, you can choose the "Duplicate As New Wireframe" option from the contextual menu.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-duplicatenewmockup.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-duplicatenewmockup.png)
 
 The new wireframe will be named using the **Name of the Alternate** and then the **Name of the Original Wireframe**. So if you had an alternate named "Rotated Header", in your "Homepage" wireframe, the wireframe created from the alternate would be named "Rotated Header Homepage".
 
@@ -96,7 +96,7 @@ The new wireframe will be named using the **Name of the Alternate** and then the
 
 If you want to combine parts of an alternate with the official version, you can use the merge option.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-merge.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-merge.png)
 
 Selecting "Merge with Official" will add the contents of the selected version to the official version, to the right of the wireframe contents, as shown below.
 
@@ -134,7 +134,7 @@ In some cases you might want to **propose a set of alternate designs across seve
 
 When you rename an alternate you can choose from a list of existing alternate names in the rename dialog. This makes it easy to use the same alternate name in several wireframes.
 
-![](//media.balsamiq.com/img/support/docs/m4d/b3/alternates-rename-from-list.png)
+![](//media.balsamiq.com/img/support/docs/bw/alternates-rename-from-list.png)
 
 In the Navigator panel next to the word Wireframes a menu shows the **names of all alternates that appear in your project**.
 
