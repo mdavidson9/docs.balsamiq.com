@@ -1,6 +1,6 @@
 ---
 date: 2015-09-23T15:48:49-07:00
-title: "myBalsamiq's Prototype View"
+title: "myBalsamiq Prototype View"
 menu: "menumybalsamiq"
 weight: 125
 ---
