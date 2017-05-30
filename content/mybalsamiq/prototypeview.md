@@ -1,21 +1,21 @@
 ---
 date: 2015-09-23T15:48:49-07:00
-title: "myBalsamiq's Prototype View Link"
+title: "myBalsamiq's Prototype View"
 menu: "menumybalsamiq"
 weight: 125
 ---
 
-The myBalsamiq Prototype View link is one of the [sharing options](https://docs.balsamiq.com/mybalsamiq/sharing/) available for your project. To generate and access the Prototype View for your project, click on the arrow in the upper right-hand corner of your [Project Page](https://docs.balsamiq.com/mybalsamiq/project/).
+The myBalsamiq Prototype View is one of the [sharing options](https://docs.balsamiq.com/mybalsamiq/sharing/) available for your project. To generate and access the Prototype View for your project, click on the arrow in the upper right-hand corner of your [Project Page](https://docs.balsamiq.com/mybalsamiq/project/).
 
 ![](//media.balsamiq.com/img/support/docs/myb/prototype_viewer_icon.png)
 
-After clicking the arrow, your browser will be sent to the Prototype View for your project. You'll notice that the address of the Prototype View contains your myBalsamiq URL and a long string of randomized characters. This makes the URL extremely hard to guess - but once you share it, it will be accessible to anyone who knows it. The only way to delete a link is to [archive](https://docs.balsamiq.com/mybalsamiq/home/#archiving-a-project) or [delete](https://docs.balsamiq.com/mybalsamiq/home/#deleting-project) the project.
+After clicking the arrow, your browser will be sent to the Prototype View for your project. You'll notice that the address of the Prototype View contains your myBalsamiq URL and a long string of randomized characters. This makes the URL extremely hard to guess - but once you share it, it will be accessible to anyone who knows it. The only way to delete a URL is to [archive](https://docs.balsamiq.com/mybalsamiq/home/#archiving-a-project) or [delete](https://docs.balsamiq.com/mybalsamiq/home/#deleting-project) the project.
 
 ---
 
 ## Using the Prototype Viewer
 
-When you or one of your collaborators open the Prototype View Link, you will be presented with your project and an interactive viewer.
+When you or one of your collaborators open the Prototype View, you will be presented with your project and an interactive viewer.
 
 ![](//media.balsamiq.com/img/support/docs/myb/prototype_view.png)
 
