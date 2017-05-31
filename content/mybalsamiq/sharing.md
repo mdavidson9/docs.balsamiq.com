@@ -29,7 +29,7 @@ To add someone as a project member, just invite them via the [Project Members](/
 
 ## Send Them a Prototype View Link
 
-If you want to keep your project private but don't want to force your customers to create a myBalsamiq login, and if your mockups are linked together, you could use the [Prototype view](/mybalsamiq/project/#mockup-views) feature.
+If you want to keep your project private but don't want to force your customers to create a myBalsamiq login, and if your mockups are linked together, you could use the [Prototype View](/mybalsamiq/prototypeview/) feature.
 
 ![](//media.balsamiq.com/img/support/docs/myb/launchprototype.png)
 
