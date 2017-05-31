@@ -425,7 +425,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
-*   2017, May 22: added IP address info, clarified personal data usage, and updated system requirements for IE11.
+*   2017, May 31: added IP address info, clarified personal data usage, and updated system requirements for IE11.
 *   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
 *   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
