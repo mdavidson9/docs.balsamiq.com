@@ -1,6 +1,6 @@
 ---
 theme:  "docs-balsamiq-com"
-baseurl:  "http://docsstaging.balsamiq.com"
+baseurl:  "http://docsbwgd.balsamiq.com"
 languageCode:  "en-us"
 title:  "Balsamiq Documentation"
 MetaDataFormat:  "yaml"
@@ -11,7 +11,7 @@ contentdir:  "content"
 layoutdir:  "layouts"
 publishdir:  "public"
 params:
-  balsamiqcomurl: "http://staging.balsamiq.com"
+  balsamiqcomurl: "https://balsamiq.com"
 
 blackfriday:
   plainIdAnchors:  true
