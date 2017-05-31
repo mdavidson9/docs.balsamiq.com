@@ -42,7 +42,7 @@ Balsamiq Cloud brings the **collaborative editing** features from our web-based 
 
 ---
 
-## Transitioning From a Previous Version
+## Transitioning from a Previous Version
 
 If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version that uses .bmpr files), you can simply drag and drop to [upload your files](../projects/).
 
