@@ -2,7 +2,9 @@
 date: 2015-07-30T15:52:12-07:00
 title: "Installing Mockups for Google Drive"
 menu: "menugoogledrive"
+product: "Mockups for Google Drive"
 weight: 2
+aliases: /google-drive/installing/
 ---
 
 ## Installation

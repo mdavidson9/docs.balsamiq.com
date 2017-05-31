@@ -2,7 +2,9 @@
 date: 2015-07-30T15:52:12-07:00
 title: "Working with Files in Google Drive"
 menu: "menugoogledrive"
+product: "Mockups for Google Drive"
 weight: 3
+aliases: /google-drive/drive-files/
 ---
 
 A variety of actions are available from the Google Drive file viewer. These actions are available by selecting a file and clicking one of the icons at the top of the file viewer or by right-clicking on the file. The actions available on Balsamiq Mockups files in Google Drive are common across all types of files in Google Drive, so not all of them are described here. For general help on getting around in Google Drive, check out the [Google Drive Help Center](https://support.google.com/drive/).

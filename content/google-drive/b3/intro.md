@@ -2,7 +2,9 @@
 date: 2015-07-30T15:52:12-07:00
 title: "Mockups for Google Drive Overview"
 menu: "menugoogledrive"
+product: "Mockups for Google Drive"
 weight: 1
+aliases: /google-drive/intro/
 ---
 
 ## Overview
