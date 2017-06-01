@@ -18,7 +18,7 @@ To create this wireframe in a new project, switch to it, choose “Import Wirefr
 
 If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
 
-![](//media.balsamiq.com/img/support/docs/bw/import-bmpr.png)
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/import-bmpr.png)
 
 * * *
 

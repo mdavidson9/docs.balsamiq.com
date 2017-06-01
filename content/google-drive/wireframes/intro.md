@@ -1,0 +1,69 @@
+---
+date: 2017-01-19T13:46:35+02:00
+title: "Balsamiq Wireframes for Google Drive Overview"
+menu: "menugdwireframes"
+product: "Balsamiq Wireframes for Google Drive"
+weight: 2180
+---
+
+## Overview
+
+Balsamiq Wireframes for Google Drive allows you to add and **edit wireframes directly from Google Drive, where the files are stored and managed**. If you use other Google Drive apps (Google Docs, for example), the file management features should be very familiar to you.
+
+With [easy sharing](../drive-files/#sharing-via-google-drive), version control and even [real-time collaboration](../collaborating/), Balsamiq Wireframes for Google Drive makes iterating on wireframes easy and fun.
+
+* * *
+
+## Getting Started
+
+For a quick overview before diving in, check out this 5 minute video covering the main features of Balsamiq Wireframes for Google Drive.
+
+**(TODO) VIDEO here**
+
+If you have questions about purchasing or your subscription you might want to check out these articles instead:
+
+* [Managing your Balsamiq Wireframes for Google Drive subscription](https://support.balsamiq.com/sales/gdrivesubscription/) **(TODO)**
+* [Balsamiq Wireframes for Google Drive Purchasing FAQs](https://support.balsamiq.com/sales/gdrive/) **(TODO)**
+
+* * *
+
+## Creating a New Project
+
+There are two ways to create a new Balsamiq Wireframes project in Google Drive.
+
+1.  You can click **"New > Balsamiq Wireframes Project"** from the Google Drive file list as shown above.
+2.  If you are using the Chrome browser, you can also launch Balsamiq Wireframes for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/"). Click the big Balsamiq Wireframes icon and it will open the editor directly.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/chromeapps.png)
+
+​Either method will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or [import existing ones](#importing-from-other-versions-of-balsamiq-wireframes)). This will also create a new Balsamiq Wireframes project file (.bmpr file extension) in your Google Drive. If you launched Balsamiq Wireframes for Google Drive from the Chrome Apps page, your files will be saved in your Drive’s home folder. Otherwise they will be saved in the folder you had selected when you created the new Balsamiq Wireframes project.
+
+{{% alert info %}}**Note:** Your work is always automatically saved on Google Drive as you make edits. To exit the editor, use the "Quit" command in the Project menu.{{% /alert %}}
+
+* * *
+
+## Using the Balsamiq Wireframes Editor
+
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](../overview/) to learn more about using the editor.
+
+* * *
+
+## Importing from Other Versions of Balsamiq Wireframes
+
+If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/import-bmpr.png)
+
+* * *
+
+## Returning to Google Drive (Closing the Editor)
+
+When you are done editing your wireframes you can exit the editor by selecting “Back to Google Drive” in the Project menu. This will also create a new version of the file in case you want to revert to it later.
+
+* * *
+
+## Collaborating with Other Users in Real Time
+
+Balsamiq Wireframes for Google Drive supports real-time collaboration between users. See [Collaborative Editing](../collaborating/) for more details.
+
+![](//media.balsamiq.com/img/support/docs/cloud/rtc.png)
