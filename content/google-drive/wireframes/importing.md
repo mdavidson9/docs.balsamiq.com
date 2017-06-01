@@ -16,7 +16,9 @@ To create this wireframe in a new project, switch to it, choose “Import Wirefr
 
 ## Importing from Other Versions of Balsamiq
 
-If you have a project created in another Balsamiq product (using the .bmpr extension), you can just attach the file to the JIRA issue, refresh the page in order to let the [Balsamiq Wireframes panel](../intro/#using-the-balsamiq-wireframes-panel) appear and edit it directly.
+If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
+
+![](//media.balsamiq.com/img/support/docs/bw/import-bmpr.png)
 
 * * *
 
