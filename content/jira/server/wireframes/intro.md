@@ -68,7 +68,9 @@ That’s it! You may now delete the wireframe from the source project if you wis
 
 ## Importing from Other Versions of Balsamiq
 
-If you have a project created in another Balsamiq product (using the .bmpr extension), you can just attach the file to the JIRA issue, refresh the page in order to let the Balsamiq Wireframes panel appear ([see below](#using-the-balsamiq-wireframes-panel)) and edit it directly.
+If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
+
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/import-bmpr.png)
 
 * * *
 
