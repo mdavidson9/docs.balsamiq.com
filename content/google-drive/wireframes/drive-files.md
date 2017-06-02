@@ -6,46 +6,52 @@ product: "Balsamiq Wireframes for Google Drive"
 weight: 2200
 ---
 
-A variety of actions are available from the Google Drive file viewer. These actions are available by selecting a file and clicking one of the icons at the top of the file viewer or by right-clicking on the file. The actions available on Balsamiq Mockups files in Google Drive are common across all types of files in Google Drive, so not all of them are described here. For general help on getting around in Google Drive, check out the [Google Drive Help Center](https://support.google.com/drive/).
+A variety of actions are available from the Google Drive file viewer. These actions are available by selecting a file and clicking one of the icons in the Google Drive toolbar or by right-clicking on the file. The actions available on Balsamiq Wireframes files in Google Drive are common across all types of files in Google Drive, so not all of them are described here. For general help on getting around in Google Drive, check out the [Google Drive Help Center](https://support.google.com/drive/).
 
-![Google Drive menu](//media.balsamiq.com/img/support/docs/gdrive/userguide/gdrivemenu.png)
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrivemenu.png)
 
 * * *
 
 ## Sharing via Google Drive
 
-Wireframes created with Mockups for Google Drive are saved as .bmpr files that can be shared just like any other document type in Google Drive. To share your mockups select the .bmpr file and click the share button in the Google Drive file viewer (or "More > Share... > Share" in the toolbar).
+Wireframes created with Balsamiq Wireframes for Google Drive are saved as .bmpr files that can be shared just like any other document type in Google Drive. To share your wireframes, select the .bmpr file and click the share button in the Google Drive toolbar (or right-click on the file > Share).
 
-![Share menu](//media.balsamiq.com/img/support/docs/gdrive/sharing/gdrive-sharing02.png)
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrive-sharing.png)
 
-If the Google Drive users you are sharing with do not have Mockups for Google Drive installed, they will be prompted to install it (_you can see [screenshots of this process here](https://support.balsamiq.com/plugins/sharingwithgoogledrive/)_). **Remember that viewing mockups with Mockups for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
+{{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your wireframes but not edit them.{{% /alert %}}
 
-{{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your mockups but not edit them.{{% /alert %}}
+On the other users' end, the Balsamiq file appears in “Shared with me” and they can see a preview of it.
 
-Alternatively, you can export your mockups as PNG images or an interactive PDF and use sharing in Google Drive to allow others to view them. See the [Exporting Your Mockups](../exporting/) for how to export to PNG or PDF.
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/shared-file.png)
 
-Once you've shared your mockups with another person you can both work on them at the same time. See [Collaborating with Other Users in Real Time](../collaborating/) for details.
+- If users have Balsamiq Wireframes for Google Drive already installed, they can just double-click on the file to open it and start editing.
+
+- If they do not have Balsamiq Wireframes for Google Drive installed, they will be prompted to install it by selecting the "Open with" option from the Google Drive file viewer (see menu [above](../drive-files)). Double-clicking the file will also reveal the "Open with" option on top of the page.
+
+**Remember that viewing wireframes with Balsamiq Wireframes for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
+
+Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See the [Exporting Your Wireframes](../exporting/) for how to export to PNG or PDF.
+
+Once you've shared your wireframes with another person you can both work on them at the same time. See [Collaborative Editing](../collaborating/) for details.
 
 * * *
 
-## Moving Mockups to a Different Folder
+## Moving Wireframes to a Different Folder
 
-Just like other Google Drive files, you can move your mockups around to various folders on your Google Drive. You may want to create one folder for all your mockups files or separate them by project.
+Just like other Google Drive files, you can move your wireframes around to various folders on your Google Drive. You may want to create one folder for all your Balsamiq files or separate them by project.
 
 * * *
 
 ## Rename, Delete, Copy
 
-To rename, delete, or make a copy of a mockups file, select one of these options from the Google Drive actions menu (via right-click or the toolbar).
+To rename, delete, or make a copy of a Balsamiq file, select one of these options from the Google Drive actions menu ([via right-click or the toolbar](../drive-files)).
 
 * * *
 
 ## Managing Versions
 
-You can see previous versions of your mockups via the Google Drive interface. Right-click on the .bmpr file, select "Manage Versions..." and you will be presented with a list of old versions.
+You can see previous versions of your wireframes via the Google Drive interface. Right-click on the .bmpr file, select "Manage Versions..." and you will be presented with a list of old versions. If needed, you can easily download a specific version from the context menu on the right.
 
-![Manage revisions](//media.balsamiq.com/img/support/docs/gdrive/userguide/managerevisions.png)
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/managerevisions.png)
 
 {{% alert info %}}**Note:** A new version is created each time you [quit](../intro/#returning-to-google-drive-closing-the-editor) the application or if you manually save via the editor menu (Project > Save Project).{{% /alert %}}
-
-Clicking on a previous version will download the .bmpr file.

@@ -26,7 +26,7 @@ Once installed, Google Drive may not know to open Balsamiq files with Balsamiq W
 
 To do this go to the Google Drive settings (inside the gear icon menu in the upper-right corner), select the "Manage Apps" tab and make sure the "Use by default" checkbox is checked, as shown below.
 
-![Use by default](//media.balsamiq.com/img/support/docs/gdrive/wireframes/usebydefault.png)
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/usebydefault.png)
 
 * * *
 
