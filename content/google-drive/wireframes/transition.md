@@ -51,7 +51,7 @@ Migrating to the new app should be smooth and we are pretty sure that once you w
 However, in case you need to use the old Mockups 3 for Google Drive again, please follow these steps:
 
 - [Uninstall](../installing/#uninstalling) Balsamiq Wireframes for Google Drive
-- [Reinstall](../installing/#installing) Balsamiq Mockups 3 for Google Drive
+- [Reinstall](https://docs.balsamiq.com/google-drive/installing/#installation) Balsamiq Mockups 3 for Google Drive
 - Revert the BMPR file to the previous format (see details below)
 
 During the migration process a copy of the previous version of the BMPR file has been saved as a backup. You can revert to the previous version of the file downloading the old version and uploading it again.
