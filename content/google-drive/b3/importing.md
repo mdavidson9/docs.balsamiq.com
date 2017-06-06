@@ -2,7 +2,7 @@
 date: 2015-05-09T17:05:09+02:00
 title: "Importing Mockups and Symbols"
 menu: "menugoogledrive"
-product: "Mockups for Google Drive"
+product: "Balsamiq Mockups 3 for Google Drive"
 weight: 170
 tags:
   - "Importing"

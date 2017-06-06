@@ -1,27 +1,27 @@
 ---
 date: 2015-07-30T15:52:12-07:00
-title: "Installing Mockups for Google Drive"
+title: "Installing Balsamiq Mockups 3 for Google Drive"
 menu: "menugoogledrive"
-product: "Mockups for Google Drive"
+product: "Balsamiq Mockups 3 for Google Drive"
 weight: 2
 aliases: /google-drive/installing/
 ---
 
 ## Installation
 
-Installing Mockups for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/iedapplgopkgngalkbailjoikghljkki/).
+Installing Balsamiq Mockups 3 for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/iedapplgopkgngalkbailjoikghljkki/).
 
-Once installed, Mockups for Google Drive will be available in your Google Drive "New" menu.![The Create Menu](//media.balsamiq.com/img/support/docs/gdrive/userguide/createmenu.png)
+Once installed, Balsamiq Mockups 3 for Google Drive will be available in your Google Drive "New" menu.![The Create Menu](//media.balsamiq.com/img/support/docs/gdrive/userguide/createmenu.png)
 
-If you are using the Chrome browser, you can also access Mockups for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/").
+If you are using the Chrome browser, you can also access Balsamiq Mockups 3 for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/").
 
-To uninstall, see these [instructions on how to uninstall Mockups for Google Drive](#uninstalling).
+To uninstall, see these [instructions on how to uninstall Balsamiq Mockups 3 for Google Drive](#uninstalling).
 
 * * *
 
 ## Setting Balsamiq Mockups as the Default App for Mockups Files
 
-Once installed, Google Drive may not know to open Balsamiq Mockups files with Mockups for Google Drive. After installation you should make sure that **Balsamiq Mockups Project is set as the default app for Balsamiq files.**
+Once installed, Google Drive may not know to open Balsamiq Mockups files with Balsamiq Mockups 3 for Google Drive. After installation you should make sure that **Balsamiq Mockups Project is set as the default app for Balsamiq files.**
 
 To do this go to the Google Drive settings (inside the gear icon menu in the upper-right corner), select the "Manage Apps" tab and make sure the "Use by default" checkbox is checked, as shown below.
 

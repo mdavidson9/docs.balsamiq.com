@@ -2,12 +2,12 @@
 date: 2015-07-30T15:52:12-07:00
 title: "Collaborating with Other Users in Real Time"
 menu: "menugoogledrive"
-product: "Mockups for Google Drive"
+product: "Balsamiq Mockups 3 for Google Drive"
 weight: 4
 aliases: /google-drive/collaborating/
 ---
 
-Mockups for Google Drive supports real-time collaboration between users. Just [share](../drive-files/#sharing-via-google-drive) the Mockups file with your collaborators, then have everyone launch the application on the same file. Everyone's changes will be shared in real-time with all collaborators.
+Balsamiq Mockups 3 for Google Drive supports real-time collaboration between users. Just [share](../drive-files/#sharing-via-google-drive) the Mockups file with your collaborators, then have everyone launch the application on the same file. Everyone's changes will be shared in real-time with all collaborators.
 
 ![real-time notification](//media.balsamiq.com/img/support/docs/gdrive/userguide/m4gd_rtc.png)
 
