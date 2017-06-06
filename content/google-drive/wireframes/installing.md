@@ -3,7 +3,7 @@ date: 2017-01-19T13:46:35+02:00
 title: "Installing Balsamiq Wireframes for Google Drive"
 menu: "menugdwireframes"
 product: "Balsamiq Wireframes for Google Drive"
-weight: 2190
+weight: 2180
 ---
 
 ## Installation
