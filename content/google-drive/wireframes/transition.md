@@ -34,7 +34,7 @@ Balsamiq Wireframes for Google Drive uses the file format used in the previous v
 
 ## Backup Copy of the Previous BMPR File
 
-During the migration process, a copy of the previous version of the BMPR file is saved as a backup. In case you need to retrieve the previous version, see the [troubleshooting section](../transition/#troubleshooting) of this doc.
+During the migration process, a copy of the previous version of the BMPR file is saved as a backup. In case you need to retrieve the previous version, see the [downgrading section](../transition/#downgrading) below.
 
 * * *
 
@@ -44,7 +44,7 @@ Balsamiq Wireframes for Google Drive uses the same licensing and pricing model t
 
 * * *
 
-## Troubleshooting
+## Downgrading
 
 Migrating to the new app should be smooth and we are pretty sure that once you will try Balsamiq Wireframes for Google Drive, you will never go back to the previous version.
 
