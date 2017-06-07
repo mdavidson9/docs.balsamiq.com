@@ -1,7 +1,8 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Introduction to Balsamiq Wireframes for Confluence Server (BETA)"
-menu: "menuconfluencewireframes"
+menu: "menuconfluencewireframes" 
+listorder: 2
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2110
 ---
