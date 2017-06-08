@@ -23,11 +23,17 @@
         {{ else }}
         {{ $.Scratch.Set "showfaqs" 1 }}
         <h1>{{ .Title | humanize | title }} Documentation</h1>
-        {{ end }}        
+        {{ end }}
       </div>
         <ol id="list">
+          {{ if eq .Title "Google-drive" }}
+          {{ range first 22 .Data.Pages.ByWeight }}
+            {{ .Render "li"}}
+          {{ end }}
+          {{ else }}
         {{ range .Data.Pages.ByWeight }}
           {{ .Render "li"}}
+        {{ end }}
         {{ end }}
         </ol>
       {{ if eq ($.Scratch.Get "showfaqs") 1 }}
