@@ -30,7 +30,7 @@ On the other users' end, the Balsamiq file appears in “Shared with me” and t
 
 **Remember that viewing wireframes with Balsamiq Wireframes for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
 
-Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See the [Exporting Your Wireframes](../exporting/) for how to export to PNG or PDF.
+Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See [Exporting Your Wireframes](../exporting/) for how to export to PNG or PDF.
 
 Once you've shared your wireframes with another person you can both work on them at the same time. See [Collaborative Editing](../collaborating/) for details.
 
