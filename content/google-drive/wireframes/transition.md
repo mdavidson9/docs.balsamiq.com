@@ -34,7 +34,7 @@ Balsamiq Wireframes for Google Drive uses the same file format than the previous
 
 ## Backup Copy of the Previous BMPR File
 
-During the migration process, a copy of the previous version of the BMPR file is saved as a backup. In case you need to retrieve the previous version, see the [downgrading section](../transition/#downgrading) below.
+During the migration process, a copy of the previous version of the BMPR file is saved as a backup. In case you need to retrieve it, see the [downgrading section](../transition/#downgrading) below.
 
 * * *
 

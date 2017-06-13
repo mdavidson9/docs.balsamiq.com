@@ -6,15 +6,17 @@ product: "Balsamiq Wireframes for Google Drive"
 weight: 2200
 ---
 
-A variety of actions are available from the Google Drive file viewer. These actions are available by selecting a file and clicking one of the icons in the Google Drive toolbar or by right-clicking on the file. The actions available on Balsamiq Wireframes files in Google Drive are common across all types of files in Google Drive, so not all of them are described here. For general help on getting around in Google Drive, check out the [Google Drive Help Center](https://support.google.com/drive/).
+A variety of actions are available from the Google Drive file viewer, by selecting a file and clicking one of the icons in the Google Drive toolbar or by right-clicking on the file.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrivemenu.png)
+
+{{% alert info %}}**Note:** These actions are common to all types of files in Google Drive, so not all of them are described here. For general help on getting around in Google Drive, check out the [Google Drive Help Center](https://support.google.com/drive/).{{% /alert %}}
 
 * * *
 
 ## Sharing via Google Drive
 
-Wireframes created with Balsamiq Wireframes for Google Drive are saved as .bmpr files that can be shared just like any other document type in Google Drive. To share your wireframes, select the .bmpr file and click the share button in the Google Drive toolbar (or right-click on the file > Share).
+Wireframes created with Balsamiq Wireframes for Google Drive are saved as .bmpr files that can be shared just like any other document in Google Drive. To share your wireframes, select the .bmpr file and click the share button in the Google Drive toolbar (or right-click on the file > Share).
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrive-sharing.png)
 
@@ -30,9 +32,9 @@ On the other users' end, the Balsamiq file appears in “Shared with me” and t
 
 **Remember that viewing wireframes with Balsamiq Wireframes for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
 
-Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See [Exporting Your Wireframes](../exporting/) for how to export to PNG or PDF.
+Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See [Exporting Your Wireframes](../exporting/) for more information.
 
-Once you've shared your wireframes with another person you can both work on them at the same time. See [Collaborative Editing](../collaborating/) for details.
+Once you've shared your wireframes with another person, you can both work on them at the same time, as detailed in [Collaborative Editing](../collaborating/).
 
 * * *
 
