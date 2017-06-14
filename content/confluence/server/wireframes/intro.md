@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Introduction to Balsamiq Wireframes for Confluence Server (BETA)"
-menu: "menuconfluencewireframes" 
+menu: "menuconfluencewireframes"
 listorder: 2
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2110
@@ -9,33 +9,37 @@ weight: 2110
 
 This page contains usage instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview).
 
-{{% alert info %}}Using confluence Cloud? Please see [this article](https://docs.balsamiq.com/confluence/cloud/intro/) instead. {{% /alert %}}
+{{% alert info %}}Using Confluence Cloud? Please see [this article](https://docs.balsamiq.com/confluence/cloud/intro/) instead.{{% /alert %}}
 
-confluence Server Administrators: the [Balsamiq Wireframes for Confluence Server Admin Guide](../admin-guide/) is for you.
-
-* * *
-
-{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released in BETA on March 2, 2017. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for confluence.{{% /alert %}}
-
-Balsamiq Wireframes for Confluence Server provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as confluence Server attachments.
+Confluence Server Administrators: the [Balsamiq Wireframes for Confluence Server Admin Guide](../admin-guide/) is for you.
 
 * * *
 
-## Adding a New Project to a confluence Issue
+{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released in BETA on **TODO**. See our [transition guide](../transition-guide/) if you have the older pre-installed version of our Confluence add-on.{{% /alert %}}
 
-To add a new Balsamiq Wireframes project to a particular confluence issue, you simply need to click on the "Add Balsamiq Wireframes" menu option.
+Balsamiq Wireframes for Confluence Server provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/user-guide-2.png)
+The main difference is that the Balsamiq project files are stored and managed as Confluence Server attachments.
 
-This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your confluence issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
+* * *
 
-If you do not see the menu option, please check with your confluence Server administrator that the Balsamiq Wireframes for Confluence Server add-on is installed and that you have editing permission on the current issue.
+## Adding a New Project to a Confluence Page
+
+Adding a new Balsamiq Wireframes project to a wiki page is very similar to adding an image:
+
+Simply edit the page, position the cursor where you’d like your wireframe to be, then click on the Insert menu and select “Balsamiq Wireframes” from the list.
+
+**TODO screenshot here**
+
+This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your wiki page containing all the resources that belong to a project (wireframes, symbols, images, icons).
+
+If you do not see the menu item, please check with your Confluence Server administrator that the Balsamiq Wireframes for Confluence Server add-on is installed and that you have editing permission on the current page.
 
 * * *
 
 ## Using the Balsamiq Wireframes Editor
 
-The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](https://docs.balsamiq.com/confluence/cloud/overview/) to learn more about using the editor.
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](../overview/) to learn more about using the editor.
 
 * * *
 
