@@ -56,7 +56,7 @@ If you think we removed your access by mistake, [get in touch](mailto:sales@bals
 
 Support for Balsamiq Cloud is provided via our Community Forums at [forums.balsamiq.com](https://forums.balsamiq.com) as well via our support portal at [support.balsamiq.com](https://support.balsamiq.com)
 
-Email and phone support is also included, but is **only provided to Balsamiq Cloud site owners**. If you have an issue with your Balsamiq Cloud site, contact your site owner first, via their email address (shown in Balsamiq Cloud).
+Email and phone support is also included, but is **only provided to Balsamiq Cloud site owners**. If you have an issue with your Balsamiq Cloud site, contact your site owner(s) first, via their email address (shown in Balsamiq Cloud).
 
 Site owners can invite staffers and they can invite project members. Site owners are responsible for first-level support to the people on their Balsamiq Cloud sites.
 
@@ -79,13 +79,13 @@ Name
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
+The email addresses we collect for the site owners, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
 We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from balsamiq.cloud in order for you to use Balsamiq Cloud.
 
-We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with site owners upon request.
 
-The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner(s) and secondary billing admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -135,7 +135,7 @@ We use HTTPS and SSL (256-encryption) to transfer all data. Data is not encrypte
 *   We only do it in response to a customer support question.
 *   We only do it in order to debug and fix the issue.
 *   We never make changes to anything unless explicitly requested by a site owner.
-*   If the site owner or a site staff member asks us to look into a project in order to debug a software issue, we will go in and look at that project and possibly make minor edits in order to fix the issue.
+*   If a site owner or a site staff member asks us to look into a project in order to debug a software issue, we will go in and look at that project and possibly make minor edits in order to fix the issue.
 *   We never share what we see with other customers or the general public.
 *   We might give access to US authorities if requested in writing. We'll try not to, but we don't have the resources to fight the government. We'll also keep your site owner(s) informed as much as we can if this happens.
 
@@ -206,7 +206,7 @@ The trademarks, logos and service marks displayed on this Site are the property 
 
 Balsamiq does not claim intellectual property rights over wireframes created on Balsamiq Cloud nor the [assets](/cloud/images/) your users upload.
 
-We leave it to each Balsamiq Cloud site owner to decide who should own the IP of the wireframes created using their Balsamiq Cloud site. We encourage site owners to make their policy clear to their site's users, either via email or by posting it on their Balsamiq Cloud site.
+We leave it to each Balsamiq Cloud site owner(s) to decide who should own the IP of the wireframes created using their Balsamiq Cloud site. We encourage site owners to make their policy clear to their site's users, either via email or by posting it on their Balsamiq Cloud site.
 
 You acknowledge and agree that Balsamiq has no liability of any kind should anyone you granted access to your content modify, destroy, corrupt, copy or distribute it, or violate the terms of use or other limitations that you may impose on the use of your shared content.
 
@@ -244,7 +244,7 @@ This depends on the scale of the disaster, of course.
 
 We spread our app servers amongst several [availability zones](http://aws.amazon.com/ec2/faqs/#How_isolated_are_Availability_Zones_from_one_another) within the us-east-1 region, and have survived several outages in one or more zones without any downtime.
 
-Should the whole us-east-1 region be affected by an outage (atomic bomb over Virginia?), it would probably take us up to a week to set up everything in a new region, assuming we'd still be able to get to our backup data.
+Should the whole us-east-1 region be affected by an outage, it would probably take us up to a week to set up everything in a new region, assuming we'd still be able to get to our backup data.
 
 * * *
 
@@ -397,6 +397,6 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
-*   2017, Mar 16: created.
+*   2017, Jun 14: created.
 
 **A note to other startups:** working on a great new startup but don't know where to start when it comes to ToS documents? Go a head and copy/paste this document, search and replace and make it yours! :) Two things though: a) make sure to have it looked over by your lawyer - you do have a lawyer right? ;) - and b) we'd appreciate a backlink, even in small gray-on-white font at the very bottom. You'll get good karma points, which is just what new startups needs the most. :) Good luck!
