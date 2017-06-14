@@ -74,8 +74,8 @@ We collect the following personal data:
 
 Name  
  E-mail address  
- Billing Address
- IP Address
+ Billing Address  
+ IP Address  
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
