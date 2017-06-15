@@ -145,7 +145,7 @@ We host our data on Amazon Web Services (AWS). Specifically, our database runs o
 
 We use secure private keys when accessing Balsamiq Cloud servers via SSH, and protect our AWS console passwords locally with 1Password and LastPass.
 
-We log application data (username and email, subdomain and project name). We rotate logs with 14-days conservation. We stream logs from our servers to [Logmatic.io](https://logmatic.io) using SSL. Here's their [privacy policy](https://logmatic.io/legal-mentions/).
+We log application data (username, email and project name). We rotate logs with 14-days conservation. We stream logs from our servers to [Logmatic.io](https://logmatic.io) using SSL. Here's their [privacy policy](https://logmatic.io/legal-mentions/).
 
 As mentioned [above](#who-can-see-my-credit-card-number), we rely on Stripe for payment processing.
 
@@ -310,7 +310,7 @@ By e-mail: [sales@balsamiq.com](mailto:sales@balsamiq.com)
 
 ### Links to Third Party Sites
 
-Balsamiq Cloud may include links that will take you to other sites outside of the Balsamiq Cloud service. The linked sites are provided by Balsamiq to you as a convenience and the inclusion of the links do not imply any endorsement by Balsamiq of any linked site. Balsamiq has no control of the linked sites and you therefore acknowledge and agree that Balsamiq is not responsible for the contents of any linked site, any link contained in a linked site or any changes or updates to a linked site. You further acknowledge and agree that Balsamiq is not responsible for any form of transmission (e.g. webcasting) received from any linked site.
+Balsamiq Cloud may include links that will take you to other sites outside of the Balsamiq Cloud service. The linked sites are provided by Balsamiq to you or the creators of the wireframes as a convenience and the inclusion of the links do not imply any endorsement by Balsamiq of any linked site. Balsamiq has no control of the linked sites and you therefore acknowledge and agree that Balsamiq is not responsible for the contents of any linked site, any link contained in a linked site or any changes or updates to a linked site. You further acknowledge and agree that Balsamiq is not responsible for any form of transmission (e.g. webcasting) received from any linked site.
 
 ### Advertisements and Promotions
 
