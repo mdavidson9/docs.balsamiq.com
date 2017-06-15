@@ -2,7 +2,7 @@
 date: 2017-01-19T13:46:35+02:00
 menu: "menucloud"
 product: "Balsamiq Cloud"
-title: "Terms of Use and Privacy Policy"
+title: "Balsamiq Cloud Terms of Use and Privacy Policy"
 weight: 300
 ---
 
@@ -14,7 +14,7 @@ Please read this document carefully before accessing or using Balsamiq Cloud.
 
 ### English, Not Legalese
 
-Most Terms of Service and Privacy Policy documents are unreadable. They are written by lawyers and for lawyers, and in our opinion are not very effective.
+Most Terms of Use and Privacy Policy documents are unreadable. They are written by lawyers and for lawyers, and in our opinion are not very effective.
 
 Because **we believe in establishing long-term relationships with our customers**, we decided to use plain English instead as much as possible, to make our terms as clear as possible.
 
@@ -66,7 +66,7 @@ We take pride in providing excellent customer support, but we are also a small t
 
 * * *
 
-## Access to Your Data
+## Access to Your Data / Privacy Policy
 
 ### What Personal Data Do You Collect and Why?
 
@@ -79,13 +79,13 @@ Name
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-The email addresses we collect for the site owners, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
+The email addresses we collect for the site owners, billing-only administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
 We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from balsamiq.cloud in order for you to use Balsamiq Cloud.
 
 We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with site owners upon request.
 
-The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner(s) and secondary billing admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner(s) and billing-only admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -361,7 +361,7 @@ The Balsamiq Cloud service can be accessed from countries around the world and m
 
 The export and re-export of Balsamiq Software are controlled by the United States Export Administration Regulations, and such Software may not be exported or re-exported to Cuba, Iran, Libya, North Korea, Sudan, Syria, or any country to which the United States embargoes goods. In addition, the Software may not be distributed to persons on the Table of Denial Orders, the Entity List, or the List of Specially Designated Nationals.
 
-By downloading Software, you are certifying that you are not a national of Cuba, Iran, Libya, North Korea, Sudan, Syria or any country to which the United States embargoes goods, and that you are not a person on the Table of Denial Orders, the Entity List, or the List of Specially Designated Nationals.
+By accessing Software, you are certifying that you are not a national of Cuba, Iran, Libya, North Korea, Sudan, Syria or any country to which the United States embargoes goods, and that you are not a person on the Table of Denial Orders, the Entity List, or the List of Specially Designated Nationals.
 
 All Balsamiq Software, products and publications are commercial in nature. The Software and documentation available on this Site are “Commercial Items,” as that term is defined at 48 C.F.R. §2.101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are licensed to U.S. Government end users (A) only as Commercial Items and (B) with only those rights as are granted to all other users pursuant to the Terms of Use and the applicable license agreement.
 
