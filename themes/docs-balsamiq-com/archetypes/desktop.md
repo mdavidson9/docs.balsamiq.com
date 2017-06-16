@@ -1,8 +1,6 @@
 ---
 date:
-menu:
-  menudesktop:
-    parent: desktop
+menu: "menudesktop"
 title:
 weight: 0
 ---

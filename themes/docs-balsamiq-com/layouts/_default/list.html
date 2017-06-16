@@ -7,38 +7,40 @@
 {{/* ======================================== */}}
 
 <div class="row">
-{{ $.Scratch.Add "showlist" 0 }}
+{{ $.Scratch.Add "showfaqs" 0 }}
   <div class="col-xs-12 doc-overview">
     <main role="main">
       <div class="doc-list-header">
         {{ if eq .Title "Mybalsamiq" }}
+        {{ $.Scratch.Set "showfaqs" 1 }}
         <h1>myBalsamiq Documentation</h1>
+        {{ else if eq .Title "Google-drive" }}
+        <h1>Balsamiq Mockups 3 for Google Drive Documentation</h1>
         {{ else if eq .Title "Jira" }}
-        {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for JIRA Documentation</h1>
         {{ else if eq .Title "Confluence" }}
-        {{ $.Scratch.Set "showlist" 1 }}
         <h1>Mockups for Confluence Documentation</h1>
         {{ else }}
-        <h1>{{ .Title }} Documentation</h1>
-        {{ end }}        
+        {{ $.Scratch.Set "showfaqs" 1 }}
+        <h1>{{ .Title | humanize | title }} Documentation</h1>
+        {{ end }}
       </div>
-      {{ if eq ($.Scratch.Get "showlist") 0 }}
-      <ol id="list">
-      {{ range .Data.Pages.ByWeight }}
-        {{ .Render "li"}}
+        <ol id="list">
+          {{ if eq .Title "Google-drive" }}
+          {{ range first 22 .Data.Pages.ByWeight }}
+            {{ .Render "li"}}
+          {{ end }}
+          {{ else }}
+        {{ range .Data.Pages.ByWeight }}
+          {{ .Render "li"}}
+        {{ end }}
+        {{ end }}
+        </ol>
+      {{ if eq ($.Scratch.Get "showfaqs") 1 }}
+        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
+      {{ else }}
+        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/plugins/">FAQs on our support site</a>.</h4>
       {{ end }}
-      </ol>
-      {{ end }}
-    {{ if eq .Title "Desktop" }}
-      {{ partial "desktop_faqs.html" . }}
-    {{ else if eq .Title "Mybalsamiq" }}
-      {{ partial "myb_faqs.html" . }}
-    {{ else if eq .Title "Jira" }}
-      {{ partial "jira_toc.html" . }}
-    {{ else if eq .Title "Confluence" }}
-      {{ partial "confluence_toc.html" . }}
-    {{ end }}
     </main>
   </div> <!-- /.doc-overview -->
 

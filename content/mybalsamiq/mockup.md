@@ -1,9 +1,7 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "myBalsamiq Single Mockup Page"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 60
 ---
 
@@ -13,7 +11,7 @@ The image below is a marked up screenshot showing all the parts and functions on
 
 <small>[View full size image in a new window &rarr;](//media.balsamiq.com/img/support/docs/myb/anatomy-mockup.png)</small>
 
-You can also [watch the Mockup section of our intro video](http://www.youtube.com/watch?v=-cjEyt1ahNw#t=3m59s) on YouTube for a quick intro to Mockups in myBalsamiq.
+You can also [watch the Mockup section of our intro video](//www.youtube.com/watch?v=-cjEyt1ahNw#t=3m59s) on YouTube for a quick intro to Mockups in myBalsamiq.
 
 * * *
 
@@ -31,21 +29,24 @@ If you use the New Mockup button dropdown menu while on a single mockup page, th
 
 ## Mockup Description, Permalink, Download
 
-Below a Mockup, you’ll see 4 bits of information:
+Below a Mockup, you’ll see 5 bits of information:
 
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-info.png)
 
-**1\. Image Permalink**
+**1\. Toggle Link Hints**
+This option allows you to turn on and off link hints. [Link](../linking) hints will be shown with a pink overlay so they can be seen easily.
+
+**2\. Image Permalink**
  The image permalink below the Mockup provides a link to the Mockup image so you can embed the URL in an external web page or in emails to share the image. Note that projects must be public for the image permalink to work externally for anonymous users.
 
-**2\. Download Image**
+**3\. Download Image**
  The download image link opens the image (PNG format) in a new window. You can right-click the link and select Save to save to your computer.
 
-**3\. Download BMML**
+**4\. Download BMML**
  The download BMML link provides a link to download the BMML file for the Mockup.
 
-**4\. Description**
- Below the Mockup links is the Mockup description. If there is no description, the text reads, “Click to edit description” if you have permission to do so. Clicking the text displays an input to change the description, and the description is displayed on the single Mockup view and in the project’s story view.
+**5\. Mockup Notes**
+ Below the Mockup links, you will find the Mockup notes. If there are no notes, the text reads “Click to edit mockup notes" if you have permission to do so. Clicking the text displays an input to add your notes, which are displayed on the single Mockup view and in the project’s story view.
 
 You can use the same text formatting options we provide in Mockups!
 
@@ -65,28 +66,27 @@ When you’re browsing through project, you can navigate easily between the Mock
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-navigation.png)
 
 **1\. Using the Previous/Next arrows**
- If you’re viewing a single Mockup, in the top right of the screen below the project menus, you’ll see a left and right arrow. They let you navigate to the next or previous mockup in the project.
+ If you’re viewing a single Mockup, in the top right of the screen below the project menus, you’ll see a left and right arrow. They let you navigate to the next or previous mockup in the project. Hover over one of the arrows to see the name of the next or previous Mockup, and click to go to it.
 
-Hover over one of the arrows to see the name of the next or previous Mockup, and click to go to it.
+**2\. The Mockup Sidebar Icon**
+ Next to the Previous/Next arrows, you’ll see a little square icon. This turns on the Mockup Sidebar.
 
-**2\. Using the Mockup Sidebar**
- Next to the Previous/Next arrows, you’ll see a little square icon. This turns on the Mockup Sidebar, a little vertical strip that slides in and out of the right side of the page to show you a list of Mockups in the project, and a thumbnail previous for each one.
+**3\. Using the Mockup Sidebar**
+ The Mockup Sidebar is a little vertical strip that slides in and out of the right side of the page to show you a list of Mockups in the project, and a thumbnail previous for each one.
 
-The current Mockup is shown selected in blue.
-
-Each Mockup has a down icon to the right that opens the action menu for the Mockup. From the action menu you can view the available actions you have permission to invoke, e.g. edit, add comment, view history, rename, clone, and delete.
+ The current Mockup is shown selected in blue. Each Mockup has a down icon to the right that opens the action menu for the Mockup. From the action menu you can view the available actions you have permission to invoke (e.g. edit, add comment, view history, rename, clone, and delete).
 
 * * *
 
 ## Adding Comments
 
-You can add comments to Mockups, just as you would to a blog entry. This is especially important in myBalsamiq, because we use comments when reviewing different versions of Mockups.
+You can add comments to Mockups, just as you would to a blog entry. This is especially important in myBalsamiq, because we use comments when reviewing different versions of Mockups. The version number shows what Mockup a comment refers to.
 
 Scroll to the bottom of a Mockup page, enter your comment in the comment form and click the “Add Comment” button.
 
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-comment.png)
 
-You can use the same text formatting options we provide in Mockups!
+You can use the same text formatting options we provide in Mockups:
 
 *   for italic, use \_this notation\_
 *   for a link, use [this notation]
@@ -109,13 +109,15 @@ To propose an alternate version, select the “Propose Alternate Version…” b
 
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-commentalt-propose.png)
 
-The alternate version Mockup appears in the comment form after your done working in the editor, as in the image below. Be sure to save a comment with this proposed version.
+Once you're done working on the alternate version in the editor (where you can add mockup notes as comments), click on "Submit Alternate Mockup and Comments".
 
-![](//media.balsamiq.com/img/support/docs/myb/mockup-commentalt.png)
+![](//media.balsamiq.com/img/support/docs/myb/mockup-commentalt-submit.png)
 
-After review, users can promote the proposal as the current Mockup by clicking “Promote to Main Mockup” link if they’re happy with the changes.
+After reviewing the alternate version proposal, users can:
 
-Alternatively, users can also click the “Merge into Main Mockup…” link below the proposal to make further changes before promoting it.
+* Promote the proposal as the current Mockup by clicking “Promote to Main Mockup” if they’re happy with the changes.
+* Make further changes before promoting it by clicking “Merge into Main Mockup…”.
+* Download the Mockup BMML
 
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-commentalt-proposed.png)
 

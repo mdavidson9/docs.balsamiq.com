@@ -1,15 +1,17 @@
 
-<h2>For Confluence Cloud</h2>
-
+<h2 id="mockups-confluence-cloud">Mockups for Confluence Cloud</h2>
+<!-- add screenshot here -->
 <ul>
-	<li><a href="/confluence/user-guide/">Mockups for Confluence User Guide</a></li>
-	<li><a href="/confluence/admin-guide-cloud/">Mockups for Confluence Cloud Admin Guide</a></li>
+    {{ range .Site.Menus.menuconfluencecloud.ByWeight }}
+    <li><a href="{{.URL}}"> {{ .Name }} </a> </li>
+    {{ end }}
 </ul>
 
 <hr/>
-<h2>For Confluence Server</h2>
-
+<h2 id="mockups2-confluence-server">Mockups 2 for Confluence Server</h2>
+<!-- add screenshot here -->
 <ul>
-	<li><a href="/confluence/user-guide/">Mockups for Confluence User Guide</a></li>
-	<li><a href="/confluence/admin-guide/">Mockups for Confluence Server Admin Guide</a></li>
+    {{ range .Site.Menus.menuconfluenceserver2.ByWeight }}
+    <li><a href="{{.URL}}"> {{ .Name }} </a> </li>
+    {{ end }}
 </ul>

@@ -1,9 +1,7 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "myBalsamiq Home Page (All Projects)"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 30
 ---
 
@@ -64,7 +62,10 @@ Clicking on either of the New Project links will open up the new project dialog 
 **3\. Project Description**
  Optionally enter a project description. This can be changed later.
 
-**4\. Book Cover Style**
+**4\. Project Members**
+ Select project members from your list of staff and non-staff members. You can also "Automatically ass new staff members to this project" by selecting the related option.
+
+**5\. Book Cover Style**
  Select a book cover style so that you can easily pick out projects on the home view. We find that the different book cover styles and colors help us to organize our projects. You could even use the colors to categorize project, so you can spot them quickly.
 
 See also the instructions for [uploading an entire project from your desktop](/mybalsamiq/project/#uploading-and-downloading-projects).
@@ -109,19 +110,23 @@ When prompted by the dialog, browse for your .zip file on your computer and clic
 
 **Download from Home Page**
 
-When you download a project, you'll be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+On your site's home page, you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options:
 
-**Note:** As of right now, only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.
+1. **Download BMPR**: This option will create a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions.
 
-On your site's home page you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title and select Download. You will be prompted to save the .zip compressed file to your computer.
+{{% alert info %}}**Note:** The resulting BMPR file can be opened directly in Mockups 3 for Desktop (from version 3.5.7 and above). You can download the latest version on [this page](https://balsamiq.com/download) if needed.{{% /alert %}}
+
+2. **Download Zip**: This option will be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+
+{{% alert info %}}**Note:** Only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.{{% /alert %}}
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-home.png)
 
 **Download from Project Pages**
 
-From a [project's page](/mybalsamiq/project/) (grid, story, or list view) you can select the drop down menu next to the Edit button and select Download Project. You will be prompted to save the .zip compressed file to your computer.
+From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select **Download BMPR** or **Download Zip**.
 
-![](//media.balsamiq.com/img/support/docs/myb/project-download.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-download-2.png)
 
 * * *
 
@@ -151,7 +156,7 @@ When you select Delete from the Project Menu or the using the Manage Project but
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-delete.png)
 
-**We cannot recover any of your contents for you once a project is deleted.** Once it’s gone, it’s gone. So be sure you download it first if you’ll want to refer to it later.
+{{% alert warning %}}**Note:** Contents cannot be recovered. So be sure you download it first if you’ll want to refer to it later.{{% /alert %}}
 
 * * *
 

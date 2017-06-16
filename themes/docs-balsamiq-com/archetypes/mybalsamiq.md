@@ -1,8 +1,6 @@
 ---
 date:
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 title:
 weight: 0
 ---

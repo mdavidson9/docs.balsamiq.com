@@ -1,8 +1,6 @@
 ---
 date:
-menu:
-  menujira:
-    parent: jira
+menu: "menujira"
 title:
 weight: 0
 ---

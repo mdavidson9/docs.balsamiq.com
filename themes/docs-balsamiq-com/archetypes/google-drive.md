@@ -1,8 +1,6 @@
 ---
 date:
-menu:
-  menugdrive:
-    parent: google-drive
+menu: "menugdrive"
 title:
 weight: 0
 ---

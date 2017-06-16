@@ -1,9 +1,7 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "Sharing Your Work with outside Clients in myBalsamiq"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 140
 ---
 
@@ -31,13 +29,13 @@ To add someone as a project member, just invite them via the [Project Members](/
 
 ## Send Them a Prototype View Link
 
-If you want to keep your project private but don't want to force your customers to create a myBalsamiq login, and if your mockups are linked together, you could use the [Prototype view](/mybalsamiq/project/#mockup-views) feature.
+If you want to keep your project private but don't want to force your customers to create a myBalsamiq login, and if your mockups are linked together, you could use the [Prototype View](/mybalsamiq/prototypeview/) feature.
 
 ![](//media.balsamiq.com/img/support/docs/myb/launchprototype.png)
 
 Just launch the prototype view, copy the long and nearly-impossible-to-guess URL (it makes it secure) and send it to them. They will be able to see it and click around without having to log in.
 
-{{% alert warning %}}**Note:** Once the URL is shared, it will be accessible to whomever has it.{{% /alert %}}
+{{% alert warning %}}**Note:** Once the URL is shared, it will be accessible to whomever has it. The only way to deactivate the link is to [archive](https://docs.balsamiq.com/mybalsamiq/home/#archiving-a-project) or [delete](https://docs.balsamiq.com/mybalsamiq/home/#deleting-project) the project.{{% /alert %}}
 
 ---
 
@@ -45,7 +43,7 @@ Just launch the prototype view, copy the long and nearly-impossible-to-guess URL
 
 Similar to the approach above, you could simply send them single mockup images using the [Image Permalink](/mybalsamiq/mockup/#mockup-description-permalink-download) feature.
 
-![](//media.balsamiq.com/img/support/docs/myb/mockup-info.png)
+![](//media.balsamiq.com/img/support/docs/myb/image-permalink.png)
 
 This link doesn't require people to log in (but is secure due to it's crazy-long and hard to guess), and will always return the latest version of a mockup's image.
 
@@ -67,7 +65,7 @@ Just set the project's [access control slider](/mybalsamiq/project/#setting-acce
 
 ## Export the Project to PDF
 
-![](//media.balsamiq.com/img/support/docs/myb/project-manage.png)
+![](//media.balsamiq.com/img/support/docs/myb/export-pdf.png)
 
 Yet another option is to use the ["Export to PDF"](/mybalsamiq/project/#project-actions) feature (available from the Project Page) to export the entire project as a PDF. Just format the PDF the way you prefer, download it and send it to them for review.
 
@@ -86,17 +84,17 @@ Some tips about exporting to PDF:
 
 ## Print the Story View as PDF
 
-![](//media.balsamiq.com/img/support/docs/myb/project-gridstorymap.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-story-view.png)
 
 If you are looking for a more traditional "spec", what you could do is go to the project page, select the "Story" view and print that page to PDF. It puts all the mockups and their notes one on top of the other in a nice spec-like format.
 
 * * *
 
-## Download the Project and Send Them a Zip
+## Download the Project and Send Them the BMPR File
 
-![](//media.balsamiq.com/img/support/docs/myb/project-manage.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR.png)
 
-If your clients use Mockups for Desktop or if they are willing to install the 7-day free trial, you could [download the whole project as a ZIP](/mybalsamiq/project/#project-actions) and email it to them to play around with in Mockups for Desktop.
+If your clients use one of our Mockups 3 product, you could [download the whole project as a BMPR file](/mybalsamiq/project/#project-actions) and email it to them. They will be able to play around with the resulting BMPR file in any Mockups 3 product (from version 3.5.7) and above. Each product comes with a 30-days free trial and if the trial expires, the product can still be used to view the project.
 
 * * *
 

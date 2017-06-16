@@ -3,10 +3,18 @@
 <!-- /BODY-WRAPPER -->
 
 {{ partial "footer_nav.html" . }}
-
 </div>
 <!-- /PAGE-WRAPPER -->
 <!-- ======================================== -->
+
+<!-- anchorjs (https://www.bryanbraun.com/anchorjs/) script -->
+<script>
+anchors.options = {
+  icon: '#',
+  placement: 'left'
+};
+anchors.add('div.article-content.content.article h2, div.article-content.content.article h3');
+</script>
 
 </body>
 </html>

@@ -1,25 +1,23 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "myBalsamiq Mockups Editor"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 70
 ---
 
-The Mockups editor in myBalsamiq is similar to the editor in the desktop version. See the [Balsamiq Mockups for Desktop editor documentation](/desktop/overview/) for reference.
+The Mockups editor in myBalsamiq is similar to the editor in other versions. See the [Mockups Application Overview](../overview/) and [Working with UI Controls](../controls/) for more details.
 
 ## UI Overview
 
 The myBalsamiq editor is made up of four main parts, as shown below: **The Menu Bar, the UI Library, the Mockups editor canvas, and the Project Browser.**
 
-[![](//media.balsamiq.com/img/support/docs/myb/editor-overview.png "Click to enlarge")](//media.balsamiq.com/img/support/docs/myb/editor-overview_lg.png)
+![](//media.balsamiq.com/img/support/docs/myb/editor-overview.png)
 
 * * *
 
 ## The Menu Bar
 
-The Menu Bar is where you will find menus and icons for performing common actions, as well as the [Quick Add](/desktop/overview/#the-quick-add-tool) box. It is very similar to the Application Bar found in the Desktop version, which you can [read about in the Desktop documentation](/desktop/overview/#the-toolbar).
+The Menu Bar is where you will find menus and icons for performing common actions, as well as the [Quick Add](../overview/#the-quick-add-tool) box. You can learn more in the [Mockups Application Overview](../overview/#the-application-bar).
 
 * * *
 
@@ -35,13 +33,13 @@ You can also view any Symbols you have created in the Project Browser by clickin
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-tabs.png)
 
-This tab has a second level of tabs for viewing [Project Symbols or Site Symbols](/mybalsamiq/assets/).
+This tab has a second level of tabs for viewing [Project Symbols or Site Symbols](../assets/).
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-symbolstabs.png)
 
-### Reorder, Rename, and Delete
+### Reorder, Rename, Delete and Clone
 
-When you move your mouse cursor over the name of a mockup you will see a small arrow appear. Clicking on this arrow will show a menu that allows you to rename or delete the mockup.
+When you move your mouse cursor over the name of a mockup you will see a small arrow appear. Clicking on this arrow will show a menu that allows you to rename, delete or clone the mockup.
 
 ![](//media.balsamiq.com/img/support/docs/myb/editor-rename.png)
 

@@ -1,9 +1,7 @@
 ---
 date: "2015-05-09T16:46:35+02:00"
 title: "myBalsamiq Terms of Use and Privacy Policy"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 10
 ---
 
@@ -45,7 +43,7 @@ Your access and use of myBalsamiq is always subject to the most current version 
 
 If you'd like to be notified every time we make a change to this document, please enter your email address below to subscribe to our "myBalsamiq ToS changes" mailing list:
 
-<form action="http://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
+<form action="https://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
 
 ### Breach of Terms
 
@@ -80,17 +78,20 @@ We collect the following personal data:
 Name  
  E-mail address  
  Billing Address  
+ IP Address  
  Optional Phone number and Skype ID  
  Optional Geographical location  
  Optional Working hours  
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-We use return e-mail addresses to answer the e-mail we receive. Such addresses are not used for any other purpose and are not shared with outside parties.
+The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
-Please be aware that your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
+We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
 
-Finally, we never use or share the personally identifiable information provided to us online in ways unrelated to the ones described above.
+We collect the IP addresses of everyone who registers with myBalsamiq. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company's accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -100,15 +101,15 @@ It is your sole responsibility to keep your user name, password and other sensit
 
 If you forget your password, we send you a secure link via email that lets you reset it.
 
-User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment. Site owners can assign passwords to staff and project members.
+User management is done inside myBalsamiq, we don't have LDAP or OAuth integration at the moment.
 
 Balsamiq staff will never change a password for you, nor change the site owner. Here's an article that describes how you can [change the site owner of a myBalsamiq site yourself](https://support.balsamiq.com/mybalsamiq/siteownerleft/).
 
 ### Who Can See My Credit Card Number?
 
-No-one at Balsamiq. We use the very trustworthy and secure [Pin Payments](https://pinpayments.com/) payment service. Read about their security measures on the [Pin Payments Terms and Conditions](https://pin.net.au/terms) (in short, they encrypt your credit card info).
+No-one at Balsamiq. We use the very trustworthy and secure [Pin Payments](https://pinpayments.com/) and [Stripe](https://stripe.com) payment services. Read about their security measures on the [Pin Payments Terms and Conditions](https://pin.net.au/terms) and on the [Stripe Security Guide](https://stripe.com/help/security) (in short, they encrypt your credit card info).
 
-Once you sign up Pin Payments will charge your card each month. Both Pin Payments and Balsamiq are PCI-DSS compliant. Even though Balsamiq employees never see your credit card information, Balsamiq has an internal security policy to follow in case we accidentally come across a customer's credit card info.
+Once you sign up Pin Payments or Stripe will charge your card each month. Pin Payments, Stripe and Balsamiq are all PCI-DSS compliant. Even though Balsamiq employees never see your credit card information, Balsamiq has an internal security policy to follow in case we accidentally come across a customer's credit card info.
 
 ### Our Commitment to Children's Privacy
 
@@ -126,7 +127,7 @@ If you delete your site manually, or if your site gets suspended for payment and
 
 ### What Are the System Requirements for Using myBalsamiq?
 
-A modern web browser (Internet Explorer users need IE9 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
+A modern web browser (Internet Explorer users need IE11 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
 
 myBalsamiq stores auto-save data and other settings in Flash Local SharedObjects on the end user's computer. We do not clear those on exit. myBalsamiq does not use ActiveX or Java in the browser.
 
@@ -162,7 +163,7 @@ We use secure private keys when accessing myBalsamiq servers via SSH, and protec
 
 We log application data (username and email, subdomain and project name). We rotate logs with 14-days conservation. We stream logs from our servers to our own secure recorder server using SSL.
 
-As mentioned [above](#who-can-see-my-credit-card-number), we rely on Pin Payments for payment processing.
+As mentioned [above](#who-can-see-my-credit-card-number), we rely on Pin Payments and Stripe for payment processing.
 
 We use [PubNub](http://www.pubnub.com/) to provide real-time updates, always sent over SSL. Here's their [privacy policy](http://www.pubnub.com/privacy-policy).
 
@@ -221,7 +222,7 @@ The trademarks, logos and service marks displayed on this Site are the property 
 
 Balsamiq does not claim intellectual property rights over wireframes created on myBalsamiq nor the [project and account assets](/mybalsamiq/assets/) your users upload.
 
-We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site (see [this page](https://mockupstogo.mybalsamiq.com/projects/submissions/grid) as an example).
+We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site (see [this page](https://mockupstogo.mybalsamiq.com/projects/aboutmtg/grid) as an example).
 
 You acknowledge and agree that Balsamiq has no liability of any kind should anyone you granted access to your content modify, destroy, corrupt, copy or distribute it, or violate the terms of use or other limitations that you may impose on the use of your shared content.
 
@@ -243,9 +244,9 @@ That said, high reliability is something we are proud of and something we delibe
 
 We monitor myBalsamiq closely and have set up automated alarms to be notified (via email and SMS) when the myBalsamiq service is under stress, so that we can deal with the issue before it becomes a problem that might impact customer access.
 
-You can see for yourself how we're doing on this front by looking at this [Pingdom](http://www.pingdom.com)-powered chart (click for more info):
+You can see for yourself how we're doing on this front by looking at this [Pingdom](https://www.pingdom.com)-powered chart (click for more info):
 
-[![Uptime Report for myBalsamiq: Last 30 days](http://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
+[![Uptime Report for myBalsamiq: Last 30 days](https://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
 
 You acknowledge and agree that Balsamiq shall not be liable for any failure to store your materials on myBalsamiq at any time.
 
@@ -424,6 +425,9 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2017, May 31: added IP address info, clarified personal data usage, and updated system requirements for IE11.
+*   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
+*   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.
 *   2014, June 23: removed this sentence from General section: _You may not assign or otherwise transfer the Terms of Use nor any right granted hereunder without Balsamiq’s prior written consent._
 *   2014, June 18: rectified that we do collect your Billing Address. Changed Spreedly to Pin Payments (Pin Payments acquired Spreedly).

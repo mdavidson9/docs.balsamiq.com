@@ -1,9 +1,7 @@
 ---
 date: 2015-09-23T15:48:49-07:00
 title: "myBalsamiq Project Page"
-menu:
-  menumybalsamiq:
-    parent: mybalsamiq
+menu: "menumybalsamiq"
 weight: 40
 ---
 
@@ -11,7 +9,7 @@ An individual project page holds all the Mockups for a project.
 
 Projects are like folders to keep all of your wireframes together based on whatever organization makes sense to you. For example, you could create a single project for a web site design you’re working on, or you could create multiple projects for the web site design to keep parts of your design separate. How you organize is up to you.
 
-You can also [watch the Working with Projects section of our intro video](http://www.youtube.com/watch?v=-cjEyt1ahNw#t=1m45s) on YouTube for a quick intro to Projects in myBalsamiq.
+You can also [watch the Working with Projects section of our intro video](//www.youtube.com/watch?v=-cjEyt1ahNw#t=1m45s) on YouTube for a quick intro to Projects in myBalsamiq.
 
 * * *
 
@@ -207,28 +205,41 @@ From the Edit menu on the project page you can perform the following actions:
 **Edit Mockups**
  The main Edit button opens the Mockups editor so you can begin editing your Mockups.
 
-**Download Project**
- Saves a compressed .zip file to your computer with all folder containing the project's Mockups files and assets so you can edit the project in Mockups for Desktop or move projects from one myBalsamiq site to another.
+**Clone Project**
+ Creates a copy of the project and all of its mockups and project assets to a new project.
+
+**Download BMPR**
+ Creates a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions.
+
+{{% alert info %}}**Note:** The resulting BMPR file can be opened directly in Mockups 3 for Desktop (from version 3.5.7 and above). You can download the latest version on [this page](https://balsamiq.com/download) if needed.{{% /alert %}}
+
+![](//media.balsamiq.com/img/support/docs/myb/project-download-BMPR.png)
+
+**Download Zip**
+ Saves a compressed BMMLs ZIP file to your computer with all your mockups and project assets so you can easily move projects from one myBalsamiq site to another.
 
 **Export to PDF**
- Exports a PDF of the project. You can use the exported PDF as you would a project made in Mockups for Desktop, for sharing the file with others or using as a click-through prototype.
+ Exports a PDF of the project. You can use the exported PDF for sharing the file with others or using as a click-through prototype.
 
-To export a project, select Export PDF... from the Edit Menu, and then select your export options in the dialog that appears. Click the Export PDF button to save the file to your computer.
+To export a project, select **Export PDF...** from the Edit Menu, and then select your export options in the dialog that appears. Click the Export PDF button to save the file to your computer.
 
-![](//media.balsamiq.com/img/support/docs/myb/export-pdf.png)
+![](//media.balsamiq.com/img/support/docs/myb/export-pdf-dialog.png)
 
-**Clone Project**
- Creates a copy of the project and all of its mockups to a new project. The screenshot below shows the Edit Project menu expanded, with steps for cloning a project. You will be notified when the cloning process is complete.
+**Manage Members**
+ Allows you to add or remove project members, and invite new users by entering their email addresses. This action is only available for the project owner and for the site owner.
 
-![](//media.balsamiq.com/img/support/docs/myb/project-clone.png)
+**Change Owner**
+ Allows you to pass the project ownership to another staff member. Again, this action is only available for the project owner and for the site owner.
 
 **Archive Project**
  Moves the project to the archives, where it will be inactive unless un-archived. Archived projects don't count towards your plan. Archiving old projects allows you to create new projects without needing to [upgrade your plan](https://support.balsamiq.com/sales/mybsubscriptions/#changing-your-plan). You will not be able to view the project while it is archived.
 
-Only the site owner and the project owner are able to archive projects, and only the site owner and the person who archived a project are able to un-archive it.
+Only the site owner and the project owner are able to archive and un-archive projects.
 
 **Delete Project**
- Deletes the project and all of its contents permanently. Contents cannot be recovered.
+ Deletes the project and all of its contents permanently.
+
+ {{% alert warning %}}**Note:** Contents cannot be recovered.{{% /alert %}}
 
 * * *
 
@@ -250,16 +261,22 @@ When prompted by the dialog, browse for your .zip file on your computer and clic
 
 **Download from Home Page**
 
-When you download a project, you'll be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+When you download a project, you'll have two options:
 
-**Note:** As of right now, only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.
+1. **Download BMPR**: This option will create a BMPR file from your myBalsamiq project and downloads it to your computer. This file contains all the mockups and assets from this project in one file. It also includes the mockup notes, project description and alternates versions.
 
-On your [site's home page](/mybalsamiq/home/) you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title and select Download. You will be prompted to save the .zip compressed file to your computer.
+{{% alert info %}}**Note:** The resulting BMPR file can be opened directly in Mockups 3 for Desktop (from version 3.5.7 and above). You can download the latest version on [this page](https://balsamiq.com/download) if needed.{{% /alert %}}
+
+2. **Download Zip**: This option will be saving a compressed file in .zip format. Expanding the zip file will create a directory on your computer that has all of your Mockups BMML files, and assets files used by your project.
+
+{{% alert info %}}**Note:** Only [project assets](/mybalsamiq/assets/) will be included in your zip. If you used some [site assets](/mybalsamiq/home/#site-assets), you should download them and install them locally separately.{{% /alert %}}
+
+On your [site's home page](/mybalsamiq/home/) you can download individual projects from the action menu. Click the drop down menu in the bottom right under the project title to reveal these options.
 
 ![](//media.balsamiq.com/img/support/docs/myb/project-download-home.png)
 
 **Download from Project Pages**
 
-From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select Download Project. You will be prompted to save the .zip compressed file to your computer.
+From a project's main page (grid, story, or list view) you can select the drop down menu next to the Edit button and select **Download BMPR** or **Download Zip**. See the details for each option [above](#project-actions).
 
-![](//media.balsamiq.com/img/support/docs/myb/project-download.png)
+![](//media.balsamiq.com/img/support/docs/myb/project-download-2.png)

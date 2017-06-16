@@ -1,0 +1,6 @@
+{{ $data := .Get 0 }}
+{{ range where .Site.Pages "Params.menu" "menub3editor" }}
+{{ if eq .Params.shortname $data }}
+   {{ .Content }}
+{{ end }}
+{{ end }}

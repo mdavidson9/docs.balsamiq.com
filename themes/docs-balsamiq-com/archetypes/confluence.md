@@ -1,8 +1,6 @@
 ---
 date:
-menu:
-  menuconfluence:
-    parent: confluence
+menu: "menuconfluence"
 title:
 weight: 0
 ---
