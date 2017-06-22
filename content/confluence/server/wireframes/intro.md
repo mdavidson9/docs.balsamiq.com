@@ -23,13 +23,17 @@ The main difference is that the Balsamiq project files are stored and managed as
 
 * * *
 
+{{< yt T4I0yKMJDjg >}}
+
+* * *
+
 ## Adding a New Project to a Confluence Page
 
 Adding a new Balsamiq Wireframes project to a wiki page is very similar to adding an image:
 
 Simply edit the page, position the cursor where you’d like your wireframe to be, then click on the Insert menu and select “Balsamiq Wireframes” from the list.
 
-**TODO screenshot here**
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/add-balsamiq-project.png)
 
 This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your wiki page containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
@@ -47,11 +51,11 @@ The Balsamiq Wireframes editor allows you to create wireframes just like our oth
 
 Balsamiq Wireframes for Confluence Server supports real-time collaboration between users. You only need to have everyone launch the editor on the same project. Everyone’s changes are shared in real-time with all your collaborators.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/user-guide-3.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/update-rtc.png)
 
 The other users connected will be shown in the top right corner of the editor. Hovering over their picture shows their confluence username.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/user-guide-4.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/avatars.png)
 
 * * *
 
@@ -59,21 +63,21 @@ The other users connected will be shown in the top right corner of the editor. H
 
 Sometimes you might want to copy or move a wireframe from one project to another. To do so, follow the steps below:
 
-1.  Open the two projects (each in its own browser tab or window)
-2.  In the source project, select the wireframe you want to copy or move.
-3.  In the Project menu, select **Export > Wireframe to JSON...** This will put a text-based representation of the wireframe in the clipboard.
-4.  In the target project, select **Import > Wireframe JSON...** from the Project menu.
-5.  In the dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
+1. Open the two projects (each in its own browser tab or window)
+2. In the source project, select the wireframe you want to copy or move.
+3. In the Project menu, select **Export > Wireframe to JSON…** This will put a text-based representation of the wireframe in the clipboard.
+4. In the target project, select **Import > Wireframe JSON…** from the Project menu.
+5. In the dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
 
 That’s it! You may now delete the wireframe from the source project if you wish.
 
-{{% alert warning %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the new project.{{% /alert %}}
+{{% alert info %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the new project.{{% /alert %}}
 
 * * *
 
 ## Importing from Other Versions of Balsamiq
 
-If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
+If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the **Project > Import > Import from BMPR...** option.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/import-bmpr.png)
 
@@ -83,7 +87,7 @@ If you have a project created in another Balsamiq product (using the .bmpr exten
 
 To export your project to another Balsamiq product, all you need to do is download it and open it there. Selecting the **Project > Download Project BMPR** option will create a .bmpr file to download containing all the wireframes, symbols, and images used in the current project.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/user-guide-5.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/export-bmpr.png)
 
 * * *
 
