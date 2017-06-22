@@ -10,7 +10,7 @@ In each of your sites, you will find a collection of projects that you and your 
 
 ![](//media.balsamiq.com/img/support/docs/cloud/projects-homepage.png)
 
-From this page you can create and upload as many projects as your [subscription](Need link) allows. If you have existing Balsamiq (.bmpr) files you can just **drag them on to this screen to upload** them.
+From this page you can create and upload as many projects as your [subscription](//support.balsamiq.com/sales/cloud/) allows. If you have existing Balsamiq (.bmpr) files you can just **drag them on to this screen to upload** them.
 
 {{% alert info %}}**Note:** If you were invited to join a site, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to the project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
 

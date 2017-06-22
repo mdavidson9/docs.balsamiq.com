@@ -27,7 +27,7 @@ Here's a quick demonstration of how it works.
 ![](//media.balsamiq.com/img/support/docs/bw/reviewing-mode.png)
 
 1. Once you've created a project, the fun begins when you **create your wireframes**. Drag and drop, edit, and arrange over 75 user interface control types to create anything you can imagine. Read about [adding and arranging](../adding-controls/) and [editing controls](../editing-controls/) to learn how to create your wireframes.  
-{{% alert info %}}**Tip:** If you've never used a Balsamiq product before, you might want to follow our tutorial on [how to create your first wireframe](link).{{% /alert %}}
+{{% alert info %}}**Tip:** If you've never used a Balsamiq product before, you might want to follow our tutorial on [how to create your first wireframe](//support.balsamiq.com/tutorials/firstmockup/).{{% /alert %}}
 
 1. Once you are ready to **share your wireframes** with clients or stakeholders, you can send a [private](../sharing/#sharing-with-team-members) or [public link](../sharing/#public-sharing), or [exporting to PDF](../exporting/#exporting-to-pdf) or [images](../exporting/#exporting-to-an-image). 
 
@@ -46,7 +46,7 @@ Balsamiq Cloud brings the **collaborative editing** features from our web-based 
 
 If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version that uses .bmpr files), you can simply drag and drop to [upload your files](../projects/).
 
-If you are using myBalsamiq, you can export your projects to .bmpr format and then upload them to Balsamiq Cloud. [Click here to learn how](.../importing/#importing-from-mybalsamiq).
+If you are using myBalsamiq, you can export your projects to .bmpr format and then upload them to Balsamiq Cloud. [Click here to learn how](../importing/#importing-from-mybalsamiq).
 
 ---
 
