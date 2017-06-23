@@ -11,7 +11,7 @@ contentdir:  "content"
 layoutdir:  "layouts"
 publishdir:  "public"
 params:
-  balsamiqcomurl: "http://staging.balsamiq.com"
+  balsamiqcomurl: "https://balsamiq.com"
 
 blackfriday:
   plainIdAnchors:  true

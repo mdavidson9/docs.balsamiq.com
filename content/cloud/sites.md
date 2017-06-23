@@ -16,7 +16,7 @@ If you already have one or more sites, you will see them listed when you log in.
 
 ## Creating a New Site
 
-To create a new Balsamiq Cloud Site, **click the plus button in the upper left corner** of your Sites Homepage. A screen will pop up asking you to name the site, and remind you of our [subscription tiers](need a link).
+To create a new Balsamiq Cloud Site, **click the plus button in the upper left corner** of your Sites Homepage. A screen will pop up asking you to name the site, and remind you of our subscription tiers.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-new-site.png)
 

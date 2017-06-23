@@ -43,7 +43,7 @@ Your access and use of myBalsamiq is always subject to the most current version 
 
 If you'd like to be notified every time we make a change to this document, please enter your email address below to subscribe to our "myBalsamiq ToS changes" mailing list:
 
-<form action="http://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
+<form action="https://balsamiq.createsend.com/t/y/s/bdrjiy/" id="subForm" method="post"><label for="bdrjiy-bdrjiy">Email:</label> <input id="bdrjiy-bdrjiy" name="cm-bdrjiy-bdrjiy" size="50" type="text"><input type="submit" value="Subscribe"> </form>
 
 ### Breach of Terms
 
@@ -78,17 +78,20 @@ We collect the following personal data:
 Name  
  E-mail address  
  Billing Address  
+ IP Address  
  Optional Phone number and Skype ID  
  Optional Geographical location  
  Optional Working hours  
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-We use return e-mail addresses to answer the e-mail we receive. Such addresses are not used for any other purpose and are not shared with outside parties.
+The email addresses we collect for the site owner, secondary billing administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
 
-Please be aware that your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
+We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from mybalsamiq.com in order for you to use myBalsamiq.
 
-Finally, we never use or share the personally identifiable information provided to us online in ways unrelated to the ones described above.
+We collect the IP addresses of everyone who registers with myBalsamiq. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with the site owner upon request.
+
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner and secondary billing admin with the credit card holder, your company's accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -124,7 +127,7 @@ If you delete your site manually, or if your site gets suspended for payment and
 
 ### What Are the System Requirements for Using myBalsamiq?
 
-A modern web browser (Internet Explorer users need IE9 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
+A modern web browser (Internet Explorer users need IE11 or higher) with cookies and javascript enabled and Adobe Flash Player version 10.2 and above is all that's needed. Your clients have to be able to access the myBalsamiq servers, on ports 80 and 443.
 
 myBalsamiq stores auto-save data and other settings in Flash Local SharedObjects on the end user's computer. We do not clear those on exit. myBalsamiq does not use ActiveX or Java in the browser.
 
@@ -241,9 +244,9 @@ That said, high reliability is something we are proud of and something we delibe
 
 We monitor myBalsamiq closely and have set up automated alarms to be notified (via email and SMS) when the myBalsamiq service is under stress, so that we can deal with the issue before it becomes a problem that might impact customer access.
 
-You can see for yourself how we're doing on this front by looking at this [Pingdom](http://www.pingdom.com)-powered chart (click for more info):
+You can see for yourself how we're doing on this front by looking at this [Pingdom](https://www.pingdom.com)-powered chart (click for more info):
 
-[![Uptime Report for myBalsamiq: Last 30 days](http://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
+[![Uptime Report for myBalsamiq: Last 30 days](https://share.pingdom.com/banners/3d01a036 "Uptime Report for myBalsamiq: Last 30 days")](http://stats.pingdom.com/dav3wniwmzif/231278/history)
 
 You acknowledge and agree that Balsamiq shall not be liable for any failure to store your materials on myBalsamiq at any time.
 
@@ -422,6 +425,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2017, May 31: added IP address info, clarified personal data usage, and updated system requirements for IE11.
 *   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
 *   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
 *   2014, Nov 20: changed "outside contractors" to "outside parties" in [this section](/mybalsamiq/tos/#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data), for clarity.

@@ -22,7 +22,12 @@
     {{ else if eq .Section "mybalsamiq" }}
       {{ partial "sidebar_mybalsamiq.html" . }}
     {{ else if eq .Section "google-drive" }}
-      {{ partial "sidebar_gdrive.html" . }}
+      {{ $.Scratch.Set "twoversions" 1 }}
+      {{ if eq .Params.menu "menugdwireframes" }}
+        {{ partial "sidebar_gdwireframes.html" . }}
+      {{ else }}
+        {{ partial "sidebar_gdrive.html" . }}
+      {{ end }}
     {{ else if eq .Section "cloud" }}
       {{ partial "sidebar_cloud.html" . }}
     {{ else if eq .Section "jira" }}
