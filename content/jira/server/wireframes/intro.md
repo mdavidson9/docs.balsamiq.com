@@ -91,6 +91,8 @@ However, the changes made in editing mode (i.e. inside the Balsamiq Wireframes e
 
 This can be done by selecting the **Project > Save Project** option or by simply [closing the editor](#returning-to-jira-closing-the-editor).
 
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/save.png)
+
 * * *
 
 ## Returning to JIRA (Closing the Editor)

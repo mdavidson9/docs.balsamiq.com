@@ -95,57 +95,60 @@ To export your project to another Balsamiq product, all you need to do is downlo
 
 All the changes made on your project in the editor are always autosaved and visible by the collaborators that are editing the same project in real time.
 
-However, the changes made in editing mode (i.e. inside the Balsamiq Wireframes editor) will not be flushed to the official version that is attached to the confluence issue until the project is expressly saved.
+However, the changes made in editing mode (i.e. inside the Balsamiq Wireframes editor) will not be flushed to the official version that is attached to the Confluence page until the project is expressly saved.
 
 This can be done by selecting the **Project > Save Project** option or by simply [closing the editor](#returning-to-confluence-closing-the-editor).
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/save.png)
 
 * * *
 
 ## Returning to confluence (Closing the Editor)
 
-When you are done editing your wireframes you can exit the editor by selecting the **Project > Save Project** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
+When you are done editing your mockups, you can exit the editor by selecting **Project > Exit Back to Confluence**.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/user-guide-6.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close.png)
+
+This will also save the current project and update the version that will be now visible in the [Balsamiq Wireframes macro](#using-the-balsamiq-wireframes-macro).
 
 * * *
 
-## Using the Balsamiq Wireframes Panel
+## Using the Balsamiq Wireframes Macro
 
-Once you have created a new project, the Balsamiq Wireframes Panel will appear on your confluence issue.
+Once you have created a new project, the Balsamiq Wireframes macro will appear on your Confluence page.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/panel.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/macro.png)
 
-The panel will show the thumbnails of the wireframes contained in the currently saved version of the Balsamiq project. A variety of actions are available from the Balsamiq Wireframes Panel.
+The macro looks like a plain image, but hovering it will reveal a control bar that allows you to launch the editor on the selected wireframe or enter the [Full Screen Presentation mode](../fullscreen/).
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/control-bar.png)
 
 * * *
 
 ## Editing Existing Wireframes
 
-There are two ways to open the editor from the Balsamiq Wireframes panel:
+There are two ways to open the Balsamiq Wireframes editor:
 
-1.  You can click the "edit" icon that is shown when your mouse is over each thumbnail. The editor will open showing the selected wireframe.
-2.  You can click the **Edit** button: the editor will open the project on the first wireframe.
+1. Click the "edit" icon that next to the mockup name in the macro or Full Screen viewer.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/edit.png)
 
-{{% alert info %}}**Note:** If you have read-only permission on an issue, you will still be able to access the Full Screen viewer but you will not be able to edit the wireframes.{{% /alert %}}
+2. Edit the wiki page, then double-click the macro or click the "Edit" button.
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/edit-2.png)
+
+{{% alert info %}}**Note:** If you have read-only permission on an page, you can access the Full Screen viewer but you cannot edit the wireframes.{{% /alert %}}
 
 * * *
 
-## Adding a New Wireframe
+## Using the Balsamiq Wireframes Macro Editor
 
-Clicking the **Add Wireframe** button will open the editor and create a new wireframes named "New Wireframe 1".
+Once you have created a new project, the Balsamiq Wireframes macro editor will be accessible from the Confluence page editor. You simply need to edit the Confluence page, click the macro and press **Config**.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/addpanel.png)
+![gif](//media.balsamiq.com/img/support/docs/cloud/macro-editor.png)
 
-You can also add wireframes directly from within the Balsamiq Wireframes editor.
+The macro editor lets you configure the views of the Balsamiq Wireframes project that will be shown in the Confluence wiki page.
 
-* * *
+You can chose to show a thumbnail grid or, if you are using the single wireframe view, you can configure the initial wireframe, its size and alignment. You can also launch the Balsamiq Wireframes Editor and continue to edit your project.
 
-## Deleting the Project
-
-If you want to remove a project from the confluence issue you can use the **Delete Project** button.
-
-{{% alert warning %}}**Note:** This action can not be undone.{{% /alert %}}
-
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/deletepanel.png)
+To add multiple views on the same project, just add more macros and select a different wireframe in the **Starting Wireframe** pulldown.
