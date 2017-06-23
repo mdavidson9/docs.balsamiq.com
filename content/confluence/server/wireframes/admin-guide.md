@@ -61,11 +61,13 @@ This is what you’ll see if you have a license you purchased from Balsamiq but 
 
 If you receive an error when registering, [this FAQ](https://support.balsamiq.com/plugins/failedtovalidatelicense/) may help.
 
-UPM still showing the plugin as “Unlicensed” or “Free Trial” after you install the Balsamiq-issued license? [This FAQ](https://support.balsamiq.com/plugins/atlassianlicensenotshowing/) is for you.
+{{% alert warning %}}**Note:** UPM still showing the plugin as “Unlicensed” or “Free Trial” after you install the Balsamiq-issued license? [This FAQ](https://support.balsamiq.com/plugins/atlassianlicensenotshowing/) is for you.{{% /alert %}}
 
 * * *
 
 ## Selecting Balsamiq Wireframes Editors
+
+Here are the instructions, depending on the type of license you own:
 
 - **If you purchased your plugin license via Atlassian Marketplace**
 
@@ -79,7 +81,7 @@ You can add and remove users to/from this group whenever you like but please mak
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit wireframes.
 
-Using both Balsamiq Wireframes for Confluence Server and JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
+{{% alert info %}}**Note:** Using both Balsamiq Wireframes for Confluence Server and JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.{{% /alert %}}
 
 * * *
 
