@@ -2,6 +2,7 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Introduction to Balsamiq Wireframes for JIRA Server (BETA)"
 menu: "menujirawireframes"
+listorder: 2
 product: "Balsamiq Wireframes for JIRA Server"
 weight: 2110
 ---
@@ -68,7 +69,9 @@ That’s it! You may now delete the wireframe from the source project if you wis
 
 ## Importing from Other Versions of Balsamiq
 
-If you have a project created in another Balsamiq product (using the .bmpr extension), you can just attach the file to the JIRA issue, refresh the page in order to let the Balsamiq Wireframes panel appear ([see below](#using-the-balsamiq-wireframes-panel)) and edit it directly.
+If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
+
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/import-bmpr.png)
 
 * * *
 
@@ -87,6 +90,8 @@ All the changes made on your project in the editor are always autosaved and visi
 However, the changes made in editing mode (i.e. inside the Balsamiq Wireframes editor) will not be flushed to the official version that is attached to the JIRA issue until the project is expressly saved.
 
 This can be done by selecting the **Project > Save Project** option or by simply [closing the editor](#returning-to-jira-closing-the-editor).
+
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/save.png)
 
 * * *
 

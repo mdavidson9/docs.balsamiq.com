@@ -2,8 +2,9 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Real-Time Collaboration Service Troubleshooting (BETA)"
 menu: "menujirawireframes"
+listorder: 2
 product: "Balsamiq Wireframes for JIRA Server"
-weight: 2220
+weight: 2140
 ---
 
 Balsamiq Wireframes for JIRA Server uses a "behind the firewall" service in order to allow real time collaboration, chat and other features. To verify that the service works as intended, you can use the configuration page of the add-on.
