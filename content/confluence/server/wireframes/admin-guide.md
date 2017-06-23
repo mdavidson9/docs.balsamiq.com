@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Balsamiq Wireframes for Confluence Server Admin Guide (BETA)"
-menu: "menuconfluencewireframes" 
+menu: "menuconfluencewireframes"
 listorder: 2
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2120
@@ -19,13 +19,11 @@ Usage instructions for the plugin are in the [Balsamiq Wireframes for Confluence
 
 Like most Atlassian add-ons, Balsamiq Wireframes for confluence is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM.
 
-To install the plugin, go to the confluence Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for Confluence Server.
+To install the plugin, go to the Confluence Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for Confluence Server.
 
 ![](https://media.balsamiq.com/img/support/installation/confluence-install-server1.png)
 
-Click on "Free Trial" and accept the license agreement for Balsamiq Wireframes for Confluence Server to begin the installation.
-
-You will then begin a 30-day trial evaluation of Balsamiq Wireframes for Confluence Server.
+Click on "Free Trial" and accept the license agreement for Balsamiq Wireframes for Confluence Server to begin the installation and start your 30-days free trial.
 
 * * *
 
@@ -33,49 +31,55 @@ You will then begin a 30-day trial evaluation of Balsamiq Wireframes for Conflue
 
 Please make sure you read the [Balsamiq and Atlassian Marketplace FAQ](https://support.balsamiq.com/sales/marketplace/) first.
 
-To register the plugin, go to the confluence Administration page. Select "Manage new add-ons" and search for Balsamiq Wireframes for Confluence Server.
-
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-4.png)
-
-If you want to buy from Atlassian Marketplace, you can use the "Buy now" button.
-
-If you already bought a license from Atlassian Marketplace, you can paste it in the text area and click the "Update" button to save it.
-
-If instead you purchased your license directly from Balsamiq click on the "Configure" button and follow the instructions on the configuration page to paste your License Information and see the status of your current installation.
-
-Below are a few screenshots of what you can expect there.
-
-This is what you’ll see if you don’t have a license installed and select the Balsamiq option.
+To register the plugin, go to the Confluence Administration page. Select "Manage new add-ons" and search for Balsamiq Wireframes for Confluence Server.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-2.png)
 
-This is what you’ll see if you have installed a license you purchase via Atlassian Marketplace.
+If you have UPM v.2 and want to buy from Atlassian Marketplace, you can use the "Buy now" button.
 
-{{% alert info %}}**Note:** An Atlassian Marketplace license, if installed, trumps any existing Balsamiq license.{{% /alert %}}
+If you already bought a license from Atlassian Marketplace, you can paste it in the text area and click the Update button to save it.
+
+If instead you purchased your license directly from Balsamiq, you’ll either see a Configure button or a Configure link (depending on your UPM version). Click on it and follow the instructions on the configuration page to paste your License Information and see the status of your current installation.
+
+If you have a Marketplace trial license installed, you might not see a Configure button at all. In this case, please delete your Marketplace License Key and hit update to make the Configure button re-appear. This will allow you to enter a Balsamiq-issued license instead.
+
+Here are a few screenshots of what you can expect there:
+
+This is what you’ll see if you don’t have a license installed and select the Balsamiq option.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-3.png)
 
+This is what you’ll see if you have installed a license purchased via Atlassian Marketplace.
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-4.png)
+
+This is what you’ll see if you have a license you purchased from Balsamiq but select the Atlassian option.
+
+{{% alert info %}}**Note:** An Atlassian Marketplace license, if installed, trumps any existing Balsamiq license.{{% /alert %}}
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-5.png)
 
 If you receive an error when registering, [this FAQ](https://support.balsamiq.com/plugins/failedtovalidatelicense/) may help.
+
+UPM still showing the plugin as “Unlicensed” or “Free Trial” after you install the Balsamiq-issued license? [This FAQ](https://support.balsamiq.com/plugins/atlassianlicensenotshowing/) is for you.
 
 * * *
 
 ## Selecting Balsamiq Wireframes Editors
 
-If you purchased your plugin license via Atlassian Marketplace, all of your confluence users will be able to access the plugin.
+- **If you purchased your plugin license via Atlassian Marketplace**
 
-If instead you purchased your plugin license from Balsamiq, depending on your Balsamiq Wireframes and confluence license levels, you might see different instructions on the plugin licensing page regarding who can create and edit new wireframes.
+All of your Confluence users will be able to access the plugin.
 
-In short: if your plugin license is lower than your confluence license, you’ll have to create a confluence user group (by default called _balsamiq-wireframes-editors_) and add people to it manually, making sure that you don’t add more than what your plugin allows for.
+- **If you purchased your plugin license from Balsamiq**
 
-You can customize the name of the Balsamiq Wireframes editors group in the add-on configuration page.
+If your plugin license is lower than your Confluence license, you’ll have to create a Confluence user group called **balsamiq-wireframes-editors** and add people to it manually.
 
-![](//media.balsamiq.com/img/support/docs/confluence/wireframes/admin-guide-6.png)
+You can add and remove users to/from this group whenever you like but please make sure that you don’t add more users than what your plugin license allows for or you will not be able to edit your wireframes.
 
+If instead you bought an unlimited version of the plugin, everyone will be able to create and edit wireframes.
 
-If instead you bought an unlimited version of the plugin, everyone will be able to create and edit wireframes. If you’d like to limit this ability to a group of users, create a group of licensed wireframes editors and add people to it. If the group exists, the plugin will honor it. If not, it will act as if you had a group with everyone in it.
-
-Using Balsamiq Wireframes for both Confluence Server and confluence Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
+Using both Balsamiq Wireframes for Confluence Server and JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
 
 * * *
 
@@ -91,7 +95,7 @@ If you are running an old version of confluence and want to figure out which ver
 
 Uninstalling via UPM automatically removes all plugin modules from your confluence.
 
-The wireframes project created with the plugin will **NOT** be deleted. They will just stay where they are as attachments to issues, but you will not be able to view or edit it.
+The wireframes project created with the plugin will **NOT** be deleted. They will just stay where they are as attachments to pages, but you will not be able to view or edit them.
 
 * * *
 
@@ -105,4 +109,4 @@ The default configuration should works in most cases. If you encounter any issue
 
 ## Troubleshooting
 
-If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4j) and we’ll do our best to help.
+If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4c) and we’ll do our best to help.
