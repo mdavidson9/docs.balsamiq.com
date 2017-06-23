@@ -3,7 +3,7 @@ date: 2017-01-19T13:46:35+02:00
 title: "Importing"
 menu: "menujirawireframes"
 listorder: 2
-product: "Balsamiq Wireframes for JIRA Server"
+product: "Balsamiq Wireframes for Confluence Server"
 weight: 2330
 ---
 
@@ -19,7 +19,7 @@ To create this wireframe in a new project, switch to it, choose “Import Wirefr
 
 If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/import-bmpr.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/import-bmpr.png)
 
 * * *
 
