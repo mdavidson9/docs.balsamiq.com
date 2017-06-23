@@ -145,7 +145,7 @@ There are two ways to open the Balsamiq Wireframes editor:
 
 Once you have created a new project, the Balsamiq Wireframes macro editor will be accessible from the Confluence page editor. You simply need to edit the Confluence page, click the macro and press **Config**.
 
-![gif](//media.balsamiq.com/img/support/docs/cloud/macro-editor.png)
+![gif](//media.balsamiq.com/img/support/docs/confluence/wireframes/macro-editor.png)
 
 The macro editor lets you configure the views of the Balsamiq Wireframes project that will be shown in the Confluence wiki page.
 
