@@ -17,7 +17,7 @@ Usage instructions for the plugin are in the [Balsamiq Wireframes for Confluence
 
 ## Installation Instructions
 
-Like most Atlassian add-ons, Balsamiq Wireframes for confluence is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM.
+Like most Atlassian add-ons, Balsamiq Wireframes for Confluence is installed via Atlassian’s [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM.
 
 To install the plugin, go to the Confluence Administration page, select "Find new add-ons" from the Add-ons panel and search for Balsamiq Wireframes for Confluence Server.
 
@@ -89,13 +89,13 @@ If instead you bought an unlimited version of the plugin, everyone will be able 
 
 Installing via UPM automatically replaces the old plugin with the new version.
 
-If you are running an old version of confluence and want to figure out which version of the plugin to update to, head to the [Support End of Life Policy](https://support.balsamiq.com/sales/atlassianeol/) page.
+If you are running an old version of Confluence and want to figure out which version of the plugin to update to, head to the [Support End of Life Policy](https://support.balsamiq.com/sales/atlassianeol/) page.
 
 * * *
 
 ## Uninstalling Instructions
 
-Uninstalling via UPM automatically removes all plugin modules from your confluence.
+Uninstalling via UPM automatically removes all plugin modules from your Confluence.
 
 The wireframes project created with the plugin will **NOT** be deleted. They will just stay where they are as attachments to pages, but you will not be able to view or edit them.
 

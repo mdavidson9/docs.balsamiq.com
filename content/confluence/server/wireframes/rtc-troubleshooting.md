@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Real-Time Collaboration Service Troubleshooting (BETA)"
-menu: "menuconfluencewireframes" 
+menu: "menuconfluencewireframes"
 listorder: 2
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2140
@@ -34,4 +34,4 @@ For example, on a linux server, we can run the following command in order to lis
 
     netstat -tul | grep 9093
 
-In case of conflict with other service, you can change the port on the configuration page and restart the server.
+In case of conflict with other service, you can change the port on the configuration page and restart the Balsamiq real-time service.

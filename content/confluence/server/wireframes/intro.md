@@ -15,7 +15,7 @@ Confluence Server Administrators: the [Balsamiq Wireframes for Confluence Server
 
 * * *
 
-{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released in BETA on **TODO**. See our [transition guide](../transition-guide/) if you have the older pre-installed version of our Confluence add-on.{{% /alert %}}
+{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released in BETA on June 2017. See our [transition guide](../transition-guide/) if you have a previous version of our Confluence add-on installed.{{% /alert %}}
 
 Balsamiq Wireframes for Confluence Server provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
@@ -53,7 +53,7 @@ Balsamiq Wireframes for Confluence Server supports real-time collaboration betwe
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/update-rtc.png)
 
-The other users connected will be shown in the top right corner of the editor. Hovering over their picture shows their confluence username.
+The other users connected will be shown in the top right corner of the editor. Hovering over their picture shows their Confluence username.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/avatars.png)
 
@@ -103,9 +103,9 @@ This can be done by selecting the **Project > Save Project** option or by simply
 
 * * *
 
-## Returning to confluence (Closing the Editor)
+## Returning to Confluence (Closing the Editor)
 
-When you are done editing your mockups, you can exit the editor by selecting **Project > Exit Back to Confluence**.
+When you are done editing your wireframes, you can exit the editor by selecting **Project > Exit Back to Confluence**.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close.png)
 
@@ -129,7 +129,7 @@ The macro looks like a plain image, but hovering it will reveal a control bar th
 
 There are two ways to open the Balsamiq Wireframes editor:
 
-1. Click the "edit" icon that next to the mockup name in the macro or Full Screen viewer.
+1. Click the "edit" icon that next to the wireframe name in the macro or Full Screen viewer.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/edit.png)
 
