@@ -1,5 +1,5 @@
 ---
-title: "Mockups Application Overview"
+title: "Balsamiq Mockups 3 Application Overview"
 menu: "menub3editor"
 ---
 

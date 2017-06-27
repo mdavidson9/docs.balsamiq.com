@@ -2,7 +2,8 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Introduction to Mockups 3 for Confluence Cloud"
-menu: "menuconfluencecloud"
+menu: "menuconfluencecloud" 
+listorder: 1
 product: "Mockups 3 for Confluence Cloud"
 weight: 10
 ---
@@ -127,9 +128,33 @@ There are two ways to open the Balsamiq editor:
 
 1. Click the “edit” icon that next to the mockup name in the macro or Full Screen viewer:
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/launch-editor.png)
-1. Edit the wiki page , enter the macro editor and launch the Balsamiq Mockups editor:
+2. Edit the wiki page , enter the macro editor and launch the Balsamiq Mockups editor:
+
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/edit-wiki-page.png)
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/launch-macro-editor.png)
 ![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/launch-mockups-editor.png)
 
 {{% alert info %}}**Note:** If you have read-only permission on an page, you will be still able to access the Full Screen viewer but you will not be able to edit the mockups.{{% /alert %}}
+
+* * *
+
+## Using the Balsamiq Mockups Macro Editor
+
+Accessing the Balsamiq Mockups Macro Editor can be done by following these steps:
+
+1. Click the “edit” icon that next to the mockup name in the macro or Full Screen viewer.
+2. Edit the wiki page, enter the macro editor.
+
+See the related screenshots [above](#editing-existing-mockups) if needed.
+
+The macro editor lets you configure the Balsamiq project view that will be shown in the Confluence page.
+
+![](//media.balsamiq.com/img/support/docs/confluence/userguidecloud/macro-editor.png)
+
+You can chose to show a **thumbnail grid** or, in case of the **single mockup** view, you can configure the starting mockup, the size and the alignment.
+
+To add multiple views on the same project, just add more macros and select a different starting mockup for each one.
+
+{{% alert info %}}**Note:** The macro editor only shows the ‘Official Version’ of each mockup. Learn more about alternates here.{{% /alert %}}
+
+You can also launch the Balsamiq Mockups Editor and continue to edit your project from there.
