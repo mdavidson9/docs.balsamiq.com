@@ -120,7 +120,7 @@ If you feel that you need to rotate any other control, let us know on [this foru
 
 ## Transforming UI Controls
 
-Many of the controls in Balsamiq Mockups can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
+Many controls can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
 
 Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
 

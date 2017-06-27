@@ -10,31 +10,68 @@
   <div class="col-xs-12 doc-overview">
     <main role="main">
       <div class="doc-list-header">
-        <h1>Mockups for Confluence Documentation</h1>
+        <h1>Balsamiq for Confluence Documentation</h1>
       </div>
       <div class="row">
-        <div class="col-xs-12">      
-          <h3 class="text-center mb2 mt1">Which version of Mockups for Confluence are you using?</h3>
+        <div class="col-xs-12">
+          <h3 class="text-center mb2 mt1">Which version of Balsamiq for Confluence are you using?</h3>
         </div>
       </div>
       <div class="row">
-        {{ range (.Data.Pages.GroupByParam "product").Reverse }}
+
         <div class="col-xs-12 col-md-6">
           <div class="panel panel-default">
             <div class="panel-body">
-              {{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/confluence/{{ .Key | urlize }}.png" class="img-responsive center-block"></a>
-<div class="text-center"><div style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/confluence/icon-{{ .Key | urlize }}.png"></a></div> 
-  <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}{{ .Key }}</a></h3></div>
+              {{ range first 1 (where .Site.Pages ".Params.product" "Mockups 3 for Confluence Cloud") }}
+              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/icon-{{ .Params.product | urlize }}.png"></a></div>
+  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
+              {{ end }}
             </div>
             <div class="list-group">
-            {{ range .Pages.ByWeight }}
+            {{ range (where .Site.Pages ".Params.product" "Mockups 3 for Confluence Cloud").ByWeight }}
             <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
             {{ end }}
             </div>
           </div>
         </div>
-        {{ end }}
-      </div>
+
+        <!-- uncomment to add BWCS; also change column width -->
+        <!-- <div class="col-xs-12 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Wireframes for Confluence Server") }}
+              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/icon-{{ .Params.product | urlize }}.png"></a></div>
+  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
+              {{ end }}
+            </div>
+            <div class="list-group">
+            {{ range (where .Site.Pages ".Params.product" "Balsamiq Wireframes for Confluence Server").ByWeight }}
+            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+            {{ end }}
+            </div>
+          </div>
+        </div> -->
+
+        <div class="col-xs-12 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              {{ range first 1 (where .Site.Pages ".Params.product" "Mockups 2 for Confluence Server") }}
+              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/confluence/icon-{{ .Params.product | urlize }}.png"></a></div>
+  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
+              {{ end }}
+            </div>
+            <div class="list-group">
+            {{ range (where .Site.Pages ".Params.product" "Mockups 2 for Confluence Server").ByWeight }}
+            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+            {{ end }}
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- / row -->
     </main>
   </div> <!-- /.doc-overview -->
 

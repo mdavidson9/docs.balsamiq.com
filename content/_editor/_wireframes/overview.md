@@ -21,7 +21,7 @@ The first set of icons is described below.
 5.  Wireframe actions (rename, etc.) and navigate between wireframes (_shown when left panel is hidden_)
 6.  Go to next or previous wireframe (_shown when left panel is hidden_)
 
-The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../controls#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
+The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../adding-controls/#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
 
 ![](//media.balsamiq.com/img/support/docs/bw/toolbar-middle.png)
 
