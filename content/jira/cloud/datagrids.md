@@ -2,7 +2,6 @@
 date: 2015-05-09T16:48:09+02:00
 title: "Working with Data Grids / Tables"
 menu: "menujiracloud"
-listorder: 1
 product: "Mockups 3 for JIRA Cloud"
 weight: 100
 tags:

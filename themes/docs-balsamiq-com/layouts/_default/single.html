@@ -24,15 +24,6 @@
         {{ $.Scratch.Set "twoversions" 1 }}
     {{ else if eq .Section "confluence" }}
         {{ $.Scratch.Set "twoversions" 1 }}
-        {{ if eq .Params.menu "menuconfluenceserver2" }}
-          {{ partial "sidebar_confluenceserver2.html" . }}
-				{{ else if eq .Params.menu "menuconfluencecloud" }}
-					{{ partial "sidebar_confluence.html" . }}
-				{{ else }}
-        {{ partial "sidebar_confluencewireframes.html" . }}
-        {{ end }}
-    {{ else }}
-      <!-- sidebar -->
     {{ end }}
     {{ partial "sidebar_inpage.html" . }}
     </div>
