@@ -10,10 +10,10 @@ weight: 1
 
 Balsamiq Cloud is a web-based user interface design tool for creating [wireframes](https://support.balsamiq.com/resources/whatarewireframes/) (sometimes called mockups or low-fidelity prototypes). You can use it to generate digital sketches of your idea or concept for an application or website, to facilitate discussion and understanding before any code is written. The completed wireframes can be used for user testing, clarifying your vision, getting feedback from stakeholders, or getting approval to start development.
 
-Here's a quick demonstration of how it works.
+<!--Here's a quick demonstration of how it works.
     
     DEMO VIDEO HERE
-
+-->
 ### Quick Start Guide
 
 1. To get started, you first need to **sign up** at **[balsamiq.cloud](https://balsamiq.cloud/)** and then [**create** a new site](../sites/) or **join** an existing one by [invitation](../people/#inviting-someone-to-a-project).
@@ -54,6 +54,6 @@ If you are using myBalsamiq, you can export your projects to .bmpr format and th
 
 The rest of our documentation contains a top-to-bottom description of the features and use of Balsamiq Cloud. A good starting point would be [People and Permissions](../people/), to get familiar with how to add people to your projects, followed by the [Editor Overview](../overview/), to learn about the user interface for navigating and creating your wireframes.
 
-For troubleshooting, frequently-asked questions, and tutorials, head over to our **[support site](//support.balsamiq.com)**. There, you can learn about pricing and payment information, contact us, watch tutorials, and connect with the user community. *(links here)*
+For troubleshooting, frequently-asked questions, and tutorials, head over to our **[support site](//support.balsamiq.com)**. There, you can learn about pricing and payment information, contact us, watch tutorials, and connect with the user community.
 
 HAPPY WIREFRAMING, from the Balsamiq team!
