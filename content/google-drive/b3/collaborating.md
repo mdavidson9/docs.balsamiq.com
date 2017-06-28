@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:12-07:00
 title: "Collaborating with Other Users in Real Time"
 menu: "menugoogledrive"
 product: "Balsamiq Mockups 3 for Google Drive"
-weight: 4
+weight: 35
 aliases: /google-drive/collaborating/
 ---
 

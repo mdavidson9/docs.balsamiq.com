@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:12-07:00
 title: "Installing Balsamiq Mockups 3 for Google Drive"
 menu: "menugoogledrive"
 product: "Balsamiq Mockups 3 for Google Drive"
-weight: 2
+weight: 25
 aliases: /google-drive/installing/
 ---
 
