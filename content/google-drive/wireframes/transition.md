@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Google Drive"
 weight: 2190
 ---
 
-Balsamiq Wireframes for Google Drive was released on **TODO** ?? June, 2017. The new version has a brand new editor (no more Flash needed!), comments, chat and lots of other improvements.
+Balsamiq Wireframes for Google Drive was released on July 2017. The new version has a brand new editor (no more Flash needed!), comments, chat and lots of other improvements.
 
 The transition to our new app for Google Drive should be smooth, but please don’t hesitate to [contact us](https://balsamiq.com/company/contact/#/t?_k=b7w7tv) if you have any trouble, we're here to help!
 
