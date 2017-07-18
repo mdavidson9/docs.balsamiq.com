@@ -103,6 +103,14 @@ Balsamiq Wireframes for JIRA Server uses a behind the firewall service in order 
 
 The default configuration should works in most cases. If you encounter any issue, you can find find some useful hints on [this page](../rtc-troubleshooting/).
 
+* * *
+
 ## Troubleshooting
 
-If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4j) and we’ll do our best to help.
+### If You Get an Error When Trying to Save Large Wireframes
+
+When saving large wireframes or importing big image files, you might get an error. This is due to the fact that Tomcat has a 2MB default to the maximum size of a POST request, which is what we use to save the Balsamiq project file and images.
+
+The good news is that this default can be changed: just edit your $JIRA_HOME/conf/server.xml and set maxPostSize to a higher value. Restart JIRA and you’ll be all set. Your JIRA might even run faster because of it!
+
+If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4c) and we’ll do our best to help.
