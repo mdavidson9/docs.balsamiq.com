@@ -1,24 +1,13 @@
-{{ partial "header.html" . }}
+{{ block "header" .}}
+{{ end }}
 
-{{/* ======================================== */}}
-{{/* BODY MAIN */}}
-<div id="body-main">
-  <div class="container-fluid">
-{{/* ======================================== */}}
+      {{ $featuredRows := 1 }} <!-- number of rows to feature in Getting Started section -->
+      {{ $totalCount := len (where .Site.Pages "Section" "desktop") }} <!-- total number of articles in this section -->
+      {{ $rowCount := (sub (div (add (add $totalCount 1) (mod $totalCount 3)) 3) $featuredRows) }} <!-- number of rows at the bottom -->
 
-<div class="row">
-  {{ $featuredRows := 1 }} <!-- number of rows to feature in Getting Started section -->
-  {{ $totalCount := len (where .Site.Pages "Section" "desktop") }} <!-- total number of articles in this section -->
-  {{ $rowCount := (sub (div (add (add $totalCount 1) (mod $totalCount 3)) 3) $featuredRows) }} <!-- number of rows at the bottom -->
-
-  <div class="col-xs-12 doc-overview">
-    <main role="main">
-      <div class="doc-list-header">
-        <h1>Balsamiq Mockups 3 for Desktop Documentation</h1>
-      </div>
       <div class="row">
         <div class="col-xs-12 text-center">
-<h3>Getting Started</h3>
+<h2 class="mt1 mb1-5">Getting Started</h2>
 </div></div>
       <div class="row">
         {{ range first 3 .Data.Pages.ByWeight }}
@@ -33,46 +22,37 @@
 
       <div class="row">
         <div class="col-xs-12">
-        <h3 class="text-center">Everything Else...</h3>
+        <h2 class="mt1 mb1-5">Everything Else...</h2>
 </div></div>
-      <div class="row mt1">
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
-        {{ range first $rowCount (after 3 .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
+      <div class="row">
 
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
-      {{ range first $rowCount (after (add $rowCount 3) .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <ul class="mt0 pt0 pb0">
+          {{ range first $rowCount (after 3 .Data.Pages.ByWeight) }}
+      {{ .Render "li"}}
+    {{ end }}
+    </ul>
+      </div>
 
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <ul class="mt0 pt0 pb0">
+    {{ range first $rowCount (after (add $rowCount 3) .Data.Pages.ByWeight) }}
+      {{ .Render "li"}}
+    {{ end }}
+    </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+        <ul class="mt0 pt0 pb0">
         {{ range first $rowCount (after (add (mul $rowCount 2) 3) .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
+    {{ .Render "li"}}
+  {{ end }}
+  </ul>
+    </div>
 
       </div>
-<h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
+      {{ block "faqs" . }}
+      {{ end }}
 
-
-    </main>
-  </div> <!-- /.doc-overview -->
-
-</div>{{/* /.row */}}
-
-{{/* ======================================== */}}
-  </div>
-</div>
-{{/* /BODY MAIN */}}
-{{/* ======================================== */}}
-
-{{ partial "footer.html" . }}
+      {{ block "footer" . }}
+      {{ end }}

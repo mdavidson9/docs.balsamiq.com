@@ -1,0 +1,98 @@
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main">
+  <div class="container-fluid">
+{{/* ======================================== */}}
+
+<div class="row">
+  <div class="col-xs-12 doc-overview">
+    <main role="main">
+      <div class="doc-list-header">
+        <h1>{{ .Params.product }}</h1>
+      </div>
+
+{{ if .Sections }}
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="text-center mb2 mt1">Which version of {{ .Params.product }} are you using?</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Wireframes for Google Drive") }}
+      <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/icon-{{ .Params.product | urlize }}.png"></a></div>
+<h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="col-xs-12 col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Mockups 3 for Google Drive") }}
+      <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/icon-{{ .Params.product | urlize }}.png"></a></div>
+<h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ end }}
+
+{{ if not .Sections }}
+{{ $totalCount := len ( .Page.Pages) }} <!-- total number of articles in this section -->
+{{ $rowCount := (div (add (add $totalCount 1) (mod $totalCount 3)) 3) }} <!-- number of rows at the bottom -->
+<div class="row">
+    <div class="col-xs-12 col-md-4">
+      <div class="list-group">
+  {{ range first $rowCount (.Page.Pages.ByWeight) }}
+  {{ .Render "li"}}
+  {{ end }}
+      </div>
+  </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="list-group">
+{{ range first $rowCount (after $rowCount .Page.Pages.ByWeight) }}
+{{ .Render "li"}}
+  {{ end }}
+      </div>
+  </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="list-group">
+  {{ range first (sub $rowCount 1) (after (mul $rowCount 2) .Page.Pages.ByWeight) }}
+  {{ .Render "li"}}
+  {{ end }}
+      </div>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h4 class="mb2 mt1"><a href="/google-drive/">View all Balsamiq for Google Drive Documentation</a></h4>
+  </div>
+</div>
+
+{{ end }}
+
+    </main>
+  </div> <!-- /.doc-overview -->
+
+</div>{{/* /.row */}}
+
+{{/* ======================================== */}}
+  </div>
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq Wireframes for Google Drive Documentation"
+title: "Balsamiq Wireframes for Google Drive Table of Contents"
 menu: "menugdwireframes"
 product: "Balsamiq Wireframes for Google Drive"
 weight: 1

@@ -1,3 +1,4 @@
+{{ define "header" }}
 {{ partial "header.html" . }}
 
 {{/* ======================================== */}}
@@ -13,51 +14,116 @@
       <div class="doc-list-header">
         {{ if eq .Title "Mybalsamiq" }}
         {{ $.Scratch.Set "showfaqs" 1 }}
-        <h1>myBalsamiq Documentation</h1>
-        {{ else if eq .Title "Google-drive" }}
-        <h1>Balsamiq Mockups 3 for Google Drive Documentation</h1>
-        {{ else if eq .Title "Jira" }}
-        <h1>Mockups for JIRA Documentation</h1>
-        {{ else if eq .Title "Confluence" }}
-        <h1>Mockups for Confluence Documentation</h1>
-        {{ else }}
+        <h1>myBalsamiq</h1>
+        {{ else if eq .Section "desktop" }}
         {{ $.Scratch.Set "showfaqs" 1 }}
-        <h1>{{ .Title | humanize | title }} Documentation</h1>
+        <h1>Balsamiq Mockups 3 for Desktop</h1>
+        {{ else }}
+        <h1>{{ .Params.product }}</h1>
         {{ end }}
       </div>
-        {{ $totalCount := len ( .Data.Pages) }} <!-- total number of articles in this section -->
-        {{ $rowCount := (div (add (add $totalCount 1) (mod $totalCount 3)) 3) }} <!-- number of rows at the bottom -->
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-              <div class="list-group">
-          {{ range first $rowCount (.Data.Pages.ByWeight) }}
-          {{ .Render "li"}}
-          {{ end }}
-              </div>
-          </div>
 
-            <div class="col-xs-12 col-md-4">
-              <div class="list-group">
-        {{ range first $rowCount (after $rowCount .Data.Pages.ByWeight) }}
+{{ end }}
+
+{{ define "atlassian-product-list" }}
+
+{{ $.Scratch.Add "plugin" "Confluence" }}
+{{ if eq .Section "jira" }}
+{{ $.Scratch.Set "plugin" "JIRA" }}
+{{ else }}
+{{ end }}
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2 class="mt1 mb1-5">Which version of Balsamiq for {{$.Scratch.Get "plugin"}} are you using?</h2>
+  </div>
+</div>
+
+
+<div id="filterlist" class="row gallery">
+
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
+<p>Description goes here</p></div>
+{{ end }}
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Server") "")) ) }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
+<p>Description goes here</p></div>
+{{ end }}
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 2 for " ($.Scratch.Get "plugin") " Server") "")) ) }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
+<p>Description goes here</p></div>
+{{ end }}
+</div>
+</div>
+
+</div>
+
+{{end }}
+
+{{ define "list" }}
+
+      <div class="row">
+        <div class="col-xs-12">
+      <h2 class="mt1 mb1-5">User Guide Table of Contents</h2>
+      </div></div>
+      {{ $totalCount := len ( .Page.Pages) }} <!-- total number of articles in this section -->
+      {{ $rowCount := (div (add (add $totalCount 1) (mod $totalCount 3)) 3) }} <!-- number of rows at the bottom -->
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <ul class="mt0 pt0 pb0">
+        {{ range first $rowCount (.Page.Pages.ByWeight) }}
         {{ .Render "li"}}
-          {{ end }}
-              </div>
-          </div>
-
-            <div class="col-xs-12 col-md-4">
-              <div class="list-group">
-          {{ range first $rowCount (after (mul $rowCount 2) .Data.Pages.ByWeight) }}
-          {{ .Render "li"}}
-          {{ end }}
-              </div>
-          </div>
-
+        {{ end }}
+        </ul>
         </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <ul class="mt0 pt0 pb0">
+      {{ range first $rowCount (after $rowCount .Page.Pages.ByWeight) }}
+      {{ .Render "li"}}
+        {{ end }}
+      </ul>
+        </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <ul class="mt0 pt0 pb0">
+        {{ range first (sub $rowCount 1) (after (mul $rowCount 2) .Page.Pages.ByWeight) }}
+        {{ .Render "li"}}
+        {{ end }}
+      </ul>
+        </div>
+      </div>
+
+{{ end }}
+
+{{ define "faqs" }}
       {{ if eq ($.Scratch.Get "showfaqs") 1 }}
-        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
+        <h4 class="mb2 mt1-5">For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
       {{ else }}
-        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/plugins/">FAQs on our support site</a>.</h4>
+        <h4 class="mb2 mt1-5">For answers to common questions see the <a href="https://support.balsamiq.com/plugins/">FAQs on our support site</a>.</h4>
       {{ end }}
+{{ end }}
+
+{{ define "footer" }}
     </main>
   </div> <!-- /.doc-overview -->
 
@@ -70,3 +136,4 @@
 {{/* ======================================== */}}
 
 {{ partial "footer.html" . }}
+{{ end }}

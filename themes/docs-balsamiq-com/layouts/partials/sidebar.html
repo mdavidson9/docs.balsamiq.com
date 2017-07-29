@@ -3,7 +3,6 @@
 {{ $thisSection := .Params.menu }}
 <h5><a href="#" data-toggle="collapse" data-target="#doc-menu" aria-expanded="false" aria-controls="doc-menu" class="menu-toggle"><i class="ss-icon ss-navigateright"></i> {{ .Params.product }}</a></h5>
 <ul id="doc-menu" class="collapse">
-  <li><a href="/{{.Section}}/">Table of Contents</a></li>
   {{ range (index .Site.Menus $thisSection) }}
   <li{{if $currentNode.IsMenuCurrent $thisSection . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
     {{ end }}
