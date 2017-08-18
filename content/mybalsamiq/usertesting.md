@@ -2,6 +2,7 @@
 date: "2015-05-09T16:46:35+02:00"
 title: "User Testing Your myBalsamiq Prototypes"
 menu: "menumybalsamiq"
+product: "myBalsamiq"
 weight: 150
 ---
 
