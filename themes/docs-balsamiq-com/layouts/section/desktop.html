@@ -22,35 +22,18 @@
 
       <div class="row">
         <div class="col-xs-12">
-        <h2 class="mt1 mb1-5">Everything Else...</h2>
+        <h2 class="mt1 mb2">Everything Else...</h2>
 </div></div>
-      <div class="row">
+<div class="row">
+    <div class="col-xs-12">
+      <ul class="mt0 pt0 pb0">
+      {{ range after 3 .Data.Pages }}
+        {{ .Render "li"}}
+      {{ end }}
+      </ul>
+  </div>
+</div>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <ul class="mt0 pt0 pb0">
-          {{ range first $rowCount (after 3 .Data.Pages.ByWeight) }}
-      {{ .Render "li"}}
-    {{ end }}
-    </ul>
-      </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <ul class="mt0 pt0 pb0">
-    {{ range first $rowCount (after (add $rowCount 3) .Data.Pages.ByWeight) }}
-      {{ .Render "li"}}
-    {{ end }}
-    </ul>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-lg-4">
-        <ul class="mt0 pt0 pb0">
-        {{ range first $rowCount (after (add (mul $rowCount 2) 3) .Data.Pages.ByWeight) }}
-    {{ .Render "li"}}
-  {{ end }}
-  </ul>
-    </div>
-
-      </div>
       {{ block "faqs" . }}
       {{ end }}
 

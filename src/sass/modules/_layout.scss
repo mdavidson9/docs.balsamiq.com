@@ -271,6 +271,17 @@ body {
       margin: 0;
       padding-bottom: 0;
       padding-top: 0;
+      column-count: 1;
+      column-gap: 70px;
+
+      @include breakpoint(mdmin) {
+      column-count: 2;
+          }
+
+      @include breakpoint(lg) {
+      column-count: 3;
+          }
+
       &#list {
        column-width: 400px;
        padding-left: 0;

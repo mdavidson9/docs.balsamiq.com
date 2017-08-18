@@ -45,43 +45,19 @@
         <div class="col-xs-12">
         <h3 class="text-center">Everything Else...</h3>
 </div></div>
-      <div class="row mt1">
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
-        {{ range first $rowCount (after 6 .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
-
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
-      {{ range first $rowCount (after (add $rowCount 6) .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
-
-          <div class="col-xs-12 col-md-4">
-            <div class="list-group">
-        {{ range first $rowCount (after (add (mul $rowCount 2) 6) .Data.Pages.ByWeight) }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-        {{ end }}
-            </div>
-        </div>
-
-      </div>
-
-
-    </main>
-  </div> <!-- /.doc-overview -->
-
-</div>{{/* /.row */}}
-
-{{/* ======================================== */}}
+<div class="row">
+    <div class="col-xs-12">
+      <ul class="mt0 pt0 pb0">
+      {{ range after 6 .Data.Pages }}
+        {{ .Render "li"}}
+      {{ end }}
+      </ul>
   </div>
 </div>
-{{/* /BODY MAIN */}}
-{{/* ======================================== */}}
 
-{{ partial "footer.html" . }}
+{{ block "faqs" . }}
+{{ end }}
+
+
+{{ block "footer" . }}
+{{ end }}
