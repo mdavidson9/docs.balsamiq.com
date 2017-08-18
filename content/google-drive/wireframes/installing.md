@@ -16,15 +16,15 @@ Once installed, Balsamiq Wireframes for Google Drive will be available in your G
 
 If you are using the Chrome browser, you can also access Balsamiq Wireframes for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/").
 
-To uninstall, see these [instructions on how to uninstall Balsamiq Wireframes for Google Drive](#uninstalling).
+To uninstall Balsamiq Wireframes for Google Drive, see [these instructions](#uninstalling).
 
 * * *
 
 ## Setting Balsamiq Wireframes as the Default App for Balsamiq Files
 
-Once installed, Google Drive may not know to open Balsamiq files with Balsamiq Wireframes for Google Drive. After installation you should make sure that **Balsamiq Wireframes is set as the default app for Balsamiq files.**
+After the installation, you should make sure that **Balsamiq Wireframes for Google Drive is set as the default app for Balsamiq files**.
 
-To do this go to the Google Drive settings (inside the gear icon menu in the upper-right corner), select the "Manage Apps" tab and make sure the "Use by default" checkbox is checked, as shown below.
+To do this, go to the Google Drive settings (inside the gear icon menu in the upper-right corner), select the "Manage Apps" tab and make sure the "Use by default" checkbox is checked, as shown below.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/usebydefault.png)
 

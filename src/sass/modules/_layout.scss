@@ -272,7 +272,17 @@ body {
       padding-bottom: 12px;
       padding-top: 12px;
       &#list {
-       column-width: 400px;
+      //  column-width: 400px;
+      column-count: 1;
+      column-gap: 30px;
+
+      @include breakpoint(mdmin) {
+        column-count: 2;
+      }
+
+      @include breakpoint(lg) {
+        column-count: 3;
+      }
        padding-left: 0;
        li .ss-icon {
          color: $grayverydark;
@@ -285,8 +295,8 @@ body {
         // don't use bottom margin/padding - it will wrap to next column
         margin-left: 2em;
         margin-bottom: 0;
-        padding-bottom: 0;
-        @include fontsize(18,32);
+        padding-bottom: 5px;
+        @include fontsize(16,24);
       }
     }
   }
@@ -399,7 +409,7 @@ body {
       text-decoration: none;
       padding-left: 10px;
     }
-    
+
     // ANCHORJS HOVER LINKS
       a.anchorjs-link {
         color: $graydark;
@@ -408,7 +418,7 @@ body {
           text-decoration: none;
         }
       }
-    
+
   // ========================================
   }
   // END Support Main Column

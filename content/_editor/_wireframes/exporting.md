@@ -9,9 +9,10 @@ The Export menu contains the following export options:
 
 Read on for descriptions of all of the options or skip ahead using the links below.
 
-* [Export to PDF...](#exporting-to-pdf)
+* [Export to PDF](#exporting-to-pdf)
 * [Current or All Wireframes to PNG](#exporting-to-an-image)
 * [Wireframe to JSON](#exporting-wireframes-to-another-project)
+* [Download Project BMPR](#exporting-to-other-versions-of-balsamiq)
 
 ## Exporting to PDF
 
@@ -59,3 +60,11 @@ The Balsamiq Wireframes editor does not support printing directly to a printer. 
 You can copy wireframes from one project to another using the Import/Export Wireframe JSON commands in the Project menu. Exporting to Wireframes JSON (Project > Export > Wireframe to JSON > Copy and Close) will copy the Balsamiq Wireframes code for the selected wireframe to the clipboard.
 
 To create this wireframe in a new project, switch to it, choose “Import Wireframe JSON…” from the Project > Import menu and paste the copied code. Images and Symbols won’t be copied, however.
+
+* * *
+
+## Exporting to Other Versions of Balsamiq
+
+You can easily export a project to another Balsamiq product (using the .bmpr extension) by using the "Project > Export > Download Project BMPR..." option.
+
+![](//media.balsamiq.com/img/support/docs/docs/bw/export-bmpr.png)
