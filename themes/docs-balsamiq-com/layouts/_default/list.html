@@ -25,7 +25,7 @@
         <h1>{{ .Title | humanize | title }} Documentation</h1>
         {{ end }}
       </div>
-        <ol id="list">
+        <ul id="list">
           {{ if eq .Title "Google-drive" }}
           {{ range first 22 .Data.Pages.ByWeight }}
             {{ .Render "li"}}
@@ -35,7 +35,7 @@
           {{ .Render "li"}}
         {{ end }}
         {{ end }}
-        </ol>
+        </ul>
       {{ if eq ($.Scratch.Get "showfaqs") 1 }}
         <h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
       {{ else }}
