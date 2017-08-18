@@ -1,9 +1,10 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups 3 for JIRA Cloud Transition Guide"
-menu: "menujiracloud"
+menu: "menujiracloud3"
 product: "Mockups 3 for JIRA Cloud"
 weight: 30
+aliases: /jira/cloud/transition-guide/
 ---
 
 Mockups 3 for JIRA Cloud was released January 18, 2016. The new version has projects, symbols, real time collaboration and lots of other improvements.

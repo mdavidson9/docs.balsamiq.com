@@ -1,9 +1,10 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Introduction to Mockups 3 for JIRA Cloud"
-menu: "menujiracloud"
+menu: "menujiracloud3"
 product: "Mockups 3 for JIRA Cloud"
 weight: 10
+aliases: /jira/cloud/intro/
 ---
 
 This page contains usage instructions for [Mockups 3 for JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).

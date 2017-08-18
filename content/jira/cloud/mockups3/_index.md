@@ -1,8 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Mockups 3 for JIRA Cloud Table of Contents"
-menu: "menujiracloud"
+title: "Table of Contents"
+menu: "menujiracloud3"
 product: "Mockups 3 for JIRA Cloud"
 weight: 1
 ---
-

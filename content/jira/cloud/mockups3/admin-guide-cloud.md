@@ -1,9 +1,10 @@
 ---
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups 3 for JIRA Cloud Admin Guide"
-menu: "menujiracloud"
+menu: "menujiracloud3"
 product: "Mockups 3 for JIRA Cloud"
 weight: 20
+aliases: /jira/cloud/admin-guide-cloud/
 ---
 
 This page contains links to installation, pricing, and licensing information for [Mockups 3 for JIRA Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).

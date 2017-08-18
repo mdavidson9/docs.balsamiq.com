@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq for Confluence"
+title: "Table of Contents"
 weight: 1
 product: "Balsamiq for Confluence"
 ---

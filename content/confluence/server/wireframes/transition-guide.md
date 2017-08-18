@@ -1,7 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq Wireframes for Confluence Server Transition Guide (BETA)"
-menu: "menuconfluencewireframes"
+title: "Balsamiq Wireframes for Confluence Server Transition Guide "
+menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2130
 ---
@@ -38,7 +38,7 @@ You will then be taken to the new version of the Balsamiq Wireframes editor. Jus
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close.png)
 
-Once you have returned to the Confluence editor, open the Balsamiq Wireframes Macro Editor and save in order to migrate the macro to the new format.  
+Once you have returned to the Confluence editor, open the Balsamiq Wireframes Macro Editor and save in order to migrate the macro to the new format.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/transition-guide-3.png)
 
