@@ -3,7 +3,7 @@ menu: "menuwireframes"
 title: "Keyboard Shortcuts"
 ---
 
-Below is a list of all the keyboard shortcuts and modifiers which you can use in Balsamiq Wireframes. 
+Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Wireframes. 
 
 {{% alert info %}}**Note:** Some of these shortcuts do not work in our web versions, depending on which browser and operating system you are using.{{% /alert %}}
 

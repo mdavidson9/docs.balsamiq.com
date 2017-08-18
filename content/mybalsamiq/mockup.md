@@ -106,7 +106,7 @@ Working on wireframes is an iterative process, so one of the most important aspe
 
 We’ve made iterations a big part of the review and commenting process by allowing you to modify the current Mockup, and propose your alternate version in the comment stream.
 
-To propose an alternate version, select the “Propose Alternate Version…” button below the comment form. The Mockups editor will open and allow you to modify the current Mockup for your team to review.
+To propose an alternate version, scroll down to the comment section below the Single Mockup View, and select the “Propose Alternate Version…” button. The Mockups editor will open and allow you to modify the current Mockup for your team to review.
 
 ![](//media.balsamiq.com/img/support/docs/myb/mockup-commentalt-propose.png)
 
