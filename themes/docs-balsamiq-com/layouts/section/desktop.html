@@ -2,8 +2,6 @@
 {{ end }}
 
       {{ $featuredRows := 1 }} <!-- number of rows to feature in Getting Started section -->
-      {{ $totalCount := len (where .Site.Pages "Section" "desktop") }} <!-- total number of articles in this section -->
-      {{ $rowCount := (sub (div (add (add $totalCount 1) (mod $totalCount 3)) 3) $featuredRows) }} <!-- number of rows at the bottom -->
 
       <div class="row">
         <div class="col-xs-12 text-center">
