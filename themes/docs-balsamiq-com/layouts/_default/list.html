@@ -15,7 +15,7 @@
         {{ $.Scratch.Set "showfaqs" 1 }}
         <h1>myBalsamiq Documentation</h1>
         {{ else if eq .Title "Google-drive" }}
-        <h1>Mockups for Google Drive Documentation</h1>
+        <h1>Balsamiq Mockups 3 for Google Drive Documentation</h1>
         {{ else if eq .Title "Jira" }}
         <h1>Mockups for JIRA Documentation</h1>
         {{ else if eq .Title "Confluence" }}
@@ -23,13 +23,19 @@
         {{ else }}
         {{ $.Scratch.Set "showfaqs" 1 }}
         <h1>{{ .Title | humanize | title }} Documentation</h1>
-        {{ end }}        
+        {{ end }}
       </div>
-        <ol id="list">
+        <ul id="list">
+          {{ if eq .Title "Google-drive" }}
+          {{ range first 22 .Data.Pages.ByWeight }}
+            {{ .Render "li"}}
+          {{ end }}
+          {{ else }}
         {{ range .Data.Pages.ByWeight }}
           {{ .Render "li"}}
         {{ end }}
-        </ol>
+        {{ end }}
+        </ul>
       {{ if eq ($.Scratch.Get "showfaqs") 1 }}
         <h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
       {{ else }}

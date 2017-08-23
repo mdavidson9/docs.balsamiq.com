@@ -2,8 +2,9 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Real-Time Collaboration Service Troubleshooting (BETA)"
 menu: "menujirawireframes"
+listorder: 2
 product: "Balsamiq Wireframes for JIRA Server"
-weight: 2220
+weight: 2140
 ---
 
 Balsamiq Wireframes for JIRA Server uses a "behind the firewall" service in order to allow real time collaboration, chat and other features. To verify that the service works as intended, you can use the configuration page of the add-on.
@@ -25,7 +26,7 @@ In case the status of the Real-Time Collaboration Service is **DOWN**, you shoul
 
 * * *
 
-## Verify that the selected port is available and reachable
+## Verify That the Selected Port Is Available and Reachable
 
 Ensure that the port selected in the add-on config page is available and reachable (i.e. not blocked by any firewall).
 
@@ -33,4 +34,4 @@ For example, on a linux server, we can run the following command in order to lis
 
     netstat -tul | grep 9093
 
-In case of conflict with other service, you can change the port on the configuration page and restart the server.
+In case of conflict with other service, you can change the port on the configuration page and restart the Balsamiq real-time service.

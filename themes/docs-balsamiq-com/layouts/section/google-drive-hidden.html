@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+{{/* ======================================== */}}
+{{/* BODY MAIN */}}
+<div id="body-main">
+  <div class="container-fluid">
+{{/* ======================================== */}}
+
+<div class="row">
+  <div class="col-xs-12 doc-overview">
+    <main role="main">
+      <div class="doc-list-header">
+        <h1>Balsamiq for Google Drive Documentation</h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="text-center mb2 mt1">Which version of Balsamiq for Google Drive are you using?</h3>
+        </div>
+      </div>
+      <div class="row">
+        {{ range first 2 (.Data.Pages.GroupByParam "product").Reverse }}
+        <div class="col-xs-12 col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              {{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Key | urlize }}.png" class="img-responsive center-block"></a>
+<div class="text-center"><div style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}<img src="//media.balsamiq.com/img/support/docs/gdrive/icon-{{ .Key | urlize }}.png"></a></div>
+  <h3 id="{{ .Key | urlize }}" style="display:inline;">{{ range first 1 .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ end }}{{ .Key }}</a></h3></div>
+            </div>
+            <div class="list-group">
+            {{ range .Pages.ByWeight }}
+            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+            {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </main>
+  </div> <!-- /.doc-overview -->
+
+</div>{{/* /.row */}}
+
+{{/* ======================================== */}}
+  </div>
+</div>
+{{/* /BODY MAIN */}}
+{{/* ======================================== */}}
+
+{{ partial "footer.html" . }}

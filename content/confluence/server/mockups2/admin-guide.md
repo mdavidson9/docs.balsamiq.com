@@ -2,7 +2,8 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Mockups 2 for Confluence Server Admin Guide"
-menu: "menuconfluenceserver2"
+menu: "menuconfluenceserver2" 
+listorder: 3
 product: "Mockups 2 for Confluence Server"
 weight: 1120
 ---
