@@ -16,7 +16,7 @@ Balsamiq Cloud is a web-based user interface design tool for creating [wireframe
 -->
 ### Quick Start Guide
 
-1. To get started, you first need to **sign up** at **[balsamiq.cloud](https://balsamiq.cloud/)** and then [**create** a new space](../spaces/) or **join** an existing one by [invitation](../people/#inviting-someone-to-a-project).
+1. To get started, you first need to **sign up** at **[balsamiq.cloud](https://balsamiq.cloud/)** and then [**create** a new Space](../spaces/) or **join** an existing one by [invitation](../people/#inviting-someone-to-a-project).
 
 1. Next, **create a project** by clicking the Create a New Project or [Upload Project](#transitioning-from-a-previous-version) buttons, or join one that you have been invited to. A project is a set of wireframes that pertain to a specific product or feature.
 ![](//media.balsamiq.com/img/support/docs/cloud/create-project.png)

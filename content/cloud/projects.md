@@ -6,13 +6,13 @@ title: "Managing Projects"
 weight: 4
 ---
 
-In each of your spaces, you will find a collection of projects that you and your team are working on.
+In each of your Spaces, you will find a collection of projects that you and your team are working on.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/projects-homepage.png)
 
 From this page you can create and upload as many projects as your [subscription](//support.balsamiq.com/sales/cloud/) allows. If you have existing Balsamiq (.bmpr) files you can just **drag them on to this screen to upload** them.
 
-{{% alert info %}}**Note:** If you were invited to join a space, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to the project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
+{{% alert info %}}**Note:** If you were invited to join a Space, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to the project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
 
 When you click on the "Create Project" button, you will immediately be taken to the [Balsamiq Wireframes editor](../overview/), to get started wireframing right away. When you are done (or want to take a break) your work will be waiting for you on your projects home page.
 

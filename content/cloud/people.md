@@ -9,14 +9,14 @@ weight: 6
 Balsamiq Cloud user permissions can be lumped into three main groups: **Space Owners**, **Staff Members**, and **Project Members**.
 
 ### Space Owners
-Space Owners are the admins for the entire Balsamiq Cloud space. They can:
+Space Owners are the admins for the entire Balsamiq Cloud Space. They can:
 
-- Access any project on the space
+- Access any project on the Space
 - Create new projects
-- Add Staff and Project Members to any project on the space
-- Manage the space and billing information
+- Add Staff and Project Members to any project on the Space
+- Manage the Space and billing information
 
-{{% alert info %}}**Note:** See [Managing Your Space Settings](../spaces/#managing-your-space-settings) to learn how to transfer space ownership or add a second Space Owner. {{% /alert %}}
+{{% alert info %}}**Note:** See [Managing Your Space Settings](../spaces/#managing-your-space-settings) to learn how to transfer Space ownership or add a second Space Owner. {{% /alert %}}
 
 ### Staff Members
 Staff members are project administrators for any project they have access to. They can:
@@ -24,12 +24,12 @@ Staff members are project administrators for any project they have access to. Th
 - Create new projects
 - Own projects
 - Invite project members to projects they own or have access to
-- See all of the users on the space
+- See all of the users on the Space
 
 {{% alert info %}}**Note:** See [Managing Users](../spaces/#managing-users) to learn how to make someone a Staff Member. {{% /alert %}}
 
 ### Project Members
-There are two kinds of Project Members. Those who can view and edit a space, and those who can view and comment. They only have access to spaces they are a part of, and cannot invite (or see) other members of the space.
+There are two kinds of Project Members. Those who can view and edit a Space, and those who can view and comment. They only have access to Spaces they are a part of, and cannot invite (or see) other members of the Space.
 
 ## User Permissions at a Glance
 

@@ -17,7 +17,7 @@ To create this wireframe in a new project, switch to it, choose “Import Wirefr
 
 ## Importing from Other Versions of Balsamiq
 
-If you have a project created in another Balsamiq product (using the .bmpr extension), you can directly upload your project to your Balsamiq Cloud space, as detailed [here](../projects/).
+If you have a project created in another Balsamiq product (using the .bmpr extension), you can directly upload your project to your Balsamiq Cloud Space, as detailed [here](../projects/).
 
 Another easy way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
 
