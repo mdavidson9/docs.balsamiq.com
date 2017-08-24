@@ -111,7 +111,7 @@ Protecting the privacy of the very young is especially important. For that reaso
 
 ### How Can I Access or Correct My Information?
 
-You can access all your personally identifiable information that we collect online and maintain by logging in to any Balsamiq Cloud site you have access to and visiting the settings pages.
+You can access all your personally identifiable information that we collect online and maintain by logging in to any Balsamiq Cloud space you have access to and visiting the settings pages.
 
 You can download your projects' data at any time in BMPR format.
 
