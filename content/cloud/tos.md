@@ -26,7 +26,7 @@ Should you have other questions or concerns about this document, please call us 
 
 ### Using Balsamiq Cloud Means Accepting These Terms
 
-By accessing or using Balsamiq Cloud ([https://balsamiq.cloud](https://balsamiq.cloud)) in any way, whether you have created your own Balsamiq Cloud site or are invited to someone else's site as a project member, or are just browsing around, you agree to and are bound by the terms and conditions written in this document.
+By accessing or using Balsamiq Cloud ([https://balsamiq.cloud](https://balsamiq.cloud)) in any way, whether you have created your own Balsamiq Cloud space or are invited to someone else's space as a project member, or are just browsing around, you agree to and are bound by the terms and conditions written in this document.
 
 If you do not agree to all of the terms and conditions contained in this document, do not access Balsamiq Cloud.
 
@@ -56,11 +56,11 @@ If you think we removed your access by mistake, [get in touch](mailto:sales@bals
 
 Support for Balsamiq Cloud is provided via our Community Forums at [forums.balsamiq.com](https://forums.balsamiq.com) as well via our support portal at [support.balsamiq.com](https://support.balsamiq.com)
 
-Email and phone support is also included, but is **only provided to Balsamiq Cloud site owners**. If you have an issue with your Balsamiq Cloud site, contact your site owner(s) first, via their email address (shown in Balsamiq Cloud).
+Email and phone support is also included, but is **only provided to Balsamiq Cloud space owners**. If you have an issue with your Balsamiq Cloud space, contact your space owner(s) first, via their email address (shown in Balsamiq Cloud).
 
-Site owners can invite staffers and they can invite project members. Site owners are responsible for first-level support to the people on their Balsamiq Cloud sites.
+Space owners can invite staffers and they can invite project members. Space owners are responsible for first-level support to the people on their Balsamiq Cloud spaces.
 
-We continuously update the [Balsamiq Cloud Documentation](/cloud/) so that users can help themselves and site owners are better equipped to help their users.
+We continuously update the [Balsamiq Cloud Documentation](/cloud/) so that users can help themselves and space owners are better equipped to help their users.
 
 We take pride in providing excellent customer support, but we are also a small team and value our work/life balance. This means that although we'll try our best, **we do not guarantee 24 / 7 support**.
 
@@ -79,13 +79,13 @@ Name
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-The email addresses we collect for the site owners, billing-only administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and site ownership verification. Inbound return email addresses are only used to send a reply.
+The email addresses we collect for the space owners, billing-only administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and space ownership verification. Inbound return email addresses are only used to send a reply.
 
-We use cookies to identify whether you have logged in to your site. Therefore, your browser must be enabled to accept cookies from balsamiq.cloud in order for you to use Balsamiq Cloud.
+We use cookies to identify whether you have logged in to your space. Therefore, your browser must be enabled to accept cookies from balsamiq.cloud in order for you to use Balsamiq Cloud.
 
-We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with site owners upon request.
+We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with space owners upon request.
 
-The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the site owner(s) and billing-only admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the space owner(s) and billing-only admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -97,7 +97,7 @@ If you forget your password, we send you a secure link via email that lets you r
 
 User management is done inside Balsamiq Cloud. We have Google integration, but no LDAP or OAuth at the moment.
 
-Balsamiq staff will never change a password for you, nor change the site owner. Here's an article that describes how you can [change the site owner of a Balsamiq Cloud site yourself](/cloud/sites/#managing-your-site-settings).
+Balsamiq staff will never change a password for you, nor change the space owner. Here's an article that describes how you can [change the space owner of a Balsamiq Cloud space yourself](/cloud/spaces/#managing-your-space-settings).
 
 ### Who Can See My Credit Card Number?
 
@@ -115,7 +115,7 @@ You can access all your personally identifiable information that we collect onli
 
 You can download your projects' data at any time in BMPR format.
 
-You can delete your projects, sites or user account at any time, and they will be destroyed from our database immediately, with no way for us to recover them.
+You can delete your projects, spaces or user account at any time, and they will be destroyed from our database immediately, with no way for us to recover them.
 
 ### What Are the System Requirements for Using Balsamiq Cloud?
 
@@ -125,7 +125,7 @@ Your clients have to be able to access the Balsamiq Cloud servers on port 443.
 
 ### Who Can See My Wireframes?
 
-The people you share them with, as described in the [People and Permissions documentation](/cloud/people/), as well as the site owner(s) and [some balsamiq employees](#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data).
+The people you share them with, as described in the [People and Permissions documentation](/cloud/people/), as well as the Space owner(s) and [some balsamiq employees](#what-are-the-guidelines-balsamiq-follows-when-accessing-my-data).
 
 We use HTTPS and SSL (256-encryption) to transfer all data. Data is not encrypted when stored in our database (for performance reasons).
 
@@ -134,10 +134,10 @@ We use HTTPS and SSL (256-encryption) to transfer all data. Data is not encrypte
 *   We restrict who at Balsamiq can access customer data to only senior members of the team, and never to outside parties.
 *   We only do it in response to a customer support question.
 *   We only do it in order to debug and fix the issue.
-*   We never make changes to anything unless explicitly requested by a site owner.
-*   If a site owner or a site staff member asks us to look into a project in order to debug a software issue, we will go in and look at that project and possibly make minor edits in order to fix the issue.
+*   We never make changes to anything unless explicitly requested by a Space owner.
+*   If a Space owner or a staff member asks us to look into a project in order to debug a software issue, we will go in and look at that project and possibly make minor edits in order to fix the issue.
 *   We never share what we see with other customers or the general public.
-*   We might give access to US authorities if requested in writing. We'll try not to, but we don't have the resources to fight the government. We'll also keep your site owner(s) informed as much as we can if this happens.
+*   We might give access to US authorities if requested in writing. We'll try not to, but we don't have the resources to fight the government. We'll also keep your Space owner(s) informed as much as we can if this happens.
 
 ### Who Else Has Access to My Data?
 
@@ -206,7 +206,7 @@ The trademarks, logos and service marks displayed on this Site are the property 
 
 Balsamiq does not claim intellectual property rights over wireframes created on Balsamiq Cloud nor the [assets](/cloud/images/) your users upload.
 
-We leave it to each Balsamiq Cloud site owner(s) to decide who should own the IP of the wireframes created using their Balsamiq Cloud site. We encourage site owners to make their policy clear to their site's users, either via email or by posting it on their Balsamiq Cloud site.
+We leave it to each Balsamiq Cloud space owner(s) to decide who should own the IP of the wireframes created using their Balsamiq Cloud space. We encourage space owners to make their policy clear to their space's users, either via email or by posting it on their Balsamiq Cloud space.
 
 You acknowledge and agree that Balsamiq has no liability of any kind should anyone you granted access to your content modify, destroy, corrupt, copy or distribute it, or violate the terms of use or other limitations that you may impose on the use of your shared content.
 
@@ -236,7 +236,7 @@ You acknowledge and agree that Balsamiq shall not be liable for any failure to s
 
 ### How Is Our Data Backed Up?
 
-Your wireframe data, images, site settings and projects information are saved (unencrypted) in our database, which runs on [Amazon RDS](http://aws.amazon.com/rds/). We have a real-time backup to a slave instance in a different availability zone (for added resilience) and we keep daily database snapshots of the last 3 days. Data is replicated in 3 different data centers.
+Your wireframe data, images, space settings and projects information are saved (unencrypted) in our database, which runs on [Amazon RDS](http://aws.amazon.com/rds/). We have a real-time backup to a slave instance in a different availability zone (for added resilience) and we keep daily database snapshots of the last 3 days. Data is replicated in 3 different data centers.
 
 ### How Quickly Can You Recover from a Data Center Disaster?
 
@@ -335,7 +335,7 @@ You acknowledge and agree that:
 3.  any dealings you may have with such third parties are at your own risk; and
 4.  Balsamiq shall not be liable or responsible for any materials or services offered by third parties.
 
-Balsamiq does not control or endorse the materials found in any services and specifically disclaims any liability with regard to the site, services and any actions resulting from your use of the Balsamiq Cloud service and Balsamiq Materials and participation in any services. Managers, hosts, site owners, project members and other third parties are not authorized Balsamiq spokespersons, and their views do not necessarily reflect those of Balsamiq. To the maximum extent permitted by law, Balsamiq will have no liability related to user materials arising under intellectual property rights, libel, privacy, publicity, obscenity or other laws. Balsamiq also disclaims all liability with respect to the misuse, loss, modification or unavailability of any user materials.
+Balsamiq does not control or endorse the materials found in any services and specifically disclaims any liability with regard to the site, services and any actions resulting from your use of the Balsamiq Cloud service and Balsamiq Materials and participation in any services. Managers, hosts, space owners, project members and other third parties are not authorized Balsamiq spokespersons, and their views do not necessarily reflect those of Balsamiq. To the maximum extent permitted by law, Balsamiq will have no liability related to user materials arising under intellectual property rights, libel, privacy, publicity, obscenity or other laws. Balsamiq also disclaims all liability with respect to the misuse, loss, modification or unavailability of any user materials.
 
 The use of Balsamiq Cloud service, Balsamiq Materials or the downloading or other use of any materials is done at your own discretion and risk and with your agreement that you will be solely responsible for any damage to your computer system, loss of data or other harm that results from such activities. Balsamiq assumes no liability for any computer virus or other similar software code that is downloaded to your computer from the site or in connection with any services or materials. No advice or information, whether oral or written, obtained by you from Balsamiq or via the site, services or materials shall create any warranty not expressly stated in the terms of use. Balsamiq will not be liable for any loss that you may incur as a result of someone else using your password or account with respect to the site or any services or materials, either with or without your knowledge.
 
@@ -349,7 +349,7 @@ You agree to indemnify and hold Balsamiq and its officers, co-branders, other pa
 2.  your access to or use of Balsamiq Cloud (including any use by your employees, contractors or agents and all uses of your account numbers, user names and passwords, whether or not actually or expressly authorized by you, in connection with Balsamiq Cloud);
 3.  your connection to Balsamiq Cloud;
 4.  your violation of the Terms of Use;
-5.  the actions of any member of your work group, including non-logged in users you have granted access to your Balsamiq Cloud site;
+5.  the actions of any member of your work group, including non-logged in users you have granted access to your Balsamiq Cloud space;
 6.  your infringement of any third party’s intellectual property rights when using any of the software made available on Balsamiq Cloud;
 7.  your violation of any rights of any third party;
 8.  your access to or use of linked sites and your connections thereto; or
