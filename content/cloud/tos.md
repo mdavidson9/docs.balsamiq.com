@@ -79,13 +79,13 @@ Name
 
 We do not collect credit card information directly. See [Who can see my credit card number?](#who-can-see-my-credit-card-number) below.
 
-The email addresses we collect for the Space Owners, billing-only administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and Space Ownership verification. Inbound return email addresses are only used to send a reply.
+The email addresses we collect for the Space Owners, Billing-Only Administrator, and staff members are used to communicate account activity. This activity may include, but is not limited to, subscription status (renewal, cancelation, etc.), and Space Ownership verification. Inbound return email addresses are only used to send a reply.
 
 We use cookies to identify whether you have logged in to your Space. Therefore, your browser must be enabled to accept cookies from balsamiq.cloud in order for you to use Balsamiq Cloud.
 
 We collect the IP addresses of everyone who registers with Balsamiq Cloud. This information is used for debugging and analytics purposes, and our logs are kept for 2 weeks. IP addresses and log information can be shared with Space Owners upon request.
 
-The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the Space Owner(s) and billing-only admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
+The Personal Data we collect is not shared with third parties, except for the purposes of determining the validity of a subscription payment. In this case we may share the name and email address of the Space Owner(s) and Billing-Only Admin with the credit card holder, your company’s accounting department, or with Stripe when responding to a chargeback.
 
 ### Who Can See My Password?
 
@@ -111,7 +111,7 @@ Protecting the privacy of the very young is especially important. For that reaso
 
 ### How Can I Access or Correct My Information?
 
-You can access all your personally identifiable information that we collect online and maintain by logging in to any Balsamiq Cloud Space you have access to and visiting the settings pages.
+You can access all your personally identifiable information that we collect online and maintain by logging in to any Balsamiq Cloud Space you have access to and visiting the Space Settings page, or by the User Settings dialog.
 
 You can download your projects' data at any time in BMPR format.
 
@@ -119,7 +119,7 @@ You can delete your projects, Spaces or user account at any time, and they will 
 
 ### What Are the System Requirements for Using Balsamiq Cloud?
 
-A modern web browser (Internet Explorer users need IE11 or higher) with cookies and javascript enabled is all that's needed.
+A modern web browser (IE11 or Edge, Chrome 49+, Firefox 53+, Safari 9+) with cookies and javascript enabled is all that's needed.
 
 Your clients have to be able to access the Balsamiq Cloud servers on port 443.
 
@@ -141,11 +141,11 @@ We use HTTPS and SSL (256-encryption) to transfer all data. Data is not encrypte
 
 ### Who Else Has Access to My Data?
 
-We host our data on Amazon Web Services (AWS). Specifically, our database runs on RDS and other data is stored on S3\. Amazon employees have access to this data. Here's their [privacy policy](http://aws.amazon.com/privacy/). Amazon controls physical access to their locations. We don't control physical access to our locations, other than standard locked doors.
+We host our data on Amazon Web Services (AWS). Specifically, our database runs on RDS. Amazon employees have access to this data. Here's their [privacy policy](http://aws.amazon.com/privacy/). Amazon controls physical access to their locations. We don't control physical access to our locations, other than standard locked doors.
 
 We use secure private keys when accessing Balsamiq Cloud servers via SSH, and protect our AWS console passwords locally with 1Password and LastPass.
 
-We log application data (username, email and project name). We rotate logs with 14-days conservation. We stream logs from our servers to [Logmatic.io](https://logmatic.io) using SSL. Here's their [privacy policy](https://logmatic.io/legal-mentions/).
+We log application data (username, user IP, email and project name). We rotate logs with 14-days conservation. We stream logs from our servers to [Logmatic.io](https://logmatic.io) using SSL. Here's their [privacy policy](https://logmatic.io/legal-mentions/).
 
 As mentioned [above](#who-can-see-my-credit-card-number), we rely on Stripe for payment processing.
 
@@ -161,7 +161,7 @@ Security is one of the main reasons we chose Amazon Web Services as the infrastr
 
 To see all the steps Amazon takes to protect the data saved on its services, take a look at the extensive [Security And Compliance Center](http://aws.amazon.com/security/) and the security-related [white papers](http://aws.amazon.com/whitepapers/). It's what makes us sleep well at night. AWS is ISO/IEC 27002 certified.
 
-We also have our own practices in place, which follow the industry's best practices. We only give access to our servers to senior Balsamiq security experts, we keep our servers always up to date with security fixes, have one-click ways to take down servers should they become infected/compromised and to create and deploy new clean ones, we always code-review security-related code internally before checking in, have an automated suite of tests against cyber attacks, we use 2-factor authentication whenever possible, and more. We don't run background checks on employees nor have CISSP certifications or have audit logs.
+We also have our own practices in place, which follow the industry's best practices. We only give access to our servers to senior Balsamiq security experts, we keep our servers always up to date with security fixes, have one-click ways to take down servers should they become infected/compromised and to create and deploy new clean ones, we have an automated suite of tests against cyber attacks, we use 2-factor authentication whenever possible, and more. We don't run background checks on employees nor have CISSP certifications or have audit logs.
 
 Our Balsamiq Cloud service has never been compromised so far.
 
