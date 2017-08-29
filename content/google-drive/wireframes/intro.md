@@ -67,6 +67,10 @@ When you are done editing your wireframes you can exit the editor by selecting â
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/back-to-gdrive.png)
 
+Alternatively, you can perform the same action by clicking on the parent folder on the top-left part of the menu bar.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/back-to-gdrive-2.png)
+
 * * *
 
 ## Collaborating with Other Users in Real Time
