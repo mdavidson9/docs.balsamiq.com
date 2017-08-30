@@ -99,7 +99,6 @@ The Wireframes to Go Browser will close, and you will see a little toast message
 
 ![](//media.balsamiq.com/img/support/docs/bw/wtg_symbols.png)
 
-
 * * *
 
 ## Using Symbols in Your Wireframes
