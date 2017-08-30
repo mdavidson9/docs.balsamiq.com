@@ -31,7 +31,7 @@ If you have questions about purchasing or your subscription, you might want to c
 
 There are two ways to create a new Balsamiq Wireframes project in Google Drive.
 
-1.  You can click **"New > Balsamiq Wireframes Project"** from the Google Drive file list as shown above.
+1.  You can click **"New > Balsamiq Wireframes"** from the Google Drive file list as shown above.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/createmenu.png)
 
