@@ -106,6 +106,10 @@ When you are done editing your wireframes you can exit the editor by selecting t
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-6.png)
 
+Alternatively, you can perform the same action by clicking on the breadcrumb link pointing to the issue containing your BMPR project, on the top-left part of the menu bar.
+
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-7.png)
+
 * * *
 
 ## Using the Balsamiq Wireframes Panel

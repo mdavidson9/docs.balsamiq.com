@@ -1,12 +1,12 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq Wireframes for Confluence Server Transition Guide "
+title: "Balsamiq Wireframes for Confluence Server Transition Guide"
 menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2130
 ---
 
-Balsamiq Wireframes for Confluence Server was released was released in BETA on June 2017. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
+Balsamiq Wireframes for Confluence Server was released was released on September 2017. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
 
 Here's a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Confluence Server.
 

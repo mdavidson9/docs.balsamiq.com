@@ -1,6 +1,6 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Introduction to Balsamiq Wireframes for Confluence Server "
+title: "Introduction to Balsamiq Wireframes for Confluence Server"
 menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2110
@@ -14,7 +14,7 @@ Confluence Server Administrators: the [Balsamiq Wireframes for Confluence Server
 
 * * *
 
-{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released in BETA on June 2017. See our [transition guide](../transition-guide/) if you have a previous version of our Confluence add-on installed.{{% /alert %}}
+{{% alert warning %}}**Note:** Balsamiq Wireframes for Confluence Server was released on September 2017. See our [transition guide](../transition-guide/) if you have a previous version of our Confluence add-on installed.{{% /alert %}}
 
 Balsamiq Wireframes for Confluence Server provides very similar functionality to Balsamiq Mockups 3 for Desktop.
 
@@ -61,6 +61,12 @@ The other users connected will be shown in the top right corner of the editor. H
 ## Copying or Moving Wireframes between Projects
 
 Sometimes you might want to copy or move a wireframe from one project to another. To do so, follow the steps below:
+
+1. Select all your controls from the current wireframe in project A (CTRL/CMD+A)
+2. Open project B and add a new wireframe
+3. Paste your controls (CTRL/CMD+V)
+
+Alternatively, you can use the JSON feature:
 
 1. Open the two projects (each in its own browser tab or window)
 2. In the source project, select the wireframe you want to copy or move.
@@ -109,6 +115,10 @@ When you are done editing your wireframes, you can exit the editor by selecting 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close.png)
 
 This will also save the current project and update the version that will be now visible in the [Balsamiq Wireframes macro](#using-the-balsamiq-wireframes-macro).
+
+Alternatively, you can perform the same action by clicking on the breadcrumb link pointing to the Confluence page containing your BMPR project, on the top-left part of the menu bar.
+
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close-2.png)
 
 * * *
 
