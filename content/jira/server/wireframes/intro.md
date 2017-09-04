@@ -20,6 +20,10 @@ Balsamiq Wireframes for JIRA Server provides very similar functionality to Balsa
 
 * * *
 
+{{< yt GvTEWlLP27Y >}}
+
+* * *
+
 ## Adding a New Project to a JIRA Issue
 
 To add a new Balsamiq Wireframes project to a particular JIRA issue, you simply need to click on the "Add Balsamiq Wireframes" menu option.

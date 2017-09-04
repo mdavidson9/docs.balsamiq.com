@@ -14,11 +14,11 @@ With [easy sharing](../drive-files/#sharing-via-google-drive), version control a
 
 * * *
 
-<!--## Getting Started
+## Getting Started
 
 For a quick overview before diving in, check out this 5 minute video covering the main features of Balsamiq Wireframes for Google Drive.
 
-**(TODO) VIDEO here**
+{{< yt TSGkpwJTQ2o >}}
 
 If you have questions about purchasing or your subscription, you might want to check out these articles instead:
 
@@ -26,7 +26,7 @@ If you have questions about purchasing or your subscription, you might want to c
 * [Balsamiq Wireframes for Google Drive Purchasing FAQs](https://support.balsamiq.com/sales/gdrive/)
 
 * * *
--->
+
 ## Creating a New Project
 
 There are two ways to create a new Balsamiq Wireframes project in Google Drive.
