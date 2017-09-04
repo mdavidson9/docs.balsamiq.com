@@ -10,7 +10,7 @@ Balsamiq Wireframes for Confluence Server was released was released on September
 
 Here's a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Confluence Server.
 
-{{< yt T4I0yKMJDjg >}}
+{{< yt Ta1JQHqJUyM >}}
 
 * * *
 

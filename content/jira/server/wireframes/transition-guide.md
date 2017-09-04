@@ -10,7 +10,7 @@ Balsamiq Wireframes for JIRA Server was released was released on September, 2017
 
 Here's a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for JIRA Server.
 
-{{< yt fa0Cn33lloU >}}
+{{< yt GvTEWlLP27Y >}}
 
 * * *
 
