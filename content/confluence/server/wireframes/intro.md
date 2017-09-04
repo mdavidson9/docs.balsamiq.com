@@ -60,23 +60,24 @@ The other users connected will be shown in the top right corner of the editor. H
 
 ## Copying or Moving Wireframes between Projects
 
-Sometimes you might want to copy or move a wireframe from one project to another. To do so, follow the steps below:
-
-1. Select all your controls from the current wireframe in project A (CTRL/CMD+A)
-2. Open project B and add a new wireframe
-3. Paste your controls (CTRL/CMD+V)
-
-Alternatively, you can use the JSON feature:
+Sometimes you might want to copy or move a wireframe from one project to another. Here is a simple way to do it:
 
 1. Open the two projects (each in its own browser tab or window)
 2. In the source project, select the wireframe you want to copy or move.
-3. In the Project menu, select **Export > Wireframe to JSON…** This will put a text-based representation of the wireframe in the clipboard.
-4. In the target project, select **Import > Wireframe JSON…** from the Project menu.
-5. In the dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
+3. Select all the controls from this wireframe (CTRL/CMD+A) and copy the controls (CTRL/CMD+C)
+4. In the target project, paste your controls (CTRL/CMD+V) in a newly created wireframe
 
 That’s it! You may now delete the wireframe from the source project if you wish.
 
-{{% alert info %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the new project.{{% /alert %}}
+{{% alert warning %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the target project.{{% /alert %}}
+
+Alternatively, you can also use the JSON feature, available in the Export menu:
+
+1.  Open the two projects
+2.  In the source project, select the wireframe you want to copy or move.
+3.  In the Project menu, select **Export > Wireframe to JSON...** This will put a text-based representation of the wireframe in the clipboard.
+4.  In the target project, select **Import > Wireframe JSON...** from the Project menu.
+5.  In the dialog that pops up, paste the content of the clipboard with CTRL/CMD+V and click the Import button.
 
 * * *
 
