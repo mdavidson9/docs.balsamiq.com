@@ -14,11 +14,11 @@ With [easy sharing](../drive-files/#sharing-via-google-drive), version control a
 
 * * *
 
-<!--## Getting Started
+## Getting Started
 
 For a quick overview before diving in, check out this 5 minute video covering the main features of Balsamiq Wireframes for Google Drive.
 
-**(TODO) VIDEO here**
+{{< yt TSGkpwJTQ2o >}}
 
 If you have questions about purchasing or your subscription, you might want to check out these articles instead:
 
@@ -26,12 +26,12 @@ If you have questions about purchasing or your subscription, you might want to c
 * [Balsamiq Wireframes for Google Drive Purchasing FAQs](https://support.balsamiq.com/sales/gdrive/)
 
 * * *
--->
+
 ## Creating a New Project
 
 There are two ways to create a new Balsamiq Wireframes project in Google Drive.
 
-1.  You can click **"New > Balsamiq Wireframes Project"** from the Google Drive file list as shown above.
+1.  You can click **"New > Balsamiq Wireframes"** from the Google Drive file list as shown above.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/createmenu.png)
 
@@ -66,6 +66,10 @@ If you have a project created in another Balsamiq product (using the .bmpr exten
 When you are done editing your wireframes you can exit the editor by selecting “Back to Google Drive” in the Project menu. This will also create a new version of the file in case you want to revert to it later.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/back-to-gdrive.png)
+
+Alternatively, you can perform the same action by clicking on the breadcrumb link pointing to the parent folder of your BMPR project, on the top-left part of the menu bar.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/back-to-gdrive-2.png)
 
 * * *
 

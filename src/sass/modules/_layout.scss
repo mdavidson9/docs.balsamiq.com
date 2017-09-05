@@ -588,9 +588,10 @@ code {
     @include fontsize(18,21);
     margin: 0 0 4px 0;
 }
-#body-main .gallery-item h3 a {
+#body-main .gallery-item h3 a, #body-main .gallery-item h2 a {
     display: block;
     width: 100%;
+    color: $red;
 }
 .gallery-item img {
     width: 100%;
