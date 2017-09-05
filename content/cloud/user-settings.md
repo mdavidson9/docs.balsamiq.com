@@ -6,7 +6,7 @@ title: "User Settings"
 weight: 200
 ---
 
-In the upper-right corner of the of the Sites, Projects, and Editor views, you'll see your user avatar (icon). 
+In the upper-right corner of the of the Spaces, Projects, and Editor views, you'll see your user avatar (icon). 
 
 ![](//media.balsamiq.com/img/support/docs/cloud/user-avatar.png)
 
@@ -19,4 +19,3 @@ The User Settings dialog looks like this:
 You can use it to **change your name and email address,** as well as **reset your password**.
 
 You can also **delete your Balsamiq Cloud** account by clicking the blue button at the bottom.
-

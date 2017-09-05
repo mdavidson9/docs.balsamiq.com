@@ -2,7 +2,6 @@
 date: 2015-07-30T15:52:28-07:00
 title: "Mockups 2 for JIRA Server Admin Guide"
 menu: "menujiraserver2"
-listorder: 3
 product: "Mockups 2 for JIRA Server"
 weight: 1120
 ---

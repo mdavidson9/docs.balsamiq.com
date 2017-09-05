@@ -34,7 +34,7 @@ To do this, go to the Google Drive settings (inside the gear icon menu in the up
 
 Feel free to take advantage of the **fully-functional [30-days trial](https://support.balsamiq.com/sales/evaluate/)** period before purchasing a subscription. After 30 days, you will still be able to view existing wireframes in [presentation mode](../fullscreen/), but you will not be able to edit or create new wireframes unless you sign up for a paid plan.
 
-Monthly and yearly subscriptions are available. Details on **TODO** [how to sign up for and manage your paid plan are here](https://support.balsamiq.com/sales/gdrivesubscription/) (_Short version:_ Go to "Help > Sign Up for a Paid Plan" in the editor).
+Monthly and yearly subscriptions are available. Details on [how to sign up for and manage your paid plan are here](https://support.balsamiq.com/sales/gdrivesubscription/) (_Short version:_ Go to "Help > Sign Up for a Paid Plan" in the editor).
 
 * * *
 

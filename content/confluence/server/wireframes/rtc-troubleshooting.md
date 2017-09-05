@@ -1,8 +1,7 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Real-Time Collaboration Service Troubleshooting (BETA)"
-menu: "menuconfluencewireframes"
-listorder: 2
+title: "Real-Time Collaboration Service Troubleshooting"
+menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2140
 ---
@@ -26,7 +25,7 @@ In case the status of the Real-Time Collaboration Service is **DOWN**, you shoul
 
 * * *
 
-## Verify that the selected port is available and reachable
+## Verify That the Selected Port Is Available and Reachable
 
 Ensure that the port selected in the add-on config page is available and reachable (i.e. not blocked by any firewall).
 
