@@ -24,7 +24,7 @@
 </div></div>
 <div class="row">
     <div class="col-xs-12">
-      <ul class="mt0 pt0 pb0">
+      <ul class="mt0 pt0" id="list">
       {{ range after 3 .Data.Pages }}
         {{ .Render "li"}}
       {{ end }}
