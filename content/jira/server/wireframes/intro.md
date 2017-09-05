@@ -30,7 +30,7 @@ To add a new Balsamiq Wireframes project to a particular JIRA issue, you simply 
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-2.png)
 
-This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
+This will launch the Balsamiq Wireframes editor, where you can create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
 If you do not see the menu option, please check with your JIRA Server administrator that the Balsamiq Wireframes for JIRA Server add-on is installed and that you have editing permission on the current issue.
 

@@ -34,7 +34,7 @@ Simply edit the page, position the cursor where you’d like your wireframe to b
 
 ![](//media.balsamiq.com/img/support/docs/confluence/wireframes/add-balsamiq-project.png)
 
-This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your wiki page containing all the resources that belong to a project (wireframes, symbols, images, icons).
+This will launch the Balsamiq Wireframes editor, where you can create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your wiki page containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
 If you do not see the menu item, please check with your Confluence Server administrator that the Balsamiq Wireframes for Confluence Server add-on is installed and that you have editing permission on the current page.
 
