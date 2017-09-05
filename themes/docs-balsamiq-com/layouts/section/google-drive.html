@@ -15,8 +15,9 @@
       {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Wireframes for Google Drive") }}
       <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
       {{ end }}
     </div>
 </div>
@@ -26,8 +27,9 @@
 {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Mockups 3 for Google Drive") }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
 {{ end }}
 </div>
 </div>

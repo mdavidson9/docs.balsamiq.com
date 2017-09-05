@@ -47,8 +47,9 @@
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+<p>Description goes here</p>
+</div>
 {{ end }}
 </div>
 </div> */}}
@@ -58,8 +59,9 @@
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
 {{ end }}
 </div>
 </div>
@@ -69,8 +71,9 @@
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Server") "")))  }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+<p>Description goes here</p>
+</div>
 {{ end }}
 </div>
 </div> */}}
@@ -80,8 +83,9 @@
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 2 for " ($.Scratch.Get "plugin") " Server") "")) ) }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
 {{ end }}
 </div>
 </div>
