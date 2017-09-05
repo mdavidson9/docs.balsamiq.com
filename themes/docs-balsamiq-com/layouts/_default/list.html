@@ -55,7 +55,7 @@
 
 <div class="col-xs-12 col-sm-6">
 <div class="gallery-item">
-{{ range first 1 (after 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ($.Scratch.Get "plugin") " Cloud") "")) ))  }}
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
 <h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
@@ -64,20 +64,9 @@
 </div>
 </div>
 
-<div class="col-xs-12 col-sm-6">
+{{/* <div class="col-xs-12 col-sm-6">
 <div class="gallery-item">
-{{ range first 1 (after 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Server") ""))) ) }}
-<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
-<div class="meta">
-<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
-<p>Description goes here</p></div>
-{{ end }}
-</div>
-</div>
-
-{{/* <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-<div class="gallery-item">
-{{ range first 1 (after 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 2 for " ($.Scratch.Get "plugin") " Server") "")) )) }}
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Server") "")))  }}
 <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
 <div class="meta">
 <h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
@@ -86,12 +75,23 @@
 </div>
 </div> */}}
 
+<div class="col-xs-12 col-sm-6">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 2 for " ($.Scratch.Get "plugin") " Server") "")) ) }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h3 id="{{ .Params.product | urlize }}"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3>
+<p>Description goes here</p></div>
+{{ end }}
+</div>
+</div>
+
 </div>
 
 <div class="row">
 <div class="col-xs-12">
 {{/* <p>Using an older version? Check out the documentation for <a href="cloud/mockups3/">Mockups 3 for {{ $.Scratch.Get "plugin" }} Cloud</a> or <a href="server/mockups2/">Mockups 2 for {{ $.Scratch.Get "plugin" }} Server</a>.</p> */}}
-<p>Using an older version? Check out the documentation for <a href="server/mockups2/">Mockups 2 for {{ $.Scratch.Get "plugin" }} Server</a>.</p>
+{{/* <p>Using an older version? Check out the documentation for <a href="server/mockups2/">Mockups 2 for {{ $.Scratch.Get "plugin" }} Server</a>.</p> */}}
 </div>
 </div>
 
@@ -101,7 +101,7 @@
 
       <div class="row">
         <div class="col-xs-12">
-      <h2 class="mt1 mb2">User Guide Table of Contents</h2>
+      <h2 class="mt1 mb2">Table of Contents</h2>
       </div></div>
       <div class="row">
           <div class="col-xs-12">
