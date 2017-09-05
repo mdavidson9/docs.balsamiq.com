@@ -3,7 +3,7 @@ date: 2015-07-30T15:52:28-07:00
 title: "Real-Time Service Configurations"
 menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
-weight: 2510
+weight: 2490
 ---
 
 Our Atlassian server add-ons include a built-in, behind the firewall real-time collaboration service that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
