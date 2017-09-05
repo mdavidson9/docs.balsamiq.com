@@ -118,9 +118,7 @@ location / {
     }
 }
 ```
-{{% alert info %}}**CA Chain**
-
-**Note**: The application server (Tomcat) needs to access the proxy, so the full CA chain has to be ok.
+{{% alert info %}}**Note**: The application server (Tomcat) needs to access the proxy, so the full CA chain has to be ok.
 If the SSL certificate is self signed, it has to be imported at jre level:
 
 ```
