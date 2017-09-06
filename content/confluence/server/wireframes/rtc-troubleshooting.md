@@ -34,3 +34,5 @@ For example, on a linux server, we can run the following command in order to lis
     netstat -tul | grep 9093
 
 In case of conflict with other service, you can change the port on the configuration page and restart the Balsamiq real-time service.
+
+Need more info on how to configure the RTC service? Please have a look at [this page](../rtcconfigs).

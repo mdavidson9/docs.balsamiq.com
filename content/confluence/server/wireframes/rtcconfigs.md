@@ -1,9 +1,9 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Real-Time Service Configurations"
+title: "Real-Time Collaboration Service Configurations"
 menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
-weight: 2490
+weight: 2200
 ---
 
 Our Atlassian server add-ons include a built-in, behind the firewall real-time collaboration service that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
@@ -14,11 +14,15 @@ We anticipate there being four configurations used by our Balsamiq Wireframes fo
 
 {{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
 
+* * *
+
 ## Connecting Directly to the Server over HTTP
 
 {{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
 
-This configuration should _just work_. If you experience any issues, take a look at the [Real-Time Collaboration Troubleshooting Page](../rtc-troubleshooting/), or [email us](mailto:support@balsamiq.com).
+This configuration should _just work_. If you experience any issues, please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
+
+* * *
 
 ## Connecting to a Proxy Server Over HTTP
 
@@ -73,6 +77,8 @@ proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection "Upgrade";
 ```
 {{% /alert %}}
+
+* * *
 
 ## Connecting to a Proxy Server Using an SSL Certificate on the Proxy
 
@@ -129,6 +135,8 @@ cd /opt/atlassian/jre/bin
 ./keytool -keystore ../lib/security/cacerts -import -alias jira -file /tmp/s01.kvm.gozzi.cert
 ```
 {{% /alert %}}
+
+* * *
 
 ## Connecting Directly to the Server over HTTPS
 
