@@ -150,6 +150,6 @@ keystorePass="somethingLong"
 keystoreType="JKS"
 keyAlias="tomcat"
 ```
----
+* * *
 
 If you run into any RTC issues (or are using a configuration different from these), please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
