@@ -8,7 +8,7 @@ weight: 2120
 
 This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) when installed on your own server.
 
-{{% alert info %}}**Note:** If you are using JIRA Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](https://docs.balsamiq.com/jira/cloud/admin-guide-cloud/) instead.{{% /alert %}}
+{{% alert info %}}**Note:** If you are using JIRA Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](/jira/cloud/admin-guide-cloud/) instead.{{% /alert %}}
 
 Usage instructions for the plugin are in the [Balsamiq Wireframes for JIRA Server Introduction](../intro/).
 

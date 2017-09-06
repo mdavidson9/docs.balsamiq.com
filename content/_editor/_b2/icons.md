@@ -41,7 +41,7 @@ Once your icon file is ready, you will want to open the asset manager on either 
 
 ![](https://media.balsamiq.com/img/support/docs/myb/assets-menu.png)
 
-In the asset manager, choose whether the icon needs to be a [site asset](https://docs.balsamiq.com/mybalsamiq/home/#site-assets) or a [project asset](https://docs.balsamiq.com/mybalsamiq/project/#adding-and-managing-project-assets), and then upload it.
+In the asset manager, choose whether the icon needs to be a [site asset](/mybalsamiq/home/#site-assets) or a [project asset](/mybalsamiq/project/#adding-and-managing-project-assets), and then upload it.
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_uploadasset.png)
 

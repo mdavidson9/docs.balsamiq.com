@@ -95,7 +95,7 @@ To create a Symbol Library, you can either create a symbol (which will automatic
 
 If you would like a Symbol Library to be used across all projects, you only need to upload the library to your site assets.
 
-To do this, you first have to download the library from your [project assets](https://docs.balsamiq.com/mybalsamiq/assets/).
+To do this, you first have to download the library from your [project assets](/mybalsamiq/assets/).
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_downloadsymbollibrary.png)
 
