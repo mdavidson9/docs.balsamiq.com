@@ -36,7 +36,7 @@ If you want to keep your project private but don't want to force your customers 
 
 Just launch the prototype view, copy the long and nearly-impossible-to-guess URL (it makes it secure) and send it to them. They will be able to see it and click around without having to log in.
 
-{{% alert warning %}}**Note:** Once the URL is shared, it will be accessible to whomever has it. The only way to deactivate the link is to [archive](https://docs.balsamiq.com/mybalsamiq/home/#archiving-a-project) or [delete](https://docs.balsamiq.com/mybalsamiq/home/#deleting-project) the project.{{% /alert %}}
+{{% alert warning %}}**Note:** Once the URL is shared, it will be accessible to whomever has it. The only way to deactivate the link is to [archive](/mybalsamiq/home/#archiving-a-project) or [delete](/mybalsamiq/home/#deleting-project) the project.{{% /alert %}}
 
 ---
 

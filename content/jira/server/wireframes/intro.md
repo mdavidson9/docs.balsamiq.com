@@ -8,7 +8,7 @@ weight: 2110
 
 This page contains usage instructions for [Balsamiq Wireframes for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
 
-{{% alert info %}}Using JIRA Cloud? Please see [this article](https://docs.balsamiq.com/jira/cloud/intro/) instead. {{% /alert %}}
+{{% alert info %}}Using JIRA Cloud? Please see [this article](/jira/cloud/intro/) instead. {{% /alert %}}
 
 JIRA Server Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide](../admin-guide/) is for you.
 
@@ -38,7 +38,7 @@ If you do not see the menu option, please check with your JIRA Server administra
 
 ## Using the Balsamiq Wireframes Editor
 
-The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](https://docs.balsamiq.com/jira/cloud/overview/) to learn more about using the editor.
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](/jira/cloud/overview/) to learn more about using the editor.
 
 * * *
 

@@ -8,7 +8,7 @@ weight: 2110
 
 This page contains usage instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview).
 
-{{% alert info %}}Using Confluence Cloud? Please see [this article](https://docs.balsamiq.com/confluence/cloud/intro/) instead.{{% /alert %}}
+{{% alert info %}}Using Confluence Cloud? Please see [this article](/confluence/cloud/intro/) instead.{{% /alert %}}
 
 Confluence Server Administrators: the [Balsamiq Wireframes for Confluence Server Admin Guide](../admin-guide/) is for you.
 
