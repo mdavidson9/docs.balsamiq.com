@@ -5,6 +5,9 @@ menu: "menujirawireframes"
 product: "Balsamiq Wireframes for JIRA Server"
 weight: 2200
 ---
+{{< conref "confluence/server/wireframes/rtcconfigs.md" >}}
+
+<!--{{< include "menuconfluenceserverwireframes" "rtcconfigs" >}}
+-->
 
 
-{{< include "menuconfluenceserverwireframes" "rtcconfigs" >}}
