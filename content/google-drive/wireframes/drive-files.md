@@ -20,6 +20,12 @@ Wireframes created with Balsamiq Wireframes for Google Drive are saved as .bmpr 
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrive-sharing.png)
 
+You can also share it directly from within the editor, by using the dedicated icon in the toolbar.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/share-icon.png)
+
+![gif](//media.balsamiq.com/img/support/docs/gdrive/wireframes/share.png)
+
 {{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your wireframes but not edit them.{{% /alert %}}
 
 On the other users' end, the Balsamiq file appears in “Shared with me” and they can see a preview of it.

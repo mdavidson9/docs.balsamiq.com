@@ -6,7 +6,11 @@ product: "Balsamiq Wireframes for Google Drive"
 weight: 2190
 ---
 
-Balsamiq Wireframes for Google Drive was released in July, 2017. The new version has a brand new editor (no more Flash needed!), comments, chat and lots of other improvements.
+Balsamiq Wireframes for Google Drive was released in September, 2017. The new version has a brand new editor (no more Flash needed!), comments, chat and lots of other improvements.
+
+Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Google Drive.
+
+{{< yt TSGkpwJTQ2o >}}
 
 The transition to our new app for Google Drive should be smooth, but please don’t hesitate to [contact us](https://balsamiq.com/company/contact/#/t?_k=b7w7tv) if you have any trouble, we're here to help!
 
@@ -18,7 +22,7 @@ Installing Balsamiq Wireframes for Google Drive can be done from the [Chrome Web
 
 After the installation, please make sure that Balsamiq Wireframes is [set as the default app](../installing/#setting-balsamiq-wireframes-as-the-default-app-for-balsamiq-files) for Balsamiq files.
 
-If you have the previous version installed (Balsamiq Mockups 3 for Google Drive), we suggest to [uninstall it](https://docs.balsamiq.com/google-drive/b3/installing/#uninstalling) and enjoy the features and UI of the new app.
+If you have the previous version installed (Balsamiq Mockups 3 for Google Drive), we suggest to [uninstall it](/google-drive/b3/installing/#uninstalling) and enjoy the features and UI of the new app.
 
 * * *
 
@@ -51,7 +55,7 @@ Migrating to the new app should be smooth and we are pretty sure that once you w
 However, in case you need to use the old Mockups 3 for Google Drive again, please follow these steps:
 
 - [Uninstall](../installing/#uninstalling) Balsamiq Wireframes for Google Drive
-- [Reinstall](https://docs.balsamiq.com/google-drive/installing/#installation) Balsamiq Mockups 3 for Google Drive
+- [Reinstall](/google-drive/installing/#installation) Balsamiq Mockups 3 for Google Drive
 - Revert the BMPR file to the previous format (see details below)
 
 During the migration process a copy of the previous version of the BMPR file has been saved as a backup. You can revert to the previous version of the file downloading the old version and uploading it again.

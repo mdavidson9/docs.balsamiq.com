@@ -1,5 +1,6 @@
-{{ $data := .Get 0 }}
-{{ range where .Site.Pages "Params.menu" "menub3editor" }}
+{{ $menu := .Get 0 }} <!-- include the name of the menu parameter -->
+{{ $data := .Get 1 }} <!-- include the name of the file (without the extention) -->
+{{ range where .Site.Pages "Params.menu" $menu }}
 {{ $file := substr .File.LogicalName 0 -3}}
 {{ if eq $file $data }}
    {{ .Content }}

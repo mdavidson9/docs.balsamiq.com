@@ -1,15 +1,14 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Balsamiq Wireframes for Confluence Server Admin Guide (BETA)"
-menu: "menuconfluencewireframes"
-listorder: 2
+title: "Balsamiq Wireframes for Confluence Server Admin Guide"
+menu: "menuconfluenceserverwireframes"
 product: "Balsamiq Wireframes for Confluence Server"
 weight: 2120
 ---
 
 This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview) when installed on your own server.
 
-{{% alert info %}}**Note:** If you are using confluence Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](https://docs.balsamiq.com/confluence/cloud/admin-guide-cloud/) instead.{{% /alert %}}
+{{% alert info %}}**Note:** If you are using confluence Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](/confluence/cloud/admin-guide-cloud/) instead.{{% /alert %}}
 
 Usage instructions for the plugin are in the [Balsamiq Wireframes for Confluence Server Introduction](../intro/).
 

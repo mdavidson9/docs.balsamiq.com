@@ -1,3 +1,4 @@
+{{ define "header" }}
 {{ partial "header.html" . }}
 
 {{/* ======================================== */}}
@@ -13,34 +14,108 @@
       <div class="doc-list-header">
         {{ if eq .Title "Mybalsamiq" }}
         {{ $.Scratch.Set "showfaqs" 1 }}
-        <h1>myBalsamiq Documentation</h1>
-        {{ else if eq .Title "Google-drive" }}
-        <h1>Balsamiq Mockups 3 for Google Drive Documentation</h1>
-        {{ else if eq .Title "Jira" }}
-        <h1>Mockups for JIRA Documentation</h1>
-        {{ else if eq .Title "Confluence" }}
-        <h1>Mockups for Confluence Documentation</h1>
-        {{ else }}
+        <h1>myBalsamiq</h1>
+        {{ else if eq .Section "desktop" }}
         {{ $.Scratch.Set "showfaqs" 1 }}
-        <h1>{{ .Title | humanize | title }} Documentation</h1>
+        <h1>Balsamiq Mockups 3 for Desktop</h1>
+        {{ else }}
+        <h1>{{ .Params.product }}</h1>
         {{ end }}
       </div>
-        <ol id="list">
-          {{ if eq .Title "Google-drive" }}
-          {{ range first 22 .Data.Pages.ByWeight }}
-            {{ .Render "li"}}
-          {{ end }}
-          {{ else }}
-        {{ range .Data.Pages.ByWeight }}
-          {{ .Render "li"}}
-        {{ end }}
-        {{ end }}
-        </ol>
+
+{{ end }}
+
+{{ define "atlassian-product-list" }}
+
+{{ $.Scratch.Add "plugin" "Confluence" }}
+{{ if eq .Section "jira" }}
+{{ $.Scratch.Set "plugin" "JIRA" }}
+{{ else }}
+{{ end }}
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2 class="mt1 mb1-5">Which version of Balsamiq for {{$.Scratch.Get "plugin"}} are you using?</h2>
+  </div>
+</div>
+
+
+<div id="filterlist" class="row gallery center-block">
+
+{{/* <div class="col-xs-12 col-sm-6">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+<p>Description goes here</p>
+</div>
+{{ end }}
+</div>
+</div> */}}
+
+<div class="col-xs-12 col-sm-6">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ($.Scratch.Get "plugin") " Cloud") "")) )  }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
+{{ end }}
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ($.Scratch.Get "plugin") " Server") "")))  }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
+{{ end }}
+</div>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-xs-12">
+{{/* <p>Using an older version? Check out the documentation for <a href="cloud/mockups3/">Mockups 3 for {{ $.Scratch.Get "plugin" }} Cloud</a> or <a href="server/mockups2/">Mockups 2 for {{ $.Scratch.Get "plugin" }} Server</a>.</p> */}}
+<p>Using an older version? Check out the documentation for <a href="server/mockups2/">Mockups 2 for {{ $.Scratch.Get "plugin" }} Server</a>.</p>
+</div>
+</div>
+
+{{end }}
+
+{{ define "list" }}
+
+      <div class="row">
+        <div class="col-xs-12">
+      <h2 class="mt1 mb2">Table of Contents</h2>
+      </div></div>
+      <div class="row">
+          <div class="col-xs-12">
+            <ul class="mt0 pt0" id="list">
+            {{ range .Data.Pages }}
+              {{ .Render "li"}}
+            {{ end }}
+            </ul>
+        </div>
+      </div>
+
+{{ end }}
+
+{{ define "faqs" }}
       {{ if eq ($.Scratch.Get "showfaqs") 1 }}
-        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
+        <h4 class="mb2 mt1-5">For answers to common questions see the <a href="https://support.balsamiq.com/{{ .Title | urlize }}/">FAQs on our support site</a>.</h4>
       {{ else }}
-        <h4>For answers to common questions see the <a href="https://support.balsamiq.com/plugins/">FAQs on our support site</a>.</h4>
+        <h4 class="mb2 mt1-5">For answers to common questions see the <a href="https://support.balsamiq.com/plugins/">FAQs on our support site</a>.</h4>
       {{ end }}
+{{ end }}
+
+{{ define "footer" }}
     </main>
   </div> <!-- /.doc-overview -->
 
@@ -53,3 +128,4 @@
 {{/* ======================================== */}}
 
 {{ partial "footer.html" . }}
+{{ end }}

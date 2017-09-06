@@ -2,6 +2,7 @@
 date: 2015-09-23T15:48:49-07:00
 title: "myBalsamiq Email Notifications"
 menu: "menumybalsamiq"
+product: "myBalsamiq"
 weight: 130
 ---
 

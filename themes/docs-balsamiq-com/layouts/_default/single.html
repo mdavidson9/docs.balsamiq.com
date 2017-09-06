@@ -17,39 +17,13 @@
 {{ $.Scratch.Add "twoversions" 0 }}
   <div class="local-nav local-nav-1 hidden-xs hidden-sm col-md-3">
     <div id="sidebar-box">
-    {{ if eq .Section "desktop" }}
-      {{ partial "sidebar_desktop.html" . }}
-    {{ else if eq .Section "mybalsamiq" }}
-      {{ partial "sidebar_mybalsamiq.html" . }}
-    {{ else if eq .Section "google-drive" }}
+		{{ partial "sidebar.html" . }}
+		{{ if eq .Section "google-drive" }}
       {{ $.Scratch.Set "twoversions" 1 }}
-      {{ if eq .Params.menu "menugdwireframes" }}
-        {{ partial "sidebar_gdwireframes.html" . }}
-      {{ else }}
-        {{ partial "sidebar_gdrive.html" . }}
-      {{ end }}
-    {{ else if eq .Section "cloud" }}
-      {{ partial "sidebar_cloud.html" . }}
     {{ else if eq .Section "jira" }}
         {{ $.Scratch.Set "twoversions" 1 }}
-        {{ if eq .Params.menu "menujiraserver2" }}
-          {{ partial "sidebar_jiraserver2.html" . }}
-        {{ else if eq .Params.menu "menujiracloud" }}
-          {{ partial "sidebar_jira.html" . }}
-        {{ else }}
-        {{ partial "sidebar_jirawireframes.html" . }}
-        {{ end }}
-     {{ else if eq .Section "confluence" }}
+    {{ else if eq .Section "confluence" }}
         {{ $.Scratch.Set "twoversions" 1 }}
-        {{ if eq .Params.menu "menuconfluenceserver2" }}
-          {{ partial "sidebar_confluenceserver2.html" . }}
-				{{ else if eq .Params.menu "menuconfluencecloud" }}
-					{{ partial "sidebar_confluence.html" . }}
-				{{ else }}
-        {{ partial "sidebar_confluencewireframes.html" . }}
-        {{ end }}
-    {{ else }}
-      <!-- sidebar -->
     {{ end }}
     {{ partial "sidebar_inpage.html" . }}
     </div>
@@ -60,7 +34,7 @@
       <div class="support-body">
         <article>
           {{ if .Params.product }}
-          <h5 class="subtitle">{{ .Params.product }}</h5>
+          <h5 class="subtitle"><a href='../'>{{ .Params.product }}</a></h5>
           {{ else if eq .Section "mybalsamiq" }}
           <h5 class="subtitle">myBalsamiq</h5>
           {{ else }}

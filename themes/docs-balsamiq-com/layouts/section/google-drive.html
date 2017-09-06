@@ -1,0 +1,58 @@
+{{ block "header" .}}
+{{ end }}
+
+{{ if .Sections }}
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="mt1 mb1-5">Which version of Balsamiq for Google Drive are you using?</h2>
+        </div>
+      </div>
+
+      <div id="filterlist" class="row gallery">
+
+        <div class="col-xs-12 col-sm-6">
+  <div class="gallery-item">
+      {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Wireframes for Google Drive") }}
+      <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
+      {{ end }}
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-6">
+<div class="gallery-item">
+{{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Mockups 3 for Google Drive") }}
+<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/gdrive/{{ .Params.product | urlize }}.png"></a>
+<div class="meta">
+<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{/* <p>Description goes here</p> */}}
+</div>
+{{ end }}
+</div>
+</div>
+
+</div>
+
+{{ block "faqs" .}}
+{{ end }}
+
+{{ end }}
+
+{{ if not .Sections }}
+
+{{ block "list" .}}
+{{ end }}
+
+<div class="row">
+  <div class="col-xs-12">
+    <h4 class="mb2 mt1-5"><a href="/google-drive/">View all Balsamiq for Google Drive Documentation</a></h4>
+  </div>
+</div>
+
+{{ end }}
+
+{{ block "footer" . }}
+{{ end }}

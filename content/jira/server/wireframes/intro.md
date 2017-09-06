@@ -1,23 +1,26 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Introduction to Balsamiq Wireframes for JIRA Server (BETA)"
+title: "Introduction to Balsamiq Wireframes for JIRA Server"
 menu: "menujirawireframes"
-listorder: 2
 product: "Balsamiq Wireframes for JIRA Server"
 weight: 2110
 ---
 
 This page contains usage instructions for [Balsamiq Wireframes for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
 
-{{% alert info %}}Using JIRA Cloud? Please see [this article](https://docs.balsamiq.com/jira/cloud/intro/) instead. {{% /alert %}}
+{{% alert info %}}Using JIRA Cloud? Please see [this article](/jira/cloud/intro/) instead. {{% /alert %}}
 
 JIRA Server Administrators: the [Balsamiq Wireframes for JIRA Server Admin Guide](../admin-guide/) is for you.
 
 * * *
 
-{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released in BETA on March 2, 2017. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
+{{% alert warning %}}**Note:** Balsamiq Wireframes for JIRA Server was released on September, 2017. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for JIRA.{{% /alert %}}
 
 Balsamiq Wireframes for JIRA Server provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as JIRA Server attachments.
+
+* * *
+
+{{< yt GvTEWlLP27Y >}}
 
 * * *
 
@@ -27,7 +30,7 @@ To add a new Balsamiq Wireframes project to a particular JIRA issue, you simply 
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-2.png)
 
-This will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
+This will launch the Balsamiq Wireframes editor, where you can create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your JIRA issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
 If you do not see the menu option, please check with your JIRA Server administrator that the Balsamiq Wireframes for JIRA Server add-on is installed and that you have editing permission on the current issue.
 
@@ -35,7 +38,7 @@ If you do not see the menu option, please check with your JIRA Server administra
 
 ## Using the Balsamiq Wireframes Editor
 
-The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](https://docs.balsamiq.com/jira/cloud/overview/) to learn more about using the editor.
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](/jira/cloud/overview/) to learn more about using the editor.
 
 * * *
 
@@ -53,17 +56,24 @@ The other users connected will be shown in the top right corner of the editor. H
 
 ## Copying or Moving Wireframes between Projects
 
-Sometimes you might want to copy or move a wireframe from one project to another. To do so, follow the steps below:
+Sometimes you might want to copy or move a wireframe from one project to another. Here is a simple way to do it:
 
-1.  Open the two projects (each in its own browser tab or window)
-2.  In the source project, select the wireframe you want to copy or move.
-3.  In the Project menu, select **Export > Wireframe to JSON...** This will put a text-based representation of the wireframe in the clipboard.
-4.  In the target project, select **Import > Wireframe JSON...** from the Project menu.
-5.  In the dialog that pops up, paste the contents of the clipboard with CTRL+V and click the Import button.
+1. Open the two projects (each in its own browser tab or window)
+2. In the source project, select the wireframe you want to copy or move.
+3. Select all the controls from this wireframe (CTRL/CMD+A) and copy the controls (CTRL/CMD+C)
+4. In the target project, paste your controls (CTRL/CMD+V) in a newly created wireframe
 
 That’s it! You may now delete the wireframe from the source project if you wish.
 
-{{% alert warning %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the new project.{{% /alert %}}
+{{% alert warning %}}**Note:** Symbols and images won’t get transferred in this process. You will have to manually add them to the target project.{{% /alert %}}
+
+Alternatively, you can also use the JSON feature, available in the Export menu:
+
+1.  Open the two projects
+2.  In the source project, select the wireframe you want to copy or move.
+3.  In the Project menu, select **Export > Wireframe to JSON...** This will put a text-based representation of the wireframe in the clipboard.
+4.  In the target project, select **Import > Wireframe JSON...** from the Project menu.
+5.  In the dialog that pops up, paste the content of the clipboard with CTRL/CMD+V and click the Import button.
 
 * * *
 
@@ -100,6 +110,10 @@ This can be done by selecting the **Project > Save Project** option or by simply
 When you are done editing your wireframes you can exit the editor by selecting the **Project > Save Project** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-6.png)
+
+Alternatively, you can perform the same action by clicking on the breadcrumb link pointing to the issue containing your BMPR project, on the top-left part of the menu bar.
+
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-7.png)
 
 * * *
 
