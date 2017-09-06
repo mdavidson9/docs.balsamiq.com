@@ -1,0 +1,6 @@
+{{/* Taken from https://github.com/NimishC/hugo-utils/tree/master/shortcodes */}}
+{{/*  Usage: {{< conref "confluence/server/wireframes/rtcconfigs.md" >}} */}}
+
+{{ $file := .Get 0 }}
+
+{{ with .Site.GetPage "page" $file }}{{ .Content }}{{ end }}
