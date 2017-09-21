@@ -80,7 +80,7 @@ You can add and remove users to/from this group whenever you like but please mak
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit wireframes.
 
-{{% alert info %}}**Note:** Using both Balsamiq Wireframes for Confluence Server and JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.{{% /alert %}}
+{{% alert info %}}**Note:** Using both Balsamiq Wireframes for Confluence Server and Jira Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.{{% /alert %}}
 
 * * *
 

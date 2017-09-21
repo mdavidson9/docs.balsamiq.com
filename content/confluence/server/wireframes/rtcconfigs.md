@@ -12,7 +12,7 @@ We anticipate there being four configurations used by our Balsamiq Wireframes fo
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/bwrtc.png)
 
-{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
+{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/Jira, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
 
 * * *
 
@@ -87,7 +87,7 @@ proxy_set_header Connection "Upgrade";
 This is similar to [connecting to a proxy server over HTTP](#connecting-to-a-proxy-server-over-http), but you will want to make sure to add the listening ports on your SSL certificate.
 
 ```
-#JIRA application server
+#Jira application server
 server {
     listen s01.kvm.gozzi:443 ssl;
     server_name s01.kvm.gozzi;
@@ -95,11 +95,11 @@ server {
     ssl_certificate /etc/nginx/ssl/nginx.crt;
     ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
-    location /JIRA/ {
+    location /Jira/ {
         proxy_set_header X-Forwarded-Host $host;
         proxy_set_header X-Forwarded-Server $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://192.168.1.52:8080/JIRA/;
+        proxy_pass http://192.168.1.52:8080/Jira/;
         client_max_body_size 20M;
         proxy_buffer_size 8k;
     }

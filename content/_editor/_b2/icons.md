@@ -29,7 +29,7 @@ Once you have selected an icon, you can resize it, rotate it or remove it via th
 
 ## Adding Your Own Custom Icons
 
-{{% alert info %}}**Note:** Custom icons are not currently supported in our Mockups for Confluence and JIRA server plugins. This feature is coming in version 3!{{% /alert %}}
+{{% alert info %}}**Note:** Custom icons are not currently supported in our Mockups for Confluence and Jira server plugins. This feature is coming in version 3!{{% /alert %}}
 
 If you'd like to get your own custom icons into your projects, these are the steps to follow:
 
