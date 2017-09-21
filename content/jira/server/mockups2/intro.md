@@ -1,28 +1,28 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Introduction to Mockups 2 for JIRA Server"
+title: "Introduction to Mockups 2 for Jira Server"
 menu: "menujiraserver2"
-product: "Mockups 2 for JIRA Server"
+product: "Mockups 2 for Jira Server"
 weight: 1110
 ---
 
-This page contains usage instructions for [Mockups 2 for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
+This page contains usage instructions for [Mockups 2 for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
 
-{{% alert info %}}**Using JIRA Cloud?** If you are using JIRA Cloud (on atlassian.net), please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
+{{% alert info %}}**Using Jira Cloud?** If you are using Jira Cloud (on atlassian.net), please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
 
-JIRA Administrators: the [Mockups for JIRA Server Admin Guide](../admin-guide) is for you.
+Jira Administrators: the [Mockups for Jira Server Admin Guide](../admin-guide) is for you.
 
 * * *
 
-## Adding a UI Mockup to a JIRA Issue
+## Adding a UI Mockup to a Jira Issue
 
-To add a UI Mockup to a particular JIRA issue you simply click on the “Add/Edit UI Mockup to this issue” link:
+To add a UI Mockup to a particular Jira issue you simply click on the “Add/Edit UI Mockup to this issue” link:
 
 ![](//media.balsamiq.com/img/support/docs/jira/userguide/addeditlink.png)
 
 You will be taken to the Mockups editor, where you can create your mockup (or import an existing mockup - see [this page](https://support.balsamiq.com/plugins/importtoatlassian/) for instructions).
 
-If you have never used Balsamiq Mockups before, here's a quick video introduction of what you can do with it when using the JIRA Server plugin:
+If you have never used Balsamiq Mockups before, here's a quick video introduction of what you can do with it when using the Jira Server plugin:
 
 {{< yt nLNdx9kI7OM >}}
 
@@ -42,9 +42,9 @@ You will be taken back to the issue. Here's a sample one (click for a larger vie
 
 [![](//media.balsamiq.com/img/support/docs/jira/userguide/attachedissue.png)](//media.balsamiq.com/img/support/docs/jira/userguide/attachedissue.png)
 
-Notice how the UI Mockup is now attached to the issue, both as an image and as a bmml data file. Also notice how Mockups for JIRA Server has added a comment to the issue for you, saying “Added UI Mockup: <_mockup name_>“. This means that if any of your co-workers is watching the issue, they’ll get an email notification to check out your new work of art. :)
+Notice how the UI Mockup is now attached to the issue, both as an image and as a bmml data file. Also notice how Mockups for Jira Server has added a comment to the issue for you, saying “Added UI Mockup: <_mockup name_>“. This means that if any of your co-workers is watching the issue, they’ll get an email notification to check out your new work of art. :)
 
-{{% alert info %}}**Note:** Even if your Balsamiq Mockups for JIRA Server license is configured so that only specific people can create and edit mockups (explained in the [Admin Guide](../admin-guide/)), anyone with access to your JIRA site will be able to see them.{{% /alert %}}
+{{% alert info %}}**Note:** Even if your Balsamiq Mockups for Jira Server license is configured so that only specific people can create and edit mockups (explained in the [Admin Guide](../admin-guide/)), anyone with access to your Jira site will be able to see them.{{% /alert %}}
 
 So that’s the basic workflow of creating a new mockup for an issue. It gets better!
 
