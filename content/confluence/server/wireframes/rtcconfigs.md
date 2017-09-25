@@ -87,7 +87,7 @@ proxy_set_header Connection "Upgrade";
 This is similar to [connecting to a proxy server over HTTP](#connecting-to-a-proxy-server-over-http), but you will want to make sure to add the listening ports on your SSL certificate.
 
 ```
-#Jira application server
+#JIRA application server
 server {
     listen s01.kvm.gozzi:443 ssl;
     server_name s01.kvm.gozzi;
@@ -95,11 +95,11 @@ server {
     ssl_certificate /etc/nginx/ssl/nginx.crt;
     ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
-    location /Jira/ {
+    location /JIRA/ {
         proxy_set_header X-Forwarded-Host $host;
         proxy_set_header X-Forwarded-Server $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://192.168.1.52:8080/Jira/;
+        proxy_pass http://192.168.1.52:8080/JIRA/;
         client_max_body_size 20M;
         proxy_buffer_size 8k;
     }

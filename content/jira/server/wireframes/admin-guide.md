@@ -110,6 +110,6 @@ The default configuration should works in most cases. If you encounter any issue
 
 When saving large wireframes or importing big image files, you might get an error. This is due to the fact that Tomcat has a 2MB default to the maximum size of a POST request, which is what we use to save the Balsamiq project file and images.
 
-The good news is that this default can be changed: just edit your $Jira_HOME/conf/server.xml and set maxPostSize to a higher value. Restart Jira and you’ll be all set. Your Jira might even run faster because of it!
+The good news is that this default can be changed: just edit your $JIRA_HOME/conf/server.xml and set maxPostSize to a higher value. Restart Jira and you’ll be all set. Your Jira might even run faster because of it!
 
 If you have any issue, please [email us](https://balsamiq.com/company/contact/#/t/m4c) and we’ll do our best to help.
