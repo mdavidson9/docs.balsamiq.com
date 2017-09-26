@@ -6,11 +6,15 @@ title: "Managing Spaces"
 weight: 3
 ---
 
-When you log into Balsamiq Cloud for the first time, you will be prompted to [create a new Space](#creating-a-new-space). If you were [invited](../people/#inviting-someone-to-a-project) by someone else, then you will also see their Space.
+Spaces are the places in Balsamiq Cloud where you keep your wireframe projects. Most people will only need a single space for their projects, but some folks may find it useful to split their work between multiple spaces (one for work and one for personal projects, for example).
+
+If you log into Balsamiq Cloud with an account that doesn't yet belong to a space, you will be prompted to [create a new Space](#creating-a-new-space).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/new-space-blank.png)
 
-If you already have one or more Spaces, you will see them listed when you log in. From this page you can access any of your existing Spaces, or create a new one. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).
+(If you were [invited](../people/#inviting-someone-to-a-project) by someone else, you will see their Space.)
+
+If you already have access to one or more Spaces, you will see them listed when you log in. You can access any of your existing Spaces, or create a new one. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/spaces-homepage.png)
 
