@@ -6,25 +6,26 @@ title: "Managing Spaces"
 weight: 3
 ---
 
-Spaces are the places in Balsamiq Cloud where you keep your wireframe projects. Most people will only need a single space for their projects, but some folks may find it useful to split their work between multiple spaces (one for work and one for personal projects, for example).
+A Space on Balsamiq Cloud is where your projects live. We have [three tiers of Spaces](https://balsamiq.com/buy/#cloud), and we think that once you find the right size, a single Space will be enough for you and your team. While there maye be situations where you are invited to someone else's Space to collaborate on a project, or you need [a specific number of projects](http://support.balsamiq.com/sales/cloudsavemoney/), we expect you'll only have to manage a single Space.
+
+## Creating a New Space
 
 If you log into Balsamiq Cloud with an account that doesn't yet belong to a space, you will be prompted to [create a new Space](#creating-a-new-space).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/new-space-blank.png)
 
-(If you were [invited](../people/#inviting-someone-to-a-project) by someone else, you will see their Space.)
+(If you already have access to one or more Spaces, you will see them listed when you log in. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).)
 
-If you already have access to one or more Spaces, you will see them listed when you log in. You can access any of your existing Spaces, or create a new one. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).
+To create a new Balsamiq Cloud Space, **click the plus button in the upper left corner** of your Spaces Homepage.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/spaces-homepage.png)
 
-## Creating a New Space
-
-To create a new Balsamiq Cloud Space, **click the plus button in the upper left corner** of your Spaces Homepage. A screen will pop up asking you to name the Space, and remind you of our subscription tiers.
+A screen will pop up asking you to name the Space, and remind you of our subscription tiers.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-new-space.png)
 
 Give your Space a name and click the **Create Space & Start Free Trial** to create it.
+
 
 ---
 
