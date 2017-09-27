@@ -73,4 +73,4 @@ You can also export your project for use in a previous version of Balsamiq Mocku
 
 Selecting Export > Project to BMMLs ZIP... will save your mockups as a ZIP file containing individual BMML files (compatible with Balsamiq Mockups version 2) and images and Symbols stored in an assets sub-folder. You can then unzip it and open the mockups with an older version of Balsamiq Mockups.
 
-{{% alert info %}}**Note:** This is also how you would export your mockups for use with Balsamiq Mockups for Confluence Server or JIRA Server. [Detailed instructions are here](https://support.balsamiq.com/plugins/importtoatlassian/).{{% /alert %}}
+{{% alert info %}}**Note:** This is also how you would export your mockups for use with Balsamiq Mockups for Confluence Server or Jira Server. [Detailed instructions are here](https://support.balsamiq.com/plugins/importtoatlassian/).{{% /alert %}}

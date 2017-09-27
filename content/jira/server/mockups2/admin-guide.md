@@ -1,33 +1,33 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Mockups 2 for JIRA Server Admin Guide"
+title: "Mockups 2 for Jira Server Admin Guide"
 menu: "menujiraserver2"
-product: "Mockups 2 for JIRA Server"
+product: "Mockups 2 for Jira Server"
 weight: 1120
 ---
 
-This page contains installation, registration, updating and uninstalling instructions for [Mockups 2 for JIRA Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) **when installed on your own server**.
+This page contains installation, registration, updating and uninstalling instructions for [Mockups 2 for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) **when installed on your own server**.
 
-{{% alert info %}}**Using JIRA Cloud?** If you are using JIRA Cloud (on atlassian.net), please see [this article](/jira/cloud/admin-guide-cloud/) instead.{{% /alert %}}
+{{% alert info %}}**Using Jira Cloud?** If you are using Jira Cloud (on atlassian.net), please see [this article](/jira/cloud/admin-guide-cloud/) instead.{{% /alert %}}
 
-Usage instructions for the plugin are in the [Mockups for JIRA Server Introduction](../intro/).
+Usage instructions for the plugin are in the [Mockups for Jira Server Introduction](../intro/).
 
 * * *
 
 ## Installation Instructions
 
-Like most Atlassian add-ons, Balsamiq Mockups for JIRA is installed via Atlassian's [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin ([UPM installation instructions](http://confluence.atlassian.com/display/JIRA042/Managing+JIRA's+Plugins#ManagingJIRAsPlugins-ManagingPluginsviatheUniversalPluginManager)).
+Like most Atlassian add-ons, Balsamiq Mockups for Jira is installed via Atlassian's [Universal Plugin Manager](https://plugins.atlassian.com/plugins/com.atlassian.upm.atlassian-universal-plugin-manager-plugin), or UPM. Make sure you are running an updated version of UPM before attempting to install the plugin ([UPM installation instructions](http://confluence.atlassian.com/display/Jira042/Managing+Jira's+Plugins#ManagingJirasPlugins-ManagingPluginsviatheUniversalPluginManager)).
 
-To install the plugin, go to the JIRA Administration page. Select "Find new add-ons" and search for Balsamiq Mockups for JIRA Server.
+To install the plugin, go to the Jira Administration page. Select "Find new add-ons" and search for Balsamiq Mockups for Jira Server.
 
 ![](//media.balsamiq.com/img/support/installation/jira-install-server1.png)
 
-Select "Free Trial" and accept the license agreement for Mockups for JIRA Server to begin the installation.
+Select "Free Trial" and accept the license agreement for Mockups for Jira Server to begin the installation.
 
 Once the plugin has downloaded and installed, you'll be prompted to Log In with your Atlassian ID or MyAtlassian account to obtain an evaluation key.
  ![Atlassian ID](//media.balsamiq.com/img/support/installation/confluence-jira-install-server3.png)
 
-You will then begin a 30-day trial evaluation of Mockups for JIRA Server.
+You will then begin a 30-day trial evaluation of Mockups for Jira Server.
 
 * * *
 
@@ -35,7 +35,7 @@ You will then begin a 30-day trial evaluation of Mockups for JIRA Server.
 
 Please make sure you read the [Balsamiq and Atlassian Marketplace FAQ](https://support.balsamiq.com/sales/marketplace/) first.
 
-To register the plugin, go to the JIRA Administration page. Select "Manage new add-ons" and search for Balsamiq Mockups for JIRA Server.
+To register the plugin, go to the Jira Administration page. Select "Manage new add-ons" and search for Balsamiq Mockups for Jira Server.
 
 ![](//media.balsamiq.com/img/support/installation/jira-reg-server1.png)
 
@@ -65,17 +65,17 @@ If you receive an error when registering, [this FAQ](https://support.balsamiq.co
 
 **If you purchased your plugin license via Atlassian Marketplace**
 
-All of your JIRA users will be able to access the plugin.
+All of your Jira users will be able to access the plugin.
 
 **If you purchased your plugin license from Balsamiq**
 
-Depending on your Mockups for JIRA and JIRA license levels you might see different instructions on the plugin licensing page regarding who can create and edit new mockups.
+Depending on your Mockups for Jira and Jira license levels you might see different instructions on the plugin licensing page regarding who can create and edit new mockups.
 
-In short: if your plugin license is lower than your JIRA license, you'll have to create a JIRA user group called **balsamiq-mockups-editors** and add people to it manually, making sure you don't add more than what your plugin allows for.
+In short: if your plugin license is lower than your Jira license, you'll have to create a Jira user group called **balsamiq-mockups-editors** and add people to it manually, making sure you don't add more than what your plugin allows for.
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit mockups. If you'd like to limit this ability to a group of users, create a balsamiq-mockups-editors group and add people to it. If the group exists, the plugin will honor it. If not, it will act as if you had a group with everyone in it.
 
-Using both Mockups for Confluence Server and Mockups for JIRA Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
+Using both Mockups for Confluence Server and Mockups for Jira Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
 
 * * *
 
@@ -83,13 +83,13 @@ Using both Mockups for Confluence Server and Mockups for JIRA Server? Please see
 
 Installing via UPM automatically replaces the old plugin with the new version.
 
-If you are running an old version of JIRA and want to figure out which version of the plugin to update to, head to the [Support End of Life Policy](https://support.balsamiq.com/sales/atlassianeol/) page.
+If you are running an old version of Jira and want to figure out which version of the plugin to update to, head to the [Support End of Life Policy](https://support.balsamiq.com/sales/atlassianeol/) page.
 
 * * *
 
 ## Uninstalling Instructions
 
-Uninstalling via UPM automatically removes all plugin modules from your JIRA.
+Uninstalling via UPM automatically removes all plugin modules from your Jira.
 
 The mockups created with the plugin will NOT be deleted, they'll just stay where they are as attachments to issues.
 

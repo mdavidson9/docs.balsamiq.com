@@ -12,7 +12,7 @@ We anticipate there being four configurations used by our Balsamiq Wireframes fo
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/bwrtc.png)
 
-{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
+{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/Jira, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
 
 * * *
 
