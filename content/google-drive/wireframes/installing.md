@@ -16,6 +16,8 @@ Once installed, Balsamiq Wireframes for Google Drive will be available in your G
 
 If you are using the Chrome browser, you can also access Balsamiq Wireframes for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/").
 
+{{% alert info %}}**Note:** We also have free [G Suite add-ons](https://docs.balsamiq.com/google-drive/wireframes/gsuite/) that you can use after you have installed Balsamiq Wireframes for Google Drive. {{% /alert %}}
+
 To uninstall Balsamiq Wireframes for Google Drive, see [these instructions](#uninstalling).
 
 * * *
