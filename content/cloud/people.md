@@ -6,7 +6,7 @@ title: "People and Permissions"
 weight: 6
 ---
 
-Balsamiq Cloud user permissions can be lumped into three main groups: **Space Owners**, **Staff Members**, and **Project Members**.
+Balsamiq Cloud has four user permission levels: **Space Owner**, **Staff Members**, **Project Members**, and **Billing Only Administrators**.
 
 ### Space Owners
 Space Owners are the admins for the entire Balsamiq Cloud Space. They can:
@@ -26,10 +26,18 @@ Staff members are project administrators for any project they have access to. Th
 - Invite project members to projects they own or have access to
 - See all of the users on the Space
 
-{{% alert info %}}**Note:** See [Managing Users](../spaces/#managing-users) to learn how to make someone a Staff Member. {{% /alert %}}
-
 ### Project Members
 There are two kinds of Project Members. Those who can view and edit a Space, and those who can view and comment. They only have access to Spaces they are a part of, and cannot invite (or see) other members of the Space.
+
+### Billing-Only Administrator
+
+Billing-Only Administrators can **ONLY** manage the billing section of a Space. They can:
+
+- Subscribe to a plan
+- Change plans and billing info
+- Cancel a subscription
+
+{{% alert info %}}**Note:** See [Managing Users](https://docs.balsamiq.com/cloud/spaces/#managing-users) to learn how to promote someone a Staff Member or Billing-Only Administrator.{{% /alert %}}
 
 ## User Permissions at a Glance
 
