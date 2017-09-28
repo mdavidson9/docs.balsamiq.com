@@ -63,6 +63,14 @@ Add users by entering one or more email addresses in the box at the bottom of th
 
 Checking the "Staff" checkbox will make someone a Staff Member, allowing them to create and own projects. See [People and Permissions](../people/#staff-members) to learn more about their privileges.
 
+### Making Someone a Billing-Only Administrator
+
+Space Owners have the option to invite somebody else to become their Billing-Only Administrator. This person will **ONLY** have access to the Billing Settings of the Space.
+
+This means that Billing-Only Administrators will not be able to participate in projects, or even see them at all. This is useful if you want a **reseller** - or someone from your **purchasing team** - to be able to manage your Space's billing without actively participating.
+
+To make someone your Billing-Only Administrator, make sure they are currently _not_ listed as a Staff Member, Project Member or Space Owner, then visit your Space's Settings. Scroll down to the Billing-Only Administrator section and enter the email address of the person you'd like to invite.
+
 ### Deleting Users
 
 To remove a person from the Space, click the **X** to the far right of their name. They will no longer be able to access any projects, except those that allow [public (anonymous) reviews](../people/#allow-public-reviews).
