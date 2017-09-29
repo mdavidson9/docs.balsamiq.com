@@ -16,20 +16,21 @@ We anticipate there being four configurations used by our Balsamiq Wireframes fo
 
 * * *
 
-## Connecting Directly to the Server over HTTP
+## Connecting Directly to the Server
 
 {{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
 
-This configuration should _just work_. If you experience any issues, please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
+This configuration should _just work_. If you experience any issues, please [get in touch](mailto:support@balsamiq.com).
 
 * * *
 
-## Connecting to a Proxy Server Over HTTP
+## Connecting to a Reverse Proxy Server
 
 {{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
 
-With this configuration you will need to ensure that the RTC port has been redirected on the proxy server. Here is an example of a typical configuration on an nginx reverse proxy.
+With this configuration you will need to ensure that the RTC port has been redirected on the proxy server.
 
+### nginx Config File Example
 ```
 #Confluence application server
 server {
@@ -80,11 +81,117 @@ proxy_set_header Connection "Upgrade";
 
 * * *
 
-## Connecting to a Proxy Server Using an SSL Certificate on the Proxy
+## Connecting to a Reverse Proxy Server (Proxy and Server are on the Same Machine)
+
+{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
+
+This is similar to [connecting to a reverse proxy server](#connecting-to-a-reverse-proxy-server), but the Proxy service will have to listen to the public interface and redirect to 127.0.0.1 (loopback address). The Atlassian Server also has to be configured to listen to the loopback interface.
+
+### server.xml Example
+```
+<Server port="8000" shutdown="SHUTDOWN" debug="0">
+    <Service name="Tomcat-Standalone">
+        <Connector port="8090" connectionTimeout="20000" redirectPort="8443"
+                address="127.0.0.1"
+                maxThreads="48" minSpareThreads="10"
+                enableLookups="false" acceptCount="10" debug="0" URIEncoding="U$
+                proxyPort="80"
+                proxyName="s07.kvm.gozzi"
+                scheme="http"
+                maxPostSize="2097152"
+                protocol="org.apache.coyote.http11.Http11NioProtocol" />
+```
+
+### nginx Config File Example
+```
+#Confluence application server
+server {
+    listen s07.kvm.gozzi:80;
+    server_name s07.kvm.gozzi;
+
+    location / {
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_pass http://127.0.0.1:8090;
+        client_max_body_size 100M;
+        proxy_buffer_size 8k;
+    }
+}
+
+upstream confluence_rtc {
+        server 127.0.0.1:9083;
+        keepalive 60;
+}
+
+#RTC configuration for Balsamiq Wireframes
+server {
+    listen 192.168.1.57:9083;
+    server_name s01.kvm.gozzi;
+    proxy_read_timeout 86400s;
+
+    location / {
+        proxy_pass http://confluence_rtc;
+        proxy_redirect off;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    }
+}
+```
+
+### Apache Reverse Proxy Example
+```
+<VirtualHost *:80>
+    ServerName s14.kvm.gozzi
+    ProxyRequests Off
+
+    <Proxy *>
+         Require all granted
+    </Proxy>
+
+    ProxyPass /synchrony http://s06.kvm.gozzi:8091/synchrony
+
+    <Location /synchrony>
+    Require all granted
+    RewriteEngine on
+        RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+        RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+        RewriteRule .* ws://s06.kvm.gozzi:8091%{REQUEST_URI} [P]
+     </Location>
+
+    ProxyPass "/confluence/"  "http://s06.kvm.gozzi:8090/confluence/"
+    ProxyPassReverse "/confluence/"  "http://s06.kvm.gozzi:8090/confluence/"
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+
+Listen 9083
+<VirtualHost *:9083>
+  RewriteEngine on
+  AllowEncodedSlashes on
+
+  RewriteCond %{QUERY_STRING} transport=polling
+  RewriteRule /(.*)$ http://s06.kvm.gozzi:9083/$1 [P]
+
+  ProxyRequests off
+  ProxyPass /socket.io/ ws://s06.kvm.gozzi:9083/socket.io/
+  ProxyPassReverse /socket.io/ ws://s06.kvm.gozzi:9083/socket.io/
+
+  ProxyPass / http://s06.kvm.gozzi:9083/
+  ProxyPassReverse / http://s06.kvm.gozzi:9083/
+</VirtualHost>
+```
+
+* * *
+
+## Connecting to a Reverse Proxy Server Using SSL
 
 {{% alert warning %}}In the RTC panel, the Protocol should read **HTTP + SSL**.{{% /alert %}}
 
-This is similar to [connecting to a proxy server over HTTP](#connecting-to-a-proxy-server-over-http), but you will want to make sure to add the listening ports on your SSL certificate.
+This is similar to [connecting to a reverse proxy server](#connecting-to-a-reverse-proxy-server), but you will want to make sure to add the listening ports on your SSL certificate.
 
 ```
 #JIRA application server
@@ -151,5 +258,120 @@ keystoreType="JKS"
 keyAlias="tomcat"
 ```
 * * *
+
+## Connecting to a Reverse Proxy Server Using SSL (Proxy and Server are on the Same Machine)
+
+{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP + SSL**.{{% /alert %}}
+
+This is going to be similar to [connecting to reverse proxy server on the same machine as the Atlassian server](#connecting-to-a-reverse-proxy-server-proxy-and-server-are-on-the-same-machine), but you will want to make sure to add the listening ports on your SSL certificate.
+
+### sever.xml Example
+```
+<Server port="8000" shutdown="SHUTDOWN" debug="0">
+    <Service name="Tomcat-Standalone">
+        <Connector port="8090" connectionTimeout="20000" redirectPort="8443"
+                address="127.0.0.1"
+                maxThreads="48" minSpareThreads="10"
+                enableLookups="false" acceptCount="10" debug="0" URIEncoding="U$
+                proxyPort="443"
+                proxyName="s07.kvm.gozzi"
+                scheme="https"
+                maxPostSize="2097152"
+                protocol="org.apache.coyote.http11.Http11NioProtocol" />
+```
+
+### nginx Config File Example
+```
+#Confluence application server
+server {
+    listen s07.kvm.gozzi:443 ssl;
+    server_name s07.kvm.gozzi;
+
+    ssl_certificate               /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key           /etc/ssl/private/nginx-selfsigned.key;
+
+
+    location / {
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_pass http://127.0.0.1:8090;
+        client_max_body_size 100M;
+        proxy_buffer_size 8k;
+    }
+}
+
+upstream confluence_rtc {
+        server 127.0.0.1:9093;
+        keepalive 60;
+}
+
+#RTC configuration for Balsamiq Wireframes
+server {
+    listen 192.168.1.57:9093 ssl;
+    server_name s01.kvm.gozzi;
+
+    proxy_read_timeout 86400s;
+
+    ssl_certificate               /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key           /etc/ssl/private/nginx-selfsigned.key;
+
+    location / {
+        proxy_pass http://confluence_rtc;
+        proxy_redirect off;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    }
+}
+```
+
+### Apache Reverse Proxy Example
+```
+<IfModule mod_ssl.c>
+        <VirtualHost *:443>
+    ServerAdmin gozzi@balsamiq.com
+    ServerName s14.kvm.gozzi
+    DocumentRoot /var/www/html
+         ErrorLog ${APACHE_LOG_DIR}/error.log
+         CustomLog ${APACHE_LOG_DIR}/access.log combined
+    SSLEngine on
+    SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+    ProxyRequests Off
+    <Proxy *>
+         Require all granted
+    </Proxy>
+    ProxyPass /synchrony http://127.0.0.1:8091/synchrony
+    <Location /synchrony>
+    Require all granted
+    RewriteEngine on
+        RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+        RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+        RewriteRule .* ws://127.0.0.1:8091%{REQUEST_URI} [P]
+     </Location>
+    ProxyPass "/confluence/"  "http://127.0.0.1:8090/confluence/"
+    ProxyPassReverse "/confluence/"  "http://127.0.0.1:8090/confluence/"
+
+        </VirtualHost>
+</IfModule>
+
+
+Listen 192.168.1.64:9088
+<VirtualHost *:9088>
+    SSLEngine on
+    SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+  RewriteEngine on
+  AllowEncodedSlashes on
+  RewriteCond %{QUERY_STRING} transport=polling
+  RewriteRule /(.*)$ http://127.0.0.1:9088/$1 [P]
+  ProxyRequests off
+  ProxyPass /socket.io/ ws://127.0.0.1:9088/socket.io/
+  ProxyPassReverse /socket.io/ ws://127.0.0.1:9088/socket.io/
+  ProxyPass / http://127.0.0.1:9088/
+  ProxyPassReverse / http://127.0.0.1:9088/
+</VirtualHost>
+```
 
 If you run into any RTC issues (or are using a configuration different from these), please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
