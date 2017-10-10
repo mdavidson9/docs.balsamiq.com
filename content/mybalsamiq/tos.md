@@ -223,7 +223,7 @@ The trademarks, logos and service marks displayed on this Site are the property 
 
 Balsamiq does not claim intellectual property rights over wireframes created on myBalsamiq nor the [project and account assets](/mybalsamiq/assets/) your users upload.
 
-We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site (see [this page](https://mockupstogo.mybalsamiq.com/projects/aboutmtg/grid) as an example).
+We leave it to each myBalsamiq site owner to decide who should own the IP of the wireframes created using their myBalsamiq site. We encourage site owners to make their policy clear to their site users, either via email or by posting it on their myBalsamiq site.
 
 You acknowledge and agree that Balsamiq has no liability of any kind should anyone you granted access to your content modify, destroy, corrupt, copy or distribute it, or violate the terms of use or other limitations that you may impose on the use of your shared content.
 

@@ -25,7 +25,7 @@ You can also just drag BMML files into Balsamiq Mockups 3 to import them to the 
 
 ## Importing Symbols
 
-If you have Symbols files created with a previous version of Balsamiq Mockups you can import them into Balsamiq Mockups 3 as Symbols using the Import > BMML Symbol Libraries command. This will convert groups into named Symbols that will appear in the Symbols category of the UI Library. This command is especially useful for importing Symbols downloaded from [Mockups To Go](https://support.balsamiq.com/resources/mockupstogo/).
+If you have Symbols files created with a previous version of Balsamiq Mockups you can import them into Balsamiq Mockups 3 as Symbols using the Import > BMML Symbol Libraries command. This will convert groups into named Symbols that will appear in the Symbols category of the UI Library.
 
 * * *
 
