@@ -87,7 +87,7 @@ When you create a new Symbol Library two sample Symbols are created automaticall
 
 ## Importing Symbols
 
-In addition to creating Symbols from scratch, you can import Symbols created in a previous version of Balsamiq Mockups. Click the Import Symbol Library button to open a dialog for importing Mockups files in BMML format (the format used in [Mockups To Go](https://support.balsamiq.com/resources/mockupstogo/), for example).
+In addition to creating Symbols from scratch, you can import Symbols created in a previous version of Balsamiq Mockups. Click the Import Symbol Library button to open a dialog for importing Mockups files in BMML format.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/symbols3.png)
 

@@ -83,7 +83,7 @@ There are a couple of shortcuts in the app that help you reach a Symbol's source
 
 ## Symbol Libraries
 
-A Symbol Library is a collection of symbol definitions. You might want to create a Symbol Library in order to share common controls with your team, or share them with the community via [Mockups To Go](https://mockupstogo.mybalsamiq.com/).
+A Symbol Library is a collection of symbol definitions. You might want to create a Symbol Library in order to share common controls with your team.
 
 To create a Symbol Library, you can either create a symbol (which will automatically create a library) or select **Project > New Symbol Library** from the menu.
 
