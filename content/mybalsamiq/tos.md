@@ -60,7 +60,7 @@ If you think we removed your access by mistake, [get in touch](mailto:sales@bals
 
 Support for myBalsamiq is provided via our Community Forums at [forums.balsamiq.com](https://forums.balsamiq.com) as well via our support portal at [support.balsamiq.com](https://support.balsamiq.com)
 
-Email and phone support is also included, but is **only provided to myBalsamiq site owners**. If you have an issue with your myBalsamiq site, contact your site owner first, via their email address if you know it, or the owner@_&lt;your mybalsamiq subdomain&gt;_.mybalsamiq.com email alias.
+Email and phone support is also included, but is **only provided to myBalsamiq site owners**. If you have an issue with your myBalsamiq site, contact your site owner first.
 
 If you are a site owner, you can customize your myBalsamiq subdomain and upload your logo to your myBalsamiq site. As a site owner, you invite staffers and they can invite project members. You as a site owner are responsible for first-level support to the people you and your site's staff members invite.
 
@@ -426,6 +426,7 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 ## Document History
 
+*   2017, Oct 11: removed the site owner email alias mention. We removed that feature in Oct. 2017 to increase security.
 *   2017, May 31: added IP address info, clarified personal data usage, and updated system requirements for IE11.
 *   2017, Feb 6: added mentions to Stripe, which we've used for new subscriptions since Dec 2015.
 *   2016, Sep 6: removed "Site owners can assign passwords to staff and project members." We removed that ability in Jan. 2015 to increase security.
