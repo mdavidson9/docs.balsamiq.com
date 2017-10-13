@@ -30,7 +30,7 @@ If you have the previous version installed (Balsamiq Mockups 3 for Google Drive)
 
 You can easily migrate any Balsamiq file to the new format by opening it with the new app.
 
-Balsamiq Wireframes for Google Drive uses the same file format than the previous version of the add-on (BMPR) but it introduces new features that require an upgrade of the BMPR file format.
+Balsamiq Wireframes for Google Drive uses the same file format as the previous version of the add-on (BMPR) but it introduces new features that require an upgrade of the BMPR file format.
 
 {{% alert info %}}**Note:** The new BMPR format is compatible with Balsamiq Mockups 3 for Desktop, so you could continue to use both without losing any data.{{% /alert %}}
 
@@ -44,7 +44,7 @@ During the migration process, a copy of the previous version of the BMPR file is
 
 ## Licensing and Pricing
 
-Balsamiq Wireframes for Google Drive uses the same licensing and pricing model than Balsamiq Mockups 3 for Google Drive, so no migration is needed! Sweet!
+Balsamiq Wireframes for Google Drive uses the same licensing and pricing model as Balsamiq Mockups 3 for Google Drive, so no migration is needed! Sweet!
 
 * * *
 
