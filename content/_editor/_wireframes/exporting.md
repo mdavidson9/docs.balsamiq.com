@@ -84,4 +84,4 @@ Alternatively, you can also use the JSON feature, available in the Export menu:
 
 You can easily export a project to another Balsamiq product (using the .bmpr extension) by using the "Project > Export > Download Project BMPR..." option.
 
-![](//media.balsamiq.com/img/support/docs/docs/bw/export-bmpr.png)
+![](//media.balsamiq.com/img/support/docs/bw/export-bmpr.png)
