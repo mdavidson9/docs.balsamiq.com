@@ -8,7 +8,7 @@ weight: 50
 
 The table below shows the full access control rules matrix for a myBalsamiq site.
 
-This is helpful to understand "who can do what" depending on their role.
+This can be helpful to understand "who can do what" depending on their role.
 
 **[View the full matrix in a new window](https://docs.google.com/spreadsheets/d/1icLv0Xtay_ghq0pjuCLi1du8EbKFCPxi4bq1ugNIJQo/pubhtml?gid=1&single=true).**
 
