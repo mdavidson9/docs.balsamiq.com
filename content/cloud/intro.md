@@ -24,7 +24,7 @@ Here's a quick demonstration of how it works.
 ![](//media.balsamiq.com/img/support/docs/cloud/create-project.png)
 {{% alert info %}}**Tip:** Larger projects can be broader in scope, but may be harder to manage. One project may be appropriate for an entire new product that needs to be fleshed out, but more mature products typically have one project per feature or release. {{% /alert %}}
 
-1. Depending on how you work (or you [role](../people/) on the project), you can also **[invite collaborators](../people/#inviting-someone-to-a-project)** to edit or review the wireframes as you build them. Balsamiq Cloud supports [real-time collaboration, comments, and chat](../collaborating/), so that multiple people can work on the same project together. Click the "manage project members..." icon to add collaborators or get a [public link](../sharing/#public-sharing) to share.
+1. Depending on how you work (or your [role](../people/) on the project), you can also **[invite collaborators](../people/#inviting-someone-to-a-project)** to edit or review the wireframes as you build them. Balsamiq Cloud supports [real-time collaboration, comments, and chat](../collaborating/), so that multiple people can work on the same project together. Click the "manage project members..." icon to add collaborators or get a [public link](../sharing/#public-sharing) to share.
 ![](//media.balsamiq.com/img/support/docs/cloud/invite-project-member-2.png)
 ![](//media.balsamiq.com/img/support/docs/bw/reviewing-mode.png)
 
@@ -57,4 +57,4 @@ The rest of our documentation contains a top-to-bottom description of the featur
 
 For troubleshooting, frequently-asked questions, and tutorials, head over to our **[support site](//support.balsamiq.com)**. There, you can learn about pricing and payment information, contact us, watch tutorials, and connect with the user community.
 
-HAPPY WIREFRAMING, from the Balsamiq team!
+Happy Wireframing, from the Balsamiq team!
