@@ -14,7 +14,7 @@ From this page you can create and upload as many projects as your [subscription]
 
 {{% alert info %}}**Note:** If you were invited to join a Space, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to the project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
 
-When you click on the "Create Project" button, you will immediately be taken to the [Balsamiq Wireframes editor](../overview/), to get started wireframing right away. When you are done (or want to take a break) your work will be waiting for you on your projects home page.
+When you click on the "Create Project" button, you will immediately be taken to the [Balsamiq Wireframes editor](../overview/), to get started wireframing right away. When you are done (or want to take a break), your work will be waiting for you on your projects home page.
 
 To edit a project, just click on it to load the [Balsamiq Wireframes editor](../overview/).
 

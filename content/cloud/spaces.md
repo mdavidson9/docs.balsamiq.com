@@ -14,7 +14,7 @@ If you log into Balsamiq Cloud with an account that doesn't yet belong to a spac
 
 ![](//media.balsamiq.com/img/support/docs/cloud/new-space-blank.png)
 
-(If you already have access to one or more Spaces, you will see them listed when you log in. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).)
+{{% alert info %}}**Note:** If you already have access to one or more Spaces, you will see them listed when you log in. To access an existing Space, simply click on it, and you will be brought to that Space's [project page](../projects/).{{% /alert %}}
 
 To create a new Balsamiq Cloud Space, **click the plus button in the upper left corner** of your Spaces Homepage.
 
