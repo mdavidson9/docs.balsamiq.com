@@ -10,10 +10,12 @@ weight: 2
 
 Balsamiq Cloud is a web-based user interface design tool for creating [wireframes](https://support.balsamiq.com/resources/whatarewireframes/) (sometimes called mockups or low-fidelity prototypes). You can use it to generate digital sketches of your idea or concept for an application or website, to facilitate discussion and understanding before any code is written. The completed wireframes can be used for user testing, clarifying your vision, getting feedback from stakeholders, or getting approval to start development.
 
-<!--Here's a quick demonstration of how it works.
+Here's a quick demonstration of how it works.
 
-    DEMO VIDEO HERE
--->
+{{< yt tCUZPsPg5fs >}}
+
+* * *
+
 ### Quick Start Guide
 
 1. To get started, you first need to **sign up** at **[balsamiq.cloud](https://balsamiq.cloud/)** and then [**create** a new Space](../spaces/) or **join** an existing one by [invitation](../people/#inviting-someone-to-a-project).
@@ -31,8 +33,7 @@ Balsamiq Cloud is a web-based user interface design tool for creating [wireframe
 
 1. Once you are ready to **share your wireframes** with clients or stakeholders, you can send a [private](../sharing/#sharing-with-team-members) or [public link](../sharing/#public-sharing), or [exporting to PDF](../exporting/#exporting-to-pdf) or [images](../exporting/#exporting-to-an-image).
 
-
----
+* * *
 
 ## What's New
 
@@ -40,7 +41,7 @@ If you have used a Balsamiq product before, the overall experience should be fam
 
 Balsamiq Cloud brings the **collaborative editing** features from our web-based myBalsamiq product to the **updated editor** from our Desktop version, and adds new **communication** and **review** capabilities such as [chat, comments, and review mode](../collaborating/).
 
----
+* * *
 
 ## Transitioning from a Previous Version
 
@@ -48,7 +49,7 @@ If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version
 
 If you are using myBalsamiq, you can export your projects to .bmpr format and then upload them to Balsamiq Cloud. [Click here to learn how](../importing/#importing-from-mybalsamiq).
 
----
+* * *
 
 ## Next Steps
 
