@@ -47,13 +47,9 @@ Versions of [Mockups 3 for Desktop](https://balsamiq.com/download) prior to 3.4 
 
 Backups are stored in the Local Storage folder in two folders.
 
-**The LocalProjects Folder**
+* **The LocalProjects Folder**: The LocalProjects folder is for projects that you have saved at least once. We keep projects in this folder for about a week before deleting them.
 
-The LocalProjects folder is for projects that you have saved at least once. We keep projects in this folder for about a week before deleting them.
-
-**The UnsavedProjects Folder**
-
-The UnsavedProjects folder is for projects that you haven't had a chance to save yet, but have been working on. Check here if you re-opened Mockups 3 for Desktop, but your new project didn't open up with it.
+* **The UnsavedProjects Folder**: The UnsavedProjects folder is for projects that you haven't had a chance to save yet, but have been working on. Check here if you re-opened Mockups 3 for Desktop, but your new project didn't open up with it.
 
 ### Restoring Backups
 
