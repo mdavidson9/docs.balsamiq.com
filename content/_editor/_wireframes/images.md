@@ -158,14 +158,6 @@ You can also easily add your own icons for use in your wireframes by selecting a
 
 * * *
 
-## Using an Existing Set of Custom Icons
-
-There are a few icon sets that complement the hand-drawn style of wireframes. Here's [a list of the custom icon packs that we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
-
-To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-your-own-icons).
-
-* * *
-
 ## Best Practices for Creating or Preparing Custom Icons
 
 The editor recognizes color and transparency, but icons you add may not turn out looking as you want them to if they're not prepared the way we expect. Below are some tips to get the most out of your custom icons.

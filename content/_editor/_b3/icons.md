@@ -69,16 +69,6 @@ Select the Assets category, then click the little plus button, select an image f
 
 * * *
 
-## Using an Existing Set of Custom Icons
-
-There are a few icon sets that complement the hand-drawn style of Mockups. This [blog entry at Tips Blogger](http://www.tipsblogger.com/2009/11/30-awesome-hand-drawnsketch-icon-sets/) lists some more hand drawn icon sets that might be useful for this feature.
-
-Some icon designers have even started creating icon packs that are compatible with our naming scheme. Here's [a list of the ones we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
-
-To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-your-own-icons).
-
-* * *
-
 ## Best Practices for Creating or Preparing Custom Icons
 
 Mockups works with color and transparency, but icons you add may not turn out looking as you want them to if they're not prepared to work the way Mockups expects them to. Below are some tips to get the most out of your custom icons.

@@ -507,7 +507,7 @@ include: shortcuts
 			<td> </td>
 		</tr>
 		<tr>
-			<td>Quit Balsamiq Mockups</td>
+			<td>Quit Balsamiq Wireframes</td>
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd>Q</kbd></td>
 			<td> </td>
 		</tr>
@@ -564,7 +564,7 @@ include: shortcuts
 			<td> </td>
 		</tr>
 		<tr>
-			<td>Back to Mockups (From Symbols/Assets/Trash)</td>
+			<td>Back to Wireframes (From Symbols/Assets/Trash)</td>
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd class="shift">SHIFT</kbd>+<kbd>M</kbd></td>
 			<td> </td>
 		</tr>

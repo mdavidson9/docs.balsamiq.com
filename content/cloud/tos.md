@@ -175,7 +175,7 @@ Please act in good faith towards our users’ privacy and data during your discl
 
 ### Can I Run Balsamiq Cloud on My Own Servers, behind the Firewall?
 
-No, and it's not planned. We offer other solutions (Mockups for Desktop, plugin versions) that allow you to keep your data on your servers. Compare our products [here](http://www.balsamiq.com/products).
+No, and it's not planned. We offer other solutions (Mockups 3 for Desktop, plugin versions) that allow you to keep your data on your servers. Compare our products [here](http://www.balsamiq.com/products).
 
 * * *
 
