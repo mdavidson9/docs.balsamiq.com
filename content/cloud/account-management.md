@@ -3,7 +3,7 @@ date: 2017-01-19T13:46:35+02:00
 menu: "menucloud"
 product: "Balsamiq Cloud"
 title: "Account Management"
-weight: 200
+weight: 35
 ---
 
 A Balsamiq Cloud account is your ticket to super-fast wireframing. You only need one account as it can belong to as many spaces as you make, or are invited to.
