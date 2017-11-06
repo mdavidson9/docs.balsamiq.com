@@ -27,3 +27,13 @@ From your projects homepage, you can Clone, Download, or Delete projects (depend
 Downloading and deleting can also be done with multiple projects at once. Clicking on the check box for the project will select it, and you can do this with as many projects as you want. When projects have been "checked", a set of options will appear in the upper right corner of the screen. They will allow you to download or delete the selected projects.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/multiple-selection.png)
+
+## Managing Project Count
+
+Because your Balsamiq Cloud subscription allows for a finite amount of projects, managing their number can become very important. In this case, we suggest you do the following:
+
+1. Download your project so that you have a copy of it on your hard drive.
+2. Delete your project from Balsamiq Cloud.
+3. Back up the downloaded project.
+
+We cannot tell you what the best way for you to backup your project is. We recommend signing up for a cloud storage service (like [Google Drive](https://drive.google.com) or [Dropbox](https://www.dropbox.com)) and storing the project files there, but you should use whatever method you are most comfortable with.

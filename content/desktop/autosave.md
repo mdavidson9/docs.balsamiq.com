@@ -1,6 +1,6 @@
 ---
 date: 2015-05-10T10:33:54+02:00
-title: "Autosave Information"
+title: "Autosaving"
 menu: "menudesktop"
 product: "Balsamiq Mockups for Desktop"
 weight: 191

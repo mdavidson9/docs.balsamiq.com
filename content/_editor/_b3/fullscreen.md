@@ -15,7 +15,7 @@ The far left icon toggles the top bar on and off. You can turn it off to remove 
 
 ## Navigating between Mockups
 
-You can navigate between mockups using the icons in the upper left. They behave like the navigation icons in the editor [toolbar](../overview/#the-toolbar). The up and down arrows navigate between your mockups in order, while the icon activated below allows you to jump directly to a specific mockup.   
+You can navigate between mockups using the icons in the upper left. They behave like the navigation icons in the editor [toolbar](../overview/#the-toolbar). The up and down arrows navigate between your mockups in order, while the icon activated below allows you to jump directly to a specific mockup.
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-navigation.png)
 
@@ -71,3 +71,7 @@ Clicking the checkbox next to the trouble mockup (or mockups) will take them out
 This should solve any centering issues you have!
 
 ![](//media.balsamiq.com/img/support/docs/m4d/b3/fullscreen-centering_rules_after.png)
+
+Here is the feature in motion.
+
+{{< yt U-ywOOTncZo >}}
