@@ -28,11 +28,11 @@ If you have been using Google Authentication to log into Balsamiq Cloud (or sign
 
 In your User Settings, click on the **Send Me an Email to Set a Password for Cloud** button.
 
-![](//media.balsamiq.com/img/support/docs/cloud/set-password.png)
+![](//media.balsamiq.com/img/support/docs/cloud/set_password.png)
 
 This will send an email to the Google email that was used for your account authentication. If you follow the link from that email, you will be able to set a password for Cloud, and that will unhook you from Google Authentication.
 
-![](//media.balsamiq.com/img/support/docs/cloud/change-password.png)
+![](//media.balsamiq.com/img/support/docs/cloud/change_password.png)
 
 ### A Note About Google Authentication
 
