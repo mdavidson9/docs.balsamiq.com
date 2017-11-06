@@ -22,17 +22,29 @@ Or you can use your Google Account to sign up and [authenticate automatically](#
 
 Once your account is set up, you will be brought to your [Spaces](../spaces). If you were invited to join another space, it should be listed here, or you can [create your own](../spaces/#creating-a-new-space).
 
+### Switching From Google Authentication to Username + Password
+
+If you have been using Google Authentication to log into Balsamiq Cloud (or signed up with it by mistake), you can switch to a normal Username and Password setup by logging in and going to your [User Settings](#user-settings).
+
+In your User Settings, click on the **Send Me an Email to Set a Password for Cloud** button.
+
+![](//media.balsamiq.com/img/support/docs/cloud/set-password.png)
+
+This will send an email to the Google email that was used for your account authentication. If you follow the link from that email, you will be able to set a password for Cloud, and that will unhook you from Google Authentication.
+
+![](//media.balsamiq.com/img/support/docs/cloud/change-password.png)
+
 ### A Note About Google Authentication
 
 When logging into Balsamiq Cloud via Google, you might notice that the sign in screen mentions Auth0, not Balsamiq cloud.
 
-![](https://media.balsamiq.com/img/support/docs/cloud/auth0.png)
+![](//media.balsamiq.com/img/support/docs/cloud/auth0.png)
 
 The (short) reason for this is because we use Auth0.com to provide authentication for our Balsamiq Cloud customers.
 
 The longer reason is that authentication and login security are really hard! Rather than split our resources to handle it, we have decided to entrust Auth0 with it because authentication is the only thing that they do. They have become the industry standard when it comes to authentication libraries and they authenticate more than one billion logins a month. They have invested way more than what we could do on our own.
 
-We would like Google to allow us to specify balsamiq.cloud on that dialog boss but, at the moment, that [is not possible](https://community.auth0.com/questions/3724/in-social-registration-is-there-any-way-to-change).
+We would like Google to allow us to specify balsamiq.cloud on that dialog boss but, at the moment, that [is not possible](//community.auth0.com/questions/3724/in-social-registration-is-there-any-way-to-change).
 
 If you have _any_ questions or concerns about this, please don't hesitate to [get in touch](mailto:support@balsamiq.com). We take security very seriously and want to make sure you feel secure in Balsamiq Cloud!
 
