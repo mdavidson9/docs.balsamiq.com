@@ -30,9 +30,11 @@ In your User Settings, click on the **Send Me an Email to Set a Password for Clo
 
 ![](//media.balsamiq.com/img/support/docs/cloud/set_password.png)
 
-This will send an email to the Google email that was used for your account authentication. If you follow the link from that email, you will be able to set a new password for Cloud. You will now use that password to login to Cloud.
+This will send an email to the Google email that was used for your account authentication. If you follow the link from that email, you will be able to set a new password for Cloud.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/change_password.png)
+
+This new password, plus your registered email, become your new login for Cloud.
 
 ### A Note About Google Authentication
 
