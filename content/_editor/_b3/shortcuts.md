@@ -3,22 +3,9 @@ title: "Keyboard Shortcuts"
 menu: "menub3editor"
 ---
 
-<div style="float: right; width: 150px; margin-left: 18px;">
-<a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-v3.png" class="fb"><img src="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-thumb.png"></a>
-
-<div class="t10">
-Download:
-  <a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-v3.pdf">PDF</a> |
-  <a href="//media.balsamiq.com/files/balsamiq-keyboard-shortcuts-v3.png">PNG</a>
-</div>
-
-</div>
-
 Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups 3. While all of the shortcuts will work in the Desktop version, **some might not work in our web versions**.
 
 The shortcuts below apply to Mockups 3 and higher. Choose one of the links to the right to download a cheat sheet.
-
-{{% alert info %}}**Note:** If you are using the Desktop version on a Mac you can also create [custom shortcuts](https://support.balsamiq.com/desktop/customshortcuts/).{{% /alert %}}
 
 <table class="tuftified">
 	<tbody>
@@ -238,7 +225,7 @@ The shortcuts below apply to Mockups 3 and higher. Choose one of the links to th
 		<tr>
 			<td>Shrink/Decrease icon size</td>
 			<td><kbd class="ctrl">CTRL</kbd>+<kbd>[</kbd></td>
-		</tr>    
+		</tr>
 		<tr>
 			<th colspan="2">
 			<h2 id="working-with-text">Working with Text</h2>
@@ -432,12 +419,12 @@ The shortcuts below apply to Mockups 3 and higher. Choose one of the links to th
       <td>Previous Mockup</td>
       <td><kbd>CTRL</kbd>+<kbd class="shift">SHIFT</kbd>+<kbd>TAB</kbd> (Windows)<br>
       <kbd>PAGE UP</kbd> or <kbd>fn</kbd>+<kbd>⌘</kbd>+<kbd>&uarr;</kbd> (Mac)</td>
-		</tr>  
+		</tr>
     <tr>
 			<td>Top of Mockup</td>
       <td><kbd>HOME</kbd> (Windows)<br>
       <kbd>fn</kbd>+<kbd class="shift">SHIFT</kbd>+<kbd>&uarr;</kbd> (Mac)</td>
-		</tr>  
+		</tr>
     <tr>
 			<td>Bottom of Mockup</td>
       <td><kbd>END</kbd> (Windows)<br>
