@@ -20,7 +20,7 @@ To add a UI Mockup to a particular Jira issue you simply click on the “Add/Edi
 
 ![](//media.balsamiq.com/img/support/docs/jira/userguide/addeditlink.png)
 
-You will be taken to the Mockups editor, where you can create your mockup (or import an existing mockup - see [this page](https://support.balsamiq.com/plugins/importtoatlassian/) for instructions).
+You will be taken to the Mockups editor, where you can create your mockup (or import an existing mockup).
 
 If you have never used Balsamiq Mockups before, here's a quick video introduction of what you can do with it when using the Jira Server plugin:
 

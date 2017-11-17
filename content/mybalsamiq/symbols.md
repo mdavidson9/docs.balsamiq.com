@@ -8,7 +8,7 @@ weight: 79
 
 {{% alert info %}}**Note:** myBalsamiq is the only [version 2](https://support.balsamiq.com/sales/compare/) web application that supports Symbols. {{% /alert %}}
 
-Symbols allow you create reusable common elements across different mockups. ther software often refers to this same feature as templates, master pages, custom components, or widgets.
+Symbols allow you create reusable common elements across different mockups. Other software often refers to this same feature as templates, master pages, custom components, or widgets.
 
 * * *
 
@@ -28,8 +28,6 @@ Symbols can be made from existing groups, or from ones you create fresh. The fol
 5.  Click on the "Convert To Symbol" button in the Property Inspector
 
 You will notice that the group selection becomes a light green. This means that the selection is now an instance of a symbol. This new Symbol (named, for example, "login form") will be displayed in the _Project Assets_ tab of the UI Library. You can also add the Symbol via Quick Add.
-
-{{% alert info %}}**Note:** for a more detailed description of this process, see our visual step-by-step guide: [How to Create a Symbol](https://support.balsamiq.com/tutorials/symbol/). {{% /alert %}}
 
 * * *
 

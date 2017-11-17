@@ -2,7 +2,7 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Introduction to Mockups 2 for Confluence Server"
-menu: "menuconfluenceserver2" 
+menu: "menuconfluenceserver2"
 product: "Mockups 2 for Confluence Server"
 weight: 1110
 ---
@@ -25,7 +25,7 @@ Edit the page, position the cursor where you'd like your mockup to be, then cli
 
 ![](//media.balsamiq.com/img/support/docs/confluence/userguide/confluence1.png)
 
-This will take you directly to the Balsamiq Mockup editor, where you can create your mockup (or import an existing mockup - see [this page](https://support.balsamiq.com/plugins/importtoatlassian/) for instructions).
+This will take you directly to the Balsamiq Mockup editor, where you can create your mockup (or import an existing mockup).
 
 If you have never used Balsamiq Mockups before, here's a little intro of what you can do with it when using the Confluence Server plugin:
 
@@ -92,7 +92,7 @@ You can use the "Small", "Medium" and "Original" buttons in the macro property p
 
 ## Adding an Existing Confluence Mockup to a New Confluence Page
 
-You may want to add a mockup that you've already created in Confluence to a different page than you initially created it for. Right now you can only add mockups that are attached to the same page. However, you can create a copy of the mockup you want and add it to the new page. The fastest way to do that is via [export / import, as described here.](https://support.balsamiq.com/plugins/importtoatlassian/). This process involves exporting from the old one and importing into a new one. You can also see the steps [below](#moving-a-mockup-from-one-page-to-another) for moving a mockup from one page to another.
+You may want to add a mockup that you've already created in Confluence to a different page than you initially created it for. Right now you can only add mockups that are attached to the same page. However, you can create a copy of the mockup you want and add it to the new page. The fastest way to do that is via Export/Import. This process involves exporting from the old one and importing into a new one. You can also see the steps [below](#moving-a-mockup-from-one-page-to-another) for moving a mockup from one page to another.
 
 * * *
 
@@ -136,7 +136,7 @@ Here are the steps:
 
 ## Exporting a Mockup
 
-Mockups for Confluence Server allows you to [export your mockup to XML format](https://support.balsamiq.com/plugins/importtoatlassian/) so that you can import it to our other versions. It is not currently possible to export directly to PDF or an image (PNG, etc.) from the Balsamiq Mockups editor.
+Mockups for Confluence Server allows you to export your mockup to XML format so that you can import it to our other versions. It is not currently possible to export directly to PDF or an image (PNG, etc.) from the Balsamiq Mockups editor.
 
 As [mentioned above](#looking-at-a-mockup-s-history), however, you can access your mockups in **PNG image** format by going to the **attachments** for the Confluence page.
 
