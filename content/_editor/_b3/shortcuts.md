@@ -5,7 +5,7 @@ menu: "menub3editor"
 
 Below is a list of all the keyboard shortcuts and modifiers available in Balsamiq Mockups 3. While all of the shortcuts will work in the Desktop version, **some might not work in our web versions**.
 
-The shortcuts below apply to Mockups 3 and higher. Choose one of the links to the right to download a cheat sheet.
+The shortcuts below apply to Mockups 3 and higher. 
 
 <table class="tuftified">
 	<tbody>

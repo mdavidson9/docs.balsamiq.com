@@ -403,7 +403,7 @@ body {
       }
       @include fontsize(14,14);
       .pager li > a {
-        margin-bottom: 12px;
+        margin: 6px 0 !important;
         border-radius: 18px;
       }
     }
