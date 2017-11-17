@@ -85,8 +85,6 @@ You can add and remove users to this group whenever you like, just make sure you
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit mockups.
 
-Using both Mockups for Confluence Server and Mockups for Jira Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
-
 * * *
 
 ## Updating Instructions
