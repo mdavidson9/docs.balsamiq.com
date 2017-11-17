@@ -2,7 +2,7 @@
 date: 2015-07-30T15:52:20-07:00
 draft: false
 title: "Mockups 2 for Confluence Server Admin Guide"
-menu: "menuconfluenceserver2" 
+menu: "menuconfluenceserver2"
 product: "Mockups 2 for Confluence Server"
 weight: 1120
 ---
@@ -84,8 +84,6 @@ If your plugin license is lower than your Confluence license, you'll have to cre
 You can add and remove users to this group whenever you like, just make sure you don't add more than what your plugin license allows for or everyone will see a warning.
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit mockups.
-
-Using both Mockups for Confluence Server and Mockups for Jira Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
 
 * * *
 

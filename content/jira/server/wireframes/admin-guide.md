@@ -74,8 +74,6 @@ You can customize the name of the Balsamiq Wireframes editors group in the add-o
 
 If instead you bought an unlimited version of the plugin, everyone will be able to create and edit wireframes. If you’d like to limit this ability to a group of users, create a group of licensed wireframes editors and add people to it. If the group exists, the plugin will honor it. If not, it will act as if you had a group with everyone in it.
 
-Using Balsamiq Wireframes for both Confluence Server and Jira Server? Please see [this article](https://support.balsamiq.com/plugins/atlassianldap/) as well.
-
 * * *
 
 ## Updating Instructions

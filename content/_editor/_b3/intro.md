@@ -83,7 +83,7 @@ Control over the font used in Mockups has been one of the most-requested feature
 
 ![ ](//media.balsamiq.com/img/support/docs/m4d/b3/project-info.png)
 
-We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](https://support.balsamiq.com/desktop/wireframeskin/)). Finally, the default selection color is also configurable from this new panel.
+We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](../skins)). Finally, the default selection color is also configurable from this new panel.
 
 ### Better Symbols
 
