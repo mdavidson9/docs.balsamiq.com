@@ -9,7 +9,9 @@ aliases: /google-drive/installing/
 
 ## Installation
 
-Installing Balsamiq Mockups 3 for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/iedapplgopkgngalkbailjoikghljkki/).
+Installing Balsamiq Mockups 3 for Google Drive is the same as installing other Google Drive apps. It can be installed from the Chrome Web Store.
+
+{{% alert info %}}**Note:** Balsamiq for Google Drive has been updated with our new editor, [Balsamiq Wireframes](https://docs.balsamiq.com/google-drive/wireframes/intro/). You can install the new version from [this Chrome Web Store page](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb).{{% /alert %}}
 
 Once installed, Balsamiq Mockups 3 for Google Drive will be available in your Google Drive "New" menu.![The Create Menu](//media.balsamiq.com/img/support/docs/gdrive/userguide/createmenu.png)
 
