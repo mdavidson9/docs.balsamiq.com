@@ -42,3 +42,7 @@ Monthly and yearly subscriptions are available. Details on [how to sign up for a
 You can uninstall the application by going to the Manage Apps tab in the Google Drive settings, then selecting "Disconnect from Drive" from the Balsamiq Mockups options menu.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/userguide/disconnect.png)​
+
+{{% alert info %}}**Note:** Removing the app from the **chrome://apps/** launcher can be done by right-clicking the app from there and selecting "Remove from Chrome", as shown below.{{% /alert %}}
+
+![](//media.balsamiq.com/img/support/docs/gdrive/userguide/remove.png)​
