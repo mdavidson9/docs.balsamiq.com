@@ -29,7 +29,7 @@ Here's a quick demonstration of how it works.
 ![](//media.balsamiq.com/img/support/docs/bw/reviewing-mode.png)
 
 1. Once you've created a project, the fun begins when you **create your wireframes**. Drag and drop, edit, and arrange over 75 user interface control types to create anything you can imagine. Read about [adding and arranging](../adding-controls/) and [editing controls](../editing-controls/) to learn how to create your wireframes.  
-{{% alert info %}}**Tip:** If you've never used a Balsamiq product before, you might want to follow our tutorial on [how to create your first wireframe](//support.balsamiq.com/tutorials/firstmockup/).{{% /alert %}}
+{{% alert info %}}**Tip:** If you've never used a Balsamiq product before, you might want to follow our tutorial on [how to create your first wireframe](//support.balsamiq.com/tutorials/firstwireframe/).{{% /alert %}}
 
 1. Once you are ready to **share your wireframes** with clients or stakeholders, you can send a [private](../sharing/#sharing-with-team-members) or [public link](../sharing/#public-sharing), or [exporting to PDF](../exporting/#exporting-to-pdf) or [images](../exporting/#exporting-to-an-image).
 
