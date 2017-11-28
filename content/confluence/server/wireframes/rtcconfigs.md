@@ -6,27 +6,88 @@ product: "Balsamiq Wireframes for Confluence Server"
 weight: 2200
 ---
 
-Our Atlassian server add-ons include a built-in, behind the firewall real-time collaboration service that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
+Our Atlassian server add-ons include a built-in, behind the firewall **real-time collaboration service** (RTC) that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
 
-We anticipate there being four configurations used by our Balsamiq Wireframes for Atlassian Server customers.
+It's a service on the main application server that needs to be configured according to the existing network layout. Except for common setups (direct connection to tomcat), you need administration access to the server console to edit reverse proxy configuration files or open the desired port.
 
-![](//media.balsamiq.com/img/support/docs/atlassian/bwrtc.png)
+Confluence/Jira administration permissions are needed to modify the RTC plugin configuration (set the FQDN, set the RTC port, verify if RTC is up or restart it).
 
-{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/Jira, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
+{{% alert warning %}}**Note:** To avoid mixed content (HTTP+HTTPS on the same webpage), the connection protocol has to be the same (client/server and RTC), so HTTP for both or HTTPS for both.
 
-* * *
-
-## Connecting Directly to the Server
-
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
-
-This configuration should _just work_. If you experience any issues, please [get in touch](mailto:support@balsamiq.com).
+Example: if SSL is terminated at the reverse proxy, and proxied to http (tomcat), the same thing should happen for RTC (default port 9083-9093){{% /alert %}}
 
 * * *
 
-## Connecting to a Reverse Proxy Server
+## Possible Configurations
 
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
+JIRA/Confluence application server can be installed with different network configurations.
+
+Depending on the configuration, the RTC configuration page shows different protocol values. If the protocol field in the configuration page shows HTTP, the plugin is guessing that the protocol during the full network path (client/\<proxy if existing>/server) is HTTP.
+
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_http.png)
+
+If it shows HTTPS, the protocol used is HTTPS for all the network path.
+
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_https.png)
+
+If it shows HTTP + SSL, the protocol used is HTTPS to the reverse proxy, then http to the tomcat server.
+
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_http.png)
+
+Here are different network configurations related to protocol value (shown in RTC plugin configuration page):
+
+* RTC configuration examples (HTTP)
+* RTC configuration examples (HTTP+SSL)
+* RTC configuration examples (HTTPS)
+
+* * *
+
+## Prerequisites
+
+### Prerequisites valid for every scenario
+
+
+{{% alert info %}}* It is possible to configure a desired port (that has to be free and beyond 1024, according to best practices) through the plugin configuration tab "Real-time Collaboration Service" (9083 is the default for confluence, 9093 for Jira).
+* The selected TCP port for RTC has to be available and reachable on all the network path.
+verify that the fully qualified domain name of the server (or the proxy, in case of reverse proxy) is correct.
+* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com{{% /alert %}}
+
+### Prerequisites in case of reverse proxy
+
+{{% alert info %}}* The selected TCP port for RTC has to be proxied to the application server (to the same port)
+* proxy FQDN has to be solved and reachable by the application server{{% /alert %}}
+
+### Prerequisites in case of HTTP + SSL
+
+{{% alert info %}}* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (tipically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
+* The Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate of the proxy, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.{{% /alert %}}
+
+### Prerequisites for HTTPS
+
+{{% alert info %}}* If tomcat directly terminate https, server.xml has to be configured to let Tomcat use the certificate file. RTC plugin reads these values directly from server.xml
+* the Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.{{% /alert %}}
+
+### Prerequisites for both HTTPS and HTTP+SSL
+
+{{% alert warning %}}
+**CA chain - HTTPS, HTTP+SSL**
+
+Please pay attention that the application server (Tomcat) needs to access the proxy or the application server, so the full CA chain has to be trusted. If for testing purposes SSL certificate is self signed, it has to be imported at jre level in a similar way:
+
+```
+echo -n | openssl s_client -connect <jira|confluence_FQDN>:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /tmp/<jira|confluence_FQDN>.cert
+
+cd /opt/atlassian/<confluence|jira>/jre/bin
+
+./keytool -keystore ../lib/security/cacerts -import -alias jira -file /tmp/<jira|confluence_FQDN>.cert
+```
+{{% /alert %}}
+
+CONTINUE HERE
+
+
+
+<!-- {{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
 
 With this configuration you will need to ensure that the RTC port has been redirected on the proxy server.
 
@@ -374,4 +435,4 @@ Listen 192.168.1.64:9088
 </VirtualHost>
 ```
 
-If you run into any RTC issues (or are using a configuration different from these), please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
+If you run into any RTC issues (or are using a configuration different from these), please [get in touch](mailto:support@balsamiq.com). We are here to help however we can! -->
