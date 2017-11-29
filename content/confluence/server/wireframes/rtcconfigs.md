@@ -47,30 +47,29 @@ Here are different network configurations related to protocol value (shown in RT
 ### Prerequisites valid for every scenario
 
 
-{{% alert info %}}* It is possible to configure a desired port (that has to be free and beyond 1024, according to best practices) through the plugin configuration tab "Real-time Collaboration Service" (9083 is the default for confluence, 9093 for Jira).
+* It is possible to configure a desired port (that has to be free and beyond 1024, according to best practices) through the plugin configuration tab "Real-time Collaboration Service" (9083 is the default for confluence, 9093 for Jira).
 * The selected TCP port for RTC has to be available and reachable on all the network path.
 verify that the fully qualified domain name of the server (or the proxy, in case of reverse proxy) is correct.
-* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com{{% /alert %}}
+* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com
 
 ### Prerequisites in case of reverse proxy
 
-{{% alert info %}}* The selected TCP port for RTC has to be proxied to the application server (to the same port)
-* proxy FQDN has to be solved and reachable by the application server{{% /alert %}}
+* The selected TCP port for RTC has to be proxied to the application server (to the same port)
+* proxy FQDN has to be solved and reachable by the application server
 
 ### Prerequisites in case of HTTP + SSL
 
-{{% alert info %}}* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (tipically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
-* The Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate of the proxy, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.{{% /alert %}}
+* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (tipically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
+* The Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate of the proxy, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.
 
 ### Prerequisites for HTTPS
 
-{{% alert info %}}* If tomcat directly terminate https, server.xml has to be configured to let Tomcat use the certificate file. RTC plugin reads these values directly from server.xml
-* the Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.{{% /alert %}}
+* If tomcat directly terminate https, server.xml has to be configured to let Tomcat use the certificate file. RTC plugin reads these values directly from server.xml
+* the Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.
 
 ### Prerequisites for both HTTPS and HTTP+SSL
 
-{{% alert warning %}}
-**CA chain - HTTPS, HTTP+SSL**
+**CA chain - HTTPS, HTTP+SSL:**
 
 Please pay attention that the application server (Tomcat) needs to access the proxy or the application server, so the full CA chain has to be trusted. If for testing purposes SSL certificate is self signed, it has to be imported at jre level in a similar way:
 
@@ -81,25 +80,27 @@ cd /opt/atlassian/<confluence|jira>/jre/bin
 
 ./keytool -keystore ../lib/security/cacerts -import -alias jira -file /tmp/<jira|confluence_FQDN>.cert
 ```
-{{% /alert %}}
 
 * * *
 
-## HTTP configuration examples
+## HTTP Configuration Examples
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http.png)
+* [Case HTTP (0)](#case-http-0)
+* [Case HTTP (1)](#case-http-1)
+* [Case HTTP (2)](#case-http-2)
+* [Case HTTP (3)](#case-http-3)
 
 ### Case HTTP (0)
 
-{{% alert info %}}**Note:** Client connects (http) directly to tomcat (Atlassian service), no extra configuration is required.{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http0.png)
 
-See the Prerequisites on [this section](#prerequisites).
+Client connects (http) directly to tomcat (Atlassian service), no extra configuration is required. See the Prerequisites on [this section](#prerequisites).
 
 ### Case HTTP (1)
 
-{{% alert info %}}**Note:** Client connects to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on different machines{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http1.png)
 
-See the Prerequisites on [this section](#prerequisites).
+Client connects to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on different machines. See the Prerequisites on [this section](#prerequisites).
 
 #### nginx typical config file
 
@@ -177,9 +178,9 @@ backend bk_jrtc
 
 ### Case HTTP (2)
 
-{{% alert info %}}**Note:** Client connects (http) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine.{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http2.png)
 
-See the Prerequisites on [this section](#prerequisites).
+Client connects (http) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine. See the Prerequisites on [this section](#prerequisites).
 
 Similar to [Case HTTP (1)](#case-http-1), except for:
 
@@ -291,9 +292,9 @@ Listen <FQDN__or__staticIP>:9083
 
 ### Case HTTP (3)
 
-{{% alert info %}}**Note:** Client connects (http) to reverse proxy that balamce the request (http) to Atlassian Data Center. Reverse proxy is configured to allow **balance for tomcat (sticky mode)** and **failover for RTC** (at now RTC does not support full cluster).{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http3.png)
 
-See the Prerequisites on [this section](#prerequisites).
+Client connects (http) to reverse proxy that balamce the request (http) to Atlassian Data Center. Reverse proxy is configured to allow **balance for tomcat (sticky mode)** and **failover for RTC** (at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites).
 
 #### haproxy, 2 nodes
 
@@ -328,13 +329,15 @@ backend bk_cf_rtc
 
 ## HTTP + SSL configuration examples
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl.png)
+* [Case HTTP+SSL (1)](#case-http-ssl-1)
+* [Case HTTP+SSL (2)](#case-http-ssl-2)
+* [Case HTTP+SSL (3)](#case-http-ssl-3)
 
 ### Case HTTP+SSL (1)
 
-{{% alert info %}}**Note:** Client connects (https) to reverse proxy that pass the request (http) to Atlassian service (on different machines).{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl1.png)
 
-See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian service (on different machines). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
 Similar to [Case HTTP (1)](#case-http-1), except for the certificate declarations and for the listening ports (ssl).
 
@@ -424,9 +427,9 @@ Listen <FQDN__or__staticIP>:9083
 
 ### Case HTTP+SSL (2)
 
-{{% alert info %}}**Note:** Client connects (https) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine (address=127.0.0.1 inside server.xml){{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl2.png)
 
-See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine (address=127.0.0.1 inside server.xml). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
 #### server.xml
 
@@ -516,9 +519,9 @@ RewriteRule .* ws://127.0.0.1:9083%{REQUEST_URI} [P]
 
 ### Case HTTP+SSL (3)
 
-{{% alert info %}}**Note:** Client connects (https) to reverse proxy that pass the request (http) to Atlassian Data Center. Reverse proxy is configured to allow balance for tomcat and failover for RTC (as at now RTC does not support full cluster){{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl3.png)
 
-See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian Data Center. Reverse proxy is configured to allow balance for tomcat and failover for RTC (as at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
 #### haproxy example
 
@@ -553,13 +556,16 @@ backend bk_cf_rtc_ssl
 
 ## HTTPS configuration examples
 
-![](//media.balsamiq.com/img/support/docs/atlassian/https.png)
+* [Case HTTPS (0)](#case-https-0)
+* [Case HTTPS (1)](#case-https-1)
 
 ### Case HTTPS (0)
 
-{{% alert info %}}**Note:** Client connects (https) directly to Atlassian service.{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/https0.png)
 
-See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl). Balsamiq servlet reads the following parameters directly from Atlassian server.xml inside the application https Connector.
+Client connects (https) directly to Atlassian service. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+
+Balsamiq servlet reads the following parameters directly from Atlassian server.xml inside the application https Connector.
 
 ```
 keystoreFile="/keystore-location"
@@ -569,9 +575,9 @@ keystoreType="JKS"
 
 ### Case HTTPS (1)
 
-{{% alert info %}}**Note:** Client connects (https) to reverse proxy that pass the request (https) to Atlassian service (on different machines). Reverse proxy redirect https instead of http.{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/https1.png)
 
-See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+Client connects (https) to reverse proxy that pass the request (https) to Atlassian service (on different machines). Reverse proxy redirect https instead of http. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
 #### apache configuration file example SSL - SSL
 
