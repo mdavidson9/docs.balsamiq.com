@@ -6,54 +6,127 @@ product: "Balsamiq Wireframes for Confluence Server"
 weight: 2200
 ---
 
-Our Atlassian server add-ons include a built-in, behind the firewall real-time collaboration service that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
+Our Atlassian server add-ons include a built-in, behind the firewall **real-time collaboration service** (RTC) that allows multiple users to work on the same project, at the same time. This documentation is to help administrators understand how the service is implemented, and potentially help them solve problems with it.
 
-We anticipate there being four configurations used by our Balsamiq Wireframes for Atlassian Server customers.
+It's a service on the main application server that needs to be configured according to the existing network layout. Except for common setups (direct connection to tomcat), you need administration access to the server console to edit reverse proxy configuration files or open the desired port.
 
-![](//media.balsamiq.com/img/support/docs/atlassian/bwrtc.png)
+Confluence/Jira administration permissions are needed to modify the RTC plugin configuration (set the FQDN, set the RTC port, verify if RTC is up or restart it).
 
-{{% alert info %}}**Note:** In each of these configurations you will want to make sure that the TCP port is reachable on all network paths, and you'll want to verify that the fully qualified domain name of the server is correct (IE, if the Server Base URL is http://example.com/Jira, the Server Name in the plugin configuration name has to be example.com). Also, you will want to make sure that your Atlassian Server and RTC service use the same type of connection (HTTP/HTTPS). {{% /alert %}}
+{{% alert warning %}}**Note:** To avoid mixed content (HTTP+HTTPS on the same webpage), the connection protocol has to be the same (client/server and RTC), so HTTP for both or HTTPS for both.
 
-* * *
-
-## Connecting Directly to the Server
-
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
-
-This configuration should _just work_. If you experience any issues, please [get in touch](mailto:support@balsamiq.com).
+Example: if SSL is terminated at the reverse proxy, and proxied to HTTP (tomcat), the same thing should happen for RTC (default port 9083-9093){{% /alert %}}
 
 * * *
 
-## Connecting to a Reverse Proxy Server
+## Possible Configurations
 
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
+JIRA/Confluence application server can be installed with different network configurations. Depending on the configuration, the RTC configuration page shows different protocol values:
 
-With this configuration you will need to ensure that the RTC port has been redirected on the proxy server.
+If the protocol field in the configuration page shows HTTP, the plugin is guessing that the protocol during the full network path (client/\<proxy if existing>/server) is HTTP.
 
-### nginx Config File Example
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_http.png)
+
+If it shows HTTPS, the protocol used is HTTPS for all the network path.
+
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_https.png)
+
+If it shows HTTP + SSL, the protocol used is HTTPS to the reverse proxy, then HTTP to the tomcat server.
+
+![](//media.balsamiq.com/img/support/docs/atlassian/rtc_http+ssl.png)
+
+Here are different network configurations related to protocol value (shown in RTC plugin configuration page):
+
+* [HTTP configuration examples](#http-configuration-examples)
+* [HTTP + SSL configuration examples](#http-ssl-configuration-examples)
+* [HTTPS configuration examples](#https-configuration-examples)
+
+* * *
+
+## Prerequisites
+
+### Prerequisites valid for every scenario
+
+
+* It is possible to configure a desired port (that has to be free and beyond 1024, according to best practices) through the plugin configuration tab "Real-time Collaboration Service" (9083 is the default for confluence, 9093 for Jira).
+* The selected TCP port for RTC has to be available and reachable on all the network path.
+verify that the fully qualified domain name of the server (or the proxy, in case of reverse proxy) is correct.
+* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com
+
+### Prerequisites in case of reverse proxy
+
+* The selected TCP port for RTC has to be proxied to the application server (to the same port)
+* proxy FQDN has to be solved and reachable by the application server
+
+### Prerequisites in case of HTTP + SSL
+
+* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (typically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
+* The Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate of the proxy, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.
+
+### Prerequisites for HTTPS
+
+* If tomcat directly terminate https, server.xml has to be configured to let Tomcat use the certificate file. RTC plugin reads these values directly from server.xml
+* the Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.
+
+### Prerequisites for both HTTPS and HTTP+SSL
+
+**CA chain - HTTPS, HTTP+SSL:**
+
+Please pay attention that the application server (Tomcat) needs to access the proxy or the application server, so the full CA chain has to be trusted. If for testing purposes SSL certificate is self signed, it has to be imported at jre level in a similar way:
+
+```
+echo -n | openssl s_client -connect <jira|confluence_FQDN>:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /tmp/<jira|confluence_FQDN>.cert
+
+cd /opt/atlassian/<confluence|jira>/jre/bin
+
+./keytool -keystore ../lib/security/cacerts -import -alias jira -file /tmp/<jira|confluence_FQDN>.cert
+```
+
+* * *
+
+## HTTP Configuration Examples
+
+* [Case HTTP (0)](#case-http-0)
+* [Case HTTP (1)](#case-http-1)
+* [Case HTTP (2)](#case-http-2)
+* [Case HTTP (3)](#case-http-3)
+
+### Case HTTP (0)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http0.png)
+
+Client connects (http) directly to tomcat (Atlassian service), no extra configuration is required. See the Prerequisites on [this section](#prerequisites).
+
+### Case HTTP (1)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http1.png)
+
+Client connects to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on different machines. See the Prerequisites on [this section](#prerequisites).
+
+#### nginx typical config file
+
 ```
 #Confluence application server
 server {
-    listen s01.kvm.gozzi:80;
-    server_name s01.kvm.gozzi;
+    listen <FQDN__or__staticIP>;
+    server_name <FQDN>;
 
-    location /confluence/ {
+    location /confluence {
         proxy_set_header X-Forwarded-Host $host;
         proxy_set_header X-Forwarded-Server $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://192.168.1.56:8090/confluence/;
-        client_max_body_size 20M;
+        proxy_pass http://<tomcatFQDN__or__tomcatStaticIP>/confluence;
+        client_max_body_size 100M;
         proxy_buffer_size 8k;
     }
 }
 
 #RTC configuration for Balsamiq Wireframes
 server {
-    listen 9090;
-    server_name s01.kvm.gozzi;
+    listen <FQDN__or__staticIP>:9083;
+    server_name <FQDN>;
 
     location / {
-        proxy_pass http://192.168.1.56:9090/;
+        proxy_pass http://<tomcatFQDN__or__tomcatStaticIP>:9083;
         include proxy_params;
         proxy_redirect off;
         proxy_http_version 1.1;
@@ -63,31 +136,59 @@ server {
 }
 ```
 
-{{% alert info %}}
-**Things to take care of:**
-
-- The RTC port has to be redirected (on the proxy, in case of nginx/haproxy/apache or the listener, in case of AWS).
-- In the RTC section, input port and redirected port have to be the same.
-- Even if the main app has a contex/location different from "/" (in the example "confluence/"), RTC redirection has to be "/"
-- Parameters have been set to let the websocket protocol work, in particular the following options (specific for nginx):
+#### RTC apache config example
 
 ```
-proxy_redirect off;
-proxy_http_version 1.1;
-proxy_set_header Upgrade $http_upgrade;
-proxy_set_header Connection "Upgrade";
+Listen <FQDN__or__staticIP>:9083
+<VirtualHost *:9083>
+ProxyRequests off
+ProxyPreserveHost On
+RewriteEngine on
+<Proxy *>
+Require all granted
+</Proxy>
+ProxyPass / http://<tomcatFQDN__or__tomcatStaticIP>:9083/
+RewriteEngine on
+RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+RewriteRule .* ws://<tomcatFQDN__or__tomcatStaticIP>:9083%{REQUEST_URI} [P]
+</VirtualHost>
 ```
-{{% /alert %}}
 
-* * *
+#### haproxy typical config file
 
-## Connecting to a Reverse Proxy Server (Proxy and Server are on the Same Machine)
+```
+#add X-Forwarded-For headers
+   option forwardfor
 
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP**.{{% /alert %}}
+frontend ft_jdc
+    bind :80
+    default_backend bk_jdc
 
-This is similar to [connecting to a reverse proxy server](#connecting-to-a-reverse-proxy-server), but the Proxy service will have to listen to the public interface and redirect to 127.0.0.1 (loopback address). The Atlassian Server also has to be configured to listen to the loopback interface.
+backend bk_jdc
+    server s11 192.168.1.61:8080
 
-### server.xml Example
+frontend ft_jrtc
+    bind :9093
+    default_backend bk_jrtc
+
+backend bk_jrtc
+    server s11 192.168.1.61:9093
+```
+
+### Case HTTP (2)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http2.png)
+
+Client connects (http) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine. See the Prerequisites on [this section](#prerequisites).
+
+Similar to [Case HTTP (1)](#case-http-1), except for:
+
+* reverse proxy has to listen to public interface and redirect to loopback (127.0.0.1)
+* tomcat (Atlassian service) has to be configured to listen to loopback interface (127.0.0.1)
+
+#### server.xml Example
+
 ```
 <Server port="8000" shutdown="SHUTDOWN" debug="0">
     <Service name="Tomcat-Standalone">
@@ -102,12 +203,13 @@ This is similar to [connecting to a reverse proxy server](#connecting-to-a-rever
                 protocol="org.apache.coyote.http11.Http11NioProtocol" />
 ```
 
-### nginx Config File Example
+#### nginx sites configuration Example
+
 ```
 #Confluence application server
 server {
-    listen s07.kvm.gozzi:80;
-    server_name s07.kvm.gozzi;
+    listen <FQDN__or__staticIP>:80;
+    server_name <FQDN>;
 
     location / {
         proxy_set_header X-Forwarded-Host $host;
@@ -126,8 +228,8 @@ upstream confluence_rtc {
 
 #RTC configuration for Balsamiq Wireframes
 server {
-    listen 192.168.1.57:9083;
-    server_name s01.kvm.gozzi;
+    listen <FQDN__or__staticIP>:9083;
+    server_name <FQDN>;
     proxy_read_timeout 86400s;
 
     location / {
@@ -140,73 +242,121 @@ server {
 }
 ```
 
-### Apache Reverse Proxy Example
+#### apache reverse proxy Example
+
 ```
 <VirtualHost *:80>
-    ServerName s14.kvm.gozzi
+    ServerName <FQDN>
     ProxyRequests Off
 
     <Proxy *>
          Require all granted
     </Proxy>
 
-    ProxyPass /synchrony http://s06.kvm.gozzi:8091/synchrony
+    ProxyPass /synchrony http://127.0.0.1:8091/synchrony
 
     <Location /synchrony>
     Require all granted
     RewriteEngine on
         RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
         RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
-        RewriteRule .* ws://s06.kvm.gozzi:8091%{REQUEST_URI} [P]
+        RewriteRule .* ws://127.0.0.1:8091%{REQUEST_URI} [P]
      </Location>
 
-    ProxyPass "/confluence/"  "http://s06.kvm.gozzi:8090/confluence/"
-    ProxyPassReverse "/confluence/"  "http://s06.kvm.gozzi:8090/confluence/"
+    ProxyPass "/confluence"  "http://127.0.0.1:8090/confluence"
+    ProxyPassReverse "/confluence"  "http://127.0.0.1:8090/confluence"
 
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
 
-Listen 9083
+Listen <FQDN__or__staticIP>:9083
 <VirtualHost *:9083>
-  RewriteEngine on
-  AllowEncodedSlashes on
-
-  RewriteCond %{QUERY_STRING} transport=polling
-  RewriteRule /(.*)$ http://s06.kvm.gozzi:9083/$1 [P]
-
   ProxyRequests off
-  ProxyPass /socket.io/ ws://s06.kvm.gozzi:9083/socket.io/
-  ProxyPassReverse /socket.io/ ws://s06.kvm.gozzi:9083/socket.io/
-
-  ProxyPass / http://s06.kvm.gozzi:9083/
-  ProxyPassReverse / http://s06.kvm.gozzi:9083/
+  ProxyPreserveHost On
+  RewriteEngine on
+  <Proxy *>
+    Require all granted
+  </Proxy>
+   ProxyPass /socket.io http://127.0.0.1:9083/socket.io
+    <Location /socket.io>
+        Require all granted
+        RewriteEngine on
+        RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+        RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+        RewriteRule .* ws://127.0.0.1:9083%{REQUEST_URI} [P]
+     </Location>
 </VirtualHost>
+```
+
+### Case HTTP (3)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http3.png)
+
+Client connects (http) to reverse proxy that balamce the request (http) to Atlassian Data Center. Reverse proxy is configured to allow **balance for tomcat (sticky mode)** and **failover for RTC** (at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites).
+
+#### haproxy, 2 nodes
+
+```
+frontend ft_cf_http
+   bind :80
+    #CORS
+    capture request header origin len 128
+    http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Methods:\ GET,\ HEAD,\ OPTIONS,\ POST,\ PUT  if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Credentials:\ true  if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Headers:\ Origin,\ Accept,\ X-Requested-With,\ Content-Type,\ Access-Control-Request-Method,\ Access-Control-Reque$
+   default_backend bk_cf_http
+
+backend bk_cf_http
+   balance roundrobin
+   cookie JSESSIONID prefix nocache
+   server s12 192.168.1.62:8090 check cookie s12
+   server s13 192.168.1.63:8090 check cookie s13
+
+frontend ft_cf_rtc
+   bind :9083 ssl crt /etc/ssl/private/haproxy.pem
+   default_backend bk_cf_rtc
+
+backend bk_cf_rtc
+  option tcp-check
+  server s12 192.168.1.62:9083 check port 8090
+  server s13 192.168.1.63:9083 check port 8090 backup
 ```
 
 * * *
 
-## Connecting to a Reverse Proxy Server Using SSL
+## HTTP + SSL configuration examples
 
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP + SSL**.{{% /alert %}}
+* [Case HTTP+SSL (1)](#case-http-ssl-1)
+* [Case HTTP+SSL (2)](#case-http-ssl-2)
+* [Case HTTP+SSL (3)](#case-http-ssl-3)
 
-This is similar to [connecting to a reverse proxy server](#connecting-to-a-reverse-proxy-server), but you will want to make sure to add the listening ports on your SSL certificate.
+### Case HTTP+SSL (1)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl1.png)
+
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian service (on different machines). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+
+Similar to [Case HTTP (1)](#case-http-1), except for the certificate declarations and for the listening ports (ssl).
+
+#### nginx config example
 
 ```
 #JIRA application server
 server {
-    listen s01.kvm.gozzi:443 ssl;
-    server_name s01.kvm.gozzi;
+    listen <FQDN__or__staticIP>:443 ssl;
+    server_name <FQDN>;
 
     ssl_certificate /etc/nginx/ssl/nginx.crt;
     ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
-    location /JIRA/ {
+    location /JIRA {
         proxy_set_header X-Forwarded-Host $host;
         proxy_set_header X-Forwarded-Server $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_pass http://192.168.1.52:8080/JIRA/;
+        proxy_pass http://<tomcatFQDN__or__tomcatStaticIP>:8080/JIRA;
         client_max_body_size 20M;
         proxy_buffer_size 8k;
     }
@@ -215,14 +365,14 @@ server {
 
 #RTC configuration for Balsamiq Wireframes
 server {
-        listen 192.168.1.51:8092 ssl;
-        server_name s01.kvm.gozzi;
+        listen <FQDN__or__staticIP>:8092 ssl;
+        server_name <FQDN>;
 
         ssl_certificate /etc/nginx/ssl/nginx.crt;
         ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
 location / {
-            proxy_pass http://192.168.1.52:8092/;
+            proxy_pass http://<tomcatFQDN__or__tomcatStaticIP>:8092/;
             include proxy_params;
             proxy_redirect off;
             proxy_http_version 1.1;
@@ -231,41 +381,59 @@ location / {
     }
 }
 ```
-{{% alert info %}}**Note**: The application server (Tomcat) needs to access the proxy, so the full CA chain has to be ok.
-If the SSL certificate is self signed, it has to be imported at jre level:
+
+#### haproxy configuration example
 
 ```
-echo -n | openssl s_client -connect s01.kvm.gozzi:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /tmp/s01.kvm.gozzi.cert
+#add X-Forwarded-For headers
+   option forwardfor
 
-cd /opt/atlassian/jre/bin
+frontend ft_jdc_ssl
+   bind :443 ssl crt /etc/ssl/private/haproxy.pem
 
-./keytool -keystore ../lib/security/cacerts -import -alias jira -file /tmp/s01.kvm.gozzi.cert
+backend bk_jdc
+   server s11 192.168.1.61:8080
+
+frontend ft_jrtc_ssl
+   bind :9093 ssl crt /etc/ssl/private/haproxy.pem
+   default_backend bk_jrtc_ssl
+
+backend bk_jrtc_ssl
+  server s11 192.168.1.61:9093
+# server <server_name> <tomcatFQDN__or__tomcatStaticIP>:<Rtc_port>
 ```
-{{% /alert %}}
 
-* * *
-
-## Connecting Directly to the Server over HTTPS
-
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTPS**.{{% /alert %}}
-
-The Balsamiq Wireframes servlet will read the following parameters from your Atlassian Server's server.xml
+#### apache configuration file example
 
 ```
-keystoreFile="/keystore-location"
-keystorePass="somethingLong"
-keystoreType="JKS"
-keyAlias="tomcat"
+Listen <FQDN__or__staticIP>:9083
+<VirtualHost *:9083>
+    SSLEngine on
+    SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+    ProxyRequests off
+    ProxyPreserveHost On
+    RewriteEngine on
+    <Proxy *>
+        Require all granted
+    </Proxy>
+    ProxyPass / http://<tomcatFQDN__or__tomcatStaticIP>:9083/
+    RewriteEngine on
+    RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+    RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+    RewriteRule .* ws://<tomcatFQDN__or__tomcatStaticIP>:9083%{REQUEST_URI} [P]
+</VirtualHost>
 ```
-* * *
 
-## Connecting to a Reverse Proxy Server Using SSL (Proxy and Server are on the Same Machine)
+### Case HTTP+SSL (2)
 
-{{% alert warning %}}In the RTC panel, the Protocol should read **HTTP + SSL**.{{% /alert %}}
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl2.png)
 
-This is going to be similar to [connecting to reverse proxy server on the same machine as the Atlassian server](#connecting-to-a-reverse-proxy-server-proxy-and-server-are-on-the-same-machine), but you will want to make sure to add the listening ports on your SSL certificate.
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine (address=127.0.0.1 inside server.xml). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
-### sever.xml Example
+#### server.xml
+
+
 ```
 <Server port="8000" shutdown="SHUTDOWN" debug="0">
     <Service name="Tomcat-Standalone">
@@ -280,12 +448,13 @@ This is going to be similar to [connecting to reverse proxy server on the same m
                 protocol="org.apache.coyote.http11.Http11NioProtocol" />
 ```
 
-### nginx Config File Example
+#### nginx config file
+
 ```
 #Confluence application server
 server {
-    listen s07.kvm.gozzi:443 ssl;
-    server_name s07.kvm.gozzi;
+    listen <FQDN__or__staticIP>:443 ssl;
+    server_name <FQDN>;
 
     ssl_certificate               /etc/ssl/certs/nginx-selfsigned.crt;
     ssl_certificate_key           /etc/ssl/private/nginx-selfsigned.key;
@@ -308,8 +477,8 @@ upstream confluence_rtc {
 
 #RTC configuration for Balsamiq Wireframes
 server {
-    listen 192.168.1.57:9093 ssl;
-    server_name s01.kvm.gozzi;
+    listen <FQDN__or__staticIP>:9093 ssl;
+    server_name <FQDN>;
 
     proxy_read_timeout 86400s;
 
@@ -326,52 +495,210 @@ server {
 }
 ```
 
-### Apache Reverse Proxy Example
+#### apache configuration file example
+
+```
+Listen <FQDN__or__staticIP>:9083
+<VirtualHost *:9083>
+SSLEngine on
+SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+ProxyRequests off
+ProxyPreserveHost On
+RewriteEngine on
+<Proxy *>
+Require all granted
+</Proxy>
+ProxyPass / http://127.0.0.1:9083/
+RewriteEngine on
+RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+RewriteRule .* ws://127.0.0.1:9083%{REQUEST_URI} [P]
+</VirtualHost>
+```
+
+### Case HTTP+SSL (3)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl3.png)
+
+Client connects (https) to reverse proxy that pass the request (http) to Atlassian Data Center. Reverse proxy is configured to allow balance for tomcat and failover for RTC (as at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+
+#### haproxy example
+
+```
+frontend ft_cf_https
+   bind :443 ssl crt /etc/ssl/private/haproxy.pem
+ # Add CORS headers when Origin header is present
+    capture request header origin len 128
+    http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Methods:\ GET,\ HEAD,\ OPTIONS,\ POST,\ PUT  if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Credentials:\ true  if { capture.req.hdr(0) -m found }
+    rspadd Access-Control-Allow-Headers:\ Origin,\ Accept,\ X-Requested-With,\ Content-Type,\ Access-Control-Request-Method,\ Access-Control-Reque$
+   default_backend bk_cf_http
+
+backend bk_cf_http
+   balance roundrobin
+   cookie JSESSIONID prefix nocache
+   server s12 192.168.1.62:8090 check cookie s12
+   server s13 192.168.1.63:8090 check cookie s13
+
+frontend ft_cf_rtc_ssl
+   bind :9083 ssl crt /etc/ssl/private/haproxy.pem
+   default_backend bk_cf_rtc_ssl
+
+backend bk_cf_rtc_ssl
+  option tcp-check
+  server s12 192.168.1.62:9083 check port 8090
+  server s13 192.168.1.63:9083 check port 8090 backup
+```
+
+* * *
+
+## HTTPS configuration examples
+
+* [Case HTTPS (0)](#case-https-0)
+* [Case HTTPS (1)](#case-https-1)
+
+### Case HTTPS (0)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/https0.png)
+
+Client connects (https) directly to Atlassian service. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+
+Balsamiq servlet reads the following parameters directly from Atlassian server.xml inside the application https Connector.
+
+```
+keystoreFile="/keystore-location"
+keystorePass="somethingLong"
+keystoreType="JKS"
+```
+
+### Case HTTPS (1)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/https1.png)
+
+Client connects (https) to reverse proxy that pass the request (https) to Atlassian service (on different machines). Reverse proxy redirect https instead of http. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
+
+#### apache configuration file example SSL - SSL
+
 ```
 <IfModule mod_ssl.c>
-        <VirtualHost *:443>
-    ServerAdmin gozzi@balsamiq.com
-    ServerName s14.kvm.gozzi
-    DocumentRoot /var/www/html
-         ErrorLog ${APACHE_LOG_DIR}/error.log
-         CustomLog ${APACHE_LOG_DIR}/access.log combined
+    <VirtualHost *:443>
+        ServerAdmin gozzi@balsamiq.com
+        ServerName <FQDN>
+        DocumentRoot /var/www/html
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+        SSLEngine on
+        SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+        SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+        ProxyRequests Off
+        <Proxy *>
+           Require all granted
+        </Proxy>
+        SSLProxyEngine on
+###needed only if self signed and not imported
+        SSLProxyVerify none
+        SSLProxyCheckPeerCN off
+        SSLProxyCheckPeerName off
+        SSLProxyCheckPeerExpire off
+### end optional
+        ProxyPass /synchrony https://<tomcatFQDN__or__tomcatStaticIP>:8091/synchrony
+
+    <Location /synchrony>
+       Require all granted
+       RewriteEngine on
+       RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+       RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+       RewriteRule .* wss://<tomcatFQDN__or__tomcatStaticIP>:8091%{REQUEST_URI} [P]
+     </Location>
+
+     ProxyPass "/confluence/"  "https://<tomcatFQDN__or__tomcatStaticIP>:8443/confluence/"
+     ProxyPassReverse "/confluence/"  "https://<tomcatFQDN__or__tomcatStaticIP>:8443/confluence/"
+    </VirtualHost>
+</IfModule>
+
+
+Listen <FQDN__or__staticIP>:9084
+<VirtualHost *:9084>
+     ServerName <FQDN>
+     DocumentRoot /var/www/html
     SSLEngine on
     SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
     SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
-    ProxyRequests Off
-    <Proxy *>
-         Require all granted
+    ProxyRequests off
+   <Proxy *>
+       Require all granted
     </Proxy>
-    ProxyPass /synchrony http://127.0.0.1:8091/synchrony
-    <Location /synchrony>
+  ProxyPass /socket.io  https://<tomcatFQDN__or__tomcatStaticIP>:9084/socket.io
+    <Location /socket.io>
     Require all granted
     RewriteEngine on
         RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
         RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
-        RewriteRule .* ws://127.0.0.1:8091%{REQUEST_URI} [P]
+        RewriteRule .* wss://<tomcatFQDN__or__tomcatStaticIP>:9084%{REQUEST_URI} [P]
      </Location>
-    ProxyPass "/confluence/"  "http://127.0.0.1:8090/confluence/"
-    ProxyPassReverse "/confluence/"  "http://127.0.0.1:8090/confluence/"
-
-        </VirtualHost>
-</IfModule>
-
-
-Listen 192.168.1.64:9088
-<VirtualHost *:9088>
-    SSLEngine on
-    SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
-    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
   RewriteEngine on
   AllowEncodedSlashes on
-  RewriteCond %{QUERY_STRING} transport=polling
-  RewriteRule /(.*)$ http://127.0.0.1:9088/$1 [P]
-  ProxyRequests off
-  ProxyPass /socket.io/ ws://127.0.0.1:9088/socket.io/
-  ProxyPassReverse /socket.io/ ws://127.0.0.1:9088/socket.io/
-  ProxyPass / http://127.0.0.1:9088/
-  ProxyPassReverse / http://127.0.0.1:9088/
+    SSLProxyEngine on
+###needed only if self signed and not imported
+    SSLProxyVerify none
+    SSLProxyCheckPeerCN off
+    SSLProxyCheckPeerName off
+    SSLProxyCheckPeerExpire off
+###end optional
+  ProxyPass / https://<tomcatFQDN__or__tomcatStaticIP>:9084/
+  ProxyPassReverse / https://<tomcatFQDN__or__tomcatStaticIP>:9084/
 </VirtualHost>
 ```
+
+#### nginx configuration example SSL-SSL
+
+```
+server {
+    server_name <FQDN>;
+    listen <FQDN__or__staticIP>:443 ssl;
+
+    ssl_certificate /etc/nginx/ssl/nginx.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx.key;
+
+    location /confluence {
+      proxy_pass https://<tomcatFQDN__or__tomcatStaticIP>:8443/confluence;
+      client_max_body_size 100M;
+      proxy_buffer_size 8k;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header Host $host;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}
+
+upstream confluence_rtc {
+        server <tomcatFQDN__or__tomcatStaticIP>:9083;
+        keepalive 60;
+}
+
+server {
+    server_name <FQDN>;
+    listen <FQDN__or__staticIP>:9083 ssl;
+    listen [::]:9083 ssl;
+    proxy_read_timeout 86400s;
+    ssl_certificate /etc/nginx/ssl/nginx.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx.key;
+
+    location / {
+        proxy_pass https://confluence_rtc;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+        # WebSocket support (nginx 1.4)
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+   }
+}
+```
+
+* * *
 
 If you run into any RTC issues (or are using a configuration different from these), please [get in touch](mailto:support@balsamiq.com). We are here to help however we can!
