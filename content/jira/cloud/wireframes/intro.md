@@ -1,26 +1,26 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Introduction to Balsamiq Wireframes for Jira Server"
-menu: "menujirawireframes"
-product: "Balsamiq Wireframes for Jira Server"
+title: "Introduction to Balsamiq Wireframes for Jira Cloud"
+menu: "menujiracloudwireframes"
+product: "Balsamiq Wireframes for Jira Cloud"
 weight: 2110
 ---
 
-This page contains usage instructions for [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
+This page contains usage instructions for [Balsamiq Wireframes for Jira Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
 
-{{% alert info %}}Using Jira Cloud? Please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
+{{% alert info %}}Using Jira Server? Please see [this article](/jira/server/wireframes/intro/) instead.{{% /alert %}}
 
-Jira Server Administrators: the [Balsamiq Wireframes for Jira Server Admin Guide](../admin-guide/) is for you.
-
-* * *
-
-{{% alert warning %}}**Note:** Balsamiq Wireframes for Jira Server was released on September, 2017. See our [transition guide](../transition-guide/) if you have the older pre-installed version of wireframes for Jira.{{% /alert %}}
-
-Balsamiq Wireframes for Jira Server provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as Jira Server attachments.
+Jira Cloud Administrators: the [Balsamiq Wireframes for Jira Cloud Admin Guide](../admin-guide/) is for you.
 
 * * *
 
-{{< yt GvTEWlLP27Y >}}
+Balsamiq Wireframes for Jira Cloud provides very similar functionality to Balsamiq Mockups 3 for Desktop. The main difference is that the Balsamiq project files are stored and managed as Jira Cloud attachments.
+
+* * *
+
+**VIDEO TODO**
+
+CONTINUE HERE
 
 * * *
 
@@ -32,7 +32,7 @@ To add a new Balsamiq Wireframes project to a particular Jira issue, you simply 
 
 This will launch the Balsamiq Wireframes editor, where you can create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your Jira issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
-If you do not see the menu option, please check with your Jira Server administrator that the Balsamiq Wireframes for Jira Server add-on is installed and that you have editing permission on the current issue.
+If you do not see the menu option, please check with your Jira Cloud administrator that the Balsamiq Wireframes for Jira Cloud add-on is installed and that you have editing permission on the current issue.
 
 * * *
 
@@ -44,7 +44,7 @@ The Balsamiq Wireframes editor allows you to create wireframes just like our oth
 
 ## Collaborating with Other Users in Real Time
 
-Balsamiq Wireframes for Jira Server supports real-time collaboration between users. You only need to have everyone launch the editor on the same project. Everyone’s changes are shared in real-time with all your collaborators.
+Balsamiq Wireframes for Jira Cloud supports real-time collaboration between users. You only need to have everyone launch the editor on the same project. Everyone’s changes are shared in real-time with all your collaborators.
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-3.png)
 
