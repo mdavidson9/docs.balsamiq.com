@@ -59,7 +59,7 @@ verify that the fully qualified domain name of the server (or the proxy, in case
 
 ### Prerequisites in case of HTTP + SSL
 
-* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (tipically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
+* If the proxy is on the same host of the application server, tomcat server should be listening on a different IP (typically, with the parameter address="127.0.0.1" inside server.xml) so that RTC connects to proxy on chosen port in the external interface (e.g. 192.168.1.64), then can be redirected to the same port the tomcat interface
 * The Java runtime environment embedded in jira/confluence installation has to trust the SSL certificate of the proxy, so in case it is self signed or the root certificate unknown to Jre, it has to be imported into the embedded Jre.
 
 ### Prerequisites for HTTPS
