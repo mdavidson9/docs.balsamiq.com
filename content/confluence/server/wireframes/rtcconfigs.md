@@ -86,19 +86,28 @@ cd /opt/atlassian/<confluence|jira>/jre/bin
 ## HTTP Configuration Examples
 
 * [Case HTTP (0)](#case-http-0)
-* [Case HTTP (1)](#case-http-1)
-* [Case HTTP (2)](#case-http-2)
-* [Case HTTP (3)](#case-http-3)
-
-### Case HTTP (0)
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/http0.png)
 
-Client connects (http) directly to tomcat (Atlassian service), no extra configuration is required. See the Prerequisites on [this section](#prerequisites).
-
-### Case HTTP (1)
+* [Case HTTP (1)](#case-http-1)
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/http1.png)
+
+* [Case HTTP (2)](#case-http-2)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http2.png)
+
+* [Case HTTP (3)](#case-http-3)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http3.png)
+
+### Case HTTP (0)
+
+Client connects (http) directly to tomcat (Atlassian service), no extra configuration is required. See the Prerequisites on [this section](#prerequisites).
+
+[See all HTTP configurations](#http-configuration-examples).
+
+### Case HTTP (1)
 
 Client connects to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on different machines. See the Prerequisites on [this section](#prerequisites).
 
@@ -176,9 +185,9 @@ backend bk_jrtc
     server s11 192.168.1.61:9093
 ```
 
-### Case HTTP (2)
+[See all HTTP configurations](#http-configuration-examples).
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http2.png)
+### Case HTTP (2)
 
 Client connects (http) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine. See the Prerequisites on [this section](#prerequisites).
 
@@ -290,9 +299,9 @@ Listen <FQDN__or__staticIP>:9083
 </VirtualHost>
 ```
 
-### Case HTTP (3)
+[See all HTTP configurations](#http-configuration-examples).
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http3.png)
+### Case HTTP (3)
 
 Client connects (http) to reverse proxy that balamce the request (http) to Atlassian Data Center. Reverse proxy is configured to allow **balance for tomcat (sticky mode)** and **failover for RTC** (at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites).
 
@@ -325,17 +334,25 @@ backend bk_cf_rtc
   server s13 192.168.1.63:9083 check port 8090 backup
 ```
 
+[See all HTTP configurations](#http-configuration-examples).
+
 * * *
 
 ## HTTP + SSL configuration examples
 
 * [Case HTTP+SSL (1)](#case-http-ssl-1)
-* [Case HTTP+SSL (2)](#case-http-ssl-2)
-* [Case HTTP+SSL (3)](#case-http-ssl-3)
-
-### Case HTTP+SSL (1)
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl1.png)
+
+* [Case HTTP+SSL (2)](#case-http-ssl-2)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl2.png)
+
+* [Case HTTP+SSL (3)](#case-http-ssl-3)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl3.png)
+
+### Case HTTP+SSL (1)
 
 Client connects (https) to reverse proxy that pass the request (http) to Atlassian service (on different machines). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
@@ -425,9 +442,9 @@ Listen <FQDN__or__staticIP>:9083
 </VirtualHost>
 ```
 
-### Case HTTP+SSL (2)
+[See all HTTP+SSL configurations](#http-ssl-configuration-examples).
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl2.png)
+### Case HTTP+SSL (2)
 
 Client connects (https) to reverse proxy that pass the request (http) to Atlassian service. Reverse proxy and Atlassian service are on the same machine (address=127.0.0.1 inside server.xml). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
@@ -517,9 +534,9 @@ RewriteRule .* ws://127.0.0.1:9083%{REQUEST_URI} [P]
 </VirtualHost>
 ```
 
-### Case HTTP+SSL (3)
+[See all HTTP+SSL configurations](#http-ssl-configuration-examples).
 
-![](//media.balsamiq.com/img/support/docs/atlassian/http+ssl3.png)
+### Case HTTP+SSL (3)
 
 Client connects (https) to reverse proxy that pass the request (http) to Atlassian Data Center. Reverse proxy is configured to allow balance for tomcat and failover for RTC (as at now RTC does not support full cluster). See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
@@ -552,16 +569,21 @@ backend bk_cf_rtc_ssl
   server s13 192.168.1.63:9083 check port 8090 backup
 ```
 
+[See all HTTP+SSL configurations](#http-ssl-configuration-examples).
+
 * * *
 
 ## HTTPS configuration examples
 
 * [Case HTTPS (0)](#case-https-0)
-* [Case HTTPS (1)](#case-https-1)
-
-### Case HTTPS (0)
 
 ![](//media.balsamiq.com/img/support/docs/atlassian/https0.png)
+
+* [Case HTTPS (1)](#case-https-1)
+
+![](//media.balsamiq.com/img/support/docs/atlassian/https1.png)
+
+### Case HTTPS (0)
 
 Client connects (https) directly to Atlassian service. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
@@ -573,9 +595,9 @@ keystorePass="somethingLong"
 keystoreType="JKS"
 ```
 
-### Case HTTPS (1)
+[See all HTTPS configurations](#https-configuration-examples).
 
-![](//media.balsamiq.com/img/support/docs/atlassian/https1.png)
+### Case HTTPS (1)
 
 Client connects (https) to reverse proxy that pass the request (https) to Atlassian service (on different machines). Reverse proxy redirect https instead of http. See the Prerequisites on [this section](#prerequisites). For CA chain please look also at [this section](#prerequisites-for-both-https-and-http-ssl).
 
@@ -698,6 +720,8 @@ server {
    }
 }
 ```
+
+[See all HTTPS configurations](#https-configuration-examples).
 
 * * *
 
