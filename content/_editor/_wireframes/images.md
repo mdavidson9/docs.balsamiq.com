@@ -46,7 +46,7 @@ Balsamiq Wireframes has a dedicated area of the user interface for managing imag
 
 ![](//media.balsamiq.com/img/support/docs/bw/assets.png)
 
-The Assets view shows all images and [custom icons](#adding-your-own-icons) that have been added to your project. You can get to it by switching the navigator view to Assets.
+The Assets view shows all images and [custom icons](#adding-your-own-icons) that have been added to your project. You can get to it by via the **View** menu.
 
 ![](//media.balsamiq.com/img/support/docs/bw/assets1.png)
 

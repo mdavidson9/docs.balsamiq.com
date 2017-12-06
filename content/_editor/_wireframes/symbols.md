@@ -15,7 +15,7 @@ There are two ways to create a Symbol, described below.
 
 The editor has a dedicated view for creating and managing Symbols. Symbols created using the Wireframes view will be shown here, and you can also create Symbols in this view.
 
-To get to the Symbols view, use the navigator icon and select Symbols. You will see any existing Symbols in a list in the left panel.
+To get to the Symbols view, click on the **View** menu and select **Symbols**. You will see any existing Symbols in a list in the left panel.
 
 ![](//media.balsamiq.com/img/support/docs/bw/symbols1.png)
 
