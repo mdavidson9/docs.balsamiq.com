@@ -14,12 +14,11 @@ The first set of icons is described below.
 
 ![](//media.balsamiq.com/img/support/docs/bw/toolbar-left.png)
 
-1.  Navigate between Wireframes, [Assets](../images/), [Symbols](../symbols/) and [Trash](#trash)
-2.  Show/Hide the left panel
-3.  View your wireframes as a thumbnail grid
-4.  Create a new wireframe
-5.  Wireframe actions (rename, etc.) and navigate between wireframes (_shown when left panel is hidden_)
-6.  Go to next or previous wireframe (_shown when left panel is hidden_)
+1.  Show/Hide the left panel
+2.  View your wireframes as a thumbnail grid
+3.  Create a new wireframe
+4.  Wireframe actions (rename, etc.) and navigate between wireframes (_shown when left panel is hidden_)
+5.  Go to next or previous wireframe (_shown when left panel is hidden_)
 
 The group of icons in the center of the toolbar is for commonly-performed [canvas](#the-canvas) functions. These are actions that you are probably used to from text editors or other drawing tools, such as copy, paste, [group](../adding-controls/#grouping-ui-controls), align and zoom. The last icon is for toggling markup ([read about markup here](../markup/)).
 
@@ -35,7 +34,7 @@ The top of the toolbar shows the name of the project, which you can double-click
 
 ## The Quick Add Tool
 
-The Quick Add tool is the fastest way to add UI controls to your wireframes. To use quick add, click inside the quick add input box (or **use the "/" or "+" keyboard shortcut to enter it**). 
+The Quick Add tool is the fastest way to add UI controls to your wireframes. To use quick add, click inside the quick add input box (or **use the "/" or "+" keyboard shortcut to enter it**).
 
 Type a few letters from the name of a UI control or icon and Quick Add will show you a list of suggestions. Use your mouse or arrow keys to scroll down the list and click or press Enter to add the control or icon on the canvas. You can also use Shift + Enter to place the control where your mouse cursor is on the canvas.
 
@@ -151,7 +150,7 @@ The screenshots below show a comparison of a sample design in the default "sketc
 
 ### Comments
 
-The Comments Panel allows you to collaborate on your designs by sharing feedback asynchronously or, if you prefer, making notes for yourself as you work. 
+The Comments Panel allows you to collaborate on your designs by sharing feedback asynchronously or, if you prefer, making notes for yourself as you work.
 
 ![ ](//media.balsamiq.com/img/support/docs/bw/comments-panel.png)
 
@@ -179,8 +178,8 @@ Thumbnail grid view is available when viewing wireframes and assets, and is the 
 
 Trash is available for wireframes, assets, and Symbols you have deleted. This makes it easy to keep your project tidy as you make progress, but still allows you to browse or recover earlier concepts.
 
-![](//media.balsamiq.com/img/support/docs/bw/trash-view.png)
+![](//media.balsamiq.com/img/support/docs/bw/trash-menu.png)
 
 To recover a trashed object from the Trash panel click the context menu arrow and select "Restore." You also have the option to delete permanently.
 
-![](//media.balsamiq.com/img/support/docs/bw/trash-menu.png)
+![](//media.balsamiq.com/img/support/docs/bw/trash-view.png)
