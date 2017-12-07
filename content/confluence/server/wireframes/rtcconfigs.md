@@ -145,7 +145,7 @@ server {
 }
 ```
 
-#### RTC apache config example
+#### RTC apache 2.4 config example
 
 ```
 Listen <FQDN__or__staticIP>:9083
@@ -153,9 +153,13 @@ Listen <FQDN__or__staticIP>:9083
 ProxyRequests off
 ProxyPreserveHost On
 RewriteEngine on
+
+### ok for apache 2.4, comment out in apache 2.2 ###
 <Proxy *>
 Require all granted
 </Proxy>
+### end section to comment out ###
+
 ProxyPass / http://<tomcatFQDN__or__tomcatStaticIP>:9083/
 RewriteEngine on
 RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
@@ -251,7 +255,7 @@ server {
 }
 ```
 
-#### apache reverse proxy Example
+#### apache 2.4 reverse proxy Example
 
 ```
 <VirtualHost *:80>
@@ -285,9 +289,13 @@ Listen <FQDN__or__staticIP>:9083
   ProxyRequests off
   ProxyPreserveHost On
   RewriteEngine on
-  <Proxy *>
-    Require all granted
-  </Proxy>
+
+### ok for apache 2.4, comment out in apache 2.2 ###
+<Proxy *>
+Require all granted
+</Proxy>
+### end section to comment out ###
+
    ProxyPass /socket.io http://127.0.0.1:9083/socket.io
     <Location /socket.io>
         Require all granted
@@ -420,9 +428,10 @@ backend bk_jrtc_ssl
 # server <server_name> <tomcatFQDN__or__tomcatStaticIP>:<Rtc_port>
 ```
 
-#### apache configuration file example
+#### apache 2.4 configuration file example
 
 ```
+### for balsamiq Rtc
 Listen <FQDN__or__staticIP>:9083
 <VirtualHost *:9083>
     SSLEngine on
@@ -431,9 +440,13 @@ Listen <FQDN__or__staticIP>:9083
     ProxyRequests off
     ProxyPreserveHost On
     RewriteEngine on
-    <Proxy *>
-        Require all granted
-    </Proxy>
+
+### ok for apache 2.4, comment out in apache 2.2 ###
+<Proxy *>
+Require all granted
+</Proxy>
+### end section to comment out ###
+
     ProxyPass / http://<tomcatFQDN__or__tomcatStaticIP>:9083/
     RewriteEngine on
     RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
@@ -452,17 +465,15 @@ Client connects (https) to reverse proxy that pass the request (http) to Atlassi
 
 
 ```
-<Server port="8000" shutdown="SHUTDOWN" debug="0">
-    <Service name="Tomcat-Standalone">
-        <Connector port="8090" connectionTimeout="20000" redirectPort="8443"
-                address="127.0.0.1"
-                maxThreads="48" minSpareThreads="10"
-                enableLookups="false" acceptCount="10" debug="0" URIEncoding="U$
-                proxyPort="443"
-                proxyName="s07.kvm.gozzi"
-                scheme="https"
-                maxPostSize="2097152"
-                protocol="org.apache.coyote.http11.Http11NioProtocol" />
+<Connector port="8090" connectionTimeout="20000" redirectPort="8443"
+        address="127.0.0.1"
+        maxThreads="48" minSpareThreads="10"
+        enableLookups="false" acceptCount="10" debug="0" URIEncoding="U$
+        proxyPort="443"
+        proxyName="example.com"
+        scheme="https"
+        maxPostSize="2097152"
+        protocol="org.apache.coyote.http11.Http11NioProtocol" />
 ```
 
 #### nginx config file
@@ -512,9 +523,42 @@ server {
 }
 ```
 
-#### apache configuration file example
+#### apache 2.4 configuration file example
 
 ```
+#### standard confluence section
+   <VirtualHost *:443>
+    ServerName <FQDN>
+    SSLEngine on
+    SSLCertificateFile      /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+    ProxyRequests Off
+    ProxyPreserveHost On
+###comment out in case of apache 2.2
+    <Proxy *>
+         Require all granted
+    </Proxy>
+### end section to comment
+
+   ProxyPass /synchrony http://127.0.0.1:8091/synchrony
+    <Location /synchrony>
+        Require all granted
+        RewriteEngine on
+        RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+        RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
+        RewriteRule .* ws://127.0.0.1:8091%{REQUEST_URI} [P]
+     </Location>
+
+    ProxyPass /confluence  http://127.0.0.1:8090/confluence
+    ProxyPassReverse /confluence  http://127.0.0.1:8090/confluence
+
+    <Location /confluence>
+        Require all granted
+    </Location>
+    </VirtualHost>
+#### end of confluence section
+
+### balsamiq rtc section
 Listen <FQDN__or__staticIP>:9083
 <VirtualHost *:9083>
 SSLEngine on
@@ -523,15 +567,20 @@ SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
 ProxyRequests off
 ProxyPreserveHost On
 RewriteEngine on
+
+### ok for apache 2.4, comment out in apache 2.2 ###
 <Proxy *>
 Require all granted
 </Proxy>
+### end section to comment out ###
+
 ProxyPass / http://127.0.0.1:9083/
 RewriteEngine on
 RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
 RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
 RewriteRule .* ws://127.0.0.1:9083%{REQUEST_URI} [P]
 </VirtualHost>
+###end of balsamiq rtc section
 ```
 
 [See all HTTP+SSL configurations](#http-ssl-configuration-examples).
