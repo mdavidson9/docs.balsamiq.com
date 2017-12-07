@@ -30,22 +30,19 @@ In order to take advantage of the new features, you need to migrate the old file
 
 Once the new plugin is installed, visiting a Jira page that has BMML attachments will show this warning:
 
-**REDO Screenshot with new Jira UI**
-![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition1.png)
+![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition1_new.png)
 
 Clicking "show more details" shows this message:
 
-**REDO Screenshot for "Migrate to Balsamiq Wireframes"**
-![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition2.png)
+![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition2_new.png)
 
-To start the conversion process for the BMMLs on this Jira issue, just click the "Migrate to Balsamiq Wireframes" button
+To start the conversion process for the BMMLs on this Jira issue, just click the "Migrate to Balsamiq Wireframes for Jira Cloud" button
 
 ![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition3.png)
 
 At the end of the migration, you should see the new Balsamiq Wireframes for Jira Cloud panel and two attachments: the BMPR file (that contains all of your wireframes and assets) and a ZIP file (with the data in the old format) as a backup.
 
-**REDO Screenshot with new Jira UI**
-![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition6.png)
+![](//media.balsamiq.com/img/support/docs/jira/transitionguide/transition6_new.png)
 
 That's it! You can now take advantage of the new Balsamiq Wireframes for Jira Cloud goodness!
 

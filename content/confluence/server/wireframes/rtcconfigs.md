@@ -431,7 +431,7 @@ backend bk_jrtc_ssl
 #### apache 2.4 configuration file example
 
 ```
-### for balsamiq Rtc
+### for balsamiq RTC
 Listen <FQDN__or__staticIP>:9083
 <VirtualHost *:9083>
     SSLEngine on
