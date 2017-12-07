@@ -20,25 +20,23 @@ Balsamiq Wireframes for Jira Cloud provides very similar functionality to Balsam
 
 **VIDEO TODO**
 
-CONTINUE HERE
-
 * * *
 
 ## Adding a New Project to a Jira Issue
 
-To add a new Balsamiq Wireframes project to a particular Jira issue, you simply need to click on the "Add Balsamiq Wireframes" menu option.
+To add a new Balsamiq Wireframes project to a particular Jira issue, you simply need to click on the "Add Balsamiq Wireframes" link.
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-2.png)
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/cloud/user-guide-1.png)
 
-This will launch the Balsamiq Wireframes editor, where you can create your wireframes (or import existing ones). This will also create a new Balsamiq Project file (.bmpr file extension) attached to your Jira issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
+The link will launch the Balsamiq Wireframes editor to allow you to create your wireframes (or import existing ones). This will also create a new Balsamiq Wireframes file (.bmpr file extension) attached to your Jira issue containing all the resources that belong to a project (wireframes, symbols, images, icons).
 
-If you do not see the menu option, please check with your Jira Cloud administrator that the Balsamiq Wireframes for Jira Cloud add-on is installed and that you have editing permission on the current issue.
+If you do not see the link, please check with Jira Cloud administrator that the Balsamiq Wireframes for Jira Cloud add-on is installed and that you have editing permission on the current issue.
 
 * * *
 
 ## Using the Balsamiq Wireframes Editor
 
-The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](/jira/cloud/overview/) to learn more about using the editor.
+The Balsamiq Wireframes editor allows you to create wireframes just like our other products. Start with the [application overview](../overview/) to learn more about using the editor.
 
 * * *
 
@@ -87,7 +85,7 @@ If you have a project created in another Balsamiq product (using the .bmpr exten
 
 ## Exporting to Other Versions of Balsamiq
 
-To export your project to another Balsamiq product, all you need to do is download it and open it there. Selecting the **Project > Download Project BMPR** option will create a .bmpr file to download containing all the wireframes, symbols, and images used in the current project.
+To export your project to another Balsamiq product, all you need to do is download it and open it there. Selecting the **Project > Export > Download Project BMPR** option will create a .bmpr file to download containing all the wireframes, symbols, and images used in the current project.
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-5.png)
 
@@ -107,13 +105,13 @@ This can be done by selecting the **Project > Save Project** option or by simply
 
 ## Returning to Jira (Closing the Editor)
 
-When you are done editing your wireframes you can exit the editor by selecting the **Project > Save Project** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
+When you are done editing your wireframes you can exit the editor by selecting the **Project > Exit Back to Jira** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-6.png)
 
 Alternatively, you can perform the same action by clicking on the breadcrumb link pointing to the issue containing your BMPR project, on the top-left part of the menu bar.
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-7.png)
+![](//media.balsamiq.com/img/support/docs/jira/wireframes/cloud/user-guide-7.png)
 
 * * *
 
