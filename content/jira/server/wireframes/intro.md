@@ -87,7 +87,7 @@ If you have a project created in another Balsamiq product (using the .bmpr exten
 
 ## Exporting to Other Versions of Balsamiq
 
-To export your project to another Balsamiq product, all you need to do is download it and open it there. Selecting the **Project > Download Project BMPR** option will create a .bmpr file to download containing all the wireframes, symbols, and images used in the current project.
+To export your project to another Balsamiq product, all you need to do is download it and open it there. Selecting the **Project > Export > Download Project BMPR** option will create a .bmpr file to download containing all the wireframes, symbols, and images used in the current project.
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-5.png)
 
@@ -107,7 +107,7 @@ This can be done by selecting the **Project > Save Project** option or by simply
 
 ## Returning to Jira (Closing the Editor)
 
-When you are done editing your wireframes you can exit the editor by selecting the **Project > Save Project** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
+When you are done editing your wireframes you can exit the editor by selecting the **Project > Exit back to Jira** option. This will also save the current project and update the version that will be now visible on the [Balsamiq Wireframes Panel](#using-the-balsamiq-wireframes-panel).
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/user-guide-6.png)
 
