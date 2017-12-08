@@ -29,4 +29,6 @@ Once installed, the add-on will be available to all of your Jira users. Non-matc
 
 ## Stopping Your Subscription
 
-If you need to stop using Balsamiq Wireframes for Jira Cloud for a time, select **Unsubscribe** on the [Manage Add-Ons page](https://confluence.atlassian.com/adminjiracloud/managing-add-ons-776830283.html), but do not disable it if you wish to retain the ability of viewing existing mockup files. (Note: per Marketplace licensing, your subscription and access to the add-on will end immediately when you select “Unsubscribe.” You will not receive credit for unused time.)
+If you need to stop using Balsamiq Wireframes for Jira Cloud for a time, select **Unsubscribe** on the [Manage Add-Ons page](https://confluence.atlassian.com/adminjiracloud/managing-add-ons-776830283.html), but do not disable it if you wish to retain the ability of viewing existing mockup files.
+
+{{% alert info %}}**Note:** per Marketplace licensing, your subscription and access to the add-on will end immediately when you select “Unsubscribe”. You will not receive credit for unused time.{{% /alert %}}
