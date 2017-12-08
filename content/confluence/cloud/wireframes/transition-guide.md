@@ -6,76 +6,68 @@ product: "Balsamiq Wireframes for Confluence Cloud"
 weight: 2130
 ---
 
-Mockups 3 for Confluence Cloud was released April 4, 2016. The new version has projects, symbols, real time collaboration and lots of other improvements.
+{{% alert info %}}**Note:** This transition guide describes the steps to convert BMML files (old format) to BMPR files. Existing BMPR files will work fine in the new version of the add-on.{{% /alert %}}
 
-{{< yt zMOxwSdMcWM >}}
+A new major version of the Balsamiq add-on for Confluence Cloud was released on **TODO**. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
 
-We retired the old version of the plugin in July 2016. If you wish to use our add-on, you'll need to start a 30 day trial and subscribe to Mockups 3 for Confluence Cloud.
+Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Confluence Cloud.
 
-**If you haven't yet purchased Mockups for Confluence**, but have a Cloud instance older than April 4, 2016, you will have the older plugin pre-installed. You may have even trialed this version. This older version will be removed from your Cloud instance at the end of June, so feel free to install the [Mockups for 3 Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview) version, and give it a try! Here are details on [how it install the connect plugin](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation).
+**ADD VIDEO HERE**
 
-**If you already purchased Mockups for Confluence** in most cases we will be installing the new add-on for you as part of [migrating your Balsamiq-issued license](#changes-to-licensing-and-pricing). Once your instance has been migrated to Mockups 3 for Confluence Cloud, your users will just need to follow the instructions to [migrate individual mockups](#migrating-your-mockups-to-the-new-plugin).
-
-If you have any questions, don’t hesitate to [contact us](https://balsamiq.com/company/contact/#/s/m4c).
-
----
+* * *
 
 ## A New File Format
 
-In the old version of Balsamiq Mockups for Confluence, we stored each mockup in its own BMML attachment, and only linked to images. Balsamiq Mockups 3 for Confluence Cloud introduces a new project file format called BMPR: everything that belongs to a project (mockups, symbols, images, icons) is in a single file, saved as an attachment to your Confluence page. This makes it much easier to link and keep everything together. Learn more about the new plugin [here](../intro/).
+In the old version of Balsamiq for Confluence Cloud, we stored each wireframe in its own BMML attachment, and only linked to images.
 
-In order to take advantage of the new features you need to migrate the old files to the new project format.
+Balsamiq Wireframes for Confluence Cloud introduces a new project file format called **BMPR**: everything that belongs to a project (wireframes, symbols, images, icons) is in a single file, saved as an attachment to your Confluence page. This makes it much easier to link and keep everything together. Learn more about the new plugin [here](../intro/).
 
----
+In order to take advantage of the new features, you need to migrate the old files to the new project format.
 
-## Installing Balsamiq Mockups 3 for Confluence Cloud
-
-You can install the new plugin simply via the UPM, just search for “Balsamiq Mockups 3 for Confluence Cloud” and click “Install” to start the 30-day trial.
-
-{{% alert warning %}}**IMPORTANT**: if you have the old Mockups for Confluence plugin enabled, you MUST disable it at this point, the two plugins cannot work side-by-side. Having a problem? See this [troubleshooting guide](http://support.balsamiq.com/plugins/unknownmacro/).{{% /alert %}}
-
----
+* * *
 
 ## Migrating Your Mockups to the New Plugin
 
-Once the new plugin is installed, when you try to edit a Balsamiq Mockups macro you will be prompted to migrate to the new version.
+Once the new plugin is installed, trying to edit a Balsamiq Wireframes macro will reveal this migration dialog:
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/migrateMacroEditor.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/migratemacroeditor.png)
 
-Clicking “Migrate to Balsamiq Mockups 3” shows this message:
+Clicking on "Migrate to Balsamiq Wireframes" shows this message:
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/migrateMessage.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/migratemessage.png)
 
-To start the conversion process for the BMMLs on this Confluence page, just click the “Migrate to Balsamiq Mockups 3” button:
+To start the conversion process for the BMMLs on this Confluence page, just click the "Migrate to Balsamiq Wireframes” button:
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/transition3.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/transition3.png)
 
-You will then be taken to the new version of the Balsamiq editor, where you will see a message similar to this:
+At the end of the migration process, you will be taken to the new version of the Balsamiq Wireframes editor. Just verify that everything is there, then select **Project > Exit Back to Confluence**.
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/transition4.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/close.png)
 
-Just verify that everything is there, then select Project > Quit to go back to Confluence
+Once you have returned to the Confluence editor, open the Balsamiq Wireframes Macro Editor and save in order to migrate the macro to the new format.
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/transition5.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/oldmacro.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/savemacro.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/newmacro.png)
 
-Once you have returned to the Confluence editor, click "Save". You should then see the new Balsamiq Mockups 3 macro.
+Save the Confluence page, you should then see the new Balsamiq Wireframes macro.
 
-![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/interactiveMacro.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/cloud/migrated.png)
 
-That’s it!
+That’s it! You can now take advantage of all the Balsamiq Wireframes for Confluence Cloud goodness!
 
-You can now take advantage of all the new Balsamiq Mockups 3 for Confluence Cloud goodness! See the [introduction here](../intro/).
+To learn more about the new features, you can read the [Introduction to Balsamiq Wireframes for Confluence Cloud](../intro/).
 
----
+* * *
 
-## Backup Copy of the v2 Wireframe and Asset Files
+## Backup Copy of Your Old Files
 
 After the migration your previous v2 wireframe and asset files will be kept as attachments. Once the migration completed successfully you can delete the files or keep them for backup.
 
 ![](//media.balsamiq.com/img/support/docs/confluence/transitionguide/attchments.png)
 
 
----
+* * *
 
 ## Changes to Licensing and Pricing
 
