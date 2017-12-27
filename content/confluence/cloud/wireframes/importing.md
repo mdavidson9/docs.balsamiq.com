@@ -33,7 +33,7 @@ Alternatively, you can also use the JSON feature, available in the Export menu:
 
 If you have a project created in another Balsamiq product (using the .bmpr extension), the easiest way to import it is to create a new project and use the "Project > Import > Import from BMPR.." option.
 
-![](//media.balsamiq.com/img/support/docs/jira/wireframes/import-bmpr.png)
+![](//media.balsamiq.com/img/support/docs/confluence/wireframes/import-bmpr.png)
 
 * * *
 

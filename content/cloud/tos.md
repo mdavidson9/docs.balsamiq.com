@@ -119,7 +119,7 @@ You can delete your projects, Spaces or user account at any time, and they will 
 
 ### What Are the System Requirements for Using Balsamiq Cloud?
 
-A modern web browser (IE11 or Edge, Chrome 49+, Firefox 53+, Safari 9+) with cookies and javascript enabled is all that's needed.
+A modern web browser (IE11 or Edge, Chrome 49+, Firefox 52+, Safari 9+) with cookies and javascript enabled is all that's needed.
 
 Your clients have to be able to access the Balsamiq Cloud servers on port 443.
 

@@ -12,7 +12,7 @@ A new major version of the Balsamiq add-on for Jira Cloud was released on **TODO
 
 Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Jira Cloud.
 
-**ADD VIDEO HERE**
+{{< yt XkrPjd3EpQQ >}}
 
 * * *
 
