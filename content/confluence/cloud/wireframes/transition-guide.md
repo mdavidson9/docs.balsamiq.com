@@ -12,7 +12,7 @@ A new major version of the Balsamiq add-on for Confluence Cloud was released on 
 
 Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Confluence Cloud.
 
-**ADD VIDEO HERE**
+{{< yt HohWgra7nW0 >}}
 
 * * *
 

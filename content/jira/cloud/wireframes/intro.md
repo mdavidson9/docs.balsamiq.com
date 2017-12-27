@@ -18,7 +18,7 @@ Balsamiq Wireframes for Jira Cloud provides very similar functionality to Balsam
 
 * * *
 
-**VIDEO TODO**
+{{< yt XkrPjd3EpQQ >}}
 
 * * *
 
