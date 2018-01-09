@@ -35,7 +35,7 @@
 
 <div class="col-xs-12 documentation">
 
-<div class="row choose">
+<div class="row mt1-5">
 <div class="col-xs-12 col-sm-6">
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ( title .Section ) " Cloud") "")) )  }}
   <a href="{{ .Permalink }}" class="btn btn-default btn-lg btn-block ">{{ .Params.product }}</a>
