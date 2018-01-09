@@ -8,7 +8,7 @@ weight: 2130
 
 {{% alert info %}}**Note:** This transition guide describes the steps to convert BMML files (old format) to BMPR files. Existing BMPR files will work fine in the new version of the add-on.{{% /alert %}}
 
-A new major version of the Balsamiq add-on for Confluence Cloud was released on **TODO**. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
+A new major version of the Balsamiq add-on for Confluence Cloud was released on January 2018. The new version has projects, symbols, comments, chat, real time collaboration and lots of other improvements.
 
 Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Confluence Cloud.
 

@@ -303,6 +303,17 @@ body {
     h2 {
       text-align: center;
     }
+    a.btn, a.btn-lg {
+      border-color: $gray;
+      margin-bottom: .6em;
+      padding-top: .6em;
+      padding-bottom: .6em;
+      @include fontsize(21,32);
+      @include breakpoint(mdmin) {
+        padding-top: 28px;
+        min-height: 95px;
+      }
+    }
   }
 
   // ========================================

@@ -33,48 +33,27 @@
   </div>
 </div>
 
+<div class="col-xs-12 documentation">
 
-<div id="filterlist" class="row gallery center-block">
-
-{{/* <div class="col-xs-12 col-sm-6">
-<div class="gallery-item">
+<div class="row mt1-5">
+<div class="col-xs-12 col-sm-6">
 {{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ( title .Section ) " Cloud") "")) )  }}
-<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
-<div class="meta">
-<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+  <a href="{{ .Permalink }}" class="btn btn-default btn-lg btn-block ">{{ .Params.product }}</a>
+  <p class="text-center">Hosted by Atlassian on atlassian.net</p>
 </div>
 {{ end }}
-</div>
-</div> */}}
-
 <div class="col-xs-12 col-sm-6">
-<div class="gallery-item">
-{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Mockups 3 for " ( title .Section ) " Cloud") "")) )  }}
-<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
-<div class="meta">
-<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
+{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ( title .Section ) " Server") "")) )  }}
+  <a href="{{ .Permalink }}" class="btn btn-default btn-lg btn-block">{{ .Params.product }}</a>
+  <p class="text-center">Self-hosted behind your firewall</p>
 </div>
 {{ end }}
 </div>
-</div>
-
-<div class="col-xs-12 col-sm-6">
-<div class="gallery-item">
-{{ range first 1 (where .Site.Pages ".Params.product" (string (delimit (slice "Balsamiq Wireframes for " ( title .Section ) " Server") "")))  }}
-<a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/{{ .Section }}/{{ .Params.product | urlize }}.png"></a>
-<div class="meta">
-<h2 id="{{ .Params.product | urlize }}" class="pt1"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h2>
-</div>
-{{ end }}
-</div>
-</div>
-
 </div>
 
 <div class="row">
-<div class="col-xs-12">
-{{/* <p>Using an older version? Check out the documentation for <a href="cloud/mockups3/">Mockups 3 for {{ title .Section }} Cloud</a> or <a href="server/mockups2/">Mockups 2 for {{ title .Section }} Server</a>.</p> */}}
-<p>Using an older version? Check out the documentation for <a href="server/mockups2/">Mockups 2 for {{ title .Section }} Server</a>.</p>
+<div class="col-xs-12 mt1">
+<p>Using an older version of Balsamiq? Check out the documentation for <a href="cloud/mockups3/">Mockups 3 for {{ title .Section }} Cloud</a> or <a href="server/mockups2/">Mockups 2 for {{ title .Section }} Server</a>.</p>
 </div>
 </div>
 
