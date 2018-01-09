@@ -303,6 +303,12 @@ body {
     h2 {
       text-align: center;
     }
+    a.btn, a.btn-lg {
+      border-color: $gray;
+      margin-bottom: .6em;
+      padding-top: .6em;
+      padding-bottom: .6em;
+    }
   }
 
   // ========================================
