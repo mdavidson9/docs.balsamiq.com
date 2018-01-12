@@ -399,4 +399,4 @@ The Terms of Use and other rules, guidelines, licenses and disclaimers posted vi
 
 *   2017, Jun 14: created.
 
-**A note to other startups:** working on a great new startup but don't know where to start when it comes to ToS documents? Go a head and copy/paste this document, search and replace and make it yours! :) Two things though: a) make sure to have it looked over by your lawyer - you do have a lawyer right? ;) - and b) we'd appreciate a backlink, even in small gray-on-white font at the very bottom. You'll get good karma points, which is just what new startups needs the most. :) Good luck!
+**A note to other startups:** working on a great new startup but don't know where to start when it comes to ToS documents? Go ahead and copy/paste this document, search and replace and make it yours! :) Two things though: a) make sure to have it looked over by your lawyer - you do have a lawyer right? ;) - and b) we'd appreciate a backlink, even in small gray-on-white font at the very bottom. You'll get good karma points, which is just what new startups needs the most. :) Good luck!
