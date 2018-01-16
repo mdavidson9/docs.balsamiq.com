@@ -20,7 +20,7 @@ To create a new Balsamiq Cloud Space, **click the plus button in the upper left 
 
 ![](//media.balsamiq.com/img/support/docs/cloud/spaces-homepage.png)
 
-A screen will pop up asking you to name the Space, and remind you of our subscription tiers.
+A screen will pop up asking you to name the Space.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/create-new-space.png)
 
