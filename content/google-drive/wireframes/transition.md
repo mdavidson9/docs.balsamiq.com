@@ -45,21 +45,3 @@ During the migration process, a copy of the previous version of the BMPR file is
 ## Licensing and Pricing
 
 Balsamiq Wireframes for Google Drive uses the same licensing and pricing model as Balsamiq Mockups 3 for Google Drive, so no migration is needed! Sweet!
-
-* * *
-
-## Downgrading
-
-Migrating to the new app should be smooth and we are pretty sure that once you will try Balsamiq Wireframes for Google Drive, you will never go back to the previous version.
-
-However, in case you need to use the old Mockups 3 for Google Drive again, please follow these steps:
-
-- [Uninstall](../installing/#uninstalling) Balsamiq Wireframes for Google Drive
-- [Reinstall](/google-drive/installing/#installation) Balsamiq Mockups 3 for Google Drive
-- Revert the BMPR file to the previous format (see details below)
-
-During the migration process a copy of the previous version of the BMPR file has been saved as a backup. You can revert to the previous version of the file downloading the old version and uploading it again.
-
-![gif](//media.balsamiq.com/img/support/docs/gdrive/wireframes/revert.png)
-
-This last step will allow you to edit the BMPR file with Balsamiq Mockups 3 for Google Drive.
