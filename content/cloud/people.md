@@ -67,7 +67,7 @@ To invite a user to a project, type their name (if they are an existing user) or
 
 ![](//media.balsamiq.com/img/support/docs/cloud/invite-project-member.png)
 
-{{% alert info %}}**Note:** An invitation link is valid for 24 hours. After that, it will expire and the invitation will be unlisted from the pending ones.{{% /alert %}}
+{{% alert info %}}**Note:** An invitation link is valid for 3 days. After that, it will expire and the invitation will be unlisted from the pending ones.{{% /alert %}}
 
 You can select their access level when you invite by changing the value in the dropdown next to the invite button.
 
