@@ -26,7 +26,7 @@ You can also share it directly from within the editor, by using the dedicated ic
 
 ![gif](//media.balsamiq.com/img/support/docs/gdrive/wireframes/share.png)
 
-{{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your wireframes but not edit them.{{% /alert %}}
+{{% alert info %}}**Note:** If you give the other person read-only permission ("Can view" or "Can comment") they will be able to view or view and comment your wireframes but not edit them.{{% /alert %}}
 
 On the other users' end, the Balsamiq file appears in “Shared with me” and they can see a preview of it.
 
@@ -36,7 +36,7 @@ On the other users' end, the Balsamiq file appears in “Shared with me” and t
 
 - If they do not have Balsamiq Wireframes for Google Drive installed, they will be prompted to install it by selecting the "Open with" option from the Google Drive file viewer (see menu [above](../drive-files)). Double-clicking the file will also reveal the "Open with" option on top of the page.
 
-**Remember that viewing wireframes with Balsamiq Wireframes for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
+**Remember that viewing wireframes and commenting with Balsamiq Wireframes for Google Drive is free, it’s only the editing functionality that require a valid subscription after the trial expires. So share away!**
 
 Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See [Exporting Your Wireframes](../exporting/) for more information.
 
