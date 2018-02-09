@@ -20,7 +20,7 @@ To edit a project, just click on it to load the [Balsamiq Wireframes editor](../
 
 ## Cloning, Downloading, and Deleting Projects
 
-From your projects homepage, you can Clone, Download, or Delete projects (depending on your [permissions](../people/)). You'll find the options for this on the bottom right corner of the project's card (or the far right, if viewing as a list).
+From your projects homepage, you can Clone, Download, or Delete projects (depending on your [permissions](../people/)). You'll find these options on the top-right corner of the project's card (or the far right, if viewing as a list).
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-actions.png)
 
