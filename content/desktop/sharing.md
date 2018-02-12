@@ -9,6 +9,8 @@ tags:
 ---
 [Collaboration is the foundation](https://balsamiq.com/products/#collaboration) of Mockups. From working with your clients and customers, to collaborating with your designers and programmers, Mockups was built with collaboration at its core. Here are the ways you can share your projects.
 
+* * *
+
 ## Share Mockups Project Files
 
 A great way to share your work is to send your Mockups project files (files with a .bmpr extension) directly to your clients and collaborators. Just be sure to include a link to download Balsamiq Mockups - [https://balsamiq.com/download](https://balsamiq.com/download) - if they don't already have it.
