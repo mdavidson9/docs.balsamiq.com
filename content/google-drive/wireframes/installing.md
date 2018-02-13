@@ -10,6 +10,18 @@ weight: 2180
 
 Installing Balsamiq Wireframes for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb).
 
+### Permissions
+
+During the installation process, the app will ask for the following permissions:
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/metadata.png)
+
+* **View metadata for files in your Google Drive** is needed to access a project's containing folder (for our [breadcrumb link](../intro/#returning-to-google-drive-closing-the-editor)).
+
+* **View your Google Drive apps** is needed to know if the app is the default one associated to the BMPR file format and to check if an [older version of the app is installed](../transition).
+
+### Location of the App
+
 Once installed, Balsamiq Wireframes for Google Drive will be available in your Google Drive "New" menu.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/createmenu.png)
