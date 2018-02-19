@@ -50,7 +50,7 @@ Here are different network configurations related to protocol value (shown in RT
 * It is possible to configure a desired port (that has to be free and beyond 1024, according to best practices) through the plugin configuration tab "Real-time Collaboration Service" (9083 is the default for confluence, 9093 for Jira).
 * The selected TCP port for RTC has to be available and reachable on all the network path.
 verify that the fully qualified domain name of the server (or the proxy, in case of reverse proxy) is correct.
-* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://example.com/JIRA, the Server Name in the plugin configuration name has to be example.com
+* In most cases, it's the same as the FQDN of the Atlassian Server Base URL (if the Server Base URL is http://<span></span>example.com/JIRA, the Server Name in the plugin configuration name has to be example.com
 
 ### Prerequisites in case of reverse proxy
 
