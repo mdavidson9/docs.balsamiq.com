@@ -33,7 +33,7 @@ In order to take advantage of the new features you need to migrate the old files
 
 You can install the new plugin simply via the UPM, just search for “Balsamiq Mockups 3 for Confluence Cloud” and click “Install” to start the 30-day trial.
 
-{{% alert warning %}}**IMPORTANT**: if you have the old Mockups for Confluence plugin enabled, you MUST disable it at this point, the two plugins cannot work side-by-side. Having a problem? See this [troubleshooting guide](http://support.balsamiq.com/plugins/unknownmacro/).{{% /alert %}}
+{{% alert warning %}}**IMPORTANT**: if you have the old Mockups for Confluence plugin enabled, you MUST disable it at this point, the two plugins cannot work side-by-side.{{% /alert %}}
 
 ---
 
