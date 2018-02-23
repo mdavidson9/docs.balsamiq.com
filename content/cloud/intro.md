@@ -49,6 +49,10 @@ If you are transitioning from Balsamiq Mockups 3 for Desktop (or another version
 
 If you are using myBalsamiq, you can export your projects to .bmpr format and then upload them to Balsamiq Cloud. [Click here to learn how](../importing/#importing-from-mybalsamiq).
 
+{{% alert info %}}**Note:** Do you need to convert some BMML files (old format) so they can be used in Balsamiq Cloud?
+
+Please email us at [support@balsamiq.com](mailto:support@balsamiq.com) and we'll be happy to convert them for you.{{% /alert %}}
+
 * * *
 
 ## Next Steps
