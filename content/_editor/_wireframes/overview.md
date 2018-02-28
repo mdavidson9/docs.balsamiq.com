@@ -140,7 +140,7 @@ The default font is [Balsamiq Sans](https://balsamiq.com/products/mockups/font/)
 
 {{% alert info %}}**Note:** If you want to use a specific project font we recommend that you set it before you start creating your wireframes. Changing the project font may adversely affect existing wireframes in your project. Each font has different dimensions and proportions so switching fonts may cause controls to overlap or line up unevenly. Also, setting your project font to a variant such as "thin", "light", or "extrabold" may override font style settings on individual controls.{{% /alert %}}
 
-#### Sketch vs. Wireframe Skin
+#### Sketch vs Wireframe Skin
 
 The two skins provided are intended to allow you to work on early ideas using a rough, sketchy look (Sketch Skin), and then later update it to a crisper, more polished look when it is ready for presentation (Wireframe Skin).
 
