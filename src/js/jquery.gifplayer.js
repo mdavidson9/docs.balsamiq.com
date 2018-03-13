@@ -1,5 +1,5 @@
 /*
-* Gifplayer v0.3.3
+* Gifplayer v0.3.4
 * Customizable jquery plugin to play and stop animated gifs. Similar to 9gag's
 * (c)2014 Rubén Torres - rubentdlh@gmail.com
 * Released under the MIT license
@@ -81,10 +81,14 @@
 						gp.previewElement.trigger('click');
 					});
 					gp.previewElement.on( 'click', function(e){
+						// Fire event onClick
+						gp.getOption('onClick').call(gp.previewElement, e);
+
 						gp.loadAnimation();
 						e.preventDefault();
 						e.stopPropagation();
 					});
+
 					break;
 				case 'hover':
 					gp.previewElement.on( 'click mouseover', function(e){
@@ -102,7 +106,7 @@
 		},
 
 		processScope: function(){
-			scope = this.getOption('scope');
+			var scope = this.getOption('scope');
 			if( scope ){
 				if(GifPlayer.scopes[scope]){
 					GifPlayer.scopes[scope].stopGif();
@@ -172,14 +176,14 @@
 			var wait = this.getOption('wait');
 			if(wait){
 				//Wait until gif loads
-				this.gifElement.load( function(){
+				this.gifElement.on({ load: function(){
 					gp.animationLoaded = true;
 					gp.resetEvents();
 					gp.previewElement.hide();
 					gp.wrapper.append(gp.gifElement);
 					gp.spinnerElement.hide();
 					gp.getOption('onLoadComplete').call(gp.previewElement);
-				});
+				}});
 			}else{
 				//Try to show gif instantly
 				gp.animationLoaded = true;
@@ -194,6 +198,9 @@
 			this.gifElement.css('left','0');
 			this.gifElement.attr('src', gifSrc);
 			this.gifElement.click( function(e){
+				// Fire event onClick
+				gp.getOption('onClick').call(gp.previewElement, e);
+
 				$(this).remove();
 				gp.stopGif();
 				e.preventDefault();
@@ -362,6 +369,7 @@
 		scope: false,
 		onPlay: function(){},
 		onStop: function(){},
+		onClick: function(){},
 		onLoad: function(){},
 		onLoadComplete: function(){}
 	};
