@@ -223,7 +223,7 @@ body {
     &.local-nav-2 {
       @include fontsize(13,15);
     }
-    ul, ol {
+    ul {
       margin-top: 0;
       margin-left: 16px;
       padding-left: 0;
@@ -254,8 +254,11 @@ body {
       }
     }
     ol {
-      list-style-type: decimal;
-      margin-left: 18px;
+      list-style-type: none;
+      margin-left: 0px;
+      ul {
+        margin-left: 8px;
+      }
     }
     // Bootstrap Collapse Speed
     .collapsing {
