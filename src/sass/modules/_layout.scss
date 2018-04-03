@@ -223,7 +223,7 @@ body {
     &.local-nav-2 {
       @include fontsize(13,15);
     }
-    ul {
+    ul, ol {
       margin-top: 0;
       margin-left: 16px;
       padding-left: 0;
@@ -254,7 +254,6 @@ body {
       }
     }
     ol {
-      list-style-type: none;
       margin-left: 0px;
       ul {
         margin-left: 8px;
