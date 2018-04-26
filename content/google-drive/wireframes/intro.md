@@ -10,7 +10,7 @@ weight: 2170
 
 Balsamiq Wireframes for Google Drive allows you to add and **edit wireframes directly from Google Drive, where the files are stored and managed**. If you use other Google Drive apps (Google Docs, for example), the file management features should be very familiar to you.
 
-With [easy sharing](../drive-files/#sharing-via-google-drive), version control and even [real-time collaboration](../collaborating/), Balsamiq Wireframes for Google Drive makes iterating on wireframes easy and fun. To learn how to sign up for or manage a subscription, check out the [Balsamiq Wireframes for Google Drive subscription FAQ](https://support.balsamiq.com/sales/gdrivesubscription/)
+With [easy sharing](../drive-files/#sharing-via-google-drive), version control and even [real-time collaboration](../collaborating/), Balsamiq Wireframes for Google Drive makes iterating on wireframes easy and fun. To learn how to sign up for or manage a subscription, check out the [Balsamiq Wireframes for Google Drive subscription FAQ](https://support.balsamiq.com/sales/gdrivesubscription/).
 
 * * *
 
