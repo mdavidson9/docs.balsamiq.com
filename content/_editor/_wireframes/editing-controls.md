@@ -49,7 +49,7 @@ All of the above syntax works around words separated by white spaces, and underl
 
 <span class="alert alert-info show" role="alert">
 **Notes:**<br>
-1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other mockups.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](../overview/#the-properties-panel) _except_ italic and strikethrough.</span>
+1.  The #FF0000 above is the color in HEX form, just like HTML. The macro will work with or without the pound sign. You can also use certain color names (green, yellow, etc.) which you can find by moving your mouse over the colors in the color palette in the Property Inspector.<br>2.  See the [next section](#making-links-in-text-actually-work) for how to turn [linked text] into functioning links to websites or other wireframes.<br>  3.  This formatting syntax also works for text entered into the [Notes panel](../overview/#the-properties-panel) _except_ italic and strikethrough.</span>
 
 Here's a screenshot of what the above text looks like in a Paragraph control, for instance:
 
@@ -91,7 +91,7 @@ Web addresses:
 	[Balsamiq Website](http://www.balsamiq.com)
 	[Balsamiq Website](https://balsamiq.com)
 
-Mockups in the same project:
+Wireframes in the same project:
 
 	[Features Page](features)
 
@@ -139,7 +139,7 @@ You can convert them to real text at any time by editing them and entering some 
 
 ## Transforming Control Types
 
-Many controls can be converted into other controls. This can be useful when you already have content in your mockups but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
+Many controls can be converted into other controls. This can be useful when you already have content in your wireframes but want to use a different control type without re-typing the content (changing a text input to a combo box, for example).
 
 Just click on a control and open the context menu next to the control name in the Property Inspector to see which control types the selected control can be transformed to. Select the control you want to convert it to or use the search to look for it.
 
@@ -173,7 +173,7 @@ Text in the Data Grid can be formatted as bold, italic, etc. using the [same syn
 
 #### Column Width Options
 
-Mockups lets you specify individual width and alignment options for each Data Grid column.
+Balsamiq Wireframes lets you specify individual width and alignment options for each Data Grid column.
 
 Here's a quick video showing how to do this:
 
@@ -217,7 +217,7 @@ The code example below would print on two lines.
 
 #### Pasting Data from Excel
 
-Some people like to prepare tables in a spreadsheet application like Excel. You can copy and paste a range of cells directly from Excel into the Data Grid/Table component. Just copy/paste and it will just work. It also works in the opposite direction from Mockups to Excel.
+Some people like to prepare tables in a spreadsheet application like Excel. You can copy and paste a range of cells directly from Excel into the Data Grid/Table component. Just copy/paste and it will just work. It also works in the opposite direction from Balsamiq Wireframes to Excel.
 
 {{% alert info %}}**Note:** If you have commas in your cells, you will have to escape them with a backslash like this: `1\,000\,000`{{% /alert %}}
 

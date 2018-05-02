@@ -1,9 +1,9 @@
 ---
 date: 2015-07-30T15:52:12-07:00
 title: "Balsamiq Mockups 3 for Google Drive Overview"
-menu: "menugoogledrive"
+menu: "menugoogledrive3"
 product: "Balsamiq Mockups 3 for Google Drive"
-weight: 1
+weight: 10
 aliases: /google-drive/intro/
 ---
 
@@ -11,20 +11,9 @@ aliases: /google-drive/intro/
 
 Balsamiq Mockups 3 for Google Drive provides the same functionality as [other Balsamiq Mockups products](https://balsamiq.com/products/compare/). The difference is that **the files are stored and managed by Google Drive**. If you use other Google Drive apps (Google Docs, for example), the file management features should be very familiar to you.
 
-You can easily [share your mockups](../drive-files/#sharing-via-google-drive) using the built-in features of Google Drive, [even if other people don't have the Balsamiq app installed](https://support.balsamiq.com/plugins/sharingwithgoogledrive/). If they do have the app, [you can edit your mockups at the same time](../collaborating/).
+You can easily [share your mockups](../drive-files/#sharing-via-google-drive) using the built-in features of Google Drive, even if other people don't have the Balsamiq app installed. If they do have the app, [you can edit your mockups at the same time](../collaborating/).
 
 ---
-
-## Getting Started
-
-For a quick overview before diving in [check out this 5 minute video](https://support.balsamiq.com/plugins/introtogoogledrive/) covering the main features of Balsamiq Mockups 3 for Google Drive or find out [what's new in Balsamiq Mockups 3 for Google Drive](https://support.balsamiq.com/plugins/newingoogledrive/).
-
-If you have questions about purchasing or your subscription you might want to check out these articles instead:
-
-*   [Managing your Balsamiq Mockups 3 for Google Drive subscription](https://support.balsamiq.com/sales/gdrivesubscription/)
-*   [Balsamiq Mockups 3 for Google Drive Purchasing FAQs](https://support.balsamiq.com/sales/gdrive/)
-
-* * *
 
 ## Creating a New Project
 

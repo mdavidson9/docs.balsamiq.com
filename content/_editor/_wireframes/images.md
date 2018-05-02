@@ -46,7 +46,7 @@ Balsamiq Wireframes has a dedicated area of the user interface for managing imag
 
 ![](//media.balsamiq.com/img/support/docs/bw/assets.png)
 
-The Assets view shows all images and [custom icons](#adding-your-own-icons) that have been added to your project. You can get to it by switching the navigator view to Assets.
+The Assets view shows all images and [custom icons](#adding-your-own-icons) that have been added to your project. You can get to it by via the **View** menu.
 
 ![](//media.balsamiq.com/img/support/docs/bw/assets1.png)
 
@@ -155,14 +155,6 @@ Once you have selected an icon, you can resize it, rotate it or remove it via th
 You can also easily add your own icons for use in your wireframes by selecting any of your imported images, and using them as an icon. They will automatically show up in the icon library, under the Assets category at the bottom.
 
 ![](//media.balsamiq.com/img/support/docs/bw/custom-icon-assets.png)
-
-* * *
-
-## Using an Existing Set of Custom Icons
-
-There are a few icon sets that complement the hand-drawn style of wireframes. Here's [a list of the custom icon packs that we know about](https://support.balsamiq.com/resources/extensions/#custom-icon-packs).
-
-To use those icon packs, just unzip the icon images and drag them into your assets [as described above](#adding-your-own-icons).
 
 * * *
 

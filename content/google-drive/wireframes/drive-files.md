@@ -20,17 +20,23 @@ Wireframes created with Balsamiq Wireframes for Google Drive are saved as .bmpr 
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/gdrive-sharing.png)
 
-{{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your wireframes but not edit them.{{% /alert %}}
+You can also share it directly from within the editor, by using the dedicated icon in the toolbar.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/share-icon.png)
+
+![gif](//media.balsamiq.com/img/support/docs/gdrive/wireframes/share.png)
+
+{{% alert info %}}**Note:** If you give the other person **“Can view”** or **“Can comment”** permission, they will be able to view and comment your wireframes but not edit them.{{% /alert %}}
 
 On the other users' end, the Balsamiq file appears in “Shared with me” and they can see a preview of it.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/wireframes/shared-file.png)
 
-- If users have Balsamiq Wireframes for Google Drive already installed, they can just double-click on the file to open it and start editing.
+- If users have Balsamiq Wireframes for Google Drive already installed, they can just double-click on the file to open it.
 
 - If they do not have Balsamiq Wireframes for Google Drive installed, they will be prompted to install it by selecting the "Open with" option from the Google Drive file viewer (see menu [above](../drive-files)). Double-clicking the file will also reveal the "Open with" option on top of the page.
 
-**Remember that viewing wireframes with Balsamiq Wireframes for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
+**Remember that viewing wireframes and commenting with Balsamiq Wireframes for Google Drive is free, it’s only the editing functionality that require a valid subscription after the trial expires. So share away!**
 
 Alternatively, you can export your wireframes to PNG images or to an interactive PDF and use sharing in Google Drive to allow others to view them. See [Exporting Your Wireframes](../exporting/) for more information.
 

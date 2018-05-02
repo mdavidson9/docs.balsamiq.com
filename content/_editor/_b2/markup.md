@@ -44,9 +44,3 @@ You can use this "Treat As Markup / Do Not Treat As Markup" feature on any compo
 The video below demonstrates this process:
 
 {{< yt UUJjqQ9Rdao >}}
-
-* * *
-
-## Exporting Markup to PNG and PDF
-
-If you want your Markup components to appear or be hidden in your exported PNG images or your Exported PDF, simply toggle the Markup visibility as shown above, and Export.

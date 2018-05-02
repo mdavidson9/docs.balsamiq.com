@@ -2,12 +2,13 @@
 date: 2015-09-23T15:48:49-07:00
 title: "Working with Symbols"
 menu: "menumybalsamiq"
+product: "myBalsamiq"
 weight: 79
 ---
 
 {{% alert info %}}**Note:** myBalsamiq is the only [version 2](https://support.balsamiq.com/sales/compare/) web application that supports Symbols. {{% /alert %}}
 
-Symbols allow you create reusable common elements across different mockups. ther software often refers to this same feature as templates, master pages, custom components, or widgets.
+Symbols allow you create reusable common elements across different mockups. Other software often refers to this same feature as templates, master pages, custom components, or widgets.
 
 * * *
 
@@ -27,8 +28,6 @@ Symbols can be made from existing groups, or from ones you create fresh. The fol
 5.  Click on the "Convert To Symbol" button in the Property Inspector
 
 You will notice that the group selection becomes a light green. This means that the selection is now an instance of a symbol. This new Symbol (named, for example, "login form") will be displayed in the _Project Assets_ tab of the UI Library. You can also add the Symbol via Quick Add.
-
-{{% alert info %}}**Note:** for a more detailed description of this process, see our visual step-by-step guide: [How to Create a Symbol](https://support.balsamiq.com/tutorials/symbol/). {{% /alert %}}
 
 * * *
 
@@ -82,7 +81,7 @@ There are a couple of shortcuts in the app that help you reach a Symbol's source
 
 ## Symbol Libraries
 
-A Symbol Library is a collection of symbol definitions. You might want to create a Symbol Library in order to share common controls with your team, or share them with the community via [Mockups To Go](https://mockupstogo.mybalsamiq.com/).
+A Symbol Library is a collection of symbol definitions. You might want to create a Symbol Library in order to share common controls with your team.
 
 To create a Symbol Library, you can either create a symbol (which will automatically create a library) or select **Project > New Symbol Library** from the menu.
 
@@ -94,7 +93,7 @@ To create a Symbol Library, you can either create a symbol (which will automatic
 
 If you would like a Symbol Library to be used across all projects, you only need to upload the library to your site assets.
 
-To do this, you first have to download the library from your [project assets](https://docs.balsamiq.com/mybalsamiq/assets/).
+To do this, you first have to download the library from your [project assets](/mybalsamiq/assets/).
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_downloadsymbollibrary.png)
 

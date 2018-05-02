@@ -1,15 +1,17 @@
 ---
 date: 2015-07-30T15:52:12-07:00
 title: "Installing Balsamiq Mockups 3 for Google Drive"
-menu: "menugoogledrive"
+menu: "menugoogledrive3"
 product: "Balsamiq Mockups 3 for Google Drive"
-weight: 2
+weight: 25
 aliases: /google-drive/installing/
 ---
 
 ## Installation
 
-Installing Balsamiq Mockups 3 for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/iedapplgopkgngalkbailjoikghljkki/).
+Installing Balsamiq Mockups 3 for Google Drive is the same as installing other Google Drive apps. It can be installed from the Chrome Web Store.
+
+{{% alert info %}}**Note:** Balsamiq for Google Drive has been updated with our new editor, [Balsamiq Wireframes](https://docs.balsamiq.com/google-drive/wireframes/intro/). You can install the new version from [this Chrome Web Store page](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb).{{% /alert %}}
 
 Once installed, Balsamiq Mockups 3 for Google Drive will be available in your Google Drive "New" menu.![The Create Menu](//media.balsamiq.com/img/support/docs/gdrive/userguide/createmenu.png)
 
@@ -42,3 +44,7 @@ Monthly and yearly subscriptions are available. Details on [how to sign up for a
 You can uninstall the application by going to the Manage Apps tab in the Google Drive settings, then selecting "Disconnect from Drive" from the Balsamiq Mockups options menu.
 
 ![](//media.balsamiq.com/img/support/docs/gdrive/userguide/disconnect.png)​
+
+{{% alert info %}}**Note:** Removing the app from the **chrome://apps/** launcher can be done by right-clicking the app from there and selecting "Remove from Chrome", as shown below.{{% /alert %}}
+
+![](//media.balsamiq.com/img/support/docs/gdrive/userguide/remove.png)​

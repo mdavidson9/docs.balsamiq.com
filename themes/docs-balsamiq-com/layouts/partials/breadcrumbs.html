@@ -1,8 +1,8 @@
 <div id="breadcrumbs">
   <span><a href="/">home</a></span>
-{{ if .Params.product }} 
-  &gt; <span><a href='/{{ .Section | urlize }}#{{ .Params.product | urlize }}'>{{ .Params.product }}</a></span>
-{{ else }} 
+{{ if .Params.product }}
+  &gt; <span><a href='../'>{{ .Params.product }}</a></span>
+{{ else }}
   &gt; <span><a href='/{{ .Section | urlize }}'>{{ .Section | humanize }}</a></span>
 {{ end }}
   &gt; <span>{{ .Title | title }}</span>

@@ -1,13 +1,12 @@
 ---
 date: 2015-07-30T15:52:28-07:00
-title: "Real-Time Collaboration Service Troubleshooting (BETA)"
+title: "Real-Time Collaboration Service Troubleshooting"
 menu: "menujirawireframes"
-listorder: 2
-product: "Balsamiq Wireframes for JIRA Server"
+product: "Balsamiq Wireframes for Jira Server"
 weight: 2140
 ---
 
-Balsamiq Wireframes for JIRA Server uses a "behind the firewall" service in order to allow real time collaboration, chat and other features. To verify that the service works as intended, you can use the configuration page of the add-on.
+Balsamiq Wireframes for Jira Server uses a "behind the firewall" service in order to allow real time collaboration, chat and other features. To verify that the service works as intended, you can use the configuration page of the add-on.
 
 ![](//media.balsamiq.com/img/support/docs/jira/wireframes/rtc-troubleshooting-1.png)
 
@@ -22,7 +21,7 @@ In case of problem, the config page will show an error status.
 In case the status of the Real-Time Collaboration Service is **DOWN**, you should verify that:
 
 *   the selected TCP port is available and reachable
-*   the fully qualified domain name of the server is correct. In most cases, it is equivalent to the FQDN of the JIRA server instance.
+*   the fully qualified domain name of the server is correct. In most cases, it is equivalent to the FQDN of the Jira server instance.
 
 * * *
 
@@ -35,3 +34,7 @@ For example, on a linux server, we can run the following command in order to lis
     netstat -tul | grep 9093
 
 In case of conflict with other service, you can change the port on the configuration page and restart the Balsamiq real-time service.
+
+* * *
+
+Need more info on how to configure the RTC service? Please have a look at [this page](../rtcconfigs).

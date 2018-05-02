@@ -15,7 +15,7 @@ There are two ways to create a Symbol, described below.
 
 The editor has a dedicated view for creating and managing Symbols. Symbols created using the Wireframes view will be shown here, and you can also create Symbols in this view.
 
-To get to the Symbols view, use the navigator icon and select Symbols. You will see any existing Symbols in a list in the left panel.
+To get to the Symbols view, click on the **View** menu and select **Symbols**. You will see any existing Symbols in a list in the left panel.
 
 ![](//media.balsamiq.com/img/support/docs/bw/symbols1.png)
 
@@ -81,9 +81,23 @@ The video below describes the process of creating, editing, and using Symbols.
 
 * * *
 
-## Importing Symbols
+## Importing Symbols from Wireframes to Go
 
-*IMPORT FROM WTG WILL GO HERE*
+You can find the option to launch the [Wireframes to Go](https://wireframestogo.com/) browser window from either the **Project > Import Controls from Wireframes to Go** menu item, or the **More Controls** button to the right of the UI Library's categories.
+
+![](//media.balsamiq.com/img/support/docs/bw/wtg_editor_button.png)
+
+Once you have launched the Wireframes to Go window, you can either browse for symbols to add to your project, or search for them.
+
+![](//media.balsamiq.com/img/support/docs/bw/wtg_search.png)
+
+When you have found the symbols you want to add, simply click on them. This will open them up, allowing you to take a closer look. To add them to your project, click the **Import into Project** button.
+
+![](//media.balsamiq.com/img/support/docs/bw/wtg_import.png)
+
+The Wireframes to Go Browser will close, and you will see a little toast message in the bottom right corner saying that the symbol has been imported. You can double check by going to the [Symbols View](#1-using-the-symbols-view), and looking for the symbols in the navigator. From there, you can view, edit, or delete them.
+
+![](//media.balsamiq.com/img/support/docs/bw/wtg_symbols.png)
 
 * * *
 

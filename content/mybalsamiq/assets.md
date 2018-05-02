@@ -2,6 +2,7 @@
 date: 2015-09-23T15:48:49-07:00
 title: "Using Assets in myBalsamiq"
 menu: "menumybalsamiq"
+product: "myBalsamiq"
 weight: 88
 ---
 
@@ -39,4 +40,4 @@ Select the Project Asset or Site Asset tab depending on where you'd like the ima
 
 ## Symbols
 
-For creating and editing Symbol libraries, please refer to the [Using Symbols in myBalsamiq](/mybalsamiq/symbols/) document or read the step-by-step instructions [How to Use an Existing File as a Symbol in myBalsamiq](https://support.balsamiq.com/tutorials/filesymbolmyb/).
+For creating and editing Symbol libraries, please refer to the [Using Symbols in myBalsamiq](/mybalsamiq/symbols/) document.

@@ -1,86 +1,28 @@
-{{ partial "header.html" . }}
+{{ block "header" .}}
+{{ end }}
 
-{{/* ======================================== */}}
-{{/* BODY MAIN */}}
-<div id="body-main">
-  <div class="container-fluid">
-{{/* ======================================== */}}
+{{ if .Sections }}
+
+{{ block "atlassian-product-list" . }}
+{{ end }}
+
+{{ block "faqs" .}}
+{{ end }}
+
+{{ end }}
+
+{{ if not .Sections }}
+
+{{ block "list" .}}
+{{ end }}
 
 <div class="row">
-  <div class="col-xs-12 doc-overview">
-    <main role="main">
-      <div class="doc-list-header">
-        <h1>Balsamiq for JIRA Documentation</h1>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="text-center mb2 mt1">Which version of Balsamiq for JIRA are you using?</h3>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-xs-12 col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              {{ range first 1 (where .Site.Pages ".Params.product" "Mockups 3 for JIRA Cloud") }}
-              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
-<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Params.product | urlize }}.png"></a></div>
-  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
-              {{ end }}
-            </div>
-            <div class="list-group">
-            {{ range (where .Site.Pages ".Params.product" "Mockups 3 for JIRA Cloud").ByWeight }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-            {{ end }}
-            </div>
-          </div>
-        </div>
-
-<!-- uncomment to add BWJS; also change column width --> 
-        <!-- <div class="col-xs-12 col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              {{ range first 1 (where .Site.Pages ".Params.product" "Balsamiq Wireframes for JIRA Server") }}
-              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
-<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Params.product | urlize }}.png"></a></div>
-  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
-              {{ end }}
-            </div>
-            <div class="list-group">
-            {{ range (where .Site.Pages ".Params.product" "Balsamiq Wireframes for JIRA Server").ByWeight }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-            {{ end }}
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col-xs-12 col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              {{ range first 1 (where .Site.Pages ".Params.product" "Mockups 2 for JIRA Server") }}
-              <a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/{{ .Params.product | urlize }}.png" class="img-responsive center-block"></a>
-<div class="text-center"><div style="display:inline;"><a href="{{ .Permalink }}"><img src="//media.balsamiq.com/img/support/docs/jira/icon-{{ .Params.product | urlize }}.png"></a></div>
-  <h3 id="{{ .Params.product | urlize }}" style="display:inline;"><a href="{{ .Permalink }}">{{ .Params.product }}</a></h3></div>
-              {{ end }}
-            </div>
-            <div class="list-group">
-            {{ range (where .Site.Pages ".Params.product" "Mockups 2 for JIRA Server").ByWeight }}
-            <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
-            {{ end }}
-            </div>
-          </div>
-        </div>
-
-      </div> <!-- / row -->
-    </main>
-  </div> <!-- /.doc-overview -->
-
-</div>{{/* /.row */}}
-
-{{/* ======================================== */}}
+  <div class="col-xs-12">
+    <h4 class="mb2 mt1-5"><a href="/jira/">View all Balsamiq for Jira Documentation</a></h4>
   </div>
 </div>
-{{/* /BODY MAIN */}}
-{{/* ======================================== */}}
 
-{{ partial "footer.html" . }}
+{{ end }}
+
+{{ block "footer" . }}
+{{ end }}

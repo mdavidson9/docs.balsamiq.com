@@ -1,12 +1,5 @@
 {{ partial "header.html" . }}
 
-{{/* Initialize gifplayer (http://rubentd.com/gifplayer/) for images with alt text set to "gif" */}}
-<script>
-			$(document).ready( function(){
-				$("img[alt='gif']").gifplayer({ label: 'Play' });
-			});
-</script>
-
 {{/* ======================================== */}}
 {{/* BODY MAIN */}}
 <div id="body-main">
@@ -17,39 +10,13 @@
 {{ $.Scratch.Add "twoversions" 0 }}
   <div class="local-nav local-nav-1 hidden-xs hidden-sm col-md-3">
     <div id="sidebar-box">
-    {{ if eq .Section "desktop" }}
-      {{ partial "sidebar_desktop.html" . }}
-    {{ else if eq .Section "mybalsamiq" }}
-      {{ partial "sidebar_mybalsamiq.html" . }}
-    {{ else if eq .Section "google-drive" }}
+		{{ partial "sidebar.html" . }}
+		{{ if eq .Section "google-drive" }}
       {{ $.Scratch.Set "twoversions" 1 }}
-      {{ if eq .Params.menu "menugdwireframes" }}
-        {{ partial "sidebar_gdwireframes.html" . }}
-      {{ else }}
-        {{ partial "sidebar_gdrive.html" . }}
-      {{ end }}
-    {{ else if eq .Section "cloud" }}
-      {{ partial "sidebar_cloud.html" . }}
     {{ else if eq .Section "jira" }}
         {{ $.Scratch.Set "twoversions" 1 }}
-        {{ if eq .Params.menu "menujiraserver2" }}
-          {{ partial "sidebar_jiraserver2.html" . }}
-        {{ else if eq .Params.menu "menujiracloud" }}
-          {{ partial "sidebar_jira.html" . }}
-        {{ else }}
-        {{ partial "sidebar_jirawireframes.html" . }}
-        {{ end }}
-     {{ else if eq .Section "confluence" }}
+    {{ else if eq .Section "confluence" }}
         {{ $.Scratch.Set "twoversions" 1 }}
-        {{ if eq .Params.menu "menuconfluenceserver2" }}
-          {{ partial "sidebar_confluenceserver2.html" . }}
-				{{ else if eq .Params.menu "menuconfluencecloud" }}
-					{{ partial "sidebar_confluence.html" . }}
-				{{ else }}
-        {{ partial "sidebar_confluencewireframes.html" . }}
-        {{ end }}
-    {{ else }}
-      <!-- sidebar -->
     {{ end }}
     {{ partial "sidebar_inpage.html" . }}
     </div>
@@ -60,7 +27,7 @@
       <div class="support-body">
         <article>
           {{ if .Params.product }}
-          <h5 class="subtitle">{{ .Params.product }}</h5>
+          <h5 class="subtitle"><a href='../'>{{ .Params.product }}</a></h5>
           {{ else if eq .Section "mybalsamiq" }}
           <h5 class="subtitle">myBalsamiq</h5>
           {{ else }}
@@ -105,7 +72,7 @@
           */}}
           <hr>
           <nav class="section-pager">
-            <ul class="pager">
+            <ul class="pager m0">
               <li class="previous">
               {{ if eq ($.Scratch.Get "twoversions") 1 }}
                 {{ if eq .File.BaseFileName "intro"}} <!-- don't show previous arrow (to other version of plugin docs) for first article -->
@@ -137,11 +104,11 @@
               </li>
             </ul>
           </nav>
-          <span class="gray">Share this page:
-          <a href="https://twitter.com/intent/tweet/?text={{ .Title }}&url={{ .Permalink }}&via=balsamiq" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF611;</i></a>
-          <a href="https://www.facebook.com/share.php?u={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF610;</i></a>
-          <a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF613;</i></a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-regular">&#xF612;</i></a></span>
+          <hr>
+          <span class="gray t36">
+          <a href="https://twitter.com/intent/tweet/?text={{ .Title }}&url={{ .Permalink }}&via=balsamiq" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF611;</i></a>
+          <a href="https://www.facebook.com/share.php?u={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF610;</i></a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank" class="js-social-share"><i class="ss-icon ss-social-circle red">&#xF612;</i></a></span>
 <span class="pull-right"><a href="https://github.com/balsamiq/docs.balsamiq.com/blob/master/content{{ substr .RelPermalink 0 -1 }}.md" target="_blank"><i class="ss-icon ss-social-circle ss-github" aria-hidden="true"></i> Edit this page</a></span>
          </article>
       </div>
@@ -155,5 +122,12 @@
 </div>
 {{/* /BODY MAIN */}}
 {{/* ======================================== */}}
+
+{{/* Initialize gifplayer (http://rubentd.com/gifplayer/) for images with alt text set to "gif" */}}
+<script>
+			$(document).ready( function(){
+				$("img[alt='gif']").gifplayer({ label: 'Play' });
+			});
+</script>
 
 {{ partial "footer.html" . }}

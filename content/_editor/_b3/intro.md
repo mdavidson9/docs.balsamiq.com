@@ -83,11 +83,11 @@ Control over the font used in Mockups has been one of the most-requested feature
 
 ![ ](//media.balsamiq.com/img/support/docs/m4d/b3/project-info.png)
 
-We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](https://support.balsamiq.com/desktop/wireframeskin/)). Finally, the default selection color is also configurable from this new panel.
+We also moved the skin switching options into the new Project Info panel to make them more obvious (many people never knew about our [wireframe skin](../skins)). Finally, the default selection color is also configurable from this new panel.
 
 ### Better Symbols
 
-In the previous version, we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Mockups To Go](http://mockupstogo.mybalsamiq.com) site.
+In the previous version, we called Symbols an "advanced feature." Well, no longer. Symbols are now for everyone. Symbols allow you to create templates, masters, and other reusable components to save time and ensure consistency. They are especially useful for big projects and custom controls and are central to our [Wireframes To Go](https://wireframestogo.com) site.
 
 You can now just jump over to the Symbols panel and create a new one from scratch and it will appear in the "Symbols" tab in the UI Library. You can still create them the old-fashioned way (creating a named group and clicking the "Convert To Symbol" button).
 

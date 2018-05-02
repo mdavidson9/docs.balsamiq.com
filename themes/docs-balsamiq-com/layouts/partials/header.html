@@ -37,27 +37,38 @@
   <meta class="swiftype" name="product-priority" data-type="integer" content="{{ $.Scratch.Get "priority" }}">
 
   <!-- B.COM CSS -->
-  <link rel="stylesheet" href="{{ .Site.Params.balsamiqcomurl }}/assets/css/balsamiq-complete.min.css?v={{ .Now.Format "2006-01-02-1504" }}" type="text/css" media="all">
+  <link rel="stylesheet" href="{{ .Site.Params.balsamiqcomurl }}/assets/css/balsamiq-complete.min.css?v={{ now.Format "2006-01-02-1504" }}" type="text/css" media="all">
   <!--[if lte IE 9]>
   <link rel="stylesheet" href="/assets/css/ie.css" type="text/css" media="all"/>
   <![endif]-->
 
   <!-- B.COM JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js?v={{ now.Format "2006-01-02-1504" }}"></script>
   <script>
     !window.jQuery && document.write(unescape('%3Cscript src="{{ .Site.Params.balsamiqcomurl }}/assets/js/jquery.min.js"%3E%3C/script%3E'))
   </script>
-  <script type="text/javascript" src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq-complete.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <script type="text/javascript" src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq-complete.min.js?v={{ now.Format "2006-01-02-1504" }}"></script>
   <!-- TK -->
   <script type="text/javascript" src="https://use.typekit.com/gri5zun.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <!-- DBC -->
-  <link rel="stylesheet" href="/css/dbc.min.css?v={{ .Now.Format "2006-01-02-1504" }}" type="text/css" media="all">
-  <script src="/js/dbc.min.js?v={{ .Now.Format "2006-01-02-1504" }}"></script>
+  <link rel="stylesheet" href="/css/dbc.min.css?v={{ now.Format "2006-01-02-1504" }}" type="text/css" media="all">
+  <script src="/js/dbc.min.js?v={{ now.Format "2006-01-02-1504" }}"></script>
   <script src="{{ .Site.Params.balsamiqcomurl }}/assets/js/balsamiq_search_autocomplete.js"></script>
 <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
-  <title>{{ replace .Title "-" " " | title }} {{ if .IsPage }} {{ if .Params.product }} [{{title .Params.product }}] {{ else }} [{{title .Section | humanize | title }}] {{ end }} {{ end }} {{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<title>
+{{/* show a different type of title depending on what kind of page it is */}}
+{{ if eq $isHomePage false }}
+  {{ if .IsNode }}
+    {{title .Params.product }} -
+  {{ else }}
+    {{ replace .Title "-" " " | title }} [{{title .Params.product }}] -
+  {{ end }}
+{{ else }}
+{{ end }}
+{{ .Site.Title }}
+</title>
 </head>
 <body class="company-support-portal dbc">
   <!-- GA - Google Tag Manager -->

@@ -1,1 +1,8 @@
-{{  readFile .Get "0" | markdownify  }}
+{{/* This doesn't work */}}
+
+{{/* {{$file := .Get "file"}}
+{{ range where .File.Path := .Get "file"}}
+{{ .Content }}
+{{ end }} */}}
+
+{{/* {{- $file  | readFile | markdownify -}} */}}

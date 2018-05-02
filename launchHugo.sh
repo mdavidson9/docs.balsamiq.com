@@ -3,5 +3,5 @@
 rm -rf public
 rm -rf static
 mkdir static
-hugo server --buildDrafts --watch
+hugo server --buildDrafts --watch --disableFastRender
 

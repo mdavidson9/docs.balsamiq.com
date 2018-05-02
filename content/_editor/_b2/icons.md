@@ -29,7 +29,7 @@ Once you have selected an icon, you can resize it, rotate it or remove it via th
 
 ## Adding Your Own Custom Icons
 
-{{% alert info %}}**Note:** Custom icons are not currently supported in our Mockups for Confluence and JIRA server plugins. This feature is coming in version 3!{{% /alert %}}
+{{% alert info %}}**Note:** Custom icons are not currently supported in our Mockups for Confluence and Jira server plugins. This feature is coming in version 3!{{% /alert %}}
 
 If you'd like to get your own custom icons into your projects, these are the steps to follow:
 
@@ -41,7 +41,7 @@ Once your icon file is ready, you will want to open the asset manager on either 
 
 ![](https://media.balsamiq.com/img/support/docs/myb/assets-menu.png)
 
-In the asset manager, choose whether the icon needs to be a [site asset](https://docs.balsamiq.com/mybalsamiq/home/#site-assets) or a [project asset](https://docs.balsamiq.com/mybalsamiq/project/#adding-and-managing-project-assets), and then upload it.
+In the asset manager, choose whether the icon needs to be a [site asset](/mybalsamiq/home/#site-assets) or a [project asset](/mybalsamiq/project/#adding-and-managing-project-assets), and then upload it.
 
 ![](http://media.balsamiq.com/img/support/docs/m4d/help_uploadasset.png)
 

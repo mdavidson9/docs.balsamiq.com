@@ -1,9 +1,9 @@
 ---
 date: 2015-07-30T15:52:12-07:00
 title: "Working with Files in Google Drive"
-menu: "menugoogledrive"
+menu: "menugoogledrive3"
 product: "Balsamiq Mockups 3 for Google Drive"
-weight: 3
+weight: 30
 aliases: /google-drive/drive-files/
 ---
 
@@ -19,7 +19,7 @@ Wireframes created with Balsamiq Mockups 3 for Google Drive are saved as .bmpr f
 
 ![Share menu](//media.balsamiq.com/img/support/docs/gdrive/sharing/gdrive-sharing02.png)
 
-If the Google Drive users you are sharing with do not have Balsamiq Mockups 3 for Google Drive installed, they will be prompted to install it (_you can see [screenshots of this process here](https://support.balsamiq.com/plugins/sharingwithgoogledrive/)_). **Remember that viewing mockups with Balsamiq Mockups 3 for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
+If the Google Drive users you are sharing with do not have Balsamiq Mockups 3 for Google Drive installed, they will be prompted to install it. **Remember that viewing mockups with Balsamiq Mockups 3 for Google Drive is free, it's only the saving functionality that expires after 30 days. So share away!**
 
 {{% alert info %}}**Note:** If you give the other person read-only permission (i.e., "Can view") they will be able to view your mockups but not edit them.{{% /alert %}}
 

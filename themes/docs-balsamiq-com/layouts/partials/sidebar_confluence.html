@@ -1,8 +1,0 @@
-{{ $currentNode := . }}
-<h5><a href="#" data-toggle="collapse" data-target="#doc-menu" aria-expanded="false" aria-controls="doc-menu" class="menu-toggle"><i class="ss-icon ss-navigateright"></i>Mockups 3 for Confluence Cloud</a></h5>
-<ul id="doc-menu" class="collapse">
-  <li><a href="/confluence/#mockups-3-for-confluence-cloud">Table of Contents</a></li>
-    {{ range .Site.Menus.menuconfluencecloud }}
-    <li{{if $currentNode.IsMenuCurrent "menuconfluencecloud" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-    {{ end }}
-</ul>
