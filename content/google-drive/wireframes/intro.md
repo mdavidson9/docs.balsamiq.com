@@ -20,7 +20,7 @@ The instructions for installing Balsamiq Wireframes for Google Drive can be foun
 
 For a quick overview before starting to use the application, check out this 5 minute video covering the main features of Balsamiq Wireframes for Google Drive.
 
-{{< yt TSGkpwJTQ2o >}}
+{{< yt l_jJMMY_QMQ >}}
 
 * * *
 
