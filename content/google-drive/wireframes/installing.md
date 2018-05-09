@@ -28,7 +28,7 @@ Once installed, Balsamiq Wireframes for Google Drive will be available in your G
 
 If you are using the Chrome browser, you can also access Balsamiq Wireframes for Google Drive from the Chrome Apps tab (open a new tab and type "chrome://apps/").
 
-{{% alert info %}}**Note:** We also have free [G Suite add-ons](https://docs.balsamiq.com/google-drive/wireframes/gsuite/) that you can use after you have installed Balsamiq Wireframes for Google Drive. {{% /alert %}}
+{{% alert info %}}**Note:** We also have free [G Suite add-ons](../gsuite/) that you can use after you have installed Balsamiq Wireframes for Google Drive. {{% /alert %}}
 
 To uninstall Balsamiq Wireframes for Google Drive, see [these instructions](#uninstalling).
 
@@ -46,9 +46,9 @@ To do this, go to the Google Drive settings (inside the gear icon menu in the up
 
 ## Purchasing
 
-Feel free to take advantage of the **fully-functional [30-days trial](https://support.balsamiq.com/sales/evaluate/)** period before purchasing a subscription. After 30 days, you will still be able to view existing wireframes in [presentation mode](../fullscreen/), but you will not be able to edit or create new wireframes unless you sign up for a paid plan.
+Feel free to take advantage of the **fully-functional [30-days trial](https://support.balsamiq.com/sales/evaluate/)** period before purchasing a subscription. After 30 days, you will still be able to view existing wireframes in read only mode, but you will not be able to edit or create new wireframes unless you sign up for a paid plan.
 
-Monthly and yearly subscriptions are available. Details on [how to sign up for and manage your paid plan are here](https://support.balsamiq.com/sales/gdrivesubscription/) (_Short version:_ Go to "Help > Sign Up for a Paid Plan" in the editor).
+Monthly and yearly subscriptions are available for individuals and teams. Details on [how to sign up for and manage your paid plan are here](https://support.balsamiq.com/sales/gdrivesubscription/) (_Short version:_ Go to "Help > Sign Up for a Paid Plan" in the editor).
 
 * * *
 
