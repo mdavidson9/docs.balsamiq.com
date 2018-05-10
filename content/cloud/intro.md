@@ -63,8 +63,6 @@ If you've used any other version of Balsamiq you'll already be familiar with Pro
 
 ![Spaces contain... -> Projects contain... -> Wireframes](media.balsamiq.com/img/support/docs/cloud/spaces-projects-wireframes.png)
 
-
-
 * * *
 
 ## Next Steps
