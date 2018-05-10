@@ -10,7 +10,7 @@ Balsamiq Wireframes for Google Drive was released in September, 2017. The new ve
 
 Here’s a quick, 5-minute video walkthrough for some of the highlights of Balsamiq Wireframes for Google Drive.
 
-{{< yt TSGkpwJTQ2o >}}
+{{< yt l_jJMMY_QMQ >}}
 
 The transition to our new app for Google Drive should be smooth, but please don’t hesitate to [contact us](https://balsamiq.com/company/contact/#/t?_k=b7w7tv) if you have any trouble, we're here to help!
 
@@ -22,7 +22,18 @@ Installing Balsamiq Wireframes for Google Drive can be done from the [Chrome Web
 
 After the installation, please make sure that Balsamiq Wireframes is [set as the default app](../installing/#setting-balsamiq-wireframes-as-the-default-app-for-balsamiq-files) for Balsamiq files.
 
-If you have the previous version installed (Balsamiq Mockups 3 for Google Drive), we suggest to [uninstall it](/google-drive/b3/installing/#uninstalling) and enjoy the features and UI of the new app.
+If you have the previous version installed (Balsamiq Mockups 3 for Google Drive), we suggest to uninstall it and enjoy the features and UI of the new app.
+
+### Uninstalling Balsamiq Mockups 3 for Google Drive (Our Previous Version)
+
+You can uninstall the application by going to the Manage Apps tab in the Google Drive settings, then selecting "Disconnect from Drive" from the Balsamiq Mockups options menu.
+
+![](//media.balsamiq.com/img/support/docs/gdrive/userguide/disconnect.png)​
+
+{{% alert info %}}**Note:** Removing the app from the **chrome://apps/** launcher can be done by right-clicking the app from there and selecting "Remove from Chrome", as shown below.{{% /alert %}}
+
+![](//media.balsamiq.com/img/support/docs/gdrive/userguide/remove.png)​
+
 
 * * *
 
