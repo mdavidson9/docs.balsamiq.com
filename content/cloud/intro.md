@@ -61,7 +61,7 @@ Balsamiq Cloud introduces a new concept: [Spaces](https://docs.balsamiq.com/clou
 
 If you've used any other version of Balsamiq you'll already be familiar with Projects and wireframes. A group of wireframes make up a project and, in Cloud, a group of projects make up a Space.
 
-![Spaces contain... -> Projects contain... -> Wireframes](media.balsamiq.com/img/support/docs/cloud/spaces-projects-wireframes.png)
+![Spaces contain... -> Projects contain... -> Wireframes](//media.balsamiq.com/img/support/docs/cloud/spaces-projects-wireframes.png)
 
 * * *
 
