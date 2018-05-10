@@ -51,6 +51,18 @@ If you are using myBalsamiq, you can export your projects to .bmpr format and th
 
 * * *
 
+## Spaces, projects and wireframes
+
+Balsamiq Cloud introduces a new concept: [Spaces](https://docs.balsamiq.com/cloud/spaces/).
+
+If you've used any other version of Balsamiq you'll already be familiar with Projects and wireframes. A group of wireframes make up a project and, in Cloud, a group of projects make up a Space.
+
+![Spaces contain... -> Projects contain... -> Wireframes](media.balsamiq.com/img/support/docs/cloud/spaces-projects-wireframes.png)
+
+
+
+* * *
+
 ## Next Steps
 
 The rest of our documentation contains a top-to-bottom description of the features and use of Balsamiq Cloud. A good starting point would be [People and Permissions](../people/), to get familiar with how to add people to your projects, followed by the [Editor Overview](../overview/), to learn about the user interface for navigating and creating your wireframes.
