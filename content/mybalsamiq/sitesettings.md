@@ -84,7 +84,7 @@ If you want to keep your myBalsamiq site around until the end of your currently 
 
 {{% alert warning %}}**Be sure to [download](/mybalsamiq/project/#project-actions) any projects you would like to keep before deleting your site or stopping your subscription.**{{% /alert %}}
 
-Your site data is kept in our database for one month after deletion or suspension (you'd be surprised how many times people change their mind and ask us to reinstate their deleted or suspended sites). We delete your data permanently from our database following our [Terms of Use](/mybalsamiq/tos/#how-can-i-access-or-correct-my-information). If you would like us to destroy your data immediately, delete your site first, then [email us](https://balsamiq.com/company/contact/#/s/myb) and we'll be happy to comply.
+Your site data is kept in our database for one month after deletion or suspension (you'd be surprised how many times people change their mind and ask us to reinstate their deleted or suspended sites). We delete your data permanently from our database following our [Terms of Service](https://balsamiq.com/legal/terms/tos/). If you would like us to destroy your data immediately, delete your site first, then [email us](https://balsamiq.com/company/contact/#/s/myb) and we'll be happy to comply.
 
 ### 4\. Designating a Secondary Billing Administrator
 
