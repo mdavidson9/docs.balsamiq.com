@@ -4,7 +4,7 @@ title: "Working with Files in Google Drive"
 menu: "menugdwireframes"
 product: "Balsamiq Wireframes for Google Drive"
 weight: 2200
-aliases: /google-drive/wireframes/drive-files/
+aliases: /google-drive/b3/drive-files/
 ---
 
 A variety of actions are available from the Google Drive file viewer, by selecting a file and clicking one of the icons in the Google Drive toolbar or by right-clicking on the file.
