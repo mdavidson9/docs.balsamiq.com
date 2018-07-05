@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Confluence Server"
 weight: 2110
 ---
 
-This page contains usage instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server/server/overview).
+This page contains usage instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server).
 
 {{% alert info %}}Using Confluence Cloud? Please see [this article](/confluence/cloud/intro/) instead.{{% /alert %}}
 

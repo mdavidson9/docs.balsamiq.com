@@ -6,7 +6,7 @@ product: "Mockups 2 for Jira Server"
 weight: 1110
 ---
 
-This page contains usage instructions for [Mockups 2 for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server/server/overview).
+This page contains usage instructions for [Mockups 2 for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server).
 
 {{% alert info %}}**Using Jira Cloud?** If you are using Jira Cloud (on atlassian.net), please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
 

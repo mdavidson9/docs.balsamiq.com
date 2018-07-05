@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Confluence Server"
 weight: 2120
 ---
 
-This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server/server/overview) when installed on your own server.
+This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server) when installed on your own server.
 
 {{% alert info %}}**Note:** If you are using confluence Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](/confluence/cloud/admin-guide-cloud/) instead.{{% /alert %}}
 
