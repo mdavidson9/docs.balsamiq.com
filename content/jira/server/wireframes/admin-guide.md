@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Jira Server"
 weight: 2120
 ---
 
-This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview) when installed on your own server.
+This page contains installation, registration, updating and uninstalling instructions for [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server/server/overview) when installed on your own server.
 
 {{% alert info %}}**Note:** If you are using Jira Cloud (on [atlassian.net](http://atlassian.net)), please see [this article](/jira/cloud/admin-guide-cloud/) instead.{{% /alert %}}
 

@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Jira Server"
 weight: 2110
 ---
 
-This page contains usage instructions for [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview).
+This page contains usage instructions for [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server/server/overview).
 
 {{% alert info %}}Using Jira Cloud? Please see [this article](/jira/cloud/intro/) instead.{{% /alert %}}
 
