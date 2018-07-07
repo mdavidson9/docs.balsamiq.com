@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Confluence Cloud"
 weight: 2120
 ---
 
-This page contains links to installation, pricing, and licensing information for [Balsamiq Wireframes for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview).
+This page contains links to installation, pricing, and licensing information for [Balsamiq Wireframes for Confluence Cloud](https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud).
 
 {{% alert info %}}**Using Confluence Server?** If you are hosting Confluence behind the firewall, please see [this article](/confluence/server/wireframes/admin-guide/) instead.{{% /alert %}}
 
@@ -18,7 +18,7 @@ Balsamiq Wireframes for Confluence Cloud is an Atlassian-Connect powered add-on,
 
 ## Useful Links
 
-* [Product Page on Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview)
+* [Product Page on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud)
 * [Installation instructions](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/installation)
 * [Pricing and Licensing information](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/pricing)
 * [Confluence Cloud Documentation on Managing Add-Ons](https://confluence.atlassian.com/confcloud/managing-add-ons-or-plugins-724766519.html)

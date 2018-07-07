@@ -8,7 +8,7 @@ If you are viewing this repository with the intention of using the theme, please
 * It's recommended that you create new docs using the command line to add the file to the content directory with archetype templates. This inserts and formats the front matter into the article properly, including parent and creation date.
   * $ hugo new mybalsamiq/mypage.md
 * To change the order of how articles appear on the Product overviews add a weight to the front matter.
-* For help with Markdown, see [this cheatsheet](https://beegit.com/markdown-cheat-sheet) or [this one](http://thisismarkdown.com)
+* For help with Markdown, see [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 * Markdown doesn't allow markdown syntax inside an HTML block element (a \<div\> or \<p\>, for example), so you can use this "hack" to convert an inline element to a block element using a Bootstrap helper class (".show") (for info and warning alert messages, for example)
 	* Info alerts:  
 	```	{{% alert info %}}**Note:** You can also export a project to PDF from the context menu on the [All Projects (a.k.a. Home) page](/mybalsamiq/home/) in myBalsamiq.{{% /alert %}}```

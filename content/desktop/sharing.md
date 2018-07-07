@@ -47,9 +47,9 @@ Real-time collaboration is available *now* in six of our apps:
 
 - [Balsamiq Cloud](https://balsamiq.cloud)
 - [Balsamiq Wireframes for Google Drive](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb)
-- [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview)
-- [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/plugins/com.balsamiq.jira.plugins.mockups/server/overview)
-- [Balsamiq Wireframes for Confluence Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.confluence/cloud/overview)
-- [Balsamiq Wireframes for Jira Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
+- [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server)
+- [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server)
+- [Balsamiq Wireframes for Confluence Cloud](https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud)
+- [Balsamiq Wireframes for Jira Cloud](https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud).
 
 We are currently working on bringing real-time collaboration to our new desktop applications. [Stay tuned...](http://blog.balsamiq.com/)
