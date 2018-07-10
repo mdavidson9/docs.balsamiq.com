@@ -9,7 +9,7 @@ weight: 1110
 
 ## Welcome
 
-This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/plugins/com.balsamiq.confluence.plugins.mockups/server/overview).
+This page contains usage instructions for [Mockups for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server).
 
 {{% alert info %}}**Using Confluence Cloud?** If you are using Confluence Cloud (on atlassian.net), please see [this article](/confluence/cloud/intro/) instead.{{% /alert %}}
 

@@ -6,7 +6,7 @@ product: "Balsamiq Wireframes for Jira Cloud"
 weight: 2120
 ---
 
-This page contains links to installation, pricing, and licensing information for [Balsamiq Wireframes for Jira Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
+This page contains links to installation, pricing, and licensing information for [Balsamiq Wireframes for Jira Cloud](https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud).
 
 {{% alert info %}}**Using Jira Server?** If you are hosting Jira behind the firewall, please see [this article](/jira/server/wireframes/admin-guide/) instead.{{% /alert %}}
 
@@ -18,7 +18,7 @@ Balsamiq Wireframes for Jira Cloud is an Atlassian-Connect powered add-on, sold 
 
 ## Useful Links
 
-* [Product Page on Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview)
+* [Product Page on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud)
 * [Installation instructions](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/installation)
 * [Pricing and Licensing information](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/pricing)
 * [Jira Cloud Documentation on Managing Add-Ons](https://confluence.atlassian.com/adminjiracloud/managing-add-ons-776830283.html)

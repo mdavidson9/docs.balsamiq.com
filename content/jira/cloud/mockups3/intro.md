@@ -7,7 +7,7 @@ weight: 10
 aliases: /jira/cloud/intro/
 ---
 
-This page contains usage instructions for [Mockups 3 for Jira Cloud](https://marketplace.atlassian.com/plugins/com.balsamiq.mockups.jira/cloud/overview).
+This page contains usage instructions for [Mockups 3 for Jira Cloud](https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud).
 
 {{% alert info %}}**Using Jira Server?** If you are hosting Jira behind the firewall, please see [this article](/jira/server/mockups2/intro/) instead.{{% /alert %}}
 
