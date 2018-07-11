@@ -10,6 +10,8 @@ weight: 2180
 
 Installing Balsamiq Wireframes for Google Drive is the same as installing other Google Drive apps. It can be installed from the [Chrome Web Store here](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb).
 
+{{% alert info %}}**Note:** If you are a G Suite Admin, you may choose to install the plugin via the [G Suite Marketplace](https://gsuite.google.com/marketplace/app/balsamiq_wireframes/551218684071). {{% /alert %}}
+
 ### Permissions
 
 During the installation process, the app will ask for the following permissions:

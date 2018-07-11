@@ -20,6 +20,8 @@ The transition to our new app for Google Drive should be smooth, but please donâ
 
 Installing Balsamiq Wireframes for Google Drive can be done from the [Chrome Web Store](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb), just like any other Google Drive app.
 
+{{% alert info %}}**Note:** If you are a G Suite Admin, you may choose to install the plugin via the [G Suite Marketplace](https://gsuite.google.com/marketplace/app/balsamiq_wireframes/551218684071). {{% /alert %}}
+
 After the installation, please make sure that Balsamiq Wireframes is [set as the default app](../installing/#setting-balsamiq-wireframes-as-the-default-app-for-balsamiq-files) for Balsamiq files.
 
 If you have the previous version installed (Balsamiq Mockups 3 for Google Drive), we suggest to uninstall it and enjoy the features and UI of the new app.
