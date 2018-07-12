@@ -16,13 +16,11 @@ In each of your Spaces, the Projects Homepage will list all the projects that yo
 
 ## Project Actions
 
-From your Projects Homepage, you can [Create](#creating-projects), [Upload](#uploading-projects), [Edit](#editing-projects), [Rename](#renaming-projects), [Clone](#cloning-projects), [Download](#downloading-projects), and [Delete](#deleting-projects) projects (depending on your [permissions](../people/)).
-
 ![](//media.balsamiq.com/img/support/docs/cloud/project-actions.png)
 
 ## Creating Projects
 
-When you click on the "Create Project" button, you will be taken to the [Balsamiq Wireframes editor](../overview/), to get started wireframing right away. The created project will be autosaved and available on your Projects Homepage.
+When you click on the "Create Project" button, you will be taken to the [Balsamiq Wireframes editor](../overview/), to start wireframing right away. The created project will be autosaved and available on your Projects Homepage.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-create.png)
 
@@ -31,6 +29,16 @@ When you click on the "Create Project" button, you will be taken to the [Balsami
 If you have existing Balsamiq (.bmpr) files, you can use the upload option to import them in Balsamiq Cloud. You can also **drag a BMPR file on to this screen to upload** it.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-upload.png)
+
+## Downloading Projects
+
+You can download any project's BMPR file from the Projects Homepage. This will allow you to save a local backup of any project on your machine.
+
+This option is also the way to [move a project to a different Cloud Space](#moving-projects-between-spaces) or to a different Balsamiq product.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-download.png)
+
+{{% alert info %}}**Note:** Projects can also be downloaded [from within the editor](../exporting/#exporting-to-other-versions-of-balsamiq).{{% /alert %}}
 
 ## Editing Projects
 
@@ -53,16 +61,6 @@ You can also rename a project from the [Balsamiq Wireframes editor](../overview/
 Cloning a project creates a copy of an existing project without migrating its [Project members](../people/#project-members). This can be useful for creating a new project that will re-use some existing content or for extracting only a specific part of a project that you need to share.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-clone.png)
-
-## Downloading Projects
-
-You can download any project's BMPR file from the Projects Homepage. This will allow you to save a local backup of any project on your machine.
-
-This option is also the way to [move a project to a different Cloud Space](#moving-projects-between-spaces) or to a different Balsamiq product.
-
-![](//media.balsamiq.com/img/support/docs/cloud/project-download.png)
-
-{{% alert info %}}**Note:** Projects can also be downloaded [from within the editor](../exporting/#exporting-to-other-versions-of-balsamiq).{{% /alert %}}
 
 ## Deleting Projects
 
