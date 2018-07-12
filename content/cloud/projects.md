@@ -6,27 +6,87 @@ title: "Managing Projects"
 weight: 4
 ---
 
-In each of your Spaces, you will find a collection of projects that you and your team are working on.
+A Project on Balsamiq Cloud is a collection of wireframes that belong together and are stored as a single file (.bmpr). Projects live on a [Space](../spaces) and you can create and upload as many projects as your [subscription](//support.balsamiq.com/sales/cloud/) allows.
+
+In each of your Spaces, the Projects Homepage will list all the projects that you and your team are working on. Here is how the page will look like the first time you open it:
 
 ![](//media.balsamiq.com/img/support/docs/cloud/projects-homepage.png)
 
-From this page you can create and upload as many projects as your [subscription](//support.balsamiq.com/sales/cloud/) allows. If you have existing Balsamiq (.bmpr) files you can just **drag them on to this screen to upload** them.
+{{% alert info %}}**Note:** If you were invited to join a Space, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to a project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
 
-{{% alert info %}}**Note:** If you were invited to join a Space, it is likely that there will be projects available to you already. If not, ask the person who invited you to [add you to the project](../people/#managing-user-permissions-on-projects). {{% /alert %}}
-
-When you click on the "Create Project" button, you will immediately be taken to the [Balsamiq Wireframes editor](../overview/), to get started wireframing right away. When you are done (or want to take a break), your work will be waiting for you on your projects home page.
-
-To edit a project, just click on it to load the [Balsamiq Wireframes editor](../overview/).
-
-## Cloning, Downloading, and Deleting Projects
-
-From your projects homepage, you can Clone, Download, or Delete projects (depending on your [permissions](../people/)). You'll find these options on the top-right corner of the project's card (or the far right, if viewing as a list).
+## Project Actions
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-actions.png)
 
-Downloading and deleting can also be done with multiple projects at once. Clicking on the check box for the project will select it, and you can do this with as many projects as you want. When projects have been "checked", a set of options will appear in the upper right corner of the screen. They will allow you to download or delete the selected projects.
+## Creating Projects
+
+When you click on the "Create Project" button, you will be taken to the [Balsamiq Wireframes editor](../overview/), to start wireframing right away. The created project will be autosaved and available on your Projects Homepage.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-create.png)
+
+## Uploading Projects
+
+If you have existing Balsamiq (.bmpr) files, you can use the upload option to import them in Balsamiq Cloud. You can also **drag a BMPR file on to this screen to upload** it.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-upload.png)
+
+## Downloading Projects
+
+You can download any project's BMPR file from the Projects Homepage. This will allow you to save a local backup of any project on your machine.
+
+This option is also the way to [move a project to a different Cloud Space](#moving-projects-between-spaces) or to a different Balsamiq product.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-download.png)
+
+{{% alert info %}}**Note:** Projects can also be downloaded [from within the editor](../exporting/#exporting-to-other-versions-of-balsamiq).{{% /alert %}}
+
+## Editing Projects
+
+To edit a project, just click on its project card to load the [Balsamiq Wireframes editor](../overview/) and start wireframing.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-edit.png)
+
+## Renaming Projects
+
+Renaming a project can be achieved by double-clicking on the project card.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-rename.png)
+
+You can also rename a project from the [Balsamiq Wireframes editor](../overview/), by double-clicking on the project name or via the Project Menu.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-rename2.png)
+
+## Cloning Projects
+
+Cloning a project creates a copy of an existing project without migrating its [Project members](../people/#project-members). This can be useful for creating a new project that will re-use some existing content or for extracting only a specific part of a project that you need to share.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-clone.png)
+
+## Deleting Projects
+
+You can also delete projects from the Projects Homepage. You will only need to type "DELETE" in the dialog box that appears.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-delete.png)
+
+{{% alert info %}}**Note:** **Downloading** and **deleting** can also be done with multiple projects at once. Clicking on the check box for the project will select it, and you can do this with as many projects as you want. When projects have been "checked", the project actions will appear in the upper right corner of the screen.{{% /alert %}}
 
 ![](//media.balsamiq.com/img/support/docs/cloud/multiple-selection.png)
+
+## Moving Projects Between Spaces
+
+You may need to move a project from one Space (A) to another (B). Here are the steps required:
+
+1. Open Space A
+2. [Download the project](#downloading-projects) from Space A
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-download.png)
+
+2. Open Space B
+3. [Upload the project](#uploading-projects) to Space B
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-upload.png)
+
+{{% alert info %}}**Note:** This project won't have the same [Project members](../people/#project-members) on Space B so you will need to invite members again if needed.{{% /alert %}}
 
 ## Managing Project Count
 
