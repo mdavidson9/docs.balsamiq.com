@@ -6,7 +6,7 @@ title: "Managing Spaces"
 weight: 3
 ---
 
-A Space on Balsamiq Cloud is where your projects live. We have [three tiers of Spaces](https://balsamiq.com/buy/#cloud), and we think that once you find the right size, a single Space will be enough for you and your team. While there may be situations where you are invited to someone else's Space to collaborate on a project, or you need [a specific number of projects](http://support.balsamiq.com/sales/cloudsavemoney/), we expect you'll only have to manage a single Space.
+A Space on Balsamiq Cloud is where your [projects](../projects) live. We have [three tiers of Spaces](https://balsamiq.com/buy/#cloud), and we think that once you find the right size, a single Space will be enough for you and your team. While there may be situations where you are invited to someone else's Space to collaborate on a project, or you need [a specific number of projects](http://support.balsamiq.com/sales/cloudsavemoney/), we expect you'll only have to manage a single Space.
 
 ## Creating a New Space
 
