@@ -46,7 +46,7 @@ You can export all of your mockups to static PNG images, and send those to your 
 Real-time collaboration is available *now* in six of our apps:
 
 - [Balsamiq Cloud](https://balsamiq.cloud)
-- [Balsamiq Wireframes for Google Drive](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb)
+- [Balsamiq Wireframes for Google Drive](https://balsamiq.com/products/mockups/plugins/)
 - [Balsamiq Wireframes for Confluence Server](https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-confluence-server)
 - [Balsamiq Wireframes for Jira Server](https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira-server)
 - [Balsamiq Wireframes for Confluence Cloud](https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud)
