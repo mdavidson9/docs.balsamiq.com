@@ -90,6 +90,50 @@ You can also delete projects from the Projects Homepage. You will only need to t
 
 * * *
 
+## Project History
+
+The Project History allows you to view all recent activities of a Project.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-history.png)
+
+We keep track of every change that was made, so you'll always have a complete historical view of each project. The Project History includes:
+
+* Edits made to the project
+- [Snapshots](#snapshots) manually created by users
+- User invitations/deletions
+- [User permissons](../people/#managing-user-permissions-on-projects) changes
+- Users leaving the project
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-history2.png)
+
+### Snapshots
+
+Snapshots are backups made at defined stages of the project creation.
+
+A snapshot is created when you make edits and close the editor but you can also create a snapshot manually from the Project menu.
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-snapshot.png)
+
+{{% alert info %}}**Note:** A snapshot is automatically created every hour while working on a Project.{{% /alert %}}
+
+A snapshot can be used to:
+
+- Restore a Project from an earlier state (available only for editors)
+- Download a Project from an earlier state
+- Start playing with a new idea by creating a new copy of the project (Duplicate as New Project)
+
+![](//media.balsamiq.com/img/support/docs/cloud/project-snapshot2.png)
+
+When you restore a project's snapshot, a new one gets created for the current state.
+
+If another person is viewing or editing the project, they will be notified about this action and the editor will load this updated version automatically.
+
+Snapshots are saved for 30 days unless you choose to save a snapshot permanently (Keep Forever). In this case, you may want to rename the specific snapshot.
+
+{{% alert info %}}**Note:** If you unpin a snapshot, it will stay around for another 30 days.{{% /alert %}}
+
+* * *
+
 ## Moving Projects Between Spaces
 
 You may need to move a project from one Space (A) to another (B). Here are the steps required:
