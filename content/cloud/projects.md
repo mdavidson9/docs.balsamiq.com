@@ -92,13 +92,13 @@ You can also delete projects from the Projects Homepage. You will only need to t
 
 ## Project History
 
-The Project History allows you to view all recent activities of a Project.
+The Project History allows you to view all recent activities for a Project.
 
 ![](//media.balsamiq.com/img/support/docs/cloud/project-history.png)
 
-We keep track of every change that was made, so you'll always have a complete historical view of each project. The Project History includes:
+We keep track of every change that was made, so you'll always have a complete historical view for each project. The Project History includes:
 
-* Edits made to the project
+- Edits made to the project
 - [Snapshots](#snapshots) manually created by users
 - User invitations/deletions
 - [User permissons](../people/#managing-user-permissions-on-projects) changes
